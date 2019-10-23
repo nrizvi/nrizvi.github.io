@@ -97,7 +97,7 @@ h1{
     text-align: left;
 }
 
-@media only screen and (min-width: 701px) and (max-width: 1200px) {
+@media only screen android (max-width: 1200px) {
     .name, .image, .textBox, .selfie, .credit{
         display: block;
         text-align: center;
