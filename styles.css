@@ -11,7 +11,7 @@ h1,h2{
 body {
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(90deg,#FF1B8D 33.33%,#FFDA00 33.33%, #FFDA00 66.66%, #1BB3FF 66.66%);
+    background-image: linear-gradient(to bottom, #FF1B8D 33.33%,#FFDA00 33.33%, #FFDA00 66.66%, #1BB3FF 66.66%);
     background-size: cover;
     margin: 0px;
   }
