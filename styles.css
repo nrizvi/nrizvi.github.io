@@ -97,7 +97,7 @@ h1{
     text-align: left;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 701px) and (max-width: 1200px) {
     .name, .image, .textBox, .selfie, .credit{
         display: block;
         text-align: center;
@@ -117,7 +117,7 @@ h1{
     }
   }
 
-@media only screen and (min-width: 1350px) {
+@media only screen and (min-width: 1350px) and (max-width: 1499px) {
     .credit, .selfie {
         margin-right: -10%;
     }
@@ -128,7 +128,7 @@ h1{
     }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1500px) and (max-width: 1750px) {
     .credit, .selfie {
         margin-right: -35%;
     }
@@ -139,4 +139,24 @@ h1{
     }
 }
 
+@media only screen and (min-width: 1751px) {
+    .selfie, .credit {
+        margin-right: -45%;
+    }
 
+    .textBox {
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+}
+
+
+@media only screen and (min-width: 350px) and (max-width: 700px) {
+    .credit, .selfie {
+        min-width: 90%;
+    }
+
+    .textBox {
+        min-width: 90%;
+    }
+}
