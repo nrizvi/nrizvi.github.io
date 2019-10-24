@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap');
 
+
+@media screen and (max-width: 990px) {
+    .def{
+        display: none;
+    }
+    .selfie{
+        max-width: 100%;
+    }
+    h1, h2, p, .credit{
+        text-align: center;
+    }
+  }
+
 .container{
     margin-top: 25px;
     margin-bottom: 25px;
@@ -18,9 +31,9 @@ h1,h2{
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
-    background-image: linear-gradient(to bottom,#FF1B8D 33.33%,#FFDA00 33.33%, #FFDA00 66.66%, #1BB3FF 66.66%);
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom,#F5A0C7 33.33%,#F7E696 33.33%, #F7E696 66.66%, #A3D8F8 66.66%);
     background-size: cover;
     margin: 0px;
 }
@@ -76,18 +89,6 @@ h1{
 .credit{
     text-align: left;
 }
-
-@media screen and (max-width: 990px) {
-    .def{
-        display: none;
-    }
-    .selfie{
-        max-width: 100%;
-    }
-    h1, h2, p, .credit{
-        text-align: center;
-    }
-  }
 
 .TCLink:link, .TCLink:hover, .TCLink:active, .TCLink:visited, .TCLink{
     color: black;
