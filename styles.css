@@ -85,3 +85,8 @@ h1{
         max-width: 100%;
     }
   }
+
+.TCLink:link, .TCLink:hover, .TCLink:active, .TCLink:visited, .TCLink{
+    color: black;
+    font-weight: bold;
+}
