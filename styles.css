@@ -84,6 +84,9 @@ h1{
     .selfie{
         max-width: 100%;
     }
+    body{
+        text-align: center;
+    }
   }
 
 .TCLink:link, .TCLink:hover, .TCLink:active, .TCLink:visited, .TCLink{
