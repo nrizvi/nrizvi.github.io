@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap');
 
+.container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 p{
     font-family: 'Open Sans', sans-serif;
 }
@@ -18,44 +27,32 @@ body {
 
 
 .textBox{
-    position: absolute;
     background-color: white;
     top: 0;
     padding: 25px;
-    margin-left: 50%;
-    max-width: 45%;
-    margin-top: 3.5%;
-    z-index: 2;
     border-style: solid;
     border-width: 2px;
     text-align:left;
+    max-height: 100%;
 }
+
 
 .selfie{
     border-style: solid;
     border-width: 2px;
-    max-width: 31%;
-    z-index: 5;
+    width: 200%;
 }
 
+
 .image{
-    position: absolute;
-    top: 21%;
-    z-index: 1;
     margin-bottom: 12px;
     text-align: center;
-    margin-left: -30%;
     margin-top: 12px;
 }
 
-/* .socialmedia{
-    position: absolute;
-    z-index: 5;
-    float: left;
-} */
 
 .icon{
-    max-width: 25px;
+    width: 35px;
     padding-right: 12px;
     display: inline-block;
     position: relative;
@@ -66,76 +63,21 @@ body {
     justify-content: center;
     margin-top: 25px;
 }
-/* .socialmedia{
-    position: absolute;
-    z-index: 7;
-    margin-top: 35%;
-    margin-left: -5%;
-}  */
-
-.name{
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    margin-top: 2px;
-    margin-left: 30px;
-    left: 0;
-}
 
 h1{
     font-size: 4em;
-
 }
-
 
 .def{
-    position: absolute;
-    z-index: 2;
-    margin-top: 60px;
-    margin-left: 2%;
-    left: 0;
-    max-width: 25%;
-    text-align: left;
+    margin-top: none;
+    margin-bottom: none;
 }
 
-@media only screen and (max-width: 1200px) {
-    .name, .image, .textBox, .selfie, .credit{
-        display: block;
-        text-align: center;
-        width: 100%;
-        margin: auto;
-        position: relative;
-    }
-    .image{
-        top: 0;
-        margin-bottom: 12px;
+@media screen and (max-width: 767px) {
+    .def{
+        display: none;
     }
     .selfie{
-        margin-bottom: 12px;
-    }
-    .selfie, .textBox{
-        min-width: 50%;
+        max-width: 100%;
     }
   }
-
-@media only screen and (min-width: 1350px) {
-    .credit, .selfie {
-        margin-right: -10%;
-    }
-
-    .textBox {
-        margin-right: 10%;
-        margin-top: 10%;
-    }
-}
-
-@media only screen and (min-width: 1500px) {
-    .credit, .selfie {
-        margin-right: -35%;
-    }
-
-    .textBox {
-        margin-right: 15%;
-        margin-top: 10%;
-    }
-}
