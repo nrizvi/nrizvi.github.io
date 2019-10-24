@@ -84,7 +84,7 @@ h1{
     .selfie{
         max-width: 100%;
     }
-    body{
+    h1, h2, p, .credit{
         text-align: center;
     }
   }
