@@ -21,6 +21,13 @@ var data = [
         "desc": "Excited to join <a href='https://www.microsoft.com/en-us/research/group/ability/' target='_blank'>MSR's Ability team</a> this summer!",
     },
     {
+        "icon": "google.png",
+        "alt":"Google logo",
+        "title": "Google Computer Science Research Mentorship Program",
+        "date": "Fall 2019",
+        "desc": "Grateful to have been sponsored by Google to attend CHI 2020 and Google's PhD Summit!",
+    },
+    {
         "icon": "inlg.png",
         "alt":"International Conference on Natural Language Generation logo",
         "title": "First-Author Paper at INLG",
@@ -31,21 +38,21 @@ var data = [
         "icon": "ut.png",
         "alt": "University of Toledo logo",
         "title": "UT Advocate Award",
-        "date": "Fall 2019",
+        "date": "Spring 2019",
         "desc": "Recognized by my university for founding and leading the student chapter of ACM-W at UT.",
     },
     {
         "icon": "adobe.jpg",
         "alt": "Adobe logo",
         "title": "Adobe Women in Tech Scholar",
-        "date": "Summer 2019",
+        "date": "Spring 2019",
         "desc": "One of <a href='https://adoberesearch.ctlprojects.com/scholarship/previous-scholarship-award-winners/' target='_blank'>9 women</a> selected for the scholarship. Interned at Adobe Research's NLP group.",
     },
     {
         "icon": "palantir.png",
         "alt": "Palantir logo",
         "title": "Palantir Women in Tech Scholar",
-        "date": "Summer 2019",
+        "date": "Spring 2019",
         "desc": "One of <a href='https://www.palantir.com/students/scholarship/wit-north-america/' target='_blank'>12 women</a> selected for the scholarship.",
     },
     {
