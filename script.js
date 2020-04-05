@@ -42,13 +42,13 @@ var data = [
         "desc": "One of <a href='https://www.palantir.com/students/scholarship/wit-north-america/'>12 women</a> selected for the scholarship.",
     },
     {
-        "icon": "un.png",
+        "icon": "UN.png",
         "title": "United Nations' Commission on the Status of Women",
         "date": "Spring 2019",
         "desc": "The open source web app I developed with <a href='https://github.com/dquach217'>David Quach</a> for Women's Peer2Peer network was demoed at the CSW in NY!",
     },
     {
-        "icon": "ntt.jpg",
+        "icon": "NTT.jpg",
         "title": "Non-Traditional Techies",
         "date": "Winter 2018",
         "desc": "Founded NTT with 1,000+ members & counting!",
