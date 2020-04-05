@@ -23,7 +23,7 @@ var data = [
     {
         "icon": "google.png",
         "alt":"Google logo",
-        "title": "Google Computer Science Research Mentorship Program",
+        "title": "Google CS Research Mentorship Program",
         "date": "Fall 2019",
         "desc": "Grateful to have been sponsored by Google to attend CHI 2020 and Google's PhD Summit!",
     },
