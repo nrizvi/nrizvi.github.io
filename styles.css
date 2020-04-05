@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans&display=swap');
 
-
-/*@media screen and (max-width: 990px) {
-    .def{
-        display: none;
-    }
-    .selfie{
-        max-width: 100%;
-    }
-    h1, h2, p, .credit{
-        text-align: center;
-    }
-    h1{
-        padding-top: 25px;
-    }
-    .blurb{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-  }*/
-
 @media screen and (max-width: 767px) {
     .timeline{
         display: none;
