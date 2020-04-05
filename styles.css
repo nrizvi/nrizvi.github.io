@@ -18,6 +18,10 @@
     }
 }
 
+.proj{
+    max-width: 90%;
+}
+
 .whiteBG {
     margin: auto;
     min-width: 90%;

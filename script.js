@@ -18,14 +18,14 @@ var data = [
         "alt": "Microsoft logo",
         "title": "Microsoft Research",
         "date": "Summer 2020",
-        "desc": "Excited to join <a href='https://www.microsoft.com/en-us/research/group/ability/'>MSR's Ability team</a> this summer!",
+        "desc": "Excited to join <a href='https://www.microsoft.com/en-us/research/group/ability/' target='_blank'>MSR's Ability team</a> this summer!",
     },
     {
         "icon": "inlg.png",
         "alt":"International Conference on Natural Language Generation logo",
         "title": "First-Author Paper at INLG",
         "date": "Summer 2019",
-        "desc": "Our <a href='https://www.aclweb.org/anthology/W19-8632.pdf'>paper</a> on an assistive summarizer for blind & low-vision users was accepted to INLG.",
+        "desc": "Our <a href='https://www.aclweb.org/anthology/W19-8632.pdf' target='_blank'>paper</a> on an assistive summarizer for blind & low-vision users was accepted to INLG.",
     },
     {
         "icon": "ut.png",
@@ -39,21 +39,21 @@ var data = [
         "alt": "Adobe logo",
         "title": "Adobe Women in Tech Scholar",
         "date": "Summer 2019",
-        "desc": "One of <a href='https://adoberesearch.ctlprojects.com/scholarship/previous-scholarship-award-winners/'>9 women</a> selected for the scholarship. Interned at Adobe Research's NLP group.",
+        "desc": "One of <a href='https://adoberesearch.ctlprojects.com/scholarship/previous-scholarship-award-winners/' target='_blank'>9 women</a> selected for the scholarship. Interned at Adobe Research's NLP group.",
     },
     {
         "icon": "palantir.png",
         "alt": "Palantir logo",
         "title": "Palantir Women in Tech Scholar",
         "date": "Summer 2019",
-        "desc": "One of <a href='https://www.palantir.com/students/scholarship/wit-north-america/'>12 women</a> selected for the scholarship.",
+        "desc": "One of <a href='https://www.palantir.com/students/scholarship/wit-north-america/' target='_blank'>12 women</a> selected for the scholarship.",
     },
     {
         "icon": "UN.png",
         "alt": "United Nations logo",
         "title": "United Nations' Commission on the Status of Women",
         "date": "Spring 2019",
-        "desc": "The open source web app I developed with <a href='https://github.com/dquach217'>David Quach</a> for Women's Peer2Peer network was demoed at the CSW in NY!",
+        "desc": "The open source web app I developed with <a href='https://github.com/dquach217' target='_blank'>David Quach</a> for Women's Peer2Peer network was demoed at the CSW in NY!",
     },
     {
         "icon": "NTT.jpg",
@@ -67,7 +67,7 @@ var data = [
         "alt": "Google logo",
         "title": "Google Women Techmakers Scholar",
         "date": "Summer 2018",
-        "desc": "Pleased to be <a href='https://news.utoledo.edu/index.php/11_19_2018/ut-student-receives-google-women-techmakers-scholarship'> one of 20 students</a> selected!",
+        "desc": "Pleased to be <a href='https://news.utoledo.edu/index.php/11_19_2018/ut-student-receives-google-women-techmakers-scholarship' target='_blank'> one of 20 students</a> selected!",
     }];
 var i = 0;
 for (var key in data) {
