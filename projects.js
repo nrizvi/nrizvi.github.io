@@ -33,9 +33,9 @@ for (var value in data2) {
     var info2 = document.createElement('span');
     info2.className = 'projects align-items-center space';
     var includeThis = 
-    '<div class="col-md-3 col-sm-6 col-xs-12"><a href="' + link + '" target="_blank"><img src="' + photo + '" class="proj" alt="' + altText + 
-    '"  width="150"><h3 class="space projCaption text-center">' + heading + 
-    '</a></h3></div>';
+    '<div class="col-md-3 col-sm-6 col-xs-12"><a href="' + link + '" target="_blank"><img src="' + photo + '" class="proj projPhoto" alt="' + altText + 
+    '"  width="150"></a><p class="space projCaption text-center">' + heading + 
+    '</p></div>';
     info2.innerHTML = includeThis;
     console.log(includeThis);
     //info2.innerHTML(includeThis);

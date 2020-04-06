@@ -35,6 +35,12 @@
     margin: auto;
 }
 
+.projPhoto:hover {
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 3px;
+}
+
 .whiteBG {
     margin: auto;
     min-width: 95%;
@@ -134,6 +140,7 @@ body {
 .graphic{
     width: 45px;
 }
+
 .socialmedia{
     display: flex;
     align-items: center;
