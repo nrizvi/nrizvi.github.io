@@ -37,9 +37,9 @@ var data = [
     {
         "icon": "ut.png",
         "alt": "University of Toledo logo",
-        "title": "UT Advocate Award",
+        "title": "Advocate Award",
         "date": "Spring 2019",
-        "desc": "Recognized by my university for founding and leading the student chapter of ACM-W at UT.",
+        "desc": "Recognized by the University of Toledo for founding and leading the student chapter of ACM-W.",
     },
     {
         "icon": "adobe.jpg",
