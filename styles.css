@@ -4,9 +4,6 @@
     .timeline{
         display: none;
     }
-    .whiteBG{
-        padding: 25px;
-    }
 }
 
 @media screen and (max-width: 990px) {
@@ -40,11 +37,13 @@
 
 .whiteBG {
     margin: auto;
-    min-width: 90%;
-    min-height: 90%;
-    min-height: 90vh;
+    min-width: 95%;
+    min-height: 95%;
+    min-height: 95vh;
     background-color: white;
     padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-style: solid;
     border-color: dimgrey;
     border-width: 3px;
@@ -52,13 +51,13 @@
 }
 
 .whiteFrame {
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
     margin-bottom: 25px;
-    min-height: 90%;
-    min-height: 90vh;
+    min-height: 95%;
+    min-height: 95vh;
     padding: 10px 10px 10px 10px;
     background-color: white;
 }
