@@ -18,8 +18,22 @@
     }
 }
 
+.proj, .projCaption{
+    max-width: 150px;
+}
+
 .proj{
-    max-width: 90%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.projCaption{
+    min-width: 150px;
+}
+
+.projects{
+    margin: auto;
 }
 
 .whiteBG {
