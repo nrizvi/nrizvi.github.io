@@ -11,7 +11,6 @@
         min-width: 100%;
     }
 }
-
 @media screen and (min-width: 768px) {
     .stacked{
         display: none;
@@ -100,7 +99,7 @@ body {
 
 
 .selfie {
-    width: 25%;
+    width: 30%;
     border-radius: 50%;
     margin-bottom: 25px;
     border-style: solid;
