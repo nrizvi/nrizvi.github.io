@@ -13,7 +13,7 @@ var data2 = [
     },
     {
         "heading":"Electing Women",
-        "photo": "electingwomen.png",
+        "photo": "electingwomen.PNG",
         "altText":"Electing Women toolkit's interface",
         "link": "https://github.com/nrizvi/electingwomen",
     },
