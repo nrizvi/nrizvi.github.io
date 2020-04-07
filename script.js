@@ -35,6 +35,13 @@ var data = [
         "desc": "Our <a href='https://www.aclweb.org/anthology/W19-8632.pdf' target='_blank'>paper</a> on an assistive summarizer for blind & low-vision users was accepted to INLG.",
     },
     {
+        "icon": "adobe.jpg",
+        "alt": "Adobe logo",
+        "title": "Adobe Research",
+        "date": "Summer 2019",
+        "desc": "Started internship at Adobe research's NLP group.",
+    },
+    {
         "icon": "ut.png",
         "alt": "University of Toledo logo",
         "title": "Advocate Award",
@@ -46,7 +53,7 @@ var data = [
         "alt": "Adobe logo",
         "title": "Adobe Women in Tech Scholar",
         "date": "Spring 2019",
-        "desc": "One of <a href='https://adoberesearch.ctlprojects.com/scholarship/previous-scholarship-award-winners/' target='_blank'>9 women</a> selected for the scholarship. Interned at Adobe Research's NLP group.",
+        "desc": "One of <a href='https://adoberesearch.ctlprojects.com/scholarship/previous-scholarship-award-winners/' target='_blank'>9 women</a> selected for the scholarship.",
     },
     {
         "icon": "palantir.png",
@@ -59,7 +66,7 @@ var data = [
         "icon": "UN.png",
         "alt": "United Nations logo",
         "title": "United Nations' Commission on the Status of Women",
-        "date": "Spring 2019",
+        "date": "Winter 2019",
         "desc": "Our open source web app for the Women's Peer2Peer network was demoed at the CSW in NY!",
     },
     {
