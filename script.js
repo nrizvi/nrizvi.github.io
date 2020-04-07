@@ -67,7 +67,7 @@ var data = [
         "alt": "United Nations logo",
         "title": "United Nations' Commission on the Status of Women",
         "date": "Winter 2019",
-        "desc": "Our open source web app for the Women's Peer2Peer network was demoed at the CSW in NY!",
+        "desc": "Our open source web app <i>Electing Women Toolkit</i> for the Women's Peer2Peer network was demoed at the CSW in NY!",
     },
     {
         "icon": "NTT.jpg",
