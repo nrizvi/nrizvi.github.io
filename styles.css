@@ -17,6 +17,11 @@
     }
 }
 
+.flag{
+    height: 15px;
+    object-fit: cover;
+}
+
 .proj, .projCaption {
     max-width: 150px;
 }
@@ -119,6 +124,8 @@ body {
     padding: 2px;
     border-color: dimgrey;
 }
+
+
 
 .blurb{
     padding-left: 5%;
