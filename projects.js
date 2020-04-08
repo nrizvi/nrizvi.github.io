@@ -2,14 +2,14 @@ var data2 = [
     {
         "heading": "Hera",
         "summary": "Empowering patient self-advocacy by analyzing ECG results.",
-        "photo": "hera.png",
+        "photo": "hera.gif",
         "altText":"Hera logo",
         "link": "https://devpost.com/software/hera-mjcr60",
     },
     {
         "heading": "Margin Call",
         "summary": "Assistive web based text summarizer for blind & low-vision users.",
-        "photo": "margincall.png",
+        "photo": "margincall.gif",
         "altText":"Screenshot of Margin Call's interface",
         "link": "https://www.aclweb.org/anthology/W19-8632.pdf",
     },
@@ -40,7 +40,7 @@ for (var value in data2) {
     var includeThis = 
     '<div class="col-md-3 col-sm-6 col-xs-12"><a href="' + link + '" target="_blank"><img src="' + photo + '" class="proj projPhoto" alt="' + altText + 
         '"  width="150"><p class="space projCaption text-center"><b>' + heading + '</b><p class="projCaption text-center">' + summary +'</p>' +
-    '</a></p></div>';
+        '</a></p></div>';
     info2.innerHTML = includeThis;
     console.log(includeThis);
     //info2.innerHTML(includeThis);
