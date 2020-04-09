@@ -20,7 +20,7 @@ var talks = [
         "type": "panelist",
         "date": "October 1, 2019",
         "venue": "Grace Hopper Celebration 2019",
-        "url": "https://www.washington.edu/accesscomputing/resources/accesscomputing-news-december-2019/our-experiences-speakers-grace-hopper-conference",
+        "url": "http://signage.showprg.com/ghc19/d92e944b-79b5-4d9f-b6d3-1c58a18ea168-95628-Brianna-Blaser.pdf",
         "people": "Blaser, B., Rizvi, N. et al.",
     }
 ];
