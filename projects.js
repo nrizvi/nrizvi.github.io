@@ -21,11 +21,11 @@ var data2 = [
         "link": "https://github.com/nrizvi/electingwomen",
     },
     {
-        "heading": "CodeWeGo",
-        "summary": "Web based IDE teaching children to code in their native language.",
-        "photo": "codewego.jpg",
-        "altText":"CodeWeGo's user interface",
-        "link": "https://devpost.com/software/codewego",
+        "heading": "PolyGlot",
+        "summary": "Web based IDE empowering developers to code in their native language.",
+        "photo": "polyglot.png",
+        "altText":"PolyGlots's user interface",
+        "link": "https://devpost.com/software/polyglot-pv4er8",
     }   
 ];
 

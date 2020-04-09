@@ -6,6 +6,7 @@
     }
 }
 
+
 @media screen and (max-width: 990px) {
     .container{
         min-width: 100%;
@@ -196,3 +197,5 @@ h1{
 .credit{
     color: dimgray;
 }
+
+
