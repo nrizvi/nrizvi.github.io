@@ -1,10 +1,17 @@
 var data = [
     {
+        "icon": "ncwit.svg",
+        "alt": "logo for The National Center for Women & Information Technology",
+        "title": "NCWIT Collegiate Award Winner",
+        "date": "Spring 2020",
+        "desc": "Selected as one of the <a href='https://www.aspirations.org/blog/national-center-women-information-technology-ncwit-selects-recipients-2020-ncwit-collegiate?fbclid=IwAR0GWNd6rvM7VWS5WajeXumZ6iGsTi58ET1__8CYwwg2Dm6a0isMIFXYZKU'>6 recipients</a> of The National Center for Women & Information Technology (NCWIT) Collegiate Award for my work on Hera.",
+    },
+    {
         "icon": "ucsd.png",
         "alt": "UC San Diego logo",
         "title": "UC San Diego",
         "date": "Fall 2020",
-        "desc": "Excited to start my PhD at UCSD.",
+        "desc": "Excited to start my PhD at UCSD under the supervision of professor <a href='https://www.ubicomp.ucsd.edu/weibel'>Nadir Weibel</a>.",
     },
     {
         "icon": "chi.png",
