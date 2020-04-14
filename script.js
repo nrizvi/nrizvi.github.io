@@ -1,6 +1,6 @@
 var data = [
     {
-        "icon": "ncwit.svg",
+        "icon": "ncwit.png",
         "alt": "logo for The National Center for Women & Information Technology",
         "title": "NCWIT Collegiate Award Winner",
         "date": "Spring 2020",
