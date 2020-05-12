@@ -1,7 +1,7 @@
 var news =
     [
         {
-            "title": "Interview With Skiveo Radio",
+            "title": "Mini Interviews with Skiveo Radio <br><i>(On Diversity in STEM)</i>",
             "url": "https://www.skive0.com/urscienceminority",
             "date": "May 2020",
         },
