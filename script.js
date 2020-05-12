@@ -3,7 +3,7 @@ var data = [
         "icon": "ncwit.png",
         "alt": "logo for The National Center for Women & Information Technology",
         "title": "NCWIT Collegiate Award Winner",
-        "date": "Spring 2020",
+        "date": "Summer 2020",
         "desc": "Selected as one of the <a href='https://www.aspirations.org/blog/national-center-women-information-technology-ncwit-selects-recipients-2020-ncwit-collegiate?fbclid=IwAR0GWNd6rvM7VWS5WajeXumZ6iGsTi58ET1__8CYwwg2Dm6a0isMIFXYZKU'>6 recipients</a> of The National Center for Women & Information Technology (NCWIT) Collegiate Award for my work on Hera.",
     },
     {

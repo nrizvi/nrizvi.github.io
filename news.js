@@ -1,9 +1,9 @@
 var news =
     [
         {
-            "title": "UT President Gives State of the University Speech Via Video",
-            "url": "https://www.toledoblade.com/local/education/2020/04/07/president-sharon-gaber-state-of-the-university-of-toledo/stories/20200407110",
-            "date": "Apr 7, 2020",
+            "title": "Interview With Skiveo Radio",
+            "url": "https://www.skive0.com/urscienceminority",
+            "date": "May 2020",
         },
         {
             "title": "The National Center for Women & Information Technology Selects Finalists for the 2020 NCWIT Collegiate Award",
