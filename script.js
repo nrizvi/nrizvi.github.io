@@ -1,5 +1,19 @@
 var data = [
     {
+        "icon": "amcis.png",
+        "alt": "logo for Americas Conference on Information Systems",
+        "title": "First Author Paper at AMCIS",
+        "date": "Spring 2021",
+        "desc": "Our paper on our communication skills course promoting autism acceptance in the workplace was accepted to AMCIS 2021."
+    },
+    {
+        "icon": "g1.png",
+        "alt": "logo for the Graduate Women in Computing chapter at UCSD",
+        "title": "K-12 Outreach Chair",
+        "date": "Spring 2021",
+        "desc": "Elected to serve as the K-12 Outreach Chair for UCSD's GradWiC chapter."
+    },
+    {
         "icon": "ncwit.png",
         "alt": "logo for The National Center for Women & Information Technology",
         "title": "NCWIT Collegiate Award Winner",
