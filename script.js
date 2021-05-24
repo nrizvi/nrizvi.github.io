@@ -7,7 +7,7 @@ var data = [
         "desc": "Our paper on our communication skills course promoting autism acceptance in the workplace was accepted to AMCIS 2021."
     },
     {
-        "icon": "g1.png",
+        "icon": "G1.png",
         "alt": "logo for the Graduate Women in Computing chapter at UCSD",
         "title": "K-12 Outreach Chair",
         "date": "Spring 2021",
