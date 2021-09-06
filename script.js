@@ -21,7 +21,7 @@ var data = [
         "desc": "<a href='https://abrahamglasser.com/pdfs/publications/2020/3408877.3432574.pdf'>Invited panelist</a> for the Experiences of Computing Students with Disabilities at SIGCSE 2021."
     },
     {
-        "icon": "g1.png",
+        "icon": "G1.png",
         "alt": "logo for the Graduate Women in Computing chapter at UCSD",
         "title": "K-12 Outreach Chair",
         "date": "Spring 2021",
