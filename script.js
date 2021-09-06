@@ -1,6 +1,6 @@
 var data = [
     {
-        "icon": "interactions.png",
+        "icon": "interactions.PNG",
         "alt": "logo for Interactions magazine",
         "title": "Magazine Article",
         "date": "Summer 2021",
