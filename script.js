@@ -1,10 +1,24 @@
 var data = [
     {
+        "icon": "interactions.png",
+        "alt": "logo for Interactions magazine",
+        "title": "Magazine Article",
+        "date": "Summer 2021",
+        "desc": "<a href='https://dl.acm.org/doi/fullHtml/10.1145/3477097'>Our article</a> on conducting racially-inclusive research was published in Interactions!"
+    },
+    {
         "icon": "amcis.png",
         "alt": "logo for Americas Conference on Information Systems",
         "title": "First Author Paper at AMCIS",
-        "date": "Spring 2021",
-        "desc": "Our paper on our communication skills course promoting autism acceptance in the workplace was accepted to AMCIS 2021."
+        "date": "Summer 2021",
+        "desc": "<a href='https://andrewbegel.com/papers/begel-amcis2021.pdf'>First-author paper</a> on our communication skills course promoting autism acceptance in the workplace was accepted to AMCIS 2021."
+    },
+    {
+        "icon": "sigcse.jpg",
+        "alt": "logo for SIGCSE",
+        "title": "Panel",
+        "date": "Winter 2021",
+        "desc": "<a href='https://abrahamglasser.com/pdfs/publications/2020/3408877.3432574.pdf'>Invited panelist</a> for the Experiences of Computing Students with Disabilities at SIGCSE 2021."
     },
     {
         "icon": "g1.png",
@@ -25,12 +39,12 @@ var data = [
         "alt": "UC San Diego logo",
         "title": "UC San Diego",
         "date": "Fall 2020",
-        "desc": "Excited to start my PhD at UCSD under the supervision of professor <a href='https://www.ubicomp.ucsd.edu/weibel'>Nadir Weibel</a>.",
+        "desc": "Excited to start my PhD at UCSD under the supervision of professor <a href='https://www.ubicomp.ucsd.edu/weibel'>Nadir Weibel</a> mitigating bias in healthcare using human-computer interaction and social signal processing.",
     },
     {
         "icon": "chi.png",
         "alt": "Computer Human Interaction (CHI 2020) logo",
-        "title": "CHI 2020 (Workshop Paper)",
+        "title": "First-Author paper at CHI 2020 <br>(Race in HCI Workshop)",
         "date": "Summer 2020",
         "desc": "Our paper on using HCI to study race & gender bias in ADHD diagnosis was accepted to the Race in HCI workshop.",
     },

@@ -1,5 +1,12 @@
 var data2 = [
     {
+        "heading": "UnBIASED",
+        "summary": "Using social signal processing and human-computer interaction to mitigate bias in healthcare.",
+        "photo": "unbiased.png",
+        "altText":"unbiased logo",
+        "link": "https://www.unbiased.health/",
+    }, 
+    {
         "heading": "Hera",
         "summary": "Empowering patient self-advocacy by analyzing ECG results.",
         "photo": "hera.gif",
@@ -19,14 +26,7 @@ var data2 = [
         "photo": "electingwomen.PNG",
         "altText":"Electing Women toolkit's interface",
         "link": "https://github.com/nrizvi/electingwomen",
-    },
-    {
-        "heading": "PolyGlot",
-        "summary": "Web based IDE empowering developers to code in their native language.",
-        "photo": "polyglot.png",
-        "altText":"PolyGlots's user interface",
-        "link": "https://devpost.com/software/polyglot-pv4er8",
-    }   
+    }  
 ];
 
 for (var value in data2) {

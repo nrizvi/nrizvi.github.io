@@ -1,5 +1,13 @@
 var talks = [
     {
+        "title": "Inclusive Interpersonal Communication Education for Technology Professionals",
+        "type": "Conference Publication",
+        "date": "August 13, 2021",
+        "venue": "Twenty-Seventh Americas Conference on Information Systems (AMCIS 2021)",
+        "url": "https://andrewbegel.com/papers/begel-amcis2021.pdf",
+        "people": "Rizvi, N., Begel A., and Annabi H.",
+    },
+    {
         "title": "Using HCI to Tackle Race and Gender Bias in ADHD Diagnosis",
         "type": "Race in HCI Workshop Publication",
         "date": "April 25, 2020",
@@ -14,14 +22,6 @@ var talks = [
         "venue": "The 12th International Conference on Natural Language Generation (INLG 2019)",
         "url": "https://www.aclweb.org/anthology/W19-8632.pdf",
         "people": "Rizvi, N., Gehrmann, S. et al.",
-    },
-    {
-        "title": "Navigating the Tech Scene with a Disability",
-        "type": "panelist",
-        "date": "October 1, 2019",
-        "venue": "Grace Hopper Celebration 2019",
-        "url": "http://signage.showprg.com/ghc19/d92e944b-79b5-4d9f-b6d3-1c58a18ea168-95628-Brianna-Blaser.pdf",
-        "people": "Blaser, B., Rizvi, N. et al.",
     }
 ];
 
