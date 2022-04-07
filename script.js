@@ -1,4 +1,32 @@
 var data = [
+{
+        "icon": "chi.PNG",
+        "alt": "logo for CHI conference",
+        "title": "First-author Workshop Paper",
+        "date": "Summer 2022",
+        "desc": "Our paper on designing technologies to support clinicians in addressing implicit bias in healthcare was published at the Designing Ecosystems to Support the Management of Complex Health Needs Workshop!"
+    },
+{
+        "icon": "chi.PNG",
+        "alt": "logo for CHI conference",
+        "title": "First-author Workshop",
+        "date": "Summer 2022",
+        "desc": "<a href=https://qtbipoc-pd.org/'>Our workshop</a> on Queer, Trans, Black, Indigenous, People of Color will happen on May 1 at CHI."
+    },
+{
+        "icon": "chi.PNG",
+        "alt": "logo for CHI conference",
+        "title": "Late-Breaking Paper",
+        "date": "Summer 2022",
+        "desc": "Our paper on designing technologies to support clinicians in addressing implicit bias in healthcare was published at CHI!"
+    },
+    {
+        "icon": "neurips.png",
+        "alt": "logo for NeurIPS conference",
+        "title": "Panelist",
+        "date": "Fall 2022",
+        "desc": "Excited to be an invited speaker at the Queer in AI panel at NeurIPS!"
+    },
     {
         "icon": "interactions.PNG",
         "alt": "logo for Interactions magazine",
