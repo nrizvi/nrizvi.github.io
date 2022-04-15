@@ -2,28 +2,28 @@ var data2 = [
     {
         "heading": "UnBIASED",
         "summary": "Using social signal processing and human-computer interaction to mitigate bias in healthcare.",
-        "photo": "unbiased.png",
+        "photo": "images/unbiased.png",
         "altText":"unbiased logo",
         "link": "https://www.unbiased.health/",
     }, 
     {
         "heading": "Hera",
         "summary": "Empowering patient self-advocacy by analyzing ECG results.",
-        "photo": "hera.gif",
+        "photo": "images/hera.gif",
         "altText":"Hera logo",
         "link": "https://devpost.com/software/hera-mjcr60",
     },
     {
         "heading": "Margin Call",
         "summary": "Assistive web based text summarizer for blind & low-vision users.",
-        "photo": "margincall.gif",
+        "photo": "images/margincall.gif",
         "altText":"Screenshot of Margin Call's interface",
         "link": "https://www.aclweb.org/anthology/W19-8632.pdf",
     },
     {
         "heading": "Electing Women",
         "summary": "Web app keeping women politicians around the world safe on the campaign trail.",
-        "photo": "electingwomen.PNG",
+        "photo": "images/electingwomen.PNG",
         "altText":"Electing Women toolkit's interface",
         "link": "https://github.com/nrizvi/electingwomen",
     }  

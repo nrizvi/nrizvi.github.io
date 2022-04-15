@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a83466df-1b18-4a84-b4bb-940639556268" name="Changes" comment="" />
+    <list default="true" id="a83466df-1b18-4a84-b4bb-940639556268" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/G1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/G1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NTT.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/NTT.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UN.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/UN.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adobe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/adobe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcis.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/amcis.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canada.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/canada.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canada.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/canada.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/chi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chi22.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/chi22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codewego.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/codewego.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devpost.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/devpost.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/electingwomen.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/electingwomen.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/github.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/google.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hera.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/hera.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hera.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/hera.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hera.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/hera.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inlg.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/inlg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interactions.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/interactions.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/linkedin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/linkedin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/margincall.gif" beforeDir="false" afterPath="$PROJECT_DIR$/images/margincall.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/margincall.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/margincall.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msr.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/msr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncwit.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ncwit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ncwit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/ncwit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neurips.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/neurips.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pakistan.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/pakistan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palantir.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/palantir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polyglot.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/polyglot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/proj.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/resume.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saudi.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/saudi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scholar.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/scholar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/selfie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selfieedit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/selfieedit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sigcse.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sigcse.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trophy.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/trophy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucsd.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ucsd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unbiased.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/unbiased.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usa.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/usa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ut.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/wordpress.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +73,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +88,16 @@
       <updated>1649186649322</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
