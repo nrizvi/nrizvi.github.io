@@ -162,6 +162,12 @@ body {
     position: relative;
 }
 
+.devpost{
+    display: inline-block;
+    position: relative;
+    height: 25px;
+}
+
 .graphic{
     width: 45px;
 }
@@ -211,4 +217,10 @@ h1{
     color: dimgray;
 }
 
+.greytext{
+color:grey;
+}
 
+.smallfont{
+font-size:small;
+}

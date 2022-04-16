@@ -4,7 +4,7 @@ var data2 = [
         "summary": "Using social signal processing and human-computer interaction to mitigate bias in healthcare.",
         "photo": "images/unbiased.png",
         "altText":"unbiased logo",
-        "link": "https://www.unbiased.health/",
+        "link": "https://drive.google.com/file/d/1QVIGqSYtaLBDJXTH_cUAjpxHk-_VI3Fb/view?usp=sharing",
     }, 
     {
         "heading": "Hera",
