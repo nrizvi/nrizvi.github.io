@@ -1,23 +1,20 @@
 var data = [
 {
         "icon": "images/chi22.png",
-        "icon": "chi22.png",
         "alt": "logo for CHI conference",
         "title": "First-author Workshop Paper",
         "date": "Spring 2022",
-        "desc": "Our paper on designing technologies to support clinicians in addressing implicit bias in healthcare was published at the Designing Ecosystems to Support the Management of Complex Health Needs Workshop!"
+        "desc": "<a href='https://drive.google.com/file/d/1QVIGqSYtaLBDJXTH_cUAjpxHk-_VI3Fb/view?usp=sharing'>Our paper</a> on designing technologies to support clinicians in addressing implicit bias in healthcare was published at the Designing Ecosystems to Support the Management of Complex Health Needs Workshop!"
     },
 {
         "icon": "images/chi22.png",
-        "icon": "chi22.png",
         "alt": "logo for CHI conference",
         "title": "First-author Workshop",
         "date": "Spring 2022",
-        "desc": "<a href=https://qtbipoc-pd.org/'>Our workshop</a> on Queer, Trans, Black, Indigenous, People of Color will happen on May 1 at CHI."
+        "desc": "<a href='https://drive.google.com/file/d/1iAqAJMjaag5EuO7E-w7ZDizApYCIcvhV/view?usp=sharing'>Our workshop</a> on Queer, Trans, Black, Indigenous, People of Color will happen on May 1 at CHI."
     },
 {
         "icon": "images/chi22.png",
-        "icon": "chi22.png",
         "alt": "logo for CHI conference",
         "title": "Late-Breaking Paper",
         "date": "Spring 2022",
