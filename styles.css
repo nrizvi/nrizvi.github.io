@@ -232,4 +232,8 @@ font-size:small;
 font-weight:600;
 }
 
+.icon:hover,.devpost:hover {
+   transform: scale(1.5);
+}
+
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat927.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat927.png), auto !important;} /* End https://www.cursors-4u.com */
