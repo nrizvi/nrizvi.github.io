@@ -4,14 +4,14 @@ var data = [
         "alt": "logo for CHI conference",
         "title": "First-author Workshop Paper",
         "date": "Spring 2022",
-        "desc": "<a href='https://drive.google.com/file/d/1QVIGqSYtaLBDJXTH_cUAjpxHk-_VI3Fb/view?usp=sharing'>Our paper</a> on designing technologies to support clinicians in addressing implicit bias in healthcare was published at the Designing Ecosystems to Support the Management of Complex Health Needs Workshop!"
+        "desc": "<a href='https://drive.google.com/file/d/1QVIGqSYtaLBDJXTH_cUAjpxHk-_VI3Fb/view?usp=sharing' class='semibold'>Our paper</a> on designing technologies to support clinicians in addressing implicit bias in healthcare was published at the Designing Ecosystems to Support the Management of Complex Health Needs Workshop!"
     },
 {
         "icon": "images/chi22.png",
         "alt": "logo for CHI conference",
         "title": "First-author Workshop",
         "date": "Spring 2022",
-        "desc": "<a href='https://drive.google.com/file/d/1iAqAJMjaag5EuO7E-w7ZDizApYCIcvhV/view?usp=sharing'>Our workshop</a> on Queer, Trans, Black, Indigenous, People of Color will happen on May 1 at CHI."
+        "desc": "<a href='https://drive.google.com/file/d/1iAqAJMjaag5EuO7E-w7ZDizApYCIcvhV/view?usp=sharing' class='semibold'>Our workshop</a> on Queer, Trans, Black, Indigenous, People of Color will happen on May 1 at CHI."
     },
 {
         "icon": "images/chi22.png",
@@ -32,21 +32,21 @@ var data = [
         "alt": "logo for Interactions magazine",
         "title": "Magazine Article",
         "date": "Summer 2021",
-        "desc": "<a href='https://dl.acm.org/doi/fullHtml/10.1145/3477097'>Our article</a> on conducting racially-inclusive research was published in Interactions!"
+        "desc": "<a href='https://dl.acm.org/doi/fullHtml/10.1145/3477097' class='semibold'>Our article</a> on conducting racially-inclusive research was published in Interactions!"
     },
     {
         "icon": "images/amcis.png",
         "alt": "logo for Americas Conference on Information Systems",
         "title": "First Author Paper at AMCIS",
         "date": "Summer 2021",
-        "desc": "<a href='https://andrewbegel.com/papers/begel-amcis2021.pdf'>First-author paper</a> on our communication skills course promoting autism acceptance in the workplace was accepted to AMCIS 2021."
+        "desc": "<a href='https://andrewbegel.com/papers/begel-amcis2021.pdf' class='semibold'>First-author paper</a> on our communication skills course promoting autism acceptance in the workplace was accepted to AMCIS 2021."
     },
     {
         "icon": "images/sigcse.jpg",
         "alt": "logo for SIGCSE",
         "title": "Panel",
         "date": "Winter 2021",
-        "desc": "<a href='https://abrahamglasser.com/pdfs/publications/2020/3408877.3432574.pdf'>Invited panelist</a> for the Experiences of Computing Students with Disabilities at SIGCSE 2021."
+        "desc": "<a href='https://abrahamglasser.com/pdfs/publications/2020/3408877.3432574.pdf' class='semibold'>Invited panelist</a> for the Experiences of Computing Students with Disabilities at SIGCSE 2021."
     },
     {
         "icon": "images/G1.png",
@@ -60,14 +60,14 @@ var data = [
         "alt": "logo for The National Center for Women & Information Technology",
         "title": "NCWIT Collegiate Award Winner",
         "date": "Summer 2020",
-        "desc": "Selected as one of the <a href='https://www.aspirations.org/blog/national-center-women-information-technology-ncwit-selects-recipients-2020-ncwit-collegiate?fbclid=IwAR0GWNd6rvM7VWS5WajeXumZ6iGsTi58ET1__8CYwwg2Dm6a0isMIFXYZKU'>6 recipients</a> of The National Center for Women & Information Technology (NCWIT) Collegiate Award for my work on Hera.",
+        "desc": "Selected as one of the <a href='https://www.aspirations.org/blog/national-center-women-information-technology-ncwit-selects-recipients-2020-ncwit-collegiate?fbclid=IwAR0GWNd6rvM7VWS5WajeXumZ6iGsTi58ET1__8CYwwg2Dm6a0isMIFXYZKU' class='semibold'>6 recipients</a> of The National Center for Women & Information Technology (NCWIT) Collegiate Award for my work on Hera.",
     },
     {
         "icon": "images/ucsd.png",
         "alt": "UC San Diego logo",
         "title": "UC San Diego",
         "date": "Fall 2020",
-        "desc": "Excited to start my PhD at UCSD under the supervision of professor <a href='https://www.ubicomp.ucsd.edu/weibel'>Nadir Weibel</a> mitigating bias in healthcare using human-computer interaction and social signal processing.",
+        "desc": "Excited to start my PhD at UCSD under the supervision of professor <a href='https://www.ubicomp.ucsd.edu/weibel' class='semibold'>Nadir Weibel</a> mitigating bias in healthcare using human-computer interaction and social signal processing.",
     },
     {
         "icon": "images/chi.png",
@@ -81,7 +81,7 @@ var data = [
         "alt": "Microsoft logo",
         "title": "Microsoft Research",
         "date": "Summer 2020",
-        "desc": "Excited to join <a href='https://www.microsoft.com/en-us/research/group/ability/' target='_blank'>MSR's Ability team</a> this summer!",
+        "desc": "Excited to join <a href='https://www.microsoft.com/en-us/research/group/ability/' target='_blank' class='semibold'>MSR's Ability team</a> this summer!",
     },
     {
         "icon": "images/google.png",
@@ -95,7 +95,7 @@ var data = [
         "alt":"International Conference on Natural Language Generation logo",
         "title": "First-Author Paper at INLG",
         "date": "Summer 2019",
-        "desc": "Our <a href='https://www.aclweb.org/anthology/W19-8632.pdf' target='_blank'>paper</a> on an assistive summarizer for blind & low-vision users was accepted to INLG.",
+        "desc": "Our <a href='https://www.aclweb.org/anthology/W19-8632.pdf' target='_blank' class='semibold'>paper</a> on an assistive summarizer for blind & low-vision users was accepted to INLG.",
     },
     {
         "icon": "images/adobe.jpg",
@@ -116,14 +116,14 @@ var data = [
         "alt": "Adobe logo",
         "title": "Adobe Women in Tech Scholar",
         "date": "Spring 2019",
-        "desc": "One of <a href='https://adoberesearch.ctlprojects.com/scholarship/previous-scholarship-award-winners/' target='_blank'>9 women</a> selected for the scholarship.",
+        "desc": "One of <a href='https://adoberesearch.ctlprojects.com/scholarship/previous-scholarship-award-winners/' target='_blank' class='semibold'>9 women</a> selected for the scholarship.",
     },
     {
         "icon": "images/palantir.png",
         "alt": "Palantir logo",
         "title": "Palantir Women in Tech Scholar",
         "date": "Spring 2019",
-        "desc": "One of <a href='https://www.palantir.com/students/scholarship/wit-north-america/' target='_blank'>12 women</a> selected for the scholarship.",
+        "desc": "One of <a href='https://www.palantir.com/students/scholarship/wit-north-america/' target='_blank' class='semibold'>12 women</a> selected for the scholarship.",
     },
     {
         "icon": "images/UN.png",
@@ -144,7 +144,7 @@ var data = [
         "alt": "Google logo",
         "title": "Google Women Techmakers Scholar",
         "date": "Summer 2018",
-        "desc": "Pleased to be <a href='https://news.utoledo.edu/index.php/11_19_2018/ut-student-receives-google-women-techmakers-scholarship' target='_blank'> one of 20 students</a> selected!",
+        "desc": "Pleased to be <a href='https://news.utoledo.edu/index.php/11_19_2018/ut-student-receives-google-women-techmakers-scholarship' target='_blank' class='semibold'> one of 20 students</a> selected!",
     }];
 var i = 0;
 for (var key in data) {

@@ -39,7 +39,7 @@ for (var value in news) {
     var inf3 = document.createElement('span');
     inf3.className = 'news align-items-center space';
     var includeThis =
-        '<p class="text-center"><span class="space font-weight-bold"><a href=" ' + url + '" target="_blank">' + title + '</a>, </span><i>' + date + '</i></p>';
+        '<p class="text-center"><span class="space semibold"><a href=" ' + url + '" target="_blank">' + title + '</a>, </span><i>' + date + '</i></p>';
     inf3.innerHTML = includeThis;
     document.querySelector('#news').appendChild(inf3);
 }
