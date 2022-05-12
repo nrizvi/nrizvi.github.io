@@ -1,14 +1,14 @@
 var data2 = [
     {
         "heading": "UnBIASED",
-        "summary": "Using social signal processing and human-computer interaction to mitigate bias in healthcare.",
+        "summary": "Making implicit bias explicit in patient-provider interactions.",
         "photo": "images/unbiased.png",
         "altText":"unbiased logo",
         "link": "https://drive.google.com/file/d/1QVIGqSYtaLBDJXTH_cUAjpxHk-_VI3Fb/view?usp=sharing",
     }, 
     {
         "heading": "Hera",
-        "summary": "Empowering patient self-advocacy by analyzing ECG results.",
+        "summary": "Empowering patient self-advocacy by classifying ECG results.",
         "photo": "images/hera.gif",
         "altText":"Hera logo",
         "link": "https://devpost.com/software/hera-mjcr60",
@@ -22,7 +22,7 @@ var data2 = [
     },
     {
         "heading": "Electing Women",
-        "summary": "Web app keeping women politicians around the world safe on the campaign trail.",
+        "summary": "Keeping women politicians around the world safe on the campaign trail.",
         "photo": "images/electingwomen.PNG",
         "altText":"Electing Women toolkit's interface",
         "link": "https://github.com/nrizvi/electingwomen",
