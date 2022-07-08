@@ -10,6 +10,9 @@
     .extrainfo{
     display:none;
     }
+    .awardsInfo{
+    display:blocked;
+    }
 }
 
 
@@ -31,6 +34,9 @@
     .selfiebig{
         display:block;
         margin: auto;
+    }
+    .awardsInfo{
+    display:none;
     }
 }
 
