@@ -1,7 +1,7 @@
 var data2 = [
     {
         "heading": "UnBIASED",
-        "summary": "Making implicit bias explicit in patient-provider interactions.",
+        "summary": "Visualizing social signals to make implicit bias explicit in patient-provider interactions.",
         "photo": "images/unbiased.png",
         "altText":"unbiased logo",
         "link": "https://drive.google.com/file/d/1QVIGqSYtaLBDJXTH_cUAjpxHk-_VI3Fb/view?usp=sharing",

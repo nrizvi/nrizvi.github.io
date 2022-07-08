@@ -1,5 +1,12 @@
 var data = [
 {
+        "icon": "images/google.png",
+        "alt": "logo for Google",
+        "title": "Student Researcher",
+        "date": "Summer 2022",
+        "desc": "Interning with the Health AI team on a health equity project. Supervised by Rory Sayres & Jacob Stimes."
+    },
+{
         "icon": "images/chi22.png",
         "alt": "logo for CHI conference",
         "title": "First-author Workshop Paper",
