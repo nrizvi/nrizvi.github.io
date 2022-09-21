@@ -1,6 +1,12 @@
 var talks =
     [
         {
+            "title": "On Disability Disclosure",
+            "url": "https://tapiaconference.cmd-it.org/attend/presentation/?id=psub164&sess=sess143",
+            "role": "panelist",
+            "venue": "Tapia 2022",
+        },
+        {
             "title": "On Neurodiversity",
             "url": "https://sites.google.com/view/queer-in-ai/neurips-2021",
             "role": "panelist",
