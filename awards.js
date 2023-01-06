@@ -1,5 +1,10 @@
 var awards =
     [
+    {
+            "title": "CSTA CS Hero",
+            "url": "https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student",
+            "date": "2022",
+        },
         {
             "title": "NCWIT Collegiate Award Recipient",
             "url": "https://www.aspirations.org/blog/national-center-women-information-technology-ncwit-selects-finalists-2020-ncwit-collegiate",

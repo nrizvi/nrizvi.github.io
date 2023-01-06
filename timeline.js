@@ -1,5 +1,12 @@
 var data = [
 {
+        "icon": "images/csta.jpeg",
+        "alt": "logo for the Computer Science Teachers Association",
+        "title": "CS Hero",
+        "date": "2022-2023",
+        "desc": "Recognized as a CS Hero by the Computer Science Teacher's Association for my contributions to equity and inclusion in our field. <a href='https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student' class='semibold'>Received a letter from VP Kamala Harris!</a>"
+    },
+{
         "icon": "images/google.png",
         "alt": "logo for Google",
         "title": "Student Researcher",

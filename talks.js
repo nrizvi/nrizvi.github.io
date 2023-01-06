@@ -1,5 +1,11 @@
 var talks =
     [
+    {
+            "title": "On Health AI (In Urdu)",
+            "url": "https://drive.google.com/file/d/1usvZO0lrSusHIaPmvrT9LO1f0bWJKAOc/view?usp=share_link",
+            "role": "invited speaker",
+            "venue": "Geo News Morning Show 2023",
+        },
         {
             "title": "On Neurodiversity",
             "url": "https://sites.google.com/view/queer-in-ai/neurips-2021",
