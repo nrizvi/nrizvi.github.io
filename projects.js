@@ -1,5 +1,19 @@
 var data2 = [
     {
+        "heading": "Neurodiverse AI",
+        "summary": "Making AI more inclusive and accessible for autistic users.",
+        "photo": "images/neurodiverse_ai.png",
+        "altText":"logo for neurodiverse ai",
+        "link": "https://www.sandiegouniontribune.com/lifestyle/people/story/2023-02-11/ucsd-student-pursuing-more-accessibility-equity-in-computer-science-for-others-who-are-also-neurodiverse",
+    },
+        {
+        "heading": "AI Color Equity",
+        "summary": "Proposing a more granular annotation methodology for skin type labeling tasks.",
+        "photo": "images/skin_tone.gif",
+        "altText":"animation showing the diversity of skin types through a spectrum",
+        "link": "",
+    },
+    {
         "heading": "UnBIASED",
         "summary": "Visualizing social signals to make implicit bias explicit in patient-provider interactions.",
         "photo": "images/unbiased.png",
@@ -12,21 +26,21 @@ var data2 = [
         "photo": "images/hera.gif",
         "altText":"Hera logo",
         "link": "https://devpost.com/software/hera-mjcr60",
-    },
-    {
-        "heading": "Margin Call",
-        "summary": "Assistive web based text summarizer for blind & low-vision users.",
-        "photo": "images/margincall.gif",
-        "altText":"Screenshot of Margin Call's interface",
-        "link": "https://www.aclweb.org/anthology/W19-8632.pdf",
-    },
-    {
-        "heading": "Electing Women",
-        "summary": "Keeping women politicians around the world safe on the campaign trail.",
-        "photo": "images/electingwomen.PNG",
-        "altText":"Electing Women toolkit's interface",
-        "link": "https://github.com/nrizvi/electingwomen",
-    }  
+    }
+//    {
+//        "heading": "Margin Call",
+//        "summary": "Assistive web based text summarizer for blind & low-vision users.",
+//        "photo": "images/margincall.gif",
+//        "altText":"Screenshot of Margin Call's interface",
+//        "link": "https://www.aclweb.org/anthology/W19-8632.pdf",
+//    },
+//    {
+//        "heading": "Electing Women",
+//        "summary": "Keeping women politicians around the world safe on the campaign trail.",
+//        "photo": "images/electingwomen.PNG",
+//        "altText":"Electing Women toolkit's interface",
+//        "link": "https://github.com/nrizvi/electingwomen",
+//    }
 ];
 
 for (var value in data2) {
