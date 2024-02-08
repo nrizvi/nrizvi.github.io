@@ -3,7 +3,7 @@ var publications = [
         "title": "Are Robots Ready to Deliver Autism Inclusion?: A Critical Review",
         "type": "Full Paper",
         "date": "May 11, 2024",
-        "venue": "",
+        "venue": "CHI Conference on Human Factors in Computing Systems (CHI 2024)",
         "url": "https://drive.google.com/file/d/1QVIGqSYtaLBDJXTH_cUAjpxHk-_VI3Fb/view",
         "people": "Rizvi, N., et al.",
     },
