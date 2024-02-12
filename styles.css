@@ -7,12 +7,12 @@
     .selfiebig{
         display: none;
     }
-    .extrainfo{
+    /**.extrainfo{
     display:none;
     }
     .awardsInfo{
     display:blocked;
-    }
+    }**/
 }
 
 
@@ -35,9 +35,9 @@
         display:block;
         margin: auto;
     }
-    .awardsInfo{
+    /**.awardsInfo{
     display:none;
-    }
+    }**/
 }
 
 .flag{
@@ -240,6 +240,38 @@ font-weight:600;
 
 .icon:hover,.devpost:hover {
    transform: scale(1.5);
+}
+
+.topMargin{
+margin-top: 80px;
+}
+
+.transparentObj{
+opacity: 0.85;
+}
+
+.nav-link:hover{
+background-color: white;
+}
+
+.toggleButton {
+        font-family: 'Merriweather', serif;
+        text-align: center;
+        background-color: white; /* White background */
+        border: none;           /* No borders */
+        font-size: 1.5rem;      /* Equivalent to H3 size */
+        padding: 10px 20px;     /* Some padding for better appearance */
+        cursor: pointer;        /* Change cursor to pointer on hover */
+        margin: auto;
+    }
+.toggleButton:hover {
+   font-weight: bolder;
+   border-bottom: 1px solid #d0d0d0;
+}
+
+.accordionData {
+   border-top: 1px dashed #d0d0d0;
+   border-bottom: 1px dashed #d0d0d0;
 }
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat927.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat927.png), auto !important;} /* End https://www.cursors-4u.com */

@@ -16,6 +16,11 @@ var awards =
             "date": "2019",
         },
         {
+            "title": "Palantir Women in Tech Scholarship Recipient",
+            "url": "https://www.utfoundation.org/naba/",
+            "date": "2019",
+        },
+        {
             "title": "Google CS Research Mentee",
             "url": "https://research.google/outreach/csrmp/recipients/?category=2019",
             "date": "2019",
@@ -30,16 +35,16 @@ var awards =
             "url": "https://news.utoledo.edu/index.php/11_19_2018/ut-student-receives-google-women-techmakers-scholarship",
             "date": "2018",
         },
-//        {
-//            "title": "SD Hacks, First Place",
-//            "url": "http://jacobsschoolofengineering.blogspot.com/2018/10/sd-hacks_18.html",
-//            "date": "2018",
-//        },
-//        {
-//            "title": "Scarlet Hacks, First Place",
-//            "url": "https://devpost.com/NabahRizvi",
-//            "date": "2017",
-//        },
+        {
+            "title": "SD Hacks, First Place",
+            "url": "http://jacobsschoolofengineering.blogspot.com/2018/10/sd-hacks_18.html",
+            "date": "2018",
+        },
+        {
+            "title": "Scarlet Hacks, First Place",
+            "url": "https://devpost.com/NabahRizvi",
+            "date": "2017",
+        },
         {
             "title": "Best Student Poster (top 10%) at University of Michigan's Student Research Symposium",
             "url": "http://michaeltheaney.com/archives/725",

@@ -10,6 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <!-- Global site tag (gtag.js) - Google Analytics -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">-->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-LB6QCMN1SD"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
@@ -20,8 +22,27 @@
         </script>
     </head>
     <body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top transparentObj">
+  <a class="navbar-brand" href="#">Jump to...</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link text-dark" href="#projsShow">Projects</a>
+      <a class="nav-item nav-link text-dark" href="#pubsShow">Publications</a>
+      <a class="nav-item nav-link text-dark" href="#awardsShow">Awards</a>
+      <a class="nav-item nav-link text-dark" href="#talksShow">Talks</a>
+        <a class="nav-item nav-link text-dark" href="#updatesShow">Updates</a>
+    </div>
+  </div>
+</nav>
+
+
         <span id="width"></span>
-        <div class="container">
+        <div class="container topMargin">
             <div class="whiteFrame">
                 <div class="whiteBG">
                     <header>
@@ -38,68 +59,94 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 blurb text-center">
-                                <p><i>It's pronounced "nub-buh rizz-vee". She/her. <br><img src="images/pakistan.png" alt="Pakistan" class="flag" /> born <img src="images/canada.png" alt="Canada" class="flag" /> <img src="images/saudi.png" alt="Saudi Arabia" class="flag" /> raised  <img src="images/usa.png" alt="USA" class="flag" /> <img src="images/morocco.png" alt="Morocco" class="flag" /> blooming. </i></p>
-                                <p><span class="semibold">4th year CSE PhD</span> student @ <img src="images/ucsd.png" alt="UCSD logo" class="flag" /> <span class="semibold">UC San Diego</span> <br> Co-advised by <a href="https://www.imanimunyaka.com/" class="semibold">Dr. Imani Munyaka</a> and <a href="https://andrewbegel.com/" class="semibold">Dr. Andrew Begel (Carnegie Mellon University)</a>
-                                    <!-- <br><span class="semibold">Student Researcher @  <img src="images/google.png" alt="Google logo" class="flag" /> Google Health AI</span> -->
-                                <br>Formerly @ <img src="images/google.png" alt="Google logo" class="flag" /> Google Health AI (2022), <img src="images/msr.png" alt="Microsoft logo" class="flag" /> Microsoft Research (2020), <img src="images/adobe.jpg" alt="Adobe logo" class="flag" /> Adobe Research (2019)</p>
-                                <!-- <br><img src="images/google.png" alt="Google logo" class="flag" /> Google WTM scholar (2018).<br />
-                                    </i></p>
-                                 <p>Passionate about designing technologies for underserved users.<br /><br /> </p>> -->
-                                    <p><b>Research Interests:</b> human-AI alignment, accessibility, responsible NLP</p>
+                                <audio id="audioPlayer" src="name.m4a"></audio>
+                                <p><i><i class="fa fa-volume-up  icon" aria-hidden="true" onclick="playAudio()"></i> It's pronounced "nub-buh rizz-vee"<br>
+                                    She/her <br><img src="images/pakistan.png" alt="Pakistan" class="flag" /> born <img src="images/canada.png" alt="Canada" class="flag" /> <img src="images/saudi.png" alt="Saudi Arabia" class="flag" /> raised  <img src="images/usa.png" alt="USA" class="flag" /> <img src="images/morocco.png" alt="Morocco" class="flag" /> blooming </i></p>
+                                <p>I am a multi-award winning <span class="semibold">4th year CSE PhD</span> student at <img src="images/ucsd.png" alt="UCSD logo" class="flag" /> <span class="semibold">UC San Diego </span> advised by <a href="https://www.imanimunyaka.com/" class="semibold">Dr. Imani Munyaka</a>.
+                                    I have published or presented as an invited panelist at top conferences including <span class="semibold">CHI, NeurIPS,</span> and <span class="semibold">SigCSE</span>, and even <a href="https://omds.ucsd.edu/courses/dsc-266r-human-centered-ai" class="semibold"> co&nbsp;created the curriculum for the human-centered AI course</a> at UCSD.
+                                    My research explores ethical and responsible AI for historically marginalized end-users.
+                                    It has been featured in both national and international media, and earned me a <a href="https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student" class="semibold">commendation letter from VP Kamala Harris!</a>
 
-                                    <p><span class="awardsInfo"><b>Selected Awards:</b> <img src="images/ncwit.png" alt="NCWIT logo" class="flag" /> NCWIT Collegiate Award (2020), <img src="images/adobe.jpg" alt="Adobe logo" class="flag" /> Adobe WiT Scholarship (2019), <img src="images/google.png" alt="Google logo" class="flag" /> Google Women Techmakers Scholarship (2018)</p></span>
+                                    <br>
+                                    <br>
+                                    <b>Collaborators:</b>
+                                    <a href="https://nedjmaou.github.io/" class="semibold">Dr. Nedjma Ousidhoum</a>,
+                                    <a href="https://andrewbegel.com/" class="semibold">Dr. Andrew Begel (Carnegie Mellon University)</a>
+                                    <br>
+                                    <br><b>Formerly at </b><img src="images/google.png" alt="Google logo" class="flag" /> Google Health AI (2022), <img src="images/msr.png" alt="Microsoft logo" class="flag" /> Microsoft Research (2020), <img src="images/adobe.jpg" alt="Adobe logo" class="flag" /> Adobe Research (2019)</p>
+
+                                    <p><b>Research Interests:</b> human-AI alignment, accessibility, responsible AI, neurodiversity</p>
+
+                                <p><b>Contact Me:</b> [firstname]@ucsd.edu</p>
                                 <span class="socialmedia">
                                     <a href="https://twitter.com/Naba_Rizvi" target="_blank"><img src="images/twitter.png" class="icon" alt="Twitter link"></a>
                                     <a href="https://scholar.google.com/citations?user=N94ugmQAAAAJ&hl=en" target="_blank"><img src="images/scholar.png" class="icon" alt="Google Scholar link"></a>
                                     <a href="https://www.linkedin.com/in/nabahrizvi/" target="_blank"><img src="images/linkedin.png" class="icon" alt="linkedin link"></a>
                                     <a href="https://github.com/nrizvi" target="_blank"><img src="images/github.svg" class="icon" alt="github link"></a>
                                     <a href="https://devpost.com/NabahRizvi" target="_blank"><img src="images/devpost.png" class="devpost" alt="devpost link"></a>
-                                    <!--<a href="https://www.facebook.com/techconfident/" target="_blank"><img src="images/facebook.png" class="icon" alt="facebook link"></a>
-                                    <a href="https://technicallyconfident.wordpress.com/" target="_blank"><img src="images/wordpress.png" class="icon" alt="wordpress link"></a>-->
                                 </span></p>
                             </div>
                         </div>
-                        <div class="row"><div class="col-md-12 text-center smallfont"><br><p><i>Last updated Feb 05, 2024.</i></p></div></div>
+                        <div class="row"><div class="col-md-12 text-center smallfont"><br><p><i>Last updated Feb 11, 2024.</i></p></div></div>
                     </header>
                     <br>
                     <hr>
-                    <div class="row">
-                        <div class="col-md-12"><h2 class="text-center space">Featured Projects</h2></div>
-                    </div>
-                    <div class="projects row align-items-center" id="projects">
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-4"><h2 class="text-center space">Selected Publications</h2><br /><span class="publications" id="publications"></span></div>
-                        <div class="col-md-4 extrainfo">
-                            <h2 class="text-center space">Talks</h2><br /><span class="interviews" id="interviews">
-                                <p class="text-center font-weight-bold">2023 Hum TV Interview on AI for Accessibility</p>
-                                <iframe title="Hum TV interview in Urdu" width="100%" height="auto" src="https://www.youtube.com/embed/dakau7heLig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <br><br>
-                            <span class="talks" id="talks"></span>
-                            <!--                                <p class="space text-center font-weight-bold">SD Hacks 2018 (First Place Win)</p>-->
-<!--                                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/03RvBOqzVPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-                            </span>
-                        </div>
-                        <div class="col-md-4 extrainfo"><h2 class="text-center space">Selected Awards</h2><br /><span class="awards" id="awards"></span></div>
-                    </div>
-                    <hr />
-                    <div class="row">
-                        <div class="col-md-12 text-center space"><h2>Updates</h2></div>
-                    </div>
+
+    <div class="row text-center">
+        <button class="toggleButton" onclick="toggleVisibility('projsShow')">Projects <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></button>
+    </div>
+        <div id="projsShow" class="row accordionData" style="display:none">
+        <div class="projects row align-items-center" id="projects">
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <button class="toggleButton" onclick="toggleVisibility('pubsShow')">Publications <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></button>
+    </div>
+        <div id="pubsShow" class="row accordionData" style="display:none"><br>
+    <span class="publications" id="publications"></span>    </div>
+
+    <div class="row text-center">
+        <button class="toggleButton" onclick="toggleVisibility('awardsShow')">Awards  <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></button>
+    </div>
+    <div id="awardsShow" class="row accordionData" style="display:none"><br>
+        <span class="awards" id="awards"></span>
+    </div>
+
+
+    <div class="row text-center">
+        <button class="toggleButton" onclick="toggleVisibility('talksShow')">Talks <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></button>
+    </div>
+    <div id="talksShow" class="row text-center accordionData" style="display:none"><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dakau7heLig?si=M-3YAwz8PUsZVBd0" title="Hum TV interview on responsible AI (in Urdu)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <span class="talks" id="talks"></span>
+    </div>
+
+
+    <div class="row text-center">
+        <button class="toggleButton" onclick="toggleVisibility('updatesShow')">Updates <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></button>
+    </div>
+    <div id="updatesShow" class="row accordionData" style="display:none">
                     <div class="stacked" id="stacked">
                     </div>
 
                     <div class="timeline" id="timeline">
                     </div>
+     </div>
+<br>
+
                 </div>
             </div>
         </div>
+        <script src="accordion.js"></script>
         <script src="timeline.js"></script>
         <script src="projects.js"></script>
         <script src="publications.js"></script>
         <script src="awards.js"></script>
         <script src="talks.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <footer><p class="text-center credit"> This website was made with ♥ by Naba Rizvi.</p></footer>
     </body>
 </html>
