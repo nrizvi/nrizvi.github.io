@@ -15,6 +15,9 @@
     }**/
 }
 
+.navbar{
+    font-family: 'Antic Didone', sans-serif;
+}
 
 @media screen and (max-width: 990px) {
     .container{
@@ -34,6 +37,7 @@
     .selfiebig{
         display:block;
         margin: auto;
+        max-width: 50%;
     }
     /**.awardsInfo{
     display:none;
@@ -93,7 +97,6 @@
     min-height: 95%;
     min-height: 95vh;
     padding: 10px 10px 10px 10px;
-    background-color: white;
 }
 
 .container{
@@ -104,11 +107,11 @@
 }
 
 p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Antic Didone', sans-serif;
 }
 
 h1,h2{
-    font-family: 'Merriweather', serif;
+    font-family: 'Elsie', serif;
     text-align: center;
 }
 
@@ -139,13 +142,7 @@ body {
 
 
 .selfie {
-    width: 30%;
-    border-radius: 50%;
-    margin-bottom: 25px;
-    border-style: solid;
-    border-width: 3px;
-    padding: 2px;
-    border-color: dimgrey;
+    width: 90%;
 }
 
 
@@ -255,7 +252,7 @@ background-color: white;
 }
 
 .toggleButton {
-        font-family: 'Merriweather', serif;
+        font-family: 'Elsie', serif;
         text-align: center;
         background-color: white; /* White background */
         border: none;           /* No borders */

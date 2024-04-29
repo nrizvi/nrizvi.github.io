@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a83466df-1b18-4a84-b4bb-940639556268" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/naba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/naba_soft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/neurodiverseai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/neurodiverseai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/neurodiverseai.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications.js" beforeDir="false" afterPath="$PROJECT_DIR$/publications.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/talks.js" beforeDir="false" afterPath="$PROJECT_DIR$/talks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +48,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_new/old_site" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_new/old_site" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test_new/new_header" />
+      <recent name="$PROJECT_DIR$/test_new" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test_new/other" />
+      <recent name="$PROJECT_DIR$/test_new" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>

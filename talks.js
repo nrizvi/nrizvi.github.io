@@ -1,6 +1,12 @@
 var talks =
     [
     {
+            "title": "Towards Neuroinclusive AI",
+            "url": "https://career.ucsd.edu/events/future-of-work-conference/conference-participants.html",
+            "role": "invited speaker",
+            "venue": "UCSD Future of Work Conference 2024",
+        },
+    {
             "title": "On Responsible AI (In Urdu)",
             "url": "",
             "role": "invited speaker",

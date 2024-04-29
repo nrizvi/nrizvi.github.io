@@ -28,7 +28,7 @@ var publications = [
         "type": "Late Breaking Work",
         "date": "April 27, 2022",
         "venue": "Conference on Human Factors in Computing Systems (CHI 2022)",
-        "url": "https://drive.google.com/file/d/1QVIGqSYtaLBDJXTH_cUAjpxHk-_VI3Fb/view",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9128862/",
         "people": "Dirks, L., Beneteau, E., Sabin, J., Pratt, W., Lane, C., Bascom, E., Casanova-Perez, R., Rizvi, N., Weibel, N., Hartzler, A.",
     },
     {
@@ -60,7 +60,7 @@ var publications = [
         "type": "Race in HCI Workshop Publication",
         "date": "April 25, 2020",
         "venue": "Conference on Human Factors in Computing Systems (CHI 2020)",
-        "url": "https://drive.google.com/file/d/1jOBORarDHIbPX2cwucHb2DvFT2k9VRHF/view?usp=sharing",
+        "url": "https://arxiv.org/pdf/2204.07900",
         "people": "Rizvi, N. and Mrini, K.",
     },
     {
