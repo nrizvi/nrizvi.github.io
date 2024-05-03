@@ -10,13 +10,13 @@ var talks =
             "title": "On Responsible AI (In Urdu)",
             "url": "",
             "role": "invited speaker",
-            "venue": "Hum TV Morning Show 2023",
+            "venue": "Hum TV Morning Show 2023 (36.6 million subscribers)",
         },
     {
             "title": "On Health AI (In Urdu)",
             "url": "https://drive.google.com/file/d/1usvZO0lrSusHIaPmvrT9LO1f0bWJKAOc/view?usp=share_link",
             "role": "invited speaker",
-            "venue": "Geo News Morning Show 2023",
+            "venue": "Geo News Morning Show 2023 (15.3 million subscribers)",
         },
         {
             "title": "On Disability Disclosure",
