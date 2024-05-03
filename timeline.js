@@ -6,6 +6,13 @@ var data = [
         "date": "May 11, 2024",
         "desc": "Excited to present the full paper on our critical systematic literature review of HRI at the CHI conference in person!"
     },
+    {
+        "icon": "images/ucsd.png",
+        "alt": "UCSD logo",
+        "title": "Invited Speaker at the Future of Work Conference",
+        "date": "April 2024",
+        "desc": "Talk on neuro-inclusive AI presented to ~90 attendees (hybrid format)"
+    },
 {
         "icon": "images/csta.jpeg",
         "alt": "logo for the Computer Science Teachers Association",
