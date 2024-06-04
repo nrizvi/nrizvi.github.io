@@ -145,6 +145,7 @@ body {
 
 .selfie {
     width: 90%;
+    filter: drop-shadow(0 0 0.75rem black);
 }
 
 
