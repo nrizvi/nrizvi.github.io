@@ -7,6 +7,10 @@
     .selfiebig{
         display: none;
     }
+    .selfie{
+    width:60% !important;
+    margin-left: 35% !important;
+    }
     /**.extrainfo{
     display:none;
     }
@@ -14,6 +18,12 @@
     display:blocked;
     }**/
 }
+
+.name{
+max-width: 100%;
+margin-top: -50px;
+}
+
 
 .navbar{
     font-family: 'Antic Didone', sans-serif;
@@ -28,6 +38,7 @@
         display:none;
     }
 }
+
 @media screen and (min-width: 768px) {
     .stacked{
         display: none;
@@ -44,6 +55,9 @@
     display:none;
     }**/
 }
+
+
+
 
 .flag{
     height: 15px;
@@ -78,7 +92,7 @@
     margin: auto;
     min-width: 95%;
     min-height: 95%;
-    min-height: 95vh;
+    min-height: 100%;
     background-color: white;
     padding-top: 25px;
     padding-left: 25px;
@@ -113,7 +127,7 @@ p{
 }
 
 h1,h2{
-    font-family: 'Elsie', serif;
+    font-family: 'Antic Didone', sans-serif;
     text-align: center;
 }
 
@@ -146,6 +160,8 @@ body {
 .selfie {
     width: 90%;
     filter: drop-shadow(0 0 0.75rem black);
+    margin-left: 40%;
+    margin-top: -23%;
 }
 
 
@@ -255,7 +271,7 @@ background-color: white;
 }
 
 .toggleButton {
-        font-family: 'Elsie', serif;
+        font-family: 'Antic Didone', sans-serif;
         text-align: center;
         background-color: white; /* White background */
         border: none;           /* No borders */
