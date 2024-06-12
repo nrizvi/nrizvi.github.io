@@ -132,7 +132,7 @@ h1,h2{
 }
 
 a{
-    color: dimgrey;
+    color: #ac244c;
 }
 
 
@@ -229,7 +229,7 @@ h1{
 }
 
 .TCLink:link, .TCLink:hover, .TCLink:active, .TCLink:visited, .TCLink{
-    color: black;
+    color: #ac244c;
     font-weight: bold;
 }
 
@@ -305,4 +305,48 @@ background-color: white;
 color: #B59410;
 }
 
+.figure{
+width: 25%;
+}
+
+.pink { color: #F5A0C7; }
+.yellow { color: #F7E696; }
+.blue { color: #A3D8F8; }
+
+/**.chart-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .chart-container svg {
+            display: block;
+            margin: auto;
+        }
+        .chartCaption {
+            text-align: center;
+            margin-top: 10px;
+        }**/
+
+        .chartCaption {
+            text-align: center;
+            margin-top: 15px;
+            font-style: italic;
+            font-size: 1em;
+        }
+
+        .chart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+        }
+        #chart, #pictogram {
+            max-width: 100%;
+            height: 100%;
+        }
+#HRIchecklist{
+max-width: 95%;
+}
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat927.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat927.png), auto !important;} /* End https://www.cursors-4u.com */

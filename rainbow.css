@@ -1,0 +1,25 @@
+.infinity path {
+            fill: none;
+            stroke-width: 20;
+            stroke-linecap: round;
+            animation: dash 5s linear infinite;
+        }
+
+        @keyframes dash {
+            0% {
+                stroke-dasharray: 0, 200;
+                stroke-dashoffset: 0;
+            }
+            50% {
+                stroke-dasharray: 100, 200;
+                stroke-dashoffset: -100;
+            }
+            100% {
+                stroke-dasharray: 0, 200;
+                stroke-dashoffset: -200;
+            }
+        }
+
+        .rainbow {
+            stroke: url(#rainbowGradient);
+        }
