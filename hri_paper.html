@@ -100,7 +100,48 @@
                     </div>
                     <div class="row text-center">
                         <div class="col text-center">
-                           <h4><a href="https://dl.acm.org/doi/10.1145/3613904.3642798">Read and cite the full paper here.</a></h4><br>
+                           <h3><a href="https://dl.acm.org/doi/10.1145/3613904.3642798">Read</a> our full paper and
+
+                                <!-- Clickable text to trigger modal -->
+   <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">click here to cite it!</a></h3>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Copy Citation</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <textarea id="citationText" class="form-control" rows="10">
+                            @inproceedings{10.1145/3613904.3642798,
+                            author = {Rizvi, Naba and Wu, William and Bolds, Mya and Mondal, Raunak and Begel, Andrew and Munyaka, Imani N. S.},
+                            title = {Are Robots Ready to Deliver Autism Inclusion?: A Critical Review},
+                            year = {2024},
+                            isbn = {9798400703300},
+                            publisher = {Association for Computing Machinery},
+                            address = {New York, NY, USA},
+                            url = {https://doi.org/10.1145/3613904.3642798},
+                            doi = {10.1145/3613904.3642798},
+                            abstract = {The marginalization of autistic people in our society today is multi-faceted as it includes violence that is both physical and ideological in nature. It is rooted in the dehumanization, infantilization, and masculinization of autistic people and pervasive even in contemporary research studies that continue to echo ableist ideologies from the past. In this work, we identify how HRI research reproduces systemic social inequalities and explain how they align with historical misrepresentations, and other systemic barriers. We analyzed 142 papers focusing on HRI and autism published between 2016 and 2022. We critique these studies through a mixed-methods analysis of their definition of autism, study designs, participant recruitment, and results. Our findings indicate that HRI research stigmatizes autism in three dimensions - 1) the pathologization of autism, 2) gender and age-based essentialism, and 3) power imbalances. Our work uncovered that about 90\% of HRI research during the timeline explored excluded the perspectives of autistic people, particularly those from understudied groups. We recommend broadening the inclusion of autistic people, considering research objectives beyond clinical use, and diversifying collaborations, foundational works considered, \& participant demographics for more inclusive future work.},
+                            booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+                            articleno = {69},
+                            numpages = {18},
+                            keywords = {autism, human-computer interaction, robotics},
+                            location = {<conf-loc>, <city>Honolulu</city>, <state>HI</state>, <country>USA</country>, </conf-loc>},
+                            series = {CHI '24}
+                            }
+                                        </textarea>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary" onclick="copyText()">Copy to Clipboard</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
                         </div>
                     </div>
                     <div class="row">
@@ -143,6 +184,16 @@
             </div>
         </div>
     </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function copyText() {
+        var copyText = document.getElementById("citationText");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); // For mobile devices
+        document.execCommand("copy");
+        alert("Text copied to clipboard");
+      }
+    </script>
 <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
     <script src="pie_chart.js"></script>
