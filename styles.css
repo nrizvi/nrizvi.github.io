@@ -192,16 +192,16 @@ height: 100%;
 
 
 .icon{
-    width: 35px;
-    padding-right: 12px;
+    width: 50px;
+    padding-right: 15px;
     display: inline-block;
     position: relative;
 }
 
-.devpost{
+.icon2{
     display: inline-block;
     position: relative;
-    height: 25px;
+    height: 45px;
 }
 
 .graphic{
@@ -265,7 +265,7 @@ font-size:small;
 font-weight:700;
 }
 
-.icon:hover,.devpost:hover {
+.icon:hover,.icon2:hover {
    transform: scale(1.5);
 }
 
@@ -348,5 +348,10 @@ width: 25%;
         }
 #HRIchecklist{
 max-width: 95%;
+}
+
+iframe{
+width: auto !important;
+margin: 0 auto !important;
 }
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat927.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat927.png), auto !important;} /* End https://www.cursors-4u.com */
