@@ -1,5 +1,26 @@
 var data = [
 {
+        "icon": "images/anitaborg.webp",
+        "alt": "Anita B Dot Org logo",
+        "title": "Selected for AnitaB.Org Board of Trustees",
+        "date": "Sep 26, 2024",
+        "desc": "Excited to serve as a Graduate Student Trustee!"
+    },
+{
+        "icon": "images/cmdit.svg",
+        "alt": "Command-It logo",
+        "title": "Panelist at Tapia",
+        "date": "Sep 21, 2024",
+        "desc": "Presented at the Accessibility in Computer Science workshop"
+    },
+    {
+        "icon": "images/lime.png",
+        "alt": "Lime connect logo",
+        "title": "J&J Access-Ability Lime Connect Scholarship, Finalist",
+        "date": "July 11, 2024",
+        "desc": ""
+    },
+    {
         "icon": "images/chi24.png",
         "alt": "logo for the 2024 CHI conference",
         "title": "First-Author Paper at CHI 2024",
