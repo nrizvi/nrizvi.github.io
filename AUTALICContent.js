@@ -15,7 +15,7 @@ function loadMainContent() {
     <br>
     <br>
     Try AUTALIC:
-    A dataset of 2,400 sentences in context from Reddit. 
+    A dataset of 2,400 sentences in context from Reddit. To learn more, <a href="https://arxiv.org/abs/2410.16520">check out our paper!</a>
     <br>
     <br>
     Our data is carefully selected
