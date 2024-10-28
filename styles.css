@@ -19,9 +19,34 @@
     }**/
 }
 
+#largeScreenSelfie{
+    margin-top: -30px;
+}
+
+@media screen and (max-width: 460px) {
+#largeScreenSelfie{
+    display: none;
+}
+#mobileSelfie{
+    display: block;
+}
+}
+
+@media screen and (min-width: 460px) {
+    #largeScreenSelfie{
+        display: block;
+    }
+    #mobileSelfie{
+        display: none;
+    }
+    }
+
+
 .name{
 max-width: 100%;
 margin-top: -50px;
+z-index: -1;
+    position:relative;
 }
 
 
@@ -101,6 +126,11 @@ margin-top: -50px;
     border-color: dimgrey;
     border-width: 3px;
     border-spacing: 2px;
+    z-index: 11;
+}
+
+#homeContentMargin{
+    margin-top: -15%;
 }
 
 .whiteFrame {
@@ -140,16 +170,17 @@ a{
 body {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to bottom,#F5A0C7 33.33%,#F7E696 33.33%, #F7E696 66.66%, #A3D8F8 66.66%);
-    background-size: cover;
+    /* background-image: linear-gradient(to bottom,#F5A0C7 33.33%,#F7E696 33.33%, #F7E696 66.66%, #A3D8F8 66.66%);
+    background-size: cover; */
+    background-color: #ffedf5;
     margin: 0px;
 }
 
-.pinkBG{
+/* .pinkBG{
 background-color: #F5A0C7 !important;
 width: 100%;
 height: 100%;
-}
+} */
 
 .no-bullets {
   list-style-type: none; /* Remove bullets */
@@ -353,6 +384,18 @@ max-width: 95%;
 iframe{
 width: auto !important;
 margin: 0 auto !important;
+}
+
+#otherContentMargin{
+    margin-top: 50px;
+}
+
+#homeIcon{
+    max-width:40px;
+}
+
+#NavHead{
+    margin-left: auto;
 }
 
 .btn-close {
