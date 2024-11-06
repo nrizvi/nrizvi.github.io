@@ -11,7 +11,7 @@
     <!-- Stylesheets -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    
+    <link rel="stylesheet" type="text/css" href="animations.css">
     <!-- Fonts and Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,11 +52,18 @@
             <div class="row">
                 <div class="col-md-12">
                     <a href="https://nrizvi.github.io/">
-                        <span id="largeScreenSelfie"><img src="images/header_art.png" class="text-center name" alt="an illustration of Naba Rizvi, the Scientist in Pink"></span>
-                        <span id="mobileSelfie"><img src="images/header_mobile.png" class="text-center name" alt="an illustration of Naba Rizvi, the Scientist in Pink"></span>
+                        <!-- <span id="largeScreenSelfie"> -->
+                            <div class="header-container">
+                                <img id="headText" src="images/headerbg.svg" class="text-center name" alt="Naba Rizvi, the Scientist in Pink">
+                                <img id="headImage" src="images/self-resting.png" class="text-center name">
+                                <div id="colorCircle"></div>
+                            </div>                                                    
+                        <!-- </span> -->
+                        <!-- <span id="mobileSelfie"><img src="images/headerbg.svg" class="text-center name" alt="an illustration of Naba Rizvi, the Scientist in Pink"></span> -->
                     </a>
                 </div>
             </div>
+
             <div id="homeContentMargin" class="whiteBG">
                 <header>
                     <div class="row">
@@ -67,9 +74,17 @@
                             <p>A multi-award winning <span class="semibold">CSE PhD</span> Candidate at <img src="images/ucsd.png" alt="UCSD logo" class="flag" /> <span class="semibold">UC San Diego</span>, advised by <a href="https://www.imanimunyaka.com/" class="semibold">Dr. Imani Munyaka</a>.
                                 <br><br>My research has been featured in media channels reaching over <span class="semibold">36.6 million viewers</span> and earned me a <a href="https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student" class="semibold">commendation letter from VP Kamala Harris!</a>
                                 <br><a href="https://nrizvi.github.io/hri_paper"><b>Check out our latest CHI paper on autism inclusion in HRI research!</b></a>
+                                <br><br><b>Interned at:</b> Google Health AI (2022), Microsoft Research (2020), Adobe Research (2019)
                                 <br><br>
                                 <b>Collaborators:</b> <a href="https://nedjmaou.github.io/" class="semibold">Dr. Nedjma Ousidhoum</a>, <a href="https://andrewbegel.com/" class="semibold">Dr. Andrew Begel</a>, <a href="https://polytechnic.purdue.edu/profile/will2330" class="semibold">Dr. Rua M. Williams</a>
-                                <br><br><b>Interned at:</b> Google Health AI (2022), Microsoft Research (2020), Adobe Research (2019)
+                                <br><br><b>Mentees:</b>
+                                <a href="https://www.linkedin.com/in/hcstrickland/">Harper Strickland</a>, 
+                                <a href="https://www.linkedin.com/in/dgitelman/">Daniel Gitelman</a>, 
+                                <a href="https://www.linkedin.com/in/tristanmcooper/ ">Tristan Cooper</a>, 
+                                <a href="https://raunak2007.github.io/raunak/">Raunak Mondal</a>, 
+                                <a href="https://www.linkedin.com/in/william-wu-33bb59202/">William Wu</a>, 
+                                <a href="https://ainazestiritech.dev">Ainaz Estiri</a>, 
+                                <a href="www.linkedin.com/in/taggertsmith">Taggert Smith</a>
                             </p>
                             <p><i class="fa fa-trophy goldColor" aria-hidden="true"></i><b> Selected Awards:</b> 2024 ACM FAccT travel grant, 2022 CSTA CS Hero, 2020 NCWIT Collegiate Award</p>
                             <p><b>Research Interests:</b> human-AI alignment, fairness, bias, AI safety</p>

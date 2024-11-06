@@ -11,6 +11,9 @@
     width:60% !important;
     margin-left: 35% !important;
     }
+    #headImage {
+        margin-top: 0 !important;
+    }
     /**.extrainfo{
     display:none;
     }
@@ -19,11 +22,12 @@
     }**/
 }
 
-#largeScreenSelfie{
+/* #largeScreenSelfie{
     margin-top: -30px;
-}
+} */
 
-@media screen and (max-width: 460px) {
+
+/* @media screen and (max-width: 460px) {
 #largeScreenSelfie{
     display: none;
 }
@@ -39,7 +43,7 @@
     #mobileSelfie{
         display: none;
     }
-    }
+    } */
 
 
 .name{
@@ -126,12 +130,11 @@ z-index: -1;
     border-color: dimgrey;
     border-width: 3px;
     border-spacing: 2px;
-    z-index: 11;
+    z-index: 10;
+    position: relative;
+    overflow: visible;
 }
 
-#homeContentMargin{
-    margin-top: -15%;
-}
 
 .whiteFrame {
     width: 95%;
@@ -396,6 +399,37 @@ margin: 0 auto !important;
 
 #NavHead{
     margin-left: auto;
+}
+
+.header-container {
+    position: relative; /* To make sure absolutely positioned elements align to this container */
+    text-align: center;
+}
+
+#headText {
+    position: relative; /* Keeps it in the normal flow so it's positioned behind headImage */
+    z-index: 1; /* Lower z-index so it's behind headImage */
+}
+
+#headImage {
+    position: absolute; /* Position it over headText */
+    left: 50%;
+    transform: rotate(20deg);
+    margin-left: -60%;
+    margin-top: 5%;
+    z-index: 2; /* Higher z-index so it displays on top */
+}
+
+#colorCircle {
+    position: absolute;
+    background-color: #F5A0C7;
+    border-radius: 50%; /* Makes it a circle */
+    width: 55%; /* Set width as 25% of headImage's height */
+    height: 55%; /* Same as width for a circular shape */
+    bottom: -45%; /* Adjust to match visually perceived bottom of rotated headImage */
+    left: 0;
+    transform: translateX(-50%); /* Center horizontally */
+    z-index: 3; /* Display on top of headImage, but behind whiteBG */
 }
 
 .btn-close {
