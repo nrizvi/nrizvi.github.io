@@ -63,15 +63,17 @@ body, html {
 
 .dropdown select {
     /* padding: 10px 20px; */
+    padding: 5px;
     margin-bottom: 25px;
     font-size: 16px;
-    background-color: #ffffff;
+    background-color: #fff;
     color: #aa2348;
     border: none;
     cursor: pointer;
     display: none; /* Initially hidden */
     opacity: 0; /* Fade-in */
     transition: opacity 0.5s ease;
+    text-align: center;
 }
 /* Container styling */
 .container {
@@ -89,16 +91,6 @@ body, html {
 }
 
 
-.dropdown select {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #ffffff;
-    color: #aa2348;
-    border: none;
-    cursor: pointer;
-    display: none; /* Initially hidden */
-    transition: opacity 0.5s ease; /* Smooth fade-in effect */
-}
 
 em {
     font-style: italic !important;
