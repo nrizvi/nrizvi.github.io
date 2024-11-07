@@ -1,5 +1,5 @@
 // Content for the typing animation
-const introTextContent = "Hi!<br> I am Naba Rizvi <br> a scientist who works on responsible AI.";
+const introTextContent = "Hi!<br> I am Naba Rizvi, a scientist who works on responsible AI.";
 const introQuestionContent = "And you are...?";
 
 
