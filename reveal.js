@@ -2,7 +2,6 @@
 const introTextContent = "Hi! <br> I am Naba Rizvi, a scientist who works on responsible AI.";
 const introQuestionContent = "And you are...?";
 
-
 // Function for typing effect that handles HTML tags like <br>
 function typeText(element, text, delay, callback) {
     let i = 0;
@@ -26,25 +25,32 @@ function typeText(element, text, delay, callback) {
     }, delay);
 }
 
-// Start the typing animation when the page loads
-window.onload = function() {
+// Start the typing animation when the DOM is loaded
+document.addEventListener("DOMContentLoaded", function() {
     const introTextElement = document.getElementById("introText");
     const introQuestionElement = document.getElementById("introQuestion");
     const dropdown = document.getElementById("userTypeSelect");
 
-    // Hide dropdown initially
-    dropdown.style.display = "none";
+    // Display the full intro text immediately to ensure visibility on slow connections
+    introTextElement.innerHTML = introTextContent;
 
-    // Type the intro text first
-    typeText(introTextElement, introTextContent, 10, () => {
-        // Once intro text is complete, type the question
-        typeText(introQuestionElement, introQuestionContent, 10, () => {
-            // Show the dropdown after the question completes
-            dropdown.style.display = "block"; // Make dropdown visible
-            dropdown.style.opacity = 1; // Fade-in effect if needed
+    // Determine delay for typing effect based on device type
+    const typingDelay = /Mobi|Android/i.test(navigator.userAgent) ? 20 : 10;
+
+    // Start typing animation with a delay to allow initial load
+    setTimeout(() => {
+        introTextElement.innerHTML = ""; // Clear initial text to start typing effect
+        typeText(introTextElement, introTextContent, typingDelay, () => {
+            // Once intro text is complete, type the question
+            typeText(introQuestionElement, introQuestionContent, typingDelay, () => {
+                // Show the dropdown after the question completes
+                dropdown.style.display = "block";
+                dropdown.style.opacity = 1;
+            });
         });
-    });
-};
+    }, 500); // Adjust delay as needed for better performance on slow connections
+});
+
 
 
 
