@@ -2,26 +2,29 @@
 const introTextContent = "Hi! <br> I am Naba Rizvi, a scientist who works on responsible AI.";
 const introQuestionContent = "And you are...?";
 
-
 // Function for typing effect that handles HTML tags like <br>
 function typeText(element, text, delay, callback) {
     let i = 0;
     const interval = setInterval(() => {
-        // Check if we're at the start of an HTML tag
-        if (text[i] === "<") {
-            // Find the closing tag and add the entire tag at once
-            const closingIndex = text.indexOf(">", i);
-            element.innerHTML += text.substring(i, closingIndex + 1);
-            i = closingIndex + 1;
-        } else {
-            // Add the next character if it's not part of an HTML tag
-            element.innerHTML += text[i];
-            i++;
-        }
-
         if (i >= text.length) {
             clearInterval(interval);
             if (callback) callback();
+            return;
+        }
+
+        if (text[i] === "<") {
+            const closingIndex = text.indexOf(">", i);
+            if (closingIndex === -1) {
+                // No closing '>', treat as normal text
+                element.innerHTML += text[i];
+                i++;
+            } else {
+                element.innerHTML += text.substring(i, closingIndex + 1);
+                i = closingIndex + 1;
+            }
+        } else {
+            element.innerHTML += text[i];
+            i++;
         }
     }, delay);
 }
@@ -45,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-
 
 
 // Content based on the selected persona
