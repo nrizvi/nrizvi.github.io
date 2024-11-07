@@ -432,6 +432,13 @@ margin: 0 auto !important;
     z-index: 3; /* Display on top of headImage, but behind whiteBG */
 }
 
+.modal {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .btn-close {
 display: none;
         }

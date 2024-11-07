@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,11 +7,14 @@
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- Stylesheets -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="animations.css">
+    <link rel="stylesheet" type="text/css" href="reveal.css">
     <!-- Fonts and Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,25 +32,32 @@
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top transparentObj">
-        <a class="navbar-brand" href="#">Jump to...</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link text-dark" href="#projsShow">Projects</a>
-                <a class="nav-item nav-link text-dark" href="#pubsShow">Publications</a>
-                <a class="nav-item nav-link text-dark" href="#awardsShow">Awards</a>
-                <a class="nav-item nav-link text-dark" href="#talksShow">Talks</a>
-                <a class="nav-item nav-link text-dark" href="#updatesShow">Updates</a>
+    <div id="topBox">
+        <h1 class="intro-text" id="introText"></h1>
+    </div>
+    <div id="bottomBox">
+        <div class="question-dropdown-container">
+            <h2 class="intro-question" id="introQuestion"></h2>
+            <div class="dropdown">
+                <select id="userTypeSelect" onchange="selectOption(this)">
+                    <option value="" disabled selected>Select one...</option>
+                    <option value="recruiter">a recruiter</option>
+                    <option value="academic">an academic</option>
+                    <option value="media">a media person</option>
+                    <option value="student">a student</option>
+                    <option value="curious">a curious soul</option>
+                </select>
             </div>
         </div>
-    </nav>
+    </div>
+    
+
+
+
 
     <!-- Main Content -->
-    <div class="container topMargin">
+    <div class="container">
+            <!-- Navbar -->
         <div class="whiteFrame">
             <div class="row">
                 <div class="col-md-12">
@@ -55,11 +65,9 @@
                         <!-- <span id="largeScreenSelfie"> -->
                             <div class="header-container">
                                 <img id="headText" src="images/headerbg.svg" class="text-center name" alt="Naba Rizvi, the Scientist in Pink">
-                                <img id="headImage" src="images/self-resting.png" class="text-center name">
+                                <img id="headImage" src="images/self-resting.png" class="text-center name" alt="A photo of me tilting my head and holding it with my left hand. I am a young woman with brown eyes, rose gold hair, smokey eye makeup, and a neutral facial expression.">
                                 <div id="colorCircle"></div>
                             </div>                                                    
-                        <!-- </span> -->
-                        <!-- <span id="mobileSelfie"><img src="images/headerbg.svg" class="text-center name" alt="an illustration of Naba Rizvi, the Scientist in Pink"></span> -->
                     </a>
                 </div>
             </div>
@@ -71,23 +79,9 @@
                             <audio id="audioPlayer" src="name.m4a"></audio>
                             <p><i><i class="fa fa-volume-up icon" aria-hidden="true" onclick="playAudio()"></i> It's pronounced "nub-buh rizz-vee"<br>
                                 She/her <br><img src="images/usa.png" alt="USA" class="flag" /><img src="images/pakistan.png" alt="Pakistan" class="flag" /> <img src="images/morocco.png" alt="Morocco" class="flag" /> <img src="images/canada.png" alt="Canada" class="flag" /> <img src="images/saudi.png" alt="Saudi Arabia" class="flag" />  </i></p>
-                            <p>A multi-award winning <span class="semibold">CSE PhD</span> Candidate at <img src="images/ucsd.png" alt="UCSD logo" class="flag" /> <span class="semibold">UC San Diego</span>, advised by <a href="https://www.imanimunyaka.com/" class="semibold">Dr. Imani Munyaka</a>.
-                                <br><br>My research has been featured in media channels reaching over <span class="semibold">36.6 million viewers</span> and earned me a <a href="https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student" class="semibold">commendation letter from VP Kamala Harris!</a>
-                                <br><a href="https://nrizvi.github.io/hri_paper"><b>Check out our latest CHI paper on autism inclusion in HRI research!</b></a>
-                                <br><br><b>Interned at:</b> Google Health AI (2022), Microsoft Research (2020), Adobe Research (2019)
-                                <br><br>
-                                <b>Collaborators:</b> <a href="https://nedjmaou.github.io/" class="semibold">Dr. Nedjma Ousidhoum</a>, <a href="https://andrewbegel.com/" class="semibold">Dr. Andrew Begel</a>, <a href="https://polytechnic.purdue.edu/profile/will2330" class="semibold">Dr. Rua M. Williams</a>
-                                <br><br><b>Mentees:</b>
-                                <a href="https://www.linkedin.com/in/hcstrickland/">Harper Strickland</a>, 
-                                <a href="https://www.linkedin.com/in/dgitelman/">Daniel Gitelman</a>, 
-                                <a href="https://www.linkedin.com/in/tristanmcooper/ ">Tristan Cooper</a>, 
-                                <a href="https://raunak2007.github.io/raunak/">Raunak Mondal</a>, 
-                                <a href="https://www.linkedin.com/in/william-wu-33bb59202/">William Wu</a>, 
-                                <a href="https://ainazestiritech.dev">Ainaz Estiri</a>, 
-                                <a href="www.linkedin.com/in/taggertsmith">Taggert Smith</a>
+                                <div id="contentText"></div>
                             </p>
-                            <p><i class="fa fa-trophy goldColor" aria-hidden="true"></i><b> Selected Awards:</b> 2024 ACM FAccT travel grant, 2022 CSTA CS Hero, 2020 NCWIT Collegiate Award</p>
-                            <p><b>Research Interests:</b> human-AI alignment, fairness, bias, AI safety</p>
+                            <!-- <h4 class="text-center"><a href="https://nrizvi.github.io/AUTALIC.html"> Access the AUTALIC dataset here </a> or check out <a href="https://nrizvi.github.io/hri_paper.html">our robotics paper  here!</a></h4> -->
                             <p><b>Contact Me:</b> nabarizvi99[at]gmail[dot]com</p>
                             <span class="socialmedia">
                                 <a href="https://twitter.com/Naba_Rizvi" target="_blank"><img src="images/twitter.png" class="icon" alt="Twitter link"></a>
@@ -99,89 +93,134 @@
                             </span>
                         </div>
                     </div>
-                    <div class="row"><div class="col-md-12 text-center smallfont"><br><p><i>Last updated Sep 25, 2024.</i></p></div></div>
+                    <div class="row"><div class="col-md-12 text-center smallfont"><br><p><i>Last updated Nov 7, 2024.</i></p></div></div>
                 </header>
                 <br>
-                <!-- <div id="AutalicDataset" class="text-center">
-                    <h3>The AUTALIC dataset is <a href="https://github.com/nrizvi/AUTALIC/">available here</a>.</h3>
-                    <h4>Pass: debiasai2024</h4>
-                </div> -->
                 <hr>
-
-                <!-- Accordion Content -->
-                <!-- Projects Section -->
-                    <div class="row text-center">
-                        <button class="toggleButton" onclick="toggleVisibility('projsShow')">
-                            Projects <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                    <div id="projsShow" class="row accordionData" style="display:none">
-                        <br>
-                        <h3 class="text-center">Check out <a href="https://nrizvi.github.io/AUTALIC.html"> dataset here </a> and our robotics paper <a href="https://nrizvi.github.io/hri_paper.html">here!</a></h3>
-                        <div class="projects row align-items-center" id="projects"></div>
-                    </div>
-
-                    <!-- Publications Section -->
-                    <div class="row text-center">
-                        <button class="toggleButton" onclick="toggleVisibility('pubsShow')">
-                            Publications <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                    <div id="pubsShow" class="row accordionData" style="display:none">
-                        <span class="publications" id="publications"></span>
-                    </div>
-
-                    <!-- Awards Section -->
-                    <div class="row text-center">
-                        <button class="toggleButton" onclick="toggleVisibility('awardsShow')">
-                            Awards <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                    <div id="awardsShow" class="row accordionData" style="display:none">
-                        <span class="awards" id="awards"></span>
-                    </div>
-
-                    <!-- Talks Section -->
-                    <div class="row text-center">
-                        <button class="toggleButton" onclick="toggleVisibility('talksShow')">
-                            Talks <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                    <div id="talksShow" class="row text-center accordionData" style="display:none">
-                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/dakau7heLig?si=M-3YAwz8PUsZVBd0" title="Hum TV interview on responsible AI (in Urdu)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <span class="talks" id="talks"></span>
-                    </div>
-
-                    <!-- Updates Section -->
-                    <div class="row text-center">
-                        <button class="toggleButton" onclick="toggleVisibility('updatesShow')">
-                            Updates <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
-                        </button>
-                    </div>
-                    <div id="updatesShow" class="row accordionData" style="display:none">
-                        <div class="stacked" id="stacked"></div>
-                        <div class="timeline" id="timeline"></div>
-                    </div>
+                
+                    <h2>Projects</h2>
                     <br>
-            </div>
-        </div>
-    </div>
-
+                    <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner text-center">
+                            
+                            <!-- Slide 1 -->
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@scientistinpink/video/7430869082611731743" data-video-id="7430869082611731743" style="width: 100%;">
+                                            <section>
+                                                <a target="_blank" title="@scientistinpink" href="https://www.tiktok.com/@scientistinpink?refer=embed">@scientistinpink</a> 
+                                                The data you use really matters when it comes to AI. That’s why we created AUTALIC: a dataset of sentences from Reddit that classify anti-autistic speech in context. It’s developed to decrease community censorship by lowering false positives, because autism is not a bad word.
+                                                <a target="_blank" title="♬ original sound - scientistinpink" href="https://www.tiktok.com/music/original-sound-7430869056200231710?refer=embed">♬ original sound - scientistinpink</a>
+                                            </section>
+                                        </blockquote>
+                                        <script async src="https://www.tiktok.com/embed.js"></script>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>Introducing AUTALIC</h4>
+                                        <p>We developed the first dataset that contains anti-autistic ableist speech annotated in-context by trained annotators. You can use it to reduce bias and censorship in automated content moderation platforms, and more!</p>
+                                        <p><a href="https://nrizvi.github.io/AUTALIC.html">Check it out here.</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Slide 2 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@scientistinpink/video/7376044928004066606" data-video-id="7376044928004066606" style="width: 100%;">
+                                            <section>
+                                                <a target="_blank" title="@scientistinpink" href="https://www.tiktok.com/@scientistinpink?refer=embed">@scientistinpink</a>
+                                                <a target="_blank" title="♬ original sound - scientistinpink" href="https://www.tiktok.com/music/original-sound-7430869056200231710?refer=embed">♬ original sound - scientistinpink</a>
+                                            </section>
+                                        </blockquote>
+                                        <script async src="https://www.tiktok.com/embed.js"></script>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>Humanizing Robots...While Dehumanizing Autistic People?</h4>
+                                        <p>90% of researchers designing and developing robots for autistic people do not even take autistic people's perspectives into consideration!</p>
+                                        <p><a href="https://nrizvi.github.io/hri_paper.html">Learn more about this and how you can help change things here.</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Slide 3 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="images/skin_tone.gif" class="d-block" alt="several thick lines representing a variety of skin tones">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>Making AI Work Better For All Skin Tones</h4>
+                                        <p>As a research intern at Google, my project focused on improving the accuracy and efficiency of skin type recognition, to improve applications like DermAssist work better for people of all skin types.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Slide 4 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="images/unbiased.png" class="d-block" alt="the unBIASED logo">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>UNBIASED: Addressing Implicit Bias in Healthcare</h4>
+                                        <p>We co-designed technologies with primary care providers to help them become aware of their own implicit biases by analyzing their body language.</p>
+                                        <p><a href="https://arxiv.org/pdf/2204.07897">Read more about it here!</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Slide 5 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="images/margincall.gif" class="d-block" alt="an animation showing a user interaction with Margin Call, the paragraphs appear on the right and their generated summaries on the left">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>Margin Call: Making Speed Reading Accessible</h4>
+                                        <p>As an Adobe intern, I worked on developing a web application that automatically generates summaries of paragraphs to help make speed reading more accessible.</p>
+                                        <p><a href="https://aclanthology.org/W19-8632.pdf">Read more about it here!</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Slide 6 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="images/hera.gif" class="d-block" alt="a user is asked to upload their ECG results, which Hera explains to them, and shows them external resources for help">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>Hera: AI-Powered Patient Self-Advocacy</h4>
+                                        <p>My 2020 NCWIT Collegiate Award application that analyzes electrocardiogram results to help women better understand their own health and advocate for themselves.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                        <!-- Carousel controls with black buttons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+                
     <!-- Scripts -->
-    <script src="accordion.js"></script>
-    <script src="timeline.js"></script>
-    <script src="projects.js"></script>
-    <script src="publications.js"></script>
-    <script src="awards.js"></script>
-    <script src="talks.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     
+    <script src="reveal.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 
     <!-- Footer -->
-    <footer>
-        <p class="text-center credit"> This website was made with ♥ by Naba Rizvi.</p>
-    </footer>
+
     <script>
         function toggleVisibility(id) {
             const section = document.getElementById(id);
@@ -201,5 +240,9 @@
             }
         }
     </script>
+    <hr>
+        <footer>
+            <p class="text-center credit"> This website was made with ♥ by Naba Rizvi.</p>
+        </footer>
 </body>
 </html>

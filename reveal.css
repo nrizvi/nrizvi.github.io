@@ -1,0 +1,126 @@
+/* General styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+/* Fullscreen overlay boxes */
+#topBox, #bottomBox {
+    position: fixed;
+    width: 100vw;
+    height: 50vh;
+    background-color: #aa2348;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    z-index: 10;
+    transition: transform 1s ease;
+}
+
+/* Position for top and bottom boxes */
+#topBox {
+    top: 0;
+}
+
+#bottomBox {
+    bottom: 0;
+}
+
+/* Center text at the bottom of topBox */
+.intro-text {
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 20px; /* Position at bottom center */
+    width: 100%;
+    text-align: center;
+    margin: 0; /* Remove any default margin */
+}
+
+.question-dropdown-container {
+    display: flex;
+    align-items: center; /* Vertically center-align text and dropdown */
+    justify-content: center; /* Center the entire container horizontally */
+    gap: 10px; /* Space between question and dropdown */
+}
+
+
+/* Intro question and dropdown in bottomBox */
+.intro-question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+ /* Space between question and dropdown */
+}
+
+.dropdown select {
+    /* padding: 10px 20px; */
+    margin-bottom: 25px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #aa2348;
+    border: none;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    opacity: 0; /* Fade-in */
+    transition: opacity 0.5s ease;
+}
+/* Container styling */
+.container {
+    display: none;
+    padding: 20px;
+}
+
+/* Animation for sliding boxes */
+.slide-right {
+    transform: translateX(100vw);
+}
+
+.slide-left {
+    transform: translateX(-100vw);
+}
+
+
+.dropdown select {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #aa2348;
+    border: none;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    transition: opacity 0.5s ease; /* Smooth fade-in effect */
+}
+
+em {
+    font-style: italic !important;
+}
+
+.d-block{
+    max-height: 250px;
+    margin: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: dimgray; /* Set background color to dim gray */
+    background-size: 100%;     /* Ensure icon is fully visible */
+    border-radius: 50%;        /* Make it circular */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0.15;             /* Adjust opacity for visibility */
+    top: 10px;              /* Position controls at the bottom of the carousel */
+    bottom: auto;                 /* Remove any top alignment */
+    transform: translateY(0);  /* Ensure they stay at the set 'bottom' position */
+    z-index: 2;                /* Ensure controls stay above content */
+}

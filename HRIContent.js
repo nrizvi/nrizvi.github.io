@@ -26,9 +26,9 @@ function loadMainContent() {
     ADHD, dyslexia, dyscalculia, and many more!
     According to this framework, autism is a distinct <b>neurotype</b>, or
     unique way of thinking or expressing our thoughts. </p>
-    Unfortunately, robotics research fails to include these diverse perspectives.
+    <p>Unfortunately, robotics research fails to include these diverse perspectives.
     Our latest paper quantifies the impact of this lack of inclusion in the ways
-        we research, design, develop, and test robots for autistic people.
+        we research, design, develop, and test robots for autistic people.</p>
 <br>
 </div>
         <div class="col col-md-6 col-sm-12 col-xs-12 text-center">
