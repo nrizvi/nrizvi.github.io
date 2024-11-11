@@ -39,9 +39,9 @@ document.addEventListener("DOMContentLoaded", function() {
     dropdown.style.display = "none";
 
     // Type the intro text first
-    typeText(introTextElement, introTextContent, 10, () => {
+    typeText(introTextElement, introTextContent, 15, () => {
         // Once intro text is complete, type the question
-        typeText(introQuestionElement, introQuestionContent, 10, () => {
+        typeText(introQuestionElement, introQuestionContent, 25, () => {
             // Show the dropdown after the question completes
             dropdown.style.display = "block"; // Make dropdown visible
             dropdown.style.opacity = 1; // Fade-in effect if needed
