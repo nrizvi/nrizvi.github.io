@@ -35,7 +35,7 @@ body, html {
 .intro-text {
     font-size: 1.5em;
     position: absolute;
-    bottom: 20px; /* Position at bottom center */
+    /* bottom: 20px;  Position at bottom center */
     width: 100%;
     text-align: center;
     margin: 0; /* Remove any default margin */
