@@ -23,9 +23,20 @@ function loadMainContent() {
     we created the first dataset to work towards improving human-AI alignment and AI safety
     for autistic people. We hope this dataset will decrease censorship of community perspectives.
     
-    <br>
-    <br>
-    <a href='https://github.com/nrizvi/AUTALIC/'>Try it out here!</a></p>
+    <br><br>
+    <b>If you use our dataset, please cite our paper as follows:</b><br>
+@misc
+{rizvi2024autalicdatasetantiautisticableist,
+      title={AUTALIC: A Dataset for Anti-AUTistic Ableist Language In Context}, 
+      author={Naba Rizvi and Harper Strickland and Daniel Gitelman and Tristan Cooper and Alexis Morales-Flores and Michael Golden and Aekta Kallepalli and Akshat Alurkar and Haaset Owens and Saleha Ahmedi and Isha Khirwadkar and Imani Munyaka and Nedjma Ousidhoum},
+      year={2024},
+      eprint={2410.16520},
+      archivePrefix={arXiv},
+      primaryClass={http://cs.CL},
+      url={https://arxiv.org/abs/2410.16520}, 
+}
+    <br><br>
+    <a href='https://github.com/nrizvi/AUTALIC/'>Click here to access the dataset!</a></p>
     <p><b>Pass: debiasai2024</b></p>
 </div>
 
