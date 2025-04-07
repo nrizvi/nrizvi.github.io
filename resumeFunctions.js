@@ -95,66 +95,106 @@ function createElement(tag, html = "") {
   function renderPublications(data, container) {
     const sec = renderSection(container, "Publications", "publications");
   
-    // Under Review
+    // Helper function to render a publication section with numbering and bolding
+    function renderPubSubsection(title, pubs) {
+      const div = createElement('div');
+      const h5 = createElement('h5', title);
+      div.appendChild(h5);
+    
+      const ol = document.createElement('ol');
+      ol.className = 'publication-list'; // Apply our new styles
+    
+      pubs.forEach((pub) => {
+        const formatted = pub.replaceAll("N. Rizvi", "<b>N. Rizvi</b>");
+        const li = createElement('li', formatted);
+        ol.appendChild(li);
+      });
+    
+      div.appendChild(ol);
+      sec.appendChild(div);
+    }
+    
+  
     if (data.under_review && data.under_review.length) {
-      const uvDiv = createElement('div');
-      const uvTitle = createElement('h5', "Under Review");
-      uvDiv.appendChild(uvTitle);
-  
-      const ul = createUlNoBullets();
-      data.under_review.forEach(pub => {
-        const li = createElement('li', pub);
-        ul.appendChild(li);
-      });
-      uvDiv.appendChild(ul);
-      sec.appendChild(uvDiv);
+      renderPubSubsection("Under Review", data.under_review);
     }
   
-    // Conference Proceedings
     if (data.conference_proceedings && data.conference_proceedings.length) {
-      const cpDiv = createElement('div');
-      const cpTitle = createElement('h5', "Conference Proceedings");
-      cpDiv.appendChild(cpTitle);
-  
-      const ul = createUlNoBullets();
-      data.conference_proceedings.forEach(pub => {
-        const li = createElement('li', pub);
-        ul.appendChild(li);
-      });
-      cpDiv.appendChild(ul);
-      sec.appendChild(cpDiv);
+      renderPubSubsection("Conference Proceedings", data.conference_proceedings);
     }
   
-    // Workshops Organized
     if (data.workshops_organized && data.workshops_organized.length) {
-      const woDiv = createElement('div');
-      const woTitle = createElement('h5', "Workshops Organized");
-      woDiv.appendChild(woTitle);
-  
-      const ul = createUlNoBullets();
-      data.workshops_organized.forEach(pub => {
-        const li = createElement('li', pub);
-        ul.appendChild(li);
-      });
-      woDiv.appendChild(ul);
-      sec.appendChild(woDiv);
+      renderPubSubsection("Workshops Organized", data.workshops_organized);
     }
   
-    // Workshop Proceedings & Panels
     if (data.workshop_proceedings_panels && data.workshop_proceedings_panels.length) {
-      const wppDiv = createElement('div');
-      const wppTitle = createElement('h5', "Workshop Proceedings & Panels");
-      wppDiv.appendChild(wppTitle);
-  
-      const ul = createUlNoBullets();
-      data.workshop_proceedings_panels.forEach(pub => {
-        const li = createElement('li', pub);
-        ul.appendChild(li);
-      });
-      wppDiv.appendChild(ul);
-      sec.appendChild(wppDiv);
+      renderPubSubsection("Workshop Proceedings & Panels", data.workshop_proceedings_panels);
     }
   }
+  
+  // function renderPublications(data, container) {
+  //   const sec = renderSection(container, "Publications", "publications");
+  
+  //   // Under Review
+  //   if (data.under_review && data.under_review.length) {
+  //     const uvDiv = createElement('div');
+  //     const uvTitle = createElement('h5', "Under Review");
+  //     uvDiv.appendChild(uvTitle);
+  
+  //     const ul = createUlNoBullets();
+  //     data.under_review.forEach(pub => {
+  //       const li = createElement('li', pub);
+  //       ul.appendChild(li);
+  //     });
+  //     uvDiv.appendChild(ul);
+  //     sec.appendChild(uvDiv);
+  //   }
+  
+  //   // Conference Proceedings
+  //   if (data.conference_proceedings && data.conference_proceedings.length) {
+  //     const cpDiv = createElement('div');
+  //     const cpTitle = createElement('h5', "Conference Proceedings");
+  //     cpDiv.appendChild(cpTitle);
+  
+  //     const ul = createUlNoBullets();
+  //     data.conference_proceedings.forEach(pub => {
+  //       const li = createElement('li', pub);
+  //       ul.appendChild(li);
+  //     });
+  //     cpDiv.appendChild(ul);
+  //     sec.appendChild(cpDiv);
+  //   }
+  
+  //   // Workshops Organized
+  //   if (data.workshops_organized && data.workshops_organized.length) {
+  //     const woDiv = createElement('div');
+  //     const woTitle = createElement('h5', "Workshops Organized");
+  //     woDiv.appendChild(woTitle);
+  
+  //     const ul = createUlNoBullets();
+  //     data.workshops_organized.forEach(pub => {
+  //       const li = createElement('li', pub);
+  //       ul.appendChild(li);
+  //     });
+  //     woDiv.appendChild(ul);
+  //     sec.appendChild(woDiv);
+  //   }
+  
+  //   // Workshop Proceedings & Panels
+  //   if (data.workshop_proceedings_panels && data.workshop_proceedings_panels.length) {
+  //     const wppDiv = createElement('div');
+  //     const wppTitle = createElement('h5', "Workshop Proceedings & Panels");
+  //     wppDiv.appendChild(wppTitle);
+  
+  //     const ul = createUlNoBullets();
+  //     data.workshop_proceedings_panels.forEach(pub => {
+  //       const li = createElement('li', pub);
+  //       ul.appendChild(li);
+  //     });
+  //     wppDiv.appendChild(ul);
+  //     sec.appendChild(wppDiv);
+  //   }
+  // }
   
   /**
    * TEACHING
