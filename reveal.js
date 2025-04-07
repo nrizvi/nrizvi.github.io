@@ -53,19 +53,19 @@ document.addEventListener("DOMContentLoaded", function() {
 // Content based on the selected persona
 const contentOptions = {
     recruiter: `
-        <p>I am a multi-award winning UCSD CSE PhD candidate with 10 publications, graduating in June 2025, and actively looking for FT roles/internships. I have previously interned at Google Health AI, Microsoft, and Adobe Research.</p>
-        <p><b>Research focus:</b> responsible AI, AI alignment, and safety for underserved communities.</p>
+        <p>I am a multi-award winning UCSD CSE PhD candidate with first-author publications at ACL, FAccT, CHI, and CSCW, graduating in June 2025, and actively looking for FT roles/internships. I have previously interned at Google Health AI, Microsoft, and Adobe Research.</p>
+        <p><b>Research focus:</b> responsible AI, AI alignment, and safety.</p>
         <p><i class="fa fa-trophy goldColor" aria-hidden="true"></i><b> Selected Awards:</b> 2024 ACM FAccT travel grant, 2022 CSTA CS Hero, 2020 NCWIT Collegiate Award, 2019 Adobe Research WiT Award, 2018 Google WTM Award</p>
         <p>To see my full list of publications, check out my <a href="https://scholar.google.com/citations?user=N94ugmQAAAAJ&hl=en">scholar profile!</a></p>
         `,
     media: `
-        <p>I am a scientist working on 'neuroinclusive AI', or ensuring that AI does not marginalize neurodivergent and autistic people. For example, I have studied the ways in which robotics research may dehumanize autistic people, and created recommendations for the people who create, fund, or control the publication of our work to promote more inclusive practices. </p>
+        <p>I am a scientist working on 'neuroinclusive AI', or ensuring that AI does not marginalize neurodivergent and autistic people. Since AI has a tendency to treat "autism" and other disabilities as bad words, my latest project focuses on improving AI-powered content moderation to not censor community perspectives.</p>
         <p>I have received several prestigious awards, interned at companies like Google, Microsoft, and Adobe, and been featured in both national and international media.</p>
-        <p>My research has been featured in media channels reaching over <span class="semibold">36.6 million viewers</span> and earned me a <a href="https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student" class="semibold">commendation letter from VP Kamala Harris!</a></p>
+        <p>My research has been featured in media channels reaching over <span class="semibold">36.6 million viewers</span> and earned me a <a href="https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student" class="semibold">commendation letter from former VP Kamala Harris!</a></p>
     `,
     academic: `
-        <p>I am a multi-award winning UCSD CSE PhD Candidate graduating in June 2025 advised by <a href="https://www.imanimunyaka.com/" class="semibold">Dr. Imani Munyaka</a>. My research lies at the intersection of human-centered AI and accessibility, and I am actively looking for faculty/post doc roles.</p>
-        <p>I have 10 peer-reviewed publications, 7 years of experience teaching CS fundamentals to students, provided 1:1 mentorship to 10 students, and have collaborated with interdisciplinary teams from both academia and industry. I’ve formerly interned at Google Health AI, Microsoft, and Adobe Research.</p>
+        <p>I am a multi-award winning UCSD CSE PhD Candidate graduating in June 2025 advised by <a href="https://www.imanimunyaka.com/" class="semibold">Dr. Imani Munyaka</a>. My research focuses on responsible, human-centered, and accessible AI. I am actively looking for faculty/post doc roles.</p>
+        <p>I have 8 peer-reviewed publications, 7 years of experience teaching CS fundamentals to students, provided 1:1 mentorship to 10 students, and have collaborated with interdisciplinary teams from both academia and industry. I’ve formerly interned at Google Health AI, Microsoft, and Adobe Research.</p>
         <p>My research has been featured in media channels reaching over <span class="semibold">36.6 million viewers</span> and earned me a <a href="https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student" class="semibold">commendation letter from VP Kamala Harris!</a><p>
         <p><i class="fa fa-trophy goldColor" aria-hidden="true"></i><b> Selected Awards:</b> 2024 ACM FAccT travel grant, 2022 CSTA CS Hero, 2020 NCWIT Collegiate Award, 2019 Adobe Research WiT Award, 2018 Google WTM Award</p>      
         <p>
