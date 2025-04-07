@@ -1,0 +1,340 @@
+{
+    "name": "Naba Rizvi",
+    "contact": {
+      "email": "firstnamelastname99@gmail.com",
+      "website": "http://nrizvi.github.io/"
+    },
+    "summary": "I am a multi-award-winning responsible AI researcher using quantitative metrics, participatory data collection, empirical studies, and other data-driven methods to de-bias and evaluate AI models and agents. I have first-author publications at <b>ACL</b>, <b>FAccT</b>, <b>CHI</b>, and <b>CSCW</b>, grants from <b>Google</b> and <b>NCWIT</b>, and research internships at <b>Google AI</b>, <b>Microsoft</b>, and <b>Adobe</b> leading to publications and product impact. Invited speaker for panels at major conferences, including <b>NeurIPS</b>, <b>SigCSE</b>, <b>Tapia</b>, and <b>GHC</b>.",
+    "employment_history": [
+      {
+        "years": "2022 – Present",
+        "position": "Graduate Student Researcher, UC San Diego",
+        "details": [
+          "Developed a novel benchmark dataset to measure & mitigate anti-autistic bias in AI, fine-tuned & tested 10 pre-trained LLMs",
+          "Creating a novel bias-aware weighting scheme for annotation labels to improve accuracy and efficiency",
+          "Measured anti-autistic bias in a systematic critical review of HRI research as a case study in applied AI research, and provided community-generated recommendations for more inclusive research practices",
+          "Disseminated my research as an invited interviewee for 6 national and international media organizations, and a multimedia content creator on TikTok, Instagram, and YouTube with over 12,000 views",
+          "Three first-author full papers for FAccT, ACL, and CSCW in review",
+          "Published full first-author paper quantifying anti-autistic bias at CHI 2024"
+        ]
+      },
+      {
+        "years": "Summer 2022",
+        "position": "Student Researcher, Google",
+        "details": [
+          "Refined & tested comparison and scale-based annotation schemes to increase human-AI alignment in skin type labeling for DermAssist",
+          "Increased the efficiency of data labeling 2x, improved agreement among dermatologists and non-expert annotators",
+          "Conducted a comprehensive mixed methods study with qualitative observations and semi-structured interviews",
+          "Examined data using descriptive statistics, correlations, inferential tests, and a qualitative thematic analysis"
+        ]
+      },
+      {
+        "years": "2020–2022",
+        "position": "Graduate Student Researcher, UnBIASED",
+        "details": [
+          "Designed technologies making implicit biases toward minority patients explicit to healthcare providers",
+          "Identified and quantified interruptions in speech using social signals, and conducted wireframe usability testing",
+          "First-author short paper, and co-authored late breaking paper presented @ CHI 2022",
+          "Led the QTBIPOC PD workshop as a first-author at CHI 2022, and obtained $3,000 in funding from Google"
+        ]
+      },
+      {
+        "years": "Summer 2020",
+        "position": "Research Intern, Microsoft",
+        "details": [
+          "Developed and deployed an online course promoting autism inclusion, used to train thousands of employees",
+          "Created a likert scale survey with open-ended questions, conducted qualitative & quantitative analysis of data",
+          "First-author full paper presented at AMCIS 2021"
+        ]
+      },
+      {
+        "years": "Summer 2019",
+        "position": "Research Intern, Adobe",
+        "details": [
+          "Made speed reading accessible for Blind and Low-Vision users by generating paragraph-based summaries",
+          "Developed the alpha version of web app using an NLP model for the backend, and conducted a needs-finding assessment through surveys",
+          "First-author short paper presented at INLG 2019"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "years": "2020 – present",
+        "degree": "Ph.D., University of California, San Diego, Computer Science",
+        "notes": "Thesis topic: De-Biasing Neuronormative AI through Data-Driven and Participatory Approaches"
+      },
+      {
+        "years": "2020 – 2023",
+        "degree": "M.Sc., University of California, San Diego, Computer Science"
+      },
+      {
+        "years": "2016 – 2020",
+        "degree": "B.Sc., University of Toledo, Information Technology, Magna Cum Laude",
+        "notes": "Received $67,000 in scholarship."
+      }
+    ],
+    "awards_distinctions": [
+      {
+        "year": 2024,
+        "items": [
+          "Academic Careers Workshop, competitive workshop for star PhD students in their last year, organized by CMDIT and the University of Chicago",
+          "Johnson&Johnson Access Ability Lime Connect Scholarship, $10,000, finalist",
+          "University of Chicago, AI & Science Summer School (declined)",
+          "ACM Travel Grant, FAccT 2024, $1,600 (declined)"
+        ]
+      },
+      {
+        "year": 2023,
+        "items": [
+          "The US White House, Commendation Letter, from Vice President Kamala Harris recognizing my work on inclusive AI",
+          "CS Hero Award, awarded by Computer Science Teacher’s Association"
+        ]
+      },
+      {
+        "year": 2022,
+        "items": [
+          "UCSD CSE Department Nominee, Google PhD Fellowship, 1 of 2 nominees out of 300",
+          "UCSD CSE Department Nominee, Microsoft PhD Fellowship, 1 of 2 nominees out of 300"
+        ]
+      },
+      {
+        "year": 2020,
+        "items": [
+          "Google Research, selected as Computer Science Research Mentee, a competitive program for outstanding students applying for PhD programs",
+          " National Center for Women & IT, Collegiate Award, $10,000",
+          "WomenTech Network, IT Graduate of the Year Nominee"
+        ]
+      },
+      {
+        "year": 2019,
+        "items": [
+          "Adobe Research, Women in Tech Scholarship, $10,000, 4% acceptance rate",
+          "Google Research, Women Techmakers Scholarship, $10,000",
+          "Palantir, Women in Tech Scholarship, $7,000, 1.5% acceptance rate",
+          "National Science Foundation, Tapia Conference Scholarship, $1,000",
+          "Google, I/O Women Techmakers Scholarship, $1,000",
+          "University of Toledo, Advocate Award, for establishing and leading the first ACM-W chapter in North-West Ohio",
+          "JetBrains, Most Efficient Hack, out of 103 teams at HackCWRU 6",
+          "Fifth Third Bank, Best Use of Data, out of 153 teams at RevolutionUC",
+          "Rockwell Automation, Rockwell’s Diversity Prize, out of 103 teams at RevolutionUC"
+        ]
+      },
+      {
+        "year": 2018,
+        "items": [
+          "Google, Women Techmakers Scholarship, $10,000",
+          "Amazon, Best AWS Hack, out of 110 teams at Technica",
+          "UC San Diego, First Place, out of 109 teams at SDHacks",
+          "National Science Foundation, Innovation Corps, accelerated my startup",
+          "Capital One, Best Financial Hack, out of 110 teams at Technica",
+          "AnitaB.org, Grace Hopper Celebration Scholar"
+        ]
+      },
+      {
+        "year": 2017,
+        "items": [
+          "ScarletHacks, First Place, out of 45 teams"
+        ]
+      },
+      {
+        "year": 2016,
+        "items": [
+          "University of Toledo, International Student Scholarship, $40,000"
+        ]
+      }
+    ],
+    "research_publications": {
+      "under_review": [
+        "N. Rizvi, T. Smith, M. Bolds, H. Strickland, and I. Munyaka, ““I hadn’t thought about that”: Creators of human-like AI weigh in on ethics & neurodivergence,” ACM Conference on Fairness, Accountability, and Transparency, 2025.",
+        "N. Rizvi, H. Strickland, D. Gitelman, T. Cooper, N. Ousidhoum, and I. Munyaka, <a href='https://arxiv.org/abs/2410.16520'>“AUTALIC: A dataset for anti-AUTistic ableist language in context,”</a> arXiv Preprint arXiv:2410.16520, 2024. https://arxiv.org/pdf/2410.16520"
+      ],
+      "conference_proceedings": [
+        "N. Rizvi, A. Morales-Flores, M. Abid, N. Ousidhoum, and I. Munyaka, “From granular grief to binary belief: A collaborative optimization of annotation techniques for anti-Autistic language,” ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing, 2025.",
+        "N. Rizvi, W. Wu, M. Bolds, R. Mondal, A. Begel, and I. Munyaka, <a href='https://dl.acm.org/doi/pdf/10.1145/3613904.3642798'>“Are robots ready to deliver Autism inclusion?: A critical review,”</a> in CHI Conference on Human Factors in Computing Systems, 2024. https://dl.acm.org/doi/pdf/10.1145/3613904.3642798",
+        "L. Dirks, E. Beneteau, J. Sabin, et al., “Battling bias in primary care encounters: Informatics designs to support clinicians,” in CHI Conference on Human Factors in Computing Systems Extended Abstracts, 2022, pp. 1–9.",
+        "N. Rizvi, A. Begel, and H. Annabi, <a href='https://andrewbegel.com/papers/begel-amcis2021.pdf'>“Inclusive interpersonal communication education for technology professionals,”</a> in Americas Conference on Information Systems, 2021.",
+        "A. D. Smith, A. A. Garcia, I. Arawjo, et al., “Keepin’ it real about race in HCI,” 5, vol. 28, ACM New York, NY, USA, 2021, pp. 28–33.",
+        "N. Rizvi, S. Gehrmann, L. Wang, and F. Dernoncourt, “Margin call: An accessible web-based text viewer with generated paragraph summaries in the Margin,” in International Natural Language Generation Conference, 2019. https://aclanthology.org/W19-8632.pdf",
+        "N. Rizvi, D. Guerrero, A. Furnas, and M. Heaney, “Lobbying firms & their role in American politics,” in Deep Blue Repositories, 2015."
+      ],
+      "workshops_organized": [
+        "N. Rizvi, R. Casanova-Perez, H. Ramaswamy, E. Bascom, L. Dirks, and N. Weibel, QTBIPOC PD: Exploring the intersections of race, gender, and sexual orientation in participatory design, Workshop organized at the 2022 CHI Conference on Human Factors in Computing Systems, 2022."
+      ],
+      "workshop_proceedings_panels": [
+        "N. Rizvi, H. Ramaswamy, and e. al et., “Making hidden bias visible: Designing a feedback ecosystem for primary care providers,” in Proceedings of the \"Designing Ecosystems for Complex Health Needs\" Workshop at the 2022 CHI Conference on Human Factors in Computing Systems, 2022.",
+        "R. E. Ladner, C. Seim, A. Sharif, N. Rizvi, and A. Glasser, “Experiences of computing students with disabilities,” in Proceedings of the 52nd ACM Technical Symposium on Computer Science Education, 2021, pp. 939–940.",
+        "N. Rizvi and K. Mrini, “Using HCI to tackle race and gender bias in ADHD diagnosis,” in Proceedings of the \"What’s Race Got to Do with It? Engaging in Race in HCI\" Workshop at the 2020 ACM CHI Conference on Human Factors in Computing Systems, 2020."
+      ]
+    },
+    "teaching_guest_lectures": [
+      {
+        "year": 2024,
+        "entries": [
+          "UC Berkeley, Institute of Design, Invited Speaker, on Neuro-Inclusive AI",
+          "UC San Diego, Future of Work Conference, Invited Speaker, on Responsible AI and Disabilities"
+        ]
+      },
+      {
+        "year": 2023,
+        "entries": [
+          "UC San Diego, Interactive Computing Seminar, Guest Lecture, on Autism Inclusion in HRI Research"
+        ]
+      },
+      {
+        "year": 2022,
+        "entries": [
+          "Sweetwater High School, Instructor, Introduction to Creative Computing"
+        ]
+      },
+      {
+        "year": 2019,
+        "entries": [
+          "Eberly Women’s Center, Instructor, Introduction to Web Development"
+        ]
+      },
+      {
+        "years": "2018-2020",
+        "entries": [
+          "University of Toledo, ACM-W, Biweekly Technical Workshop Organizer and Instructor",
+          "Toledo Early College, in collaboration with Girls Who Code, Instructor, Introduction to Python"
+        ]
+      },
+      {
+        "years": "2017-2018",
+        "entries": [
+          "Toledo Early College, in collaboration with Girls Who Code, Instructor, Introduction to JavaScript"
+        ]
+      }
+    ],
+    "outreach": {
+      "media_interviews": [
+        {
+          "year": 2023,
+          "entries": [
+            "Hum TV News, 36.6 million viewers, watch my interview on disability inclusion in AI",
+            "Geo News, 15.5 million viewers, on ethical AI for health",
+            "San Diego Union Tribune, 2.1 million readers, UCSD Student Pursuing More Accessibility, Equity in Computer Science for Others Who Are Also Neurodiverse"
+          ]
+        },
+        {
+          "year": 2022,
+          "entries": [
+            "UCSD Magazine, All Together Now",
+            "UCSD Today, Vice President Kamala Harris Honors CSE Student Naba Rizvi (PhD ’25)"
+          ]
+        }
+      ],
+      "media_publications": [
+        {
+          "year": 2019,
+          "entry": "AccessComputing, Our Experiences as Speakers at the Grace Hopper Conference"
+        }
+      ],
+      "invited_talks": [
+        {
+          "year": 2025,
+          "entry": "Artificial Intelligence and the Rights of Autistic People (AIRA) by the European Artificial Intelligence & Society Fund, hybrid event, on neuroinclusive AI"
+        },
+        {
+          "year": 2024,
+          "entry": "UCSD Future of Work Conference, 90 attendees, hybrid event, on neuroinclusive AI"
+        },
+        {
+          "year": 2022,
+          "entry": "Tapia 2022, 2,000 attendees, panel on disability disclosure"
+        },
+        {
+          "year": 2021,
+          "entry": "NeurIPS 2021, 15,000+ attendees, panel on AI and neurodiversity"
+        },
+        {
+          "year": 2021,
+          "entry": "SigCSE 2021, 2,000 attendees, panel on the experiences of students with disabilities"
+        },
+        {
+          "year": 2019,
+          "entry": "Grace Hopper Celebration 2019, 25,000 attendees, panel on navigating disability in tech"
+        }
+      ],
+      "leadership": [
+        {
+          "years": "2024-Present",
+          "entries": [
+            "Graduate Student Trustee for Anita B.org",
+            "Content Creator for Scientist in Pink"
+          ]
+        },
+        {
+          "year": 2023,
+          "entries": [
+            "Course Developer and Instructor, UCSD, Human-Centered AI"
+          ]
+        },
+        {
+          "year": 2022,
+          "entries": [
+            "Lead Organizer for QTBIPOC PD workshop at CHI 2022"
+          ]
+        },
+        {
+          "years": "2021-2022",
+          "entries": [
+            "K-12 Outreach Coordinator at UCSD GradWiC"
+          ]
+        },
+        {
+          "years": "2018-Present",
+          "entries": [
+            "Founder of Non-Traditional Techies, 1,700+ members"
+          ]
+        },
+        {
+          "years": "2017-2020",
+          "entries": [
+            "Founder, Chair, and Student Advisor of ACM-W at University of Toledo",
+            "Facilitator of Girls Who Code at Toledo Early College"
+          ]
+        },
+        {
+          "years": "2017-2019",
+          "entries": [
+            "Regional Representative of Ohio Community of Women in Computing"
+          ]
+        }
+      ]
+    },
+    "mentees": [
+      {
+        "years": "2024-present",
+        "names": [
+          "<a href='https://www.linkedin.com/in/hcstrickland/'>Harper Strickland</a>, Graduate Student at UCSD",
+          "<a href='www.linkedin.com/in/taggertsmith'>Taggert Smith</a>, Undergraduate Student at UCSD",
+          "<a href='https://www.linkedin.com/in/ainaz-estiri-03b0b5195/'>Ainaz Estiri</a>, Undergraduate Student at UCSD",
+          "<a href='https://www.linkedin.com/in/tristanmcooper/'>Tristan Cooper</a>, Undergraduate Student at UCSD → Master's at UCSD",
+          "<a href='https://www.linkedin.com/in/dgitelman/'>Daniel Gitelman</a>, Undergraduate Student at UCSD → Master's at Carnegie Mellon University"
+        ]
+      },
+      {
+        "years": "2023-present",
+        "names": [
+          "<a href='https://raunak2007.github.io/raunak/'>Raunak Mondal</a>, Student at Del Norte High School"
+        ]
+      },
+      {
+        "years": "2023-2024",
+        "names": [
+          "<a href='https://www.linkedin.com/in/william-wu-33bb59202/'>William Wu</a>, Student at Del Norte High School → UCSD"
+        ]
+      },
+      {
+        "years": "2021-2022",
+        "names": [
+          "<a href='https://www.linkedin.com/in/manas-bedmutha/'>Manas Bedmutha</a>, Masters Student at UCSD → PhD at UCSD",
+          "Harshini Ramaswamy, Undergrad at UCSD → Carnegie Mellon University",
+          "Lisa Wang, High school student (Girls Who Code) → Carnegie Mellon University"
+        ]
+      }
+    ],
+    "references": "Available on Request"
+  }
+  

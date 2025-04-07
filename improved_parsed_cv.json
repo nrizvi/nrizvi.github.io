@@ -1,0 +1,102 @@
+{
+    "cv-llt.tex": {},
+    "awards.tex": {
+        "Awards \\& Distinctions": [
+            " (2024)",
+            " (2024)",
+            " (2024)",
+            " (2024)",
+            "% (2023)",
+            "% (2023)",
+            "% (2022)",
+            "% (2022)",
+            "% (2020)",
+            "% (2020)",
+            "% (2020)",
+            "% (2019)",
+            "% (2019)",
+            "% (2019)",
+            "% (2019)",
+            "% (2019)",
+            "% (2019)",
+            "% (2019)",
+            "% (2019)",
+            "% (2019)",
+            "% (2018)",
+            "% (2018)",
+            "% (2018)",
+            "% (2018)",
+            "% (2018)",
+            "% (2018)",
+            "% (2017)",
+            "% (2016)"
+        ]
+    },
+    "publications.tex": {},
+    "teaching.tex": {
+        "Teaching \\& Guest Lectures": [
+            " (2024)",
+            " (2024)",
+            " (2023)",
+            " (2022)",
+            " (2019)",
+            " (2018-2020)",
+            " (2018-2020)",
+            " (2017-2018)"
+        ]
+    },
+    "employment.tex": {
+        "Employment History": [
+            " (2022 -- Present)",
+            "% (2023)",
+            "% (Summer 2022)",
+            "% (2020-2022)",
+            "% (Summer 2020)",
+            "% (Summer 2019)"
+        ]
+    },
+    "misc.tex": {
+        "Media Interviews": [
+            "Hum TV News, \\textbf{36.6 million viewers}, \\href{https://www.youtube.com/watch?v=dakau7heLig&ab_channel=HUMNews}{\\underline{watch my interview on disability inclusion in AI}} (2023)",
+            "Geo News, \\textbf{15.5 million viewers}, on ethical AI for health (2023)",
+            "San Diego Union Tribune, \\textbf{2.1 million readers}, \\href{https://www.sandiegouniontribune.com/2023/02/11/ucsd-student-pursuing-more-accessibility-equity-in-computer-science-for-others-who-are-also-neurodiverse/}{\\emph{UCSD Student Pursuing More Accessibility, Equity in Computer Science for Others Who Are Also Neurodiverse}} (2023)",
+            "UCSD Magazine, \\href{https://today.ucsd.edu/story/all-together-now}{\\emph{All Together Now}} (2022)",
+            "UCSD Today, \\href{https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student}{\\emph{Vice President Kamala Harris Honors CSE Student Naba Rizvi (PhD \u201925)}} (2022)"
+        ],
+        "Media Publications": [
+            "AccessComputing, \\href{https://www.washington.edu/accesscomputing/resources/accesscomputing-news-december-2019/our-experiences-speakers-grace-hopper-conference}{\\emph{Our Experiences as Speakers at the Grace Hopper Conference}} (2019)"
+        ],
+        "Invited Talks": [
+            "Artificial Intelligence and the Rights of Autistic People (AIRA) by the European Artificial Intelligence \\& Society Fund, \\textbf{hybrid event}, on neuroinclusive AI (2025)",
+            "UCSD Future of Work Conference, \\textbf{~90 attendees, hybrid event}, on neuroinclusive AI (2024)",
+            "Tapia 2022, \\textbf{2,000 attendees}, panel on disability disclosure (2022)",
+            "NeurIPS 2021, \\textbf{15,000+ attendees}, panel on AI and neuroqueerness (2021)",
+            "NeurIPS 2021, \\textbf{15,000+ attendees}, panel on AI and neurodiversity (2021)",
+            "SigCSE 2021, \\textbf{2,000 attendees}, panel on the experiences of students with disabilities (2021)",
+            "Grace Hopper Celebration 2019, \\textbf{25,000 attendees}, panel on the navigating disability in tech (2019)"
+        ],
+        "Leadership": [
+            "\\textbf{Graduate Student Trustee} for Anita B.org (2024-Present)",
+            "\\textbf{Content Creator} for Scientist in Pink (2024-Present)",
+            "\\textbf{Course Developer and Instructor}, UCSD, \\textit{Human-Centered AI} (2023)",
+            "\\textbf{Lead Organizer} for QTBIPOC PD workshop at CHI 2022 (2022)",
+            "\\textbf{K-12 Outreach Coordinator} at UCSD GradWiC (2021-2022)",
+            "\\textbf{Founder} of Non-Traditional Techies, 1,700+ members (2018-Present)",
+            "\\textbf{Founder, Chair, and Student Advisor} of ACM-W at University of Toledo (2017-2020)",
+            "\\textbf{Facilitator} of Girls Who Code at Toledo Early College (2017-2020)",
+            "\\textbf{Regional Representative} of Ohio Community of Women in Computing (2017-2019)"
+        ],
+        "Mentees": [
+            "Harper Strickland, Graduate Student at UCSD (2024-present)",
+            "Taggert Smith, Undergraduate Student at UCSD (2024-present)",
+            "Tristan Cooper, Undergraduate Student at UCSD $\\rightarrow$ Masters at UCSD (2024-present)",
+            "Daniel Gitelman, Undergraduate Student at UCSD $\\rightarrow$ Masters at Carnegie Mellon University (2024-present)",
+            "Ainaz Estiri, Undergraduate Student at UCSD (2024-2025)",
+            "Raunak Mondal, Student at Del Norte High School (2023-2025)",
+            "William Wu, Student at Del Norte High School $\\rightarrow$ UCSD (2023-2024)",
+            "Manas Bedmutha, Masters Student at UCSD $\\rightarrow$ PhD at UCSD (2021-2022)",
+            "Harshini Ramaswamy, Undergrad at UCSD $\\rightarrow$ Carnegie Mellon University (2021-2022)",
+            "Lisa Wang, High school student (Girls Who Code) $\\rightarrow$ Carnegie Mellon University (2021-2022)"
+        ]
+    }
+}
