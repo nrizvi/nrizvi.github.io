@@ -1,10 +1,87 @@
 var data = [
-{
+    {
+        "icon": "images/facct.jpg", // Placeholder - Conference Logo
+        "alt": "FAccT conference logo", // Placeholder
+        "title": "First-Author paper at <b>FAccT</b>",
+        "date": "2025",
+        "desc": "First-author paper accepted at the ACM Conference on Fairness, Accountability, and Transparency: ““I hadn’t thought about that”: Creators of human-like AI weigh in on ethics & neurodivergence.”"
+    },
+    {
+        "icon": "images/cscw.png", 
+        "alt": "CSCW conference logo", 
+        "title": "First-Author paper at <b>CSCW 2025</b>",
+        "date": "2025",
+        "desc": "Accepted first author paper at ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing: “From granular grief to binary belief: A collaborative optimization of annotation techniques for anti-Autistic language.”"
+    },
+    {
+        "icon": "images/eucap.png", 
+        "alt": "EUCAP logo", 
+        "title": "Invited Talk: AIRA Symposium",
+        "date": "2025",
+        "desc": "Invited speaker at the 'Artificial Intelligence and the Rights of Autistic People' (AIRA) event by the European Artificial Intelligence & Society Fund."
+    },
+    // {
+    //     "icon": "images/ucsd.png", // Standard UCSD Logo
+    //     "alt": "UC San Diego logo",
+    //     "title": "Graduate Student Researcher, UC San Diego",
+    //     "date": "2022 – Present",
+    //     "desc": "Developing benchmark datasets, fine-tuning/evaluating LLMs, prompt engineering for safety/alignment, focusing on AI alignment, content moderation, and participatory methods." // Summarized from CV text
+    // },
+    {
+       "icon": "images/anitab.png", 
+       "alt": "AnitaB.org logo", 
+       "title": "Graduate Student Trustee for <b>AnitaB.org</b>",
+       "date": "2024 – Present",
+       "desc": "Serving as a Graduate Student Trustee for AnitaB.org."
+    },
+    {
+        "icon": "images/neuroinclusive_AI.png", 
+        "alt": "logo for neuroinclusive AI", 
+        "title": "Preprint Publication: AUTALIC Dataset",
+        "date": "October 2024",
+        "desc": "Published preprint: “AUTALIC: A dataset for anti-AUTistic ableist language in context.” <a href='https://arxiv.org/pdf/2410.16520' class='semibold'>arXiv:2410.16520</a>"
+    },
+    {
         "icon": "images/chi24.png",
         "alt": "logo for the 2024 CHI conference",
-        "title": "First-Author Paper at CHI 2024",
+        "title": "First-Author Paper at <b>CHI 2024</b>",
         "date": "May 11, 2024",
         "desc": "Excited to present the full paper on our critical systematic literature review of HRI at the CHI conference in person!"
+    },
+    {
+        "icon": "images/ucsd.png", 
+        "alt": "UC San Diego logo",
+        "title": "Invited Speaker: UCSD Future of Work Conference",
+        "date": "2024",
+        "desc": "Invited speaker on Responsible AI and Disabilities (also listed as neuroinclusive AI talk) at the UCSD Future of Work Conference (90 attendees)."
+    },
+    {
+        "icon": "images/ucb.svg", 
+        "alt": "UC Berkeley logo", 
+        "title": "Invited Speaker: <b>UC Berkeley</b> Institute of Design",
+        "date": "2024",
+        "desc": "Invited speaker on Neuro-Inclusive AI at UC Berkeley's Institute of Design."
+    },
+    {
+        "icon": "images/cmdit.svg", 
+        "alt": "CMDIT logo", 
+        "title": "Selected for Academic Careers Workshop",
+        "date": "2024",
+        "desc": "Selected for the competitive Academic Careers Workshop for final year PhD students, organized by CMDIT and the University of Chicago."
+    },
+    {
+        "icon": "images/limeconnect.png", 
+        "alt": "Lime Connect logo", 
+        "title": "Johnson&Johnson / Lime Connect Scholarship Finalist",
+        "date": "2024",
+        "desc": "Finalist for the $10,000 Johnson&Johnson Access Ability Lime Connect Scholarship."
+    },
+    {
+        "icon": "images/whitehouse.png", 
+        "alt": "White House seal", 
+        "title": "Commendation Letter from The US White House",
+        "date": "2023",
+        "desc": "Received a Commendation Letter from Vice President Kamala Harris recognizing work on inclusive AI."
     },
 {
         "icon": "images/csta.jpeg",

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg" style="background-color: #ffffff; border-radius: 8px; font-family: Inter, sans-serif;">
+
+    <title>Converging Lines Animation (Accessible)</title>
+    <desc>Six colored lines (with accessible contrast) converge into two lines (black and grey).</desc>
+  
+    <defs>
+      <animate id="drawConverge"
+               attributeName="stroke-dashoffset"
+               from="1000" to="0"     dur="2s"   fill="freeze" repeatCount="indefinite" /> </defs>
+  
+    <g stroke-width="4" stroke-linecap="round">
+  
+      <path d="M 0 42.86 L 250 105" stroke="#C00000" fill="none" stroke-dasharray="1000">
+        <use href="#drawConverge"/>
+      </path>
+      <path d="M 0 85.71 L 250 105" stroke="#D95319" fill="none" stroke-dasharray="1000">
+        <use href="#drawConverge"/>
+      </path>
+      <path d="M 0 128.57 L 250 105" stroke="#E69900" fill="none" stroke-dasharray="1000">
+        <use href="#drawConverge"/>
+      </path>
+  
+      <path d="M 0 171.43 L 250 195" stroke="#006400" fill="none" stroke-dasharray="1000">
+        <use href="#drawConverge"/>
+      </path>
+      <path d="M 0 214.29 L 250 195" stroke="#0000CD" fill="none" stroke-dasharray="1000">
+        <use href="#drawConverge"/>
+      </path>
+      <path d="M 0 257.14 L 250 195" stroke="#4B0082" fill="none" stroke-dasharray="1000">
+        <use href="#drawConverge"/>
+      </path>
+  
+      <path d="M 250 105 L 500 105" stroke="#000000" fill="none" stroke-dasharray="1000">
+         <animate attributeName="stroke-dashoffset"
+               begin="2s" from="1000"
+               to="0"
+               dur="2s"   fill="freeze"
+               repeatCount="indefinite" />
+      </path>
+  
+      <path d="M 250 195 L 500 195" stroke="#777777" fill="none" stroke-dasharray="1000">
+         <animate attributeName="stroke-dashoffset"
+               begin="2s" from="1000"
+               to="0"
+               dur="2s"   fill="freeze"
+               repeatCount="indefinite" />
+      </path>
+    </g>
+  
+    </svg>
+</body>
+
+
+</html>

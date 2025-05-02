@@ -1,17 +1,31 @@
 var data2 = [
     {
-        "heading": "Neurodiverse AI",
-        "summary": "Making AI more inclusive and accessible for autistic users.",
-        "photo": "images/neurodiverse_ai.png",
-        "altText":"logo for neurodiverse ai",
-        "link": "https://www.sandiegouniontribune.com/lifestyle/people/story/2023-02-11/ucsd-student-pursuing-more-accessibility-equity-in-computer-science-for-others-who-are-also-neurodiverse",
+        "heading": "Ethical AI Agents",
+        "summary": "The first benchmark for evaluating anti-autistic ableist speech classification.",
+        "photo": "images/agents.gif",
+        "altText":"a rainbow infinity symbol with a circuit brain symbolizing neurodiverse AI. the word human appears next to it and then gets crossed out and replaced with the word AI",
+        "link": "https://nrizvi.github.io/agents.html",
     },
         {
-        "heading": "AI Color Equity",
-        "summary": "Proposing a more granular annotation methodology for skin type labeling tasks.",
-        "photo": "images/skin_tone.gif",
-        "altText":"animation showing the diversity of skin types through a spectrum",
-        "link": "",
+        "heading": "Optimizing Classification Annotations",
+        "summary": "Improving annotations for difficult tasks: from worse-than-chance to moderate agreement",
+        "photo": "images/annotation.gif",
+        "altText":"animation with 6 lines with the colors in top-to-bottom order: red, orange, yellow, green, blue, and purple. The top 3 converge into orange, while the bottom 3 converge into blue.",
+        "link": "https://nrizvi.github.io/annotation.html",
+    },
+    {
+        "heading": "AUTALIC",
+        "summary": "The first benchmark for evaluating anti-autistic ableist speech classification.",
+        "photo": "images/neuroinclusive_AI.png",
+        "altText":"logo for neurodiverse ai",
+        "link": "https://nrizvi.github.io/AUTALIC.html",
+    },
+    {
+        "heading": "Autism Inclusion in Robotics",
+        "summary": "Less than 10% of HRI studies include the perspectives of autistic people in research affecting them",
+        "photo": "images/ndrobot.gif",
+        "altText":"Image of a feminine pink and baby blue robot wearing purple headphones. She has a rainbow infinity symbol on her dress.",
+        "link": "https://nrizvi.github.io/hri_paper.html",
     },
     {
         "heading": "UnBIASED",
@@ -19,14 +33,21 @@ var data2 = [
         "photo": "images/unbiased.png",
         "altText":"unbiased logo",
         "link": "https://drive.google.com/file/d/1QVIGqSYtaLBDJXTH_cUAjpxHk-_VI3Fb/view?usp=sharing",
-    }, 
-    {
-        "heading": "Hera",
-        "summary": "Empowering patient self-advocacy by classifying ECG results.",
-        "photo": "images/hera.gif",
-        "altText":"Hera logo",
-        "link": "https://devpost.com/software/hera-mjcr60",
-    }
+    } 
+    // {
+    //     "heading": "AI Color Equity",
+    //     "summary": "Proposing a more granular annotation methodology for skin type labeling tasks.",
+    //     "photo": "images/skin_tone.gif",
+    //     "altText":"animation showing the diversity of skin types through a spectrum",
+    //     "link": "",
+    // },
+    // {
+    //     "heading": "Hera",
+    //     "summary": "Empowering patient self-advocacy by classifying ECG results.",
+    //     "photo": "images/hera.gif",
+    //     "altText":"Hera logo",
+    //     "link": "https://devpost.com/software/hera-mjcr60",
+    // }
 //    {
 //        "heading": "Margin Call",
 //        "summary": "Assistive web based text summarizer for blind & low-vision users.",

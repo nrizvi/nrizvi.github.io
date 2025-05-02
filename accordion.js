@@ -1,5 +1,5 @@
 function toggleVisibility(selectedElementId) {
-    var ids = ['extraInfoShow', 'pubsShow', 'talksShow', 'awardsShow', 'projsShow', 'updatesShow'];
+    var ids = ['extraInfoShow', 'pubsShow', 'talksShow', 'awardsShow', 'projsShow', 'mediaShow', 'menteesShow', 'updatesShow'];
 
      ids.forEach(function(id) {
             var element = document.getElementById(id);

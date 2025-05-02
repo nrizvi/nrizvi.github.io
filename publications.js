@@ -1,5 +1,29 @@
 var publications = [
     {
+        "title": "From Granular Grief to Binary Belief: A Collaborative Optimization of Annotation Techniques for Anti-Autistic Language",
+        "type": "Full Paper",
+        "date": "2025",
+        "venue": "ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing (CSCW)",
+        "url": "",
+        "people": "Rizvi, N., Rizvi, M., Morales Flores, A., Ousidhoum, N., Munyaka, I."
+    },
+    {
+        "title": "AUTALIC: A Dataset for Anti-AUTistic Ableist Language in Context",
+        "type": "Under Review",
+        "date": "2025",
+        "venue": "63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)",
+        "url": "https://arxiv.org/pdf/2410.16520",
+        "people": "Rizvi, N., Strickland, H., Gitelman, D., Cooper, T., Morales-Flores, A., Golden, M., Kallepalli, A., Alurkar, A., Owens, H., Ahmedi, S., Khirwadkar, I., Munyaka, I., Ousidhoum, N."
+    },
+    {
+        "title": "‘I Hadn’t Thought About That’: Creators of Human-like AI Weigh in on Ethics & Neurodivergence",
+        "type": "Full Paper",
+        "date": "2025",
+        "venue": "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
+        "url": "",
+        "people": "Rizvi, N., Smith, T., Vidyala, T., Bolds, M., Begel, A., Munyaka, I., Strickland, H., Williams, R."
+    },
+    {
         "title": "Are Robots Ready to Deliver Autism Inclusion?: A Critical Review",
         "type": "Full Paper",
         "date": "May 11, 2024",
