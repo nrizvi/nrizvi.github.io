@@ -1,7 +1,14 @@
 var data = [
+        {
+        "icon": "images/acl.png", 
+        "alt": "ACL conference logo", 
+        "title": "First-Author paper at <b>ACL</b>",
+        "date": "2025",
+        "desc": "First-author paper accepted at the 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025): <a href='https://nrizvi.github.io/AUTALIC.html'>“AUTALIC: A Dataset for Anti-AUTistic Ableist Language In Context“</a>"
+    },
     {
-        "icon": "images/facct.jpg", // Placeholder - Conference Logo
-        "alt": "FAccT conference logo", // Placeholder
+        "icon": "images/facct.jpg", 
+        "alt": "FAccT conference logo", 
         "title": "First-Author paper at <b>FAccT</b>",
         "date": "2025",
         "desc": "First-author paper accepted at the ACM Conference on Fairness, Accountability, and Transparency: ““I hadn’t thought about that”: Creators of human-like AI weigh in on ethics & neurodivergence.”"
@@ -56,7 +63,7 @@ var data = [
         "desc": "Invited speaker on Responsible AI and Disabilities (also listed as neuroinclusive AI talk) at the UCSD Future of Work Conference (90 attendees)."
     },
     {
-        "icon": "images/ucb.svg", 
+        "icon": "images/ucb.webp", 
         "alt": "UC Berkeley logo", 
         "title": "Invited Speaker: <b>UC Berkeley</b> Institute of Design",
         "date": "2024",
