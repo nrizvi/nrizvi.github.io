@@ -279,4 +279,13 @@ background-color: white;
     max-width:40px;
 }
 
+mark {
+  background-color: #F7E696;
+  padding:0%;
+}
+
+.NIAI{
+    width: 35%;
+}
+
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat927.ani), url(https://cur.cursors-4u.net/nature/nat-10/nat927.png), auto !important;} /* End https://www.cursors-4u.com */

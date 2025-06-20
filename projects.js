@@ -1,7 +1,7 @@
 var data2 = [
     {
-        "heading": "Ethical AI Agents",
-        "summary": "The first benchmark for evaluating anti-autistic ableist speech classification.",
+        "heading": "Neuro-Inclusive AI",
+        "summary": "Defining and evaluating neuro-inclusive AI (datasets, models, and agents).",
         "photo": "images/agents.gif",
         "altText":"a rainbow infinity symbol with a circuit brain symbolizing neurodiverse AI. the word human appears next to it and then gets crossed out and replaced with the word AI",
         "link": "https://nrizvi.github.io/agents.html",

@@ -12,7 +12,7 @@ var publications = [
         "type": "Full Paper",
         "date": "2025",
         "venue": "ACM Conference on Fairness, Accountability, and Transparency <b>(FAccT)</b>",
-        "url": "",
+        "url": "https://arxiv.org/abs/2506.12098",
         "people": "Rizvi, N., Smith, T., Vidyala, T., Bolds, M., Begel, A., Munyaka, I., Strickland, H., Williams, R."
     },
     {
@@ -20,7 +20,7 @@ var publications = [
         "type": "Full Paper",
         "date": "2025",
         "venue": "ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing <b>(CSCW)</b>",
-        "url": "",
+        "url": "papers/labels.pdf",
         "people": "Rizvi, N., Rizvi, M., Morales Flores, A., Ousidhoum, N., Munyaka, I."
     },
     {
@@ -28,7 +28,7 @@ var publications = [
         "type": "Full Paper",
         "date": "May 11, 2024",
         "venue": "Conference on Human Factors in Computing Systems <b>(CHI 2024)</b>",
-        "url": "https://drive.google.com/file/d/1hTZDY8X6xhLXPLAPo4K5NNPYVVnJLJqu/view?usp=sharing",
+        "url": "papers/robots.pdf",
         "people": "Rizvi, N., Wu, W., Bolds, M., Mondal, R., Begel, A., Munyaka, I.",
     },
     {

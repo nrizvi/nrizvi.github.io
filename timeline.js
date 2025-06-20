@@ -11,14 +11,14 @@ var data = [
         "alt": "FAccT conference logo", 
         "title": "First-Author paper at <b>FAccT</b>",
         "date": "2025",
-        "desc": "First-author paper accepted at the ACM Conference on Fairness, Accountability, and Transparency: ““I hadn’t thought about that”: Creators of human-like AI weigh in on ethics & neurodivergence.”"
+        "desc": "First-author paper accepted at the ACM Conference on Fairness, Accountability, and Transparency: <a href='https://arxiv.org/abs/2506.12098'>““I hadn’t thought about that”: Creators of human-like AI weigh in on ethics & neurodivergence.”</a>"
     },
     {
         "icon": "images/cscw.png", 
         "alt": "CSCW conference logo", 
         "title": "First-Author paper at <b>CSCW 2025</b>",
         "date": "2025",
-        "desc": "Accepted first author paper at ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing: “From granular grief to binary belief: A collaborative optimization of annotation techniques for anti-Autistic language.”"
+        "desc": "Accepted first author paper at ACM SIGCHI Conference on Computer-Supported Cooperative Work & Social Computing: ß“From granular grief to binary belief: A collaborative optimization of annotation techniques for anti-Autistic language.”"
     },
     {
         "icon": "images/eucap.png", 
