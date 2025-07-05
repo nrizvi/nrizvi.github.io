@@ -26,14 +26,15 @@ var data2 = [
         "photo": "images/ndrobot.gif",
         "altText":"Image of a feminine pink and baby blue robot wearing purple headphones. She has a rainbow infinity symbol on her dress.",
         "link": "https://nrizvi.github.io/hri_paper.html",
-    },
-    {
-        "heading": "UnBIASED",
-        "summary": "Visualizing social signals to make implicit bias explicit in patient-provider interactions.",
-        "photo": "images/unbiased.png",
-        "altText":"unbiased logo",
-        "link": "https://drive.google.com/file/d/1QVIGqSYtaLBDJXTH_cUAjpxHk-_VI3Fb/view?usp=sharing",
-    } 
+    }
+    // ,
+    // {
+    //     "heading": "UnBIASED",
+    //     "summary": "Visualizing social signals to make implicit bias explicit in patient-provider interactions.",
+    //     "photo": "images/unbiased.png",
+    //     "altText":"unbiased logo",
+    //     "link": "https://drive.google.com/file/d/1QVIGqSYtaLBDJXTH_cUAjpxHk-_VI3Fb/view?usp=sharing",
+    // } 
     // {
     //     "heading": "AI Color Equity",
     //     "summary": "Proposing a more granular annotation methodology for skin type labeling tasks.",
