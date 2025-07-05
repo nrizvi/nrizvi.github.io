@@ -12,7 +12,7 @@ var publications = [
         "type": "Full Paper",
         "date": "2025",
         "venue": "ACM Conference on Fairness, Accountability, and Transparency <b>(FAccT)</b>",
-        "url": "https://arxiv.org/abs8/2506.1209",
+        "url": "papers/EthicalAgents.pdf",
         "people": "Rizvi, N., Smith, T., Vidyala, T., Bolds, M., Begel, A., Munyaka, I., Strickland, H., Williams, R."
     },
     {
