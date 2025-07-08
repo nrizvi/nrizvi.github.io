@@ -34,6 +34,7 @@
       <a class="nav-item nav-link text-dark" href="#projsShow">Projects</a>
       <a class="nav-item nav-link text-dark" href="#pubsShow">Publications</a>
       <a class="nav-item nav-link text-dark" href="#awardsShow">Awards</a>
+      <a class="nav-item nav-link text-dark" href="#teachingShow">Teaching</a>
       <a class="nav-item nav-link text-dark" href="#talksShow">Talks</a>
       <a class="nav-item nav-link text-dark" href="#mediaShow">In the Media</a>
       <a class="nav-item nav-link text-dark" href="#menteesShow">Mentees</a>
@@ -67,7 +68,7 @@
                                     <img src="images/pakistan.png" alt="Pakistan" class="flag" /> born <img src="images/canada.png" alt="Canada" class="flag" /> <img src="images/saudi.png" alt="Saudi Arabia" class="flag" /> raised  <img src="images/usa.png" alt="USA" class="flag" /> <img src="images/morocco.png" alt="Morocco" class="flag" /> blooming </i></p>
                                 <p>I am a multi-award winning <span class="semibold"> AI researcher</span> 
                                     <!-- <img src="images/ucsd.png" alt="UCSD logo" class="flag" /> <span class="semibold">(PhD Comp. Sci., UC San Diego '25). </span> I  -->
-                                    working on fine-tuning, evaluation, benchmarking, and prompt engineering for LLM safety and alignment. I have first-author publications at <span class="semibold">ACL</span>, <span class="semibold">FAccT</span>, <span class="semibold">CHI</span>, and <span class="semibold">CSCW</span>, as well as <span class="semibold">one preprint</span>, and have served as an invited speaker at top conferences including <span class="semibold">NeurIPS</span>, <span class="semibold">SigCSE</span>, <span class="semibold">GHC</span>, and <span class="semibold">Tapia</span>. I have been featured on both <a href="https://www.the74million.org/article/why-robots-are-not-effective-tools-for-supporting-autistic-people/" class="semibold">national</a> and international media, reaching <span class="semibold">21 nations</span>, and even receiving a <a href="https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student" class="semibold">commendation letter from former VP Kamala Harris!</a>
+                                    working on fine-tuning, evaluation, benchmarking, and prompt engineering for LLM safety and alignment. I have first-author publications at <span class="semibold">ACL</span>, <span class="semibold">FAccT</span>, <span class="semibold">CHI</span>, and <span class="semibold">CSCW</span>, as well as <span class="semibold">one preprint</span>, and have served as an invited speaker at top conferences including <span class="semibold">NeurIPS</span>, <span class="semibold">SigCSE</span>, <span class="semibold">GHC</span>, and <span class="semibold">Tapia</span>. I have been featured on both <a href="https://www.the74million.org/article/why-robots-are-not-effective-tools-for-supporting-autistic-people/" class="semibold">national</a> and international media reaching 51M+ viewers, provided neuro-inclusive AI training to organizations across 18 European nations, and even received a <a href="https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student" class="semibold">commendation letter from former VP Kamala Harris!</a>
                                     <!-- data collection, and quality assurance for benchmarking,  -->
                                      <!-- at top AI and HCI venues, and 
                                     
@@ -129,12 +130,17 @@
         <span class="awards" id="awards"></span>
     </div>
 
+    <div class="row text-center">
+        <button class="toggleButton" onclick="toggleVisibility('teachingShow')">Teaching <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></button>
+    </div>
+    <div id="teachingShow" class="row accordionData" style="display:none"><br>
+        <span class="teaching" id="teaching"></span>
+    </div>
 
     <div class="row text-center">
         <button class="toggleButton" onclick="toggleVisibility('talksShow')">Talks <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></button>
     </div>
     <div id="talksShow" class="row text-center accordionData" style="display:none"><br>
-        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/dakau7heLig?si=M-3YAwz8PUsZVBd0" title="Hum TV interview on responsible AI (in Urdu)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <span class="talks" id="talks"></span>
     </div>
 
@@ -142,6 +148,8 @@
         <button class="toggleButton" onclick="toggleVisibility('mediaShow')">In the Media  <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></button>
     </div>
     <div id="mediaShow" class="row accordionData" style="display:none"><br>
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/dakau7heLig?si=M-3YAwz8PUsZVBd0" title="Hum TV interview on responsible AI (in Urdu)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
         <span class="media d-block" id="media"></span>
     </div>
 
@@ -173,6 +181,7 @@
         <script src="projects.js"></script>
         <script src="publications.js"></script>
         <script src="awards.js"></script>
+        <script src="teaching.js"></script>
         <script src="talks.js"></script>
         <script src="mentees.js"></script>
         <script src="media.js"></script>
