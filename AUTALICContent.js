@@ -12,7 +12,7 @@ function loadMainContent() {
     <div class="row">
         <div class="col text-center">
             <br>
-            <iframe width="100%" height="315" src="videos/AUTALIC_cropped.mp4" title="AUTALIC teaser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="100%" height="315" src="videos/AUTALIC_cropped.mp4" title="AUTALIC teaser" frameborder="0" allowfullscreen></iframe>
             <br>
             <p>Interested in evaluating or training a classifier for anti-autistic ableist speech?
             <br>
