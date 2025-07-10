@@ -3,21 +3,21 @@ var teaching =
         {
             "institution": "European Council of Autistic People (EUCAP) European Artificial Intelligence & Society Fund (AIRA) Training",
             "subject": "Are Robots Ready to Deliver Autism Inclusion?",
-            "pRole": "provided neuro-inclusive AI training to 27 organizations across Europe", 
+            "pRole": "Instructor for neuro-inclusive AI training to 27 organizations across Europe", 
             "loc": "Berlin, DE",
             "yearsT": "2025"
         },
         {
             "institution": "UC Berkeley, Institute of Design Seminar",
             "subject": "Towards Neuro-Inclusive AI",
-            "pRole": "guest lecturer", 
+            "pRole": "Guest Lecturer", 
             "loc": "Berkeley, CA",
             "yearsT": "2024"
         },
         {
             "institution": "UC San Diego Interactive Computing Seminar",
             "subject": "Are Robots Ready to Deliver Autism Inclusion?",
-            "pRole": "guest lecturer", 
+            "pRole": "Guest Lecturer", 
             "loc": "San Diego, CA",
             "yearsT": "2023"
         },
