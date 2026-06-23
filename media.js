@@ -10,21 +10,21 @@ var media = [
     },
     {
         "title": "Interview on disability inclusion in AI (In Urdu)",
-        "venue": "Hum TV News",
+        "venue": "Hum TV News (36.6M viewers)",
         "type": "Interview",
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=dakau7heLig",
         "date": "2023"
     },
     {
         "title": "Interview on ethical AI for health (In Urdu)",
-        "venue": "Geo News",
+        "venue": "Geo News (15.5M viewers)",
         "type": "Interview",
         "url": "https://drive.google.com/file/d/1usvZO0lrSusHIaPmvrT9LO1f0bWJKAOc/view?usp=share_link",
         "date": "2023"
     },
     {
         "title": "UCSD Student Pursuing More Accessibility, Equity in Computer Science...",
-        "venue": "San Diego Union Tribune",
+        "venue": "San Diego Union Tribune (2.1M readers)",
         "type": "Interview",
         "url": "",
         "date": "2023"

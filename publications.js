@@ -1,5 +1,29 @@
 var publications = [
         {
+        "title": "Algorithmic Fragility and Persona Bias in LLM-Generated Autistic Communication",
+        "type": "Preprint",
+        "date": "2026",
+        "venue": "arXiv",
+        "url": "https://scholar.google.com/citations?user=N94ugmQAAAAJ&hl=en",
+        "people": "Rizvi, N., Rizvi, M., Ahmedi, S., Bidon, H. G. R., Strickland, H., Ousidhoum, N."
+    },
+        {
+        "title": "Annotator Positionality as Signal: Psychometric Weighting for Anti-Autistic Ableism Detection",
+        "type": "Preprint",
+        "date": "2026",
+        "venue": "arXiv",
+        "url": "https://arxiv.org/abs/2605.26397",
+        "people": "Rizvi, N., Strickland, H., Ousidhoum, N., Ahmedi, S."
+    },
+        {
+        "title": "Beyond Keywords: Evaluating Large Language Model Classification of Nuanced Ableism",
+        "type": "Preprint",
+        "date": "2025",
+        "venue": "arXiv",
+        "url": "https://arxiv.org/abs/2505.20500",
+        "people": "Rizvi, N., Strickland, H., Ahmedi, S., et al."
+    },
+        {
         "title": "AUTALIC: A Dataset for Anti-AUTistic Ableist Language in Context",
         "type": "Full Paper",
         "date": "2025",

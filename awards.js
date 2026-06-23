@@ -27,7 +27,7 @@ var awards =
         },
         // ----- 2022 -----
         {
-            "title": "<a href='https://today.ucsd.edu/story/vice-president-kamala-harris-honors-cse-student'>Computer Science Teachers' Association, CS Hero</a>",
+            "title": "Computer Science Teachers' Association, CS Hero Award",
             "date": "2022",
         },
         {

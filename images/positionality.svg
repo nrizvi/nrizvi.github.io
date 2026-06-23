@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-label="Animation of a person removing tape from their mouth and then speaking into a microphone">
+  <rect width="320" height="220" fill="#FFFFFF"/>
+
+  <!-- Head (neutral) -->
+  <circle cx="160" cy="92" r="54" fill="#FFFFFF" stroke="#3a3a3a" stroke-width="3"/>
+  <!-- Eyes -->
+  <circle cx="142" cy="84" r="5" fill="#2b2b2b"/>
+  <circle cx="178" cy="84" r="5" fill="#2b2b2b"/>
+
+  <!-- Closed mouth (visible while taped) -->
+  <path d="M150,120 q10,7 20,0" fill="none" stroke="#3a3a3a" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.33;0.45;0.55;1" dur="4.5s" repeatCount="indefinite"/>
+  </path>
+  <!-- Open mouth (speaking) -->
+  <g>
+    <ellipse cx="160" cy="121" rx="9" ry="12" fill="#8a4b4b"/>
+    <ellipse cx="160" cy="128" rx="6" ry="5" fill="#d97a7a"/>
+    <animate attributeName="opacity" values="0;0;0;1;1" keyTimes="0;0.33;0.45;0.55;1" dur="4.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Sound waves -->
+  <g fill="none" stroke="#7B0323" stroke-width="3" stroke-linecap="round">
+    <path d="M196,108 q11,14 0,28"/>
+    <path d="M206,102 q16,20 0,40"/>
+    <animate attributeName="opacity" values="0;0;0;0;1" keyTimes="0;0.33;0.45;0.55;1" dur="4.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Microphone (slides up while speaking) -->
+  <g stroke="#2b2b2b" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="156" y="188" width="8" height="30" rx="3" fill="#7a7a7a"/>
+    <ellipse cx="160" cy="178" rx="12" ry="18" fill="#4a4a4a"/>
+    <line x1="151" y1="172" x2="169" y2="172" stroke="#cfcfcf" stroke-width="2"/>
+    <line x1="151" y1="179" x2="169" y2="179" stroke="#cfcfcf" stroke-width="2"/>
+    <line x1="151" y1="186" x2="169" y2="186" stroke="#cfcfcf" stroke-width="2"/>
+    <animate attributeName="opacity" values="0;0;0;1;1" keyTimes="0;0.33;0.45;0.55;1" dur="4.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 70;0 70;0 70;0 0;0 0" keyTimes="0;0.33;0.45;0.55;1" dur="4.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Tape (lifts off and fades) -->
+  <g>
+    <rect x="132" y="108" width="56" height="24" rx="6" fill="#EAD9C0" stroke="#c9b48f" stroke-width="2.5"/>
+    <line x1="138" y1="113" x2="182" y2="127" stroke="#b89d72" stroke-width="3"/>
+    <line x1="182" y1="113" x2="138" y2="127" stroke="#b89d72" stroke-width="3"/>
+    <animate attributeName="opacity" values="1;1;0;0;0" keyTimes="0;0.33;0.45;0.55;1" dur="4.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;0 -55;0 -55;0 -55" keyTimes="0;0.33;0.45;0.55;1" dur="4.5s" repeatCount="indefinite"/>
+  </g>
+</svg>

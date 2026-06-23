@@ -1,4 +1,25 @@
 var data = [
+    {
+        "icon": "images/adobe.jpg", 
+        "alt": "adobe logo", 
+        "title": "Invited Talk at Adobe Research",
+        "date": "2025",
+        "desc": "On ableism by design in AI agents"
+    },
+    {
+        "icon": "images/loreal.png", 
+        "alt": "L'Oreal for Women in Science logo", 
+        "title": "L'Oreal for Women in Science",
+        "date": "2025",
+        "desc": "Invited Guest"
+    },
+    {
+        "icon": "images/pratt.png", 
+        "alt": "Pratt Institute conference logo", 
+        "title": "Guest Lecture at Pratt",
+        "date": "2025",
+        "desc": "Invited lecture on ethical design of AI agents"
+    },
         {
         "icon": "images/acl.png", 
         "alt": "ACL conference logo", 
