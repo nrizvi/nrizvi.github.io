@@ -341,18 +341,22 @@ mark {
 .ribbon b { color: #4d77a6; }
 
 .featBar { display: flex; align-items: center; gap: 16px; justify-content: center; flex-wrap: wrap;
-  background: #7B0323; color: #fff; padding: 16px 22px; margin: 6px 0 12px; border-radius: 16px; border: none; text-decoration: none; cursor: pointer; transition: transform 0.12s ease, box-shadow 0.12s ease; }
+  background: #7B0323; color: #fff; padding: 16px 22px; margin: 6px 0 12px; border-radius: 16px; border: none; text-decoration: none; cursor: pointer; box-shadow: 5px 5px 0 rgba(245, 160, 199, 0.45); transition: transform 0.12s ease, box-shadow 0.12s ease; }
 .featBar:hover { text-decoration: none; transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,0.10); }
 .featBar .featNum { font-family: 'Merriweather', serif; font-weight: 700; font-size: clamp(2rem, 4.5vw, 2.8rem); line-height: 1; color: #F7E696; }
 .featBar .featNum sup { font-size: 0.5em; top: -0.7em; }
 .featBar .featLbl { font-weight: 700; font-size: clamp(1rem, 1.8vw, 1.1rem); color: #fff; text-align: left;
   border-left: 2px solid rgba(255,255,255,0.35); padding-left: 16px; }
 .featBar .featSub { display: block; font-weight: 400; font-size: 1rem; color: #F7E696; text-decoration: none; margin-top: 2px; }
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 525px) {
+  .ribbon { text-align: center; }
+}
+@media screen and (max-width: 513px) {
+  .featBar { flex-direction: column; gap: 6px; }
   .featBar .featLbl { border-left: none; padding-left: 0; }
 }
 
-.ledger { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 14px 0 18px; }
+.ledger { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding: 14px 0 18px; }
 .ledger .cell { padding: 18px 12px; text-align: center; border: none; border-radius: 16px; }
 .ledger .cIcon { display: block; font-size: 1.1rem; margin-bottom: 7px; }
 .ledger .cell a { display: block; color: inherit; text-decoration: none; }
@@ -447,10 +451,11 @@ mark {
 
 /* ---- Responsive ---- */
 @media screen and (max-width: 600px) {
-  .ledger { grid-template-columns: repeat(2, 1fr); }
+  .ledger { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .heroName { font-size: 2.3em; }
   .workGrid { grid-template-columns: 1fr; }
   .heroTop { justify-content: center; }
   .heroIntro { text-align: center; }
   .heroName { text-align: center; }
+  .featBar .featLbl { text-align: center; }
 }
