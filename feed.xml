@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Responsible AI &amp; Neurodivergence — Naba Rizvi</title>
+    <link>https://nrizvi.github.io/feed.html</link>
+    <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Curated research and news on ethical / responsible AI for neurodivergent people.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jun 2026 11:00:00 +0000</lastBuildDate>
+    <item>
+      <title>AI psychosis: mechanisms, clinical risks and safety considerations in generative AI chatbots (BJPsych Open, 2026)</title>
+      <link>https://www.cambridge.org/core/journals/bjpsych-open/article/artificial-intelligence-ai-psychosis-mechanisms-clinical-risks-and-safety-considerations-in-generative-ai-chatbots/04B53C8C3E11C7B4B0DC7E665B6A317A</link>
+      <guid isPermaLink="true">https://www.cambridge.org/core/journals/bjpsych-open/article/artificial-intelligence-ai-psychosis-mechanisms-clinical-risks-and-safety-considerations-in-generative-ai-chatbots/04B53C8C3E11C7B4B0DC7E665B6A317A</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+      <category>Schizophrenia/Psychosis</category>
+      <description><![CDATA[Sycophancy chief among three chatbot traits that combine over long use to help vulnerable users co-build personalized delusions. Risk rises with family history of psychosis, sleep loss and isolation.]]></description>
+    </item>
+    <item>
+      <title>Potentially harmful consequences of AI chatbot use among patients with mental illness (PMC, 2026)</title>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12967755/</link>
+      <guid isPermaLink="true">https://pmc.ncbi.nlm.nih.gov/articles/PMC12967755/</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+      <category>Schizophrenia/Psychosis</category>
+      <description><![CDATA[Early service-level data on adverse chatbot interactions among patients already in psychiatric care, a rare look at real clinical populations rather than general users.]]></description>
+    </item>
+    <item>
+      <title>Exploring implicit perspectives on autism in large language models through multi-agent simulations (arXiv)</title>
+      <link>https://arxiv.org/pdf/2601.15437</link>
+      <guid isPermaLink="true">https://arxiv.org/pdf/2601.15437</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+      <category>Autism</category>
+      <description><![CDATA[Multi-agent simulations surface the implicit, deficit-framed assumptions LLMs hold about autistic people, a method you can reuse for auditing neurodivergence bias.]]></description>
+    </item>
+    <item>
+      <title>Simulating psychological risks in human-AI interactions: real-case informed modeling (arXiv)</title>
+      <link>https://arxiv.org/pdf/2511.08880</link>
+      <guid isPermaLink="true">https://arxiv.org/pdf/2511.08880</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+      <category>Safety</category>
+      <description><![CDATA[Risk models built from documented real cases across psychosis, addiction, anorexia and suicide, a framework for stress-testing systems against serious-mental-illness harms.]]></description>
+    </item>
+    <item>
+      <title>Addressing disability inclusion in AI product organizations (arXiv)</title>
+      <link>https://arxiv.org/pdf/2508.16607</link>
+      <guid isPermaLink="true">https://arxiv.org/pdf/2508.16607</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+      <category>Disability</category>
+      <description><![CDATA[Organizational study of how disability inclusion gets sidelined inside AI product teams, connecting responsible-AI rhetoric to the labor that actually produces it.]]></description>
+    </item>
+    <item>
+      <title>Researchers identify 3 key drivers behind 'AI psychosis' (Gizmodo, 2026)</title>
+      <link>https://gizmodo.com/researchers-identify-3-key-drivers-behind-ai-psychosis-2000776258</link>
+      <guid isPermaLink="true">https://gizmodo.com/researchers-identify-3-key-drivers-behind-ai-psychosis-2000776258</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+      <category>Schizophrenia/Psychosis</category>
+      <description><![CDATA[Accessible write-up of the June 2026 findings, including why sycophancy is described as the most consequential driver.]]></description>
+    </item>
+    <item>
+      <title>Psychiatrists hope chat logs can reveal the secrets of AI psychosis (UCSF, Jan 2026)</title>
+      <link>https://www.ucsf.edu/news/2026/01/431366/psychiatrists-hope-chat-logs-can-reveal-secrets-ai-psychosis</link>
+      <guid isPermaLink="true">https://www.ucsf.edu/news/2026/01/431366/psychiatrists-hope-chat-logs-can-reveal-secrets-ai-psychosis</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+      <category>Clinical</category>
+      <description><![CDATA[UCSF clinicians are analyzing patient chat logs to understand how prolonged AI interaction interacts with psychotic illness.]]></description>
+    </item>
+    <item>
+      <title>Patients are bringing AI to therapy (American Psychological Association, 2026)</title>
+      <link>https://www.apa.org/pubs/reports/chatbots-mental-health-2026</link>
+      <guid isPermaLink="true">https://www.apa.org/pubs/reports/chatbots-mental-health-2026</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+      <category>Mental Health</category>
+      <description><![CDATA[APA report finding 89% of psychologists worry chatbots may inadvertently encourage self-harm or miss crisis signals.]]></description>
+    </item>
+    <item>
+      <title>Addictive algorithms and the Digital Fairness Act (Petrie-Flom, Harvard Law, 2026)</title>
+      <link>https://petrieflom.law.harvard.edu/2025/08/20/addictive-algorithms-and-the-digital-fairness-act-a-new-chapter-in-eu-public-health-policy/</link>
+      <guid isPermaLink="true">https://petrieflom.law.harvard.edu/2025/08/20/addictive-algorithms-and-the-digital-fairness-act-a-new-chapter-in-eu-public-health-policy/</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+      <category>Regulation</category>
+      <description><![CDATA[Analyzes the EU's forthcoming Digital Fairness Act and how its treatment of manipulative design intersects with mental health and vulnerability.]]></description>
+    </item>
+    <item>
+      <title>Governing AI in mental health: a 50-state legislative review (JMIR Mental Health)</title>
+      <link>https://mental.jmir.org/2025/1/e80739</link>
+      <guid isPermaLink="true">https://mental.jmir.org/2025/1/e80739</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+      <category>Regulation</category>
+      <description><![CDATA[Comprehensive review of US state-level legislation governing AI in mental health, a reference map for a fragmented landscape.]]></description>
+    </item>
+    <item>
+      <title>AI to support neurodivergent learners in vocational education and training (OECD, 2026)</title>
+      <link>https://www.oecd.org/en/publications/ai-to-support-neurodivergent-learners-in-vocational-education-and-training_718d7522-en.html</link>
+      <guid isPermaLink="true">https://www.oecd.org/en/publications/ai-to-support-neurodivergent-learners-in-vocational-education-and-training_718d7522-en.html</guid>
+      <pubDate>Fri, 26 Jun 2026 11:00:00 +0000</pubDate>
+      <category>Education</category>
+      <description><![CDATA[New OECD report on AI for learners with autism, ADHD, dyslexia, dyscalculia and dysgraphia, through a responsible-design lens.]]></description>
+    </item>
+  </channel>
+</rss>
