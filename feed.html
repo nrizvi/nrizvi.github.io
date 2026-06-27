@@ -111,6 +111,24 @@
 
       .nf-foot{ text-align:center; font-family:'Open Sans',sans-serif; color:#777; font-size:.85rem; margin:26px auto 6px; max-width:900px; }
       .nf-empty{ text-align:center; color:#777; padding:20px; font-family:'Open Sans',sans-serif; }
+
+      /* fit text inside the container, including long titles, on every screen */
+      .nf-head{ font-size: clamp(1.6rem, 6.5vw, 2.6rem); line-height:1.18; }
+      .nf-head, .nf-issuehead h2, .nf-card h3, .nf-summary, .nf-tldr, .nf-disclaimer, .nf-meta {
+        overflow-wrap:break-word; word-wrap:break-word; }
+      @media (max-width: 600px){
+        .whiteBG{ padding:18px 14px; }
+        .nf-issuehead h2{ font-size:1.2rem; }
+        .nf-tldr{ padding:13px 14px; }
+        .nf-card{ padding:14px 14px; }
+        .nf-card h3{ font-size:1rem; }
+        .nf-summary{ font-size:.9rem; }
+        .nf-secthead{ font-size:.9rem; }
+        .nf-subscribe{ padding:16px 14px; }
+        .nf-subform{ flex-direction:column; }
+        .nf-subform input{ min-width:0; width:100%; }
+        .nf-subbtn{ width:100%; }
+      }
     </style>
 </head>
 <body>
