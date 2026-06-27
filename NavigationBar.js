@@ -19,6 +19,7 @@ function renderNavbar() {
                     <a class="nav-item nav-link text-dark" href="${baseURL}/AUTALIC.html">AUTALIC</a>
                     <a class="nav-item nav-link text-dark" href="${baseURL}/annotation.html">Annotation Optimization</a>
                     <a class="nav-item nav-link text-dark" href="${baseURL}/agents.html">AI Agents</a>
+                    <a class="nav-item nav-link text-dark" href="${baseURL}/feed.html">Curated AI News</a>
                 </div>
             </div>
         </nav>

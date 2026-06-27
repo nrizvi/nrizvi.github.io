@@ -40,8 +40,12 @@
         background-attachment: fixed;
       }
       .nf-head{ text-align:center; margin: 4px auto 4px; }
-      .nf-sub{ font-family:'Open Sans',sans-serif; color:#555; text-align:center; margin-bottom:18px; font-size:.95rem; }
+      .nf-sub{ font-family:'Open Sans',sans-serif; color:#555; text-align:center; margin-bottom:12px; font-size:.95rem; }
       .nf-sub b{ color:var(--ink); }
+      /* makes clear this page is curated, not the author's own work */
+      .nf-disclaimer{ max-width:720px; margin:0 auto 18px; font-family:'Open Sans',sans-serif; font-size:.88rem; color:#4E3A0C;
+        background:#FDF7D6; border:1.5px dashed #c9a93a; border-radius:12px; padding:9px 16px; text-align:center; }
+      .nf-disclaimer a{ color:var(--maroon); font-weight:700; white-space:nowrap; }
 
       /* subscribe box */
       .nf-subscribe{ max-width:580px; margin:16px auto 26px; border:2px solid var(--ink); border-radius:16px; background:#fff; padding:20px 22px; box-shadow:5px 5px 0 var(--blue); }
@@ -122,6 +126,8 @@
 
             <h1 class="nf-head">Responsible AI &amp; Neurodivergence</h1>
             <p class="nf-sub" id="nfSub">A living research feed, updated daily.</p>
+
+            <p class="nf-disclaimer">This is a <b>curated</b> roundup of other researchers' work and news, <b>not my own publications</b>. <a href="/">See my research &#8594;</a></p>
 
             <div class="nf-subscribe">
                 <h2>Get the weekly digest</h2>
