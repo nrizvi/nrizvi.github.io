@@ -36,7 +36,9 @@ function handleNavLinkClicks() {
 
 document.addEventListener("DOMContentLoaded", function () {
     handleNavLinkClicks();
-    showOnly('workShow'); // default tab open on load (no scroll)
+    var _h = (location.hash || '').substring(1);
+    if (SECTION_IDS.indexOf(_h) !== -1) { goToSection(_h); }
+    else { showOnly('workShow'); } // default tab open on load (no scroll)
 });
 
 function playAudio() {

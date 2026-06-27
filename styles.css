@@ -389,6 +389,7 @@ mark {
 .ctaBtn:hover { text-decoration: none; color: #000; transform: scale(1.04); }
 .ctaBtn.p { background: #F5A0C7; box-shadow: 3px 3px 0 #2b2b2b; }
 .ctaBtn.y { background: #F7E696; box-shadow: 3px 3px 0 #2b2b2b; }
+.ctaBtn.b { background: #A3D8F8; box-shadow: 3px 3px 0 #2b2b2b; }
 
 /* ---- Numbered section headers + pulled-out stat ---- */
 .secHead { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; margin-top: 6px; }
