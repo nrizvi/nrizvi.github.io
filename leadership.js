@@ -1,5 +1,12 @@
 var leadership = [
     {
+        "role": "Peer Reviewer",
+        "org": "ACL · EMNLP · NeurIPS · THRI",
+        "detail": "reviewing submissions for leading AI, NLP, and human-robot interaction venues",
+        "date": "",
+        "url": ""
+    },
+    {
         "role": "Graduate Student Trustee (Board Member)",
         "org": "AnitaB.org",
         "detail": "serving on the board of the leading nonprofit for women in technology",
