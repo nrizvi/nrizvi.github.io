@@ -256,7 +256,7 @@
 
     // ---- Subscribe form. Set SUBSCRIBE.action to your newsletter provider's
     // form endpoint once chosen (e.g. Buttondown or Mailchimp embed URL). ----
-    const SUBSCRIBE = { action: "", method: "post" };
+    const SUBSCRIBE = { action: "https://buttondown.com/api/emails/embed-subscribe/zafirah", method: "post" };
     (function(){
       const form = document.getElementById("nfSubForm");
       const note = document.getElementById("nfSubNote");
@@ -268,8 +268,9 @@
         }
         form.action = SUBSCRIBE.action;
         form.method = SUBSCRIBE.method;
-        form.target = "_blank";
-        // let the browser submit to the provider
+        form.target = "popupwindow";
+        note.textContent = "Thanks! A tab will open to confirm your subscription.";
+        // let the browser submit to Buttondown
       });
     })();
 
