@@ -75,6 +75,9 @@
       .nf-tldr .lbl{ font-family:'Merriweather',serif; font-weight:700; font-size:.78rem;
         letter-spacing:.14em; text-transform:uppercase; color:var(--maroon); margin-bottom:6px; }
       .nf-tldr b{ color:var(--ink); }
+      /* single tailored summary shown above the feed when a filter is active */
+      #nfTopSummary{ margin:8px auto 4px; max-width:820px; }
+      #nfTopSummary .nf-tldr{ margin-bottom:6px; }
 
       /* dotted separators between sections, like the homepage dividers */
       .nf-secthead{ font-family:'Merriweather',serif; font-size:.98rem; letter-spacing:.04em; text-transform:uppercase;
@@ -136,6 +139,7 @@
             <div class="nf-jump" id="nfJump"></div>
             <div class="nf-filters" id="nfFilters"></div>
 
+            <div id="nfTopSummary"></div>
             <div id="nfFeed"></div>
 
             <p class="nf-foot">
@@ -328,6 +332,28 @@
       return true;
     }
 
+    // Pull the curated highlight from an item: its bolded key phrase(s),
+    // falling back to the leading clause of the title.
+    function keyPhrase(item){
+      const bolds = (item.summary.match(/<b>(.*?)<\/b>/g) || []).map(s => s.replace(/<\/?b>/g, "").trim());
+      if (bolds.length) return bolds.join(", ");
+      return item.title.split(",")[0].trim();
+    }
+
+    // Build a tailored "20-second version" for the active category by
+    // stitching together the highlights of every matching item across all
+    // issues. Recomputed on each render, so it always reflects the newest items.
+    function buildSummary(label){
+      const hits = [];
+      ISSUES.forEach(iss => iss.items.forEach(it => { if (matches(it)) hits.push(it); }));
+      if (!hits.length) return "No items in this category yet.";
+      const cap = 10;
+      const parts = hits.slice(0, cap).map(it => '<b>' + keyPhrase(it) + '</b> (' + it.venue + ')');
+      let body = parts.join("; ");
+      if (hits.length > cap) body += "; and more";
+      return label + " across the feed: " + body + ".";
+    }
+
     function card(item){
       const c = document.createElement("div");
       c.className = "nf-card " + item.type;
@@ -343,7 +369,19 @@
 
     function render(){
       const feed = document.getElementById("nfFeed");
+      const top = document.getElementById("nfTopSummary");
       feed.innerHTML = "";
+      top.innerHTML = "";
+
+      // For a category/type filter, show ONE tailored summary at the top that
+      // summarizes all the selected items. "All" keeps the per-issue summaries.
+      if (active !== "all"){
+        const f = filters.find(x => x.key === active);
+        const label = f ? f.label : "Selected";
+        top.innerHTML = '<div class="nf-tldr"><div class="lbl">The 20-second version &middot; ' +
+          label + '</div>' + buildSummary(label) + '</div>';
+      }
+
       let shownIssues = 0;
       ISSUES.forEach((iss, idx) => {
         const visible = iss.items.filter(matches);
@@ -357,9 +395,13 @@
         const block = document.createElement("div");
         block.className = "nf-issue"; block.id = "issue-" + idx;
         const badge = idx === 0 ? '<span class="nf-badge">Latest</span>' : '';
-        block.innerHTML =
-          '<div class="nf-issuehead"><h2>' + iss.date + '</h2>' + badge + '</div>' +
-          '<div class="nf-tldr"><div class="lbl">The 20-second version</div>' + iss.tldr + '</div>';
+        // Keep the date heading for separation; show the per-issue summary only
+        // in the "All" view (filtered views use the single tailored top summary).
+        let head = '<div class="nf-issuehead"><h2>' + iss.date + '</h2>' + badge + '</div>';
+        if (active === "all"){
+          head += '<div class="nf-tldr"><div class="lbl">The 20-second version</div>' + iss.tldr + '</div>';
+        }
+        block.innerHTML = head;
         ["paper","news","policy"].forEach(type => {
           const group = visible.filter(i => i.type === type);
           if (!group.length) return;
