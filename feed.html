@@ -6,7 +6,7 @@
     <title>Responsible AI &amp; Neurodivergence, Feed | Naba Rizvi</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" href="images/icon_transparent.png">
 
     <!-- Stylesheets (same as the rest of the site) -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -46,16 +46,6 @@
       .nf-disclaimer{ max-width:720px; margin:0 auto 18px; font-family:'Open Sans',sans-serif; font-size:.88rem; color:#4E3A0C;
         background:#FDF7D6; border:1.5px dashed #c9a93a; border-radius:12px; padding:9px 16px; text-align:center; }
       .nf-disclaimer a{ color:var(--maroon); font-weight:700; white-space:nowrap; }
-
-      /* subscribe box */
-      .nf-subscribe{ max-width:580px; margin:16px auto 26px; border:2px solid var(--ink); border-radius:16px; background:#fff; padding:20px 22px; box-shadow:5px 5px 0 var(--blue); }
-      .nf-subscribe h2{ font-family:'Merriweather',serif; font-size:1.25rem; margin:0 0 4px; text-align:center; }
-      .nf-subscribe .nf-subtag{ font-family:'Open Sans',sans-serif; color:#555; font-size:.9rem; margin:0 0 14px; text-align:center; }
-      .nf-subform{ display:flex; gap:10px; justify-content:center; flex-wrap:wrap; }
-      .nf-subform input{ font-family:'Open Sans',sans-serif; font-size:.95rem; padding:10px 16px; border:2px solid var(--ink); border-radius:30px; min-width:240px; }
-      .nf-subbtn{ font-family:'Open Sans',sans-serif; font-weight:700; font-size:.95rem; padding:10px 24px; border:2px solid var(--ink); border-radius:30px; background:var(--pink); color:var(--ink); cursor:pointer; box-shadow:3px 3px 0 var(--ink); transition:transform .12s ease; }
-      .nf-subbtn:hover{ background:var(--yellow); transform:translateY(-1px); }
-      .nf-subnote{ font-family:'Open Sans',sans-serif; font-size:.82rem; color:#7B0323; margin:10px 0 0; min-height:1em; text-align:center; }
 
       /* jump-to-issue nav */
       .nf-jump{ display:flex; flex-wrap:wrap; gap:8px; justify-content:center; align-items:center;
@@ -124,10 +114,6 @@
         .nf-card h3{ font-size:1rem; }
         .nf-summary{ font-size:.9rem; }
         .nf-secthead{ font-size:.9rem; }
-        .nf-subscribe{ padding:16px 14px; }
-        .nf-subform{ flex-direction:column; }
-        .nf-subform input{ min-width:0; width:100%; }
-        .nf-subbtn{ width:100%; }
       }
     </style>
 </head>
@@ -146,16 +132,6 @@
             <p class="nf-sub" id="nfSub">A living research feed, updated daily.</p>
 
             <p class="nf-disclaimer">This is a <b>curated</b> roundup of other researchers' work and news, <b>not my own publications</b>. <a href="/#workShow">See my research &#8594;</a></p>
-
-            <div class="nf-subscribe">
-                <h2>Get the weekly digest</h2>
-                <p class="nf-subtag">The latest responsible-AI and neurodivergence research in your inbox, once a week.</p>
-                <form class="nf-subform" id="nfSubForm">
-                    <input type="email" id="nfEmail" name="email" placeholder="you@email.com" autocomplete="email" required>
-                    <button type="submit" class="nf-subbtn">Subscribe</button>
-                </form>
-                <p class="nf-subnote" id="nfSubNote"></p>
-            </div>
 
             <div class="nf-jump" id="nfJump"></div>
             <div class="nf-filters" id="nfFilters"></div>
@@ -189,7 +165,7 @@
     const ISSUES = [
       {
         date: "June 29, 2026",
-        tldr: "<b>8 new items today.</b> A new <b>RAND</b> report reframes AI-induced psychosis as a security and manipulation risk, and clinicians warn <b>voice-first chatbots</b> will deepen it. Two fresh benchmarks, <b>ABLEIST</b> (intersectional disability bias) and <b>PsychEthicsBench</b> (mental-health ethics), add concrete audit tools, alongside new work on chatbot feedback loops, text-to-image disability representation, relational ethics in psychosis care, and inclusive AI in education. Items already covered in earlier issues are omitted to avoid repetition.",
+        tldr: "A new <b>RAND</b> report reframes AI-induced psychosis as a security and manipulation risk, and clinicians warn <b>voice-first chatbots</b> will deepen it. Two fresh benchmarks, <b>ABLEIST</b> (intersectional disability bias) and <b>PsychEthicsBench</b> (mental-health ethics), add concrete audit tools, alongside new work on chatbot feedback loops, text-to-image disability representation, relational ethics in psychosis care, and inclusive AI in education.",
         items: [
           { type:"paper", topics:["Schizophrenia/Psychosis","Mental Health"],
             title:"Technological folie \u00e0 deux: feedback loops between AI chatbots and mental illness, arXiv 2507.19218",
@@ -299,26 +275,6 @@
 
     const TYPE_LABEL = { paper:"Paper", news:"News", policy:"Policy" };
     const SECTION = { paper:"Papers &amp; Preprints", news:"News &amp; Commentary", policy:"Policy &amp; Regulation" };
-
-    // ---- Subscribe form. Set SUBSCRIBE.action to your newsletter provider's
-    // form endpoint once chosen (e.g. Buttondown or Mailchimp embed URL). ----
-    const SUBSCRIBE = { action: "https://buttondown.com/api/emails/embed-subscribe/zafirah", method: "post" };
-    (function(){
-      const form = document.getElementById("nfSubForm");
-      const note = document.getElementById("nfSubNote");
-      form.addEventListener("submit", function(e){
-        if (!SUBSCRIBE.action){
-          e.preventDefault();
-          note.textContent = "Subscriptions are opening soon. Check back shortly.";
-          return;
-        }
-        form.action = SUBSCRIBE.action;
-        form.method = SUBSCRIBE.method;
-        form.target = "popupwindow";
-        note.textContent = "Thanks! A tab will open to confirm your subscription.";
-        // let the browser submit to Buttondown
-      });
-    })();
 
     // Subtitle + jump nav
     const totalItems = ISSUES.reduce((n,i)=>n + i.items.length, 0);
