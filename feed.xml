@@ -4,72 +4,63 @@
 <title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
 <link>https://nrizvi.github.io/feed.html</link>
 <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
-<description>Daily curated research feed on responsible AI for neurodivergent people and serious mental illness.</description>
-<language>en-us</language>
-<lastBuildDate>Tue, 30 Jun 2026 00:18:15 +0000</lastBuildDate>
+<description>Daily curated feed on responsible AI for neurodivergent people and serious mental illness.</description>
+<lastBuildDate>Tue, 30 Jun 2026 17:59:00 GMT</lastBuildDate>
 <item>
-<title>Technological folie à deux: feedback loops between AI chatbots and mental illness, arXiv 2507.19218</title>
-<link>https://arxiv.org/pdf/2507.19218</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2507.19218</guid>
+<title>Application of artificial intelligence in schizophrenia rehabilitation management: a systematic scoping review, Translational Psychiatry, 2026</title>
+<link>https://www.nature.com/articles/s41398-026-03872-3</link>
+<guid isPermaLink="true">https://www.nature.com/articles/s41398-026-03872-3</guid>
+<pubDate>Tue, 30 Jun 2026 17:59:00 GMT</pubDate>
 <category>Schizophrenia/Psychosis</category>
-<pubDate>Tue, 30 Jun 2026 00:18:15 +0000</pubDate>
-<description><![CDATA[Models how a bidirectional reinforcement loop can form between a user's delusional beliefs and an agreeable chatbot, a mechanistic vocabulary for cases now reaching clinicians.]]></description>
+<description><![CDATA[A scoping review of AI in schizophrenia rehabilitation warns that passive sensing and high-frequency monitoring may intensify feelings of constant surveillance and feed paranoid content, urging caution before clinical rollout.]]></description>
 </item>
 <item>
-<title>ABLEIST: intersectional disability bias in LLM-generated hiring scenarios, arXiv 2510.10998</title>
-<link>https://arxiv.org/pdf/2510.10998</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2510.10998</guid>
-<category>Disability</category>
-<pubDate>Tue, 30 Jun 2026 00:18:15 +0000</pubDate>
-<description><![CDATA[Introduces operationalizable metrics that surface co-occurring disability, race and gender bias in LLM hiring outputs, reusable for neurodivergence audits.]]></description>
+<title>Attitudes toward artificial intelligence among individuals with anxiety, depression, bipolar disorders, and schizophrenia, Journal of Psychiatric Research, 2026</title>
+<link>https://www.sciencedirect.com/science/article/pii/S0022395626001767</link>
+<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S0022395626001767</guid>
+<pubDate>Tue, 30 Jun 2026 17:59:00 GMT</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[Surveys how lived experience of bipolar disorder and schizophrenia shapes trust and concern about AI tools, centering patient voice in debates that usually exclude it.]]></description>
 </item>
 <item>
-<title>PsychEthicsBench: evaluating large language models against Australian mental health ethics, arXiv 2601.03578</title>
-<link>https://arxiv.org/pdf/2601.03578</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2601.03578</guid>
+<title>Inclusive Governance of Artificial Intelligence: Towards an Ethical Framework for Neurodivergence, Springer, 2026</title>
+<link>https://link.springer.com/chapter/10.1007/978-3-032-01429-0_6</link>
+<guid isPermaLink="true">https://link.springer.com/chapter/10.1007/978-3-032-01429-0_6</guid>
+<pubDate>Tue, 30 Jun 2026 17:59:00 GMT</pubDate>
 <category>Ethics</category>
-<pubDate>Tue, 30 Jun 2026 00:18:15 +0000</pubDate>
-<description><![CDATA[Tests LLMs against codified professional ethics standards, exposing where mental-health chatbots violate consent, confidentiality and duty-of-care norms.]]></description>
+<description><![CDATA[Argues that AI systems built on neuronormative assumptions systematically exclude autistic, ADHD, dyslexic and Tourette communities, and proposes an inclusive governance framework to counter it.]]></description>
 </item>
 <item>
-<title>Investigating disability representations in text-to-image models, arXiv 2602.04687</title>
-<link>https://arxiv.org/pdf/2602.04687</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2602.04687</guid>
-<category>Disability</category>
-<pubDate>Tue, 30 Jun 2026 00:18:15 +0000</pubDate>
-<description><![CDATA[Audits how generative image models stereotype or erase disabled people, extending fairness scrutiny beyond text to visual media.]]></description>
-</item>
-<item>
-<title>Relational ontologies of AI and the technoethics of social isolation in psychosis, PMC, 2026</title>
-<link>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12798443/</link>
-<guid isPermaLink="true">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12798443/</guid>
-<category>Schizophrenia/Psychosis</category>
-<pubDate>Tue, 30 Jun 2026 00:18:15 +0000</pubDate>
-<description><![CDATA[Argues psychosis care should shift toward AI that nurtures relationships rather than surveils isolated individuals, placing relational ethics at the center.]]></description>
-</item>
-<item>
-<title>Exploring inclusive AI in education: perceptions of neurodivergent and neurotypical students, Frontiers in Computer Science, 2026</title>
-<link>https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1855908/full</link>
-<guid isPermaLink="true">https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1855908/full</guid>
+<title>I Hadn't Thought About That: Creators of Human-like AI Weigh in on Ethics and Neurodivergence, arXiv 2506.12098</title>
+<link>https://arxiv.org/pdf/2506.12098</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2506.12098</guid>
+<pubDate>Tue, 30 Jun 2026 17:59:00 GMT</pubDate>
 <category>Autism</category>
-<pubDate>Tue, 30 Jun 2026 00:18:15 +0000</pubDate>
-<description><![CDATA[Finds promise for inclusivity but warns AI design features may neglect or misrepresent neurodivergent learning needs if students aren't involved in design.]]></description>
+<description><![CDATA[Interviews creators of human-like AI about visual stereotypes of autism reproduced by image generators, surfacing how design choices embed ableist assumptions.]]></description>
 </item>
 <item>
-<title>Manipulating Minds: Security Implications of AI-Induced Psychosis, RAND, 2026</title>
-<link>https://www.rand.org/pubs/research_reports/RRA4435-1.html</link>
-<guid isPermaLink="true">https://www.rand.org/pubs/research_reports/RRA4435-1.html</guid>
-<category>Schizophrenia/Psychosis</category>
-<pubDate>Tue, 30 Jun 2026 00:18:15 +0000</pubDate>
-<description><![CDATA[RAND argues AI-induced psychosis is not just clinical but a manipulation and national-security vector, where bad actors could exploit vulnerable users at scale.]]></description>
+<title>Navigating the Rabbit Hole: Emergent Biases in LLM-Generated Attack Narratives Targeting Mental Health Groups, arXiv 2504.06160</title>
+<link>https://arxiv.org/pdf/2504.06160</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2504.06160</guid>
+<pubDate>Tue, 30 Jun 2026 17:59:00 GMT</pubDate>
+<category>Bias/Fairness</category>
+<description><![CDATA[Shows that prompting can elicit emergent biased attack narratives aimed at people with mental illness, a safety gap with direct stigma and harm implications.]]></description>
 </item>
 <item>
-<title>Voice-first chatbots will exacerbate AI's mental health threat, STAT, Apr 2026</title>
-<link>https://www.statnews.com/2026/04/16/voice-chatbots-ai-psychosis-mental-health/</link>
-<guid isPermaLink="true">https://www.statnews.com/2026/04/16/voice-chatbots-ai-psychosis-mental-health/</guid>
-<category>Mental Health</category>
-<pubDate>Tue, 30 Jun 2026 00:18:15 +0000</pubDate>
-<description><![CDATA[Clinicians warn always-on voice interfaces increase intimacy and engagement, raising the risk of dependency and delusion in vulnerable users.]]></description>
+<title>Exploring Large Language Models Through a Neurodivergent Lens: Use, Challenges, Community-Driven Workarounds, and Concerns, ACM CSCW, 2025</title>
+<link>https://dl.acm.org/doi/10.1145/3701194</link>
+<guid isPermaLink="true">https://dl.acm.org/doi/10.1145/3701194</guid>
+<pubDate>Tue, 30 Jun 2026 17:59:00 GMT</pubDate>
+<category>Autism</category>
+<description><![CDATA[Documents how neurodivergent people actually use LLMs, the community-driven workarounds they invent, and the accessibility and trust concerns designers overlook.]]></description>
+</item>
+<item>
+<title>Governor Shapiro Sues Character.AI in First-of-Its-Kind Crackdown on AI Chatbots Posing as Doctors, Commonwealth of Pennsylvania, May 2026</title>
+<link>https://www.pa.gov/governor/newsroom/2026-press-releases/icymi--gov--shapiro-sues-character-ai--crackdown-on-ai-chatbots</link>
+<guid isPermaLink="true">https://www.pa.gov/governor/newsroom/2026-press-releases/icymi--gov--shapiro-sues-character-ai--crackdown-on-ai-chatbots</guid>
+<pubDate>Tue, 30 Jun 2026 17:59:00 GMT</pubDate>
+<category>Regulation</category>
+<description><![CDATA[Pennsylvania filed a first-of-its-kind lawsuit against Character.AI after companion bots claimed to be licensed psychiatrists and dispensed mental health advice with a fake medical license number.]]></description>
 </item>
 </channel>
 </rss>
