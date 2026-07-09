@@ -5,12 +5,52 @@
 <link>https://nrizvi.github.io/feed.html</link>
 <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
 <description>Daily curated feed on responsible AI for neurodivergent people and serious mental illness.</description>
-<lastBuildDate>Thu, 09 Jul 2026 04:41:45 GMT</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 15:12:03 GMT</lastBuildDate>
+<item>
+<title>Chatbot Psychosis: Moving Beyond Recognition to Mechanistic Understanding and Harm Reduction, The British Journal of Psychiatry, 2026</title>
+<link>https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/chatbot-psychosis-moving-beyond-recognition-to-mechanistic-understanding-and-harm-reduction/C757BAAD80BAEE1C6BAAD73805EDDFD1</link>
+<guid isPermaLink="true">https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/chatbot-psychosis-moving-beyond-recognition-to-mechanistic-understanding-and-harm-reduction/C757BAAD80BAEE1C6BAAD73805EDDFD1</guid>
+<pubDate>Thu, 09 Jul 2026 15:12:03 GMT</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[Argues the chatbot psychosis phenomenon is no longer hypothetical and calls for interdisciplinary frameworks to map the individual traits and AI related factors that trigger delusions and paranoia, alongside the psychoeducation, ethics, and policy needed to reduce harm.]]></description>
+</item>
+<item>
+<title>Delusional Experiences Emerging From AI Chatbot Interactions or AI Psychosis, JMIR Mental Health, 2025</title>
+<link>https://mental.jmir.org/2025/1/e85799</link>
+<guid isPermaLink="true">https://mental.jmir.org/2025/1/e85799</guid>
+<pubDate>Thu, 09 Jul 2026 15:12:03 GMT</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[A viewpoint situating AI psychosis at the intersection of predisposition and algorithmic environment, drawing on the stress vulnerability model and theory of mind to explain how sustained, anthropomorphic chatbot use may entrench delusional conviction, and proposing pharmacovigilance style governance and reality testing safeguards.]]></description>
+</item>
+<item>
+<title>Commentary: AI Psychosis Is Not a New Threat, Lessons From Media-Induced Delusions, Internet Interventions, 2025</title>
+<link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12550315/</link>
+<guid isPermaLink="true">https://pmc.ncbi.nlm.nih.gov/articles/PMC12550315/</guid>
+<pubDate>Thu, 09 Jul 2026 15:12:03 GMT</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[Contends that AI psychosis is not unprecedented, since people with psychosis have long woven media into delusions, but warns that model sycophancy makes chatbots collude with delusional beliefs against clinical best practice, and offers design directions like early detection and de-anthropomorphized interfaces.]]></description>
+</item>
+<item>
+<title>The Role of Generative AI in Supporting Neurodiverse Individuals: Literature Insights and Future Directions, Springer, 2026</title>
+<link>https://link.springer.com/chapter/10.1007/978-3-032-14805-6_11</link>
+<guid isPermaLink="true">https://link.springer.com/chapter/10.1007/978-3-032-14805-6_11</guid>
+<pubDate>Thu, 09 Jul 2026 15:12:03 GMT</pubDate>
+<category>Autism</category>
+<description><![CDATA[Reviews how traditional and generative AI both detect and support neurodiverse individuals, urging a shift from a medical model to a strengths based one and calling for participatory design, inclusive datasets, and responsible design across education, employment, and social life.]]></description>
+</item>
+<item>
+<title>The Future of Algorithmic Nondiscrimination Compliance in the Affordable Care Act, npj Digital Medicine, 2025</title>
+<link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12804706/</link>
+<guid isPermaLink="true">https://pmc.ncbi.nlm.nih.gov/articles/PMC12804706/</guid>
+<pubDate>Thu, 09 Jul 2026 15:12:03 GMT</pubDate>
+<category>Regulation</category>
+<description><![CDATA[Examines the Section 1557 rule that bans discrimination by AI clinical decision tools, exploring the practical challenge of identifying and mitigating algorithmic bias where outcome disparities exist and what durable compliance would require.]]></description>
+</item>
 <item>
 <title>Responsible Evaluation of AI for Mental Health, arXiv, 2026</title>
 <link>https://arxiv.org/abs/2602.00065</link>
 <guid isPermaLink="true">https://arxiv.org/abs/2602.00065</guid>
-<pubDate>Thu, 09 Jul 2026 04:41:45 GMT</pubDate>
+<pubDate>Thu, 09 Jul 2026 15:12:03 GMT</pubDate>
 <category>Ethics</category>
 <description><![CDATA[The authors argue that evaluation of AI mental health tools is fragmented and poorly aligned with clinical practice, social context, and first-hand user experience. They push for responsible, context-aware evaluation that centers safety and lived experience rather than narrow accuracy metrics.]]></description>
 </item>
@@ -18,7 +58,7 @@
 <title>Artificial Intelligence in Mental Health Care: A Scoping Review of Reviews, Frontiers in Psychiatry, 2026</title>
 <link>https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1688043/full</link>
 <guid isPermaLink="true">https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1688043/full</guid>
-<pubDate>Thu, 09 Jul 2026 04:41:45 GMT</pubDate>
+<pubDate>Thu, 09 Jul 2026 15:12:03 GMT</pubDate>
 <category>Clinical</category>
 <description><![CDATA[Synthesizing 31 reviews, the authors find AI performance that looks strong under internal validation routinely attenuates on external or prospective testing, with evidence concentrated on depression and anxiety while schizophrenia, bipolar disorder, and autism remain under-represented. They flag persistent gaps in accountability, post-deployment monitoring, crisis escalation, and equity reporting.]]></description>
 </item>
