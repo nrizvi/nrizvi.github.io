@@ -5,54 +5,22 @@
 <link>https://nrizvi.github.io/feed.html</link>
 <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
 <description>Daily curated feed on responsible AI for neurodivergent people and serious mental illness.</description>
-<lastBuildDate>Mon, 06 Jul 2026 19:27:34 GMT</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 04:41:45 GMT</lastBuildDate>
 <item>
-<title>Lost in Delusion: Examining LLM Safety Under User Delusions and Distress, arXiv, 2026</title>
-<link>https://arxiv.org/abs/2606.00975</link>
-<guid isPermaLink="true">https://arxiv.org/abs/2606.00975</guid>
-<pubDate>Mon, 06 Jul 2026 19:27:34 GMT</pubDate>
-<category>Schizophrenia/Psychosis</category>
-<description><![CDATA[Matched multi-turn simulations across six LLMs find models detect distress at similar rates regardless of framing yet suppress safety interventions up to 4.5x once distress is embedded in delusion. Only delusion-aware prompting closes the gap, so the authors argue delusional framing should be treated as a distinct risk signal that overrides conversational accommodation.]]></description>
+<title>Responsible Evaluation of AI for Mental Health, arXiv, 2026</title>
+<link>https://arxiv.org/abs/2602.00065</link>
+<guid isPermaLink="true">https://arxiv.org/abs/2602.00065</guid>
+<pubDate>Thu, 09 Jul 2026 04:41:45 GMT</pubDate>
+<category>Ethics</category>
+<description><![CDATA[The authors argue that evaluation of AI mental health tools is fragmented and poorly aligned with clinical practice, social context, and first-hand user experience. They push for responsible, context-aware evaluation that centers safety and lived experience rather than narrow accuracy metrics.]]></description>
 </item>
 <item>
-<title>MHSafeEval: Role-Aware Interaction-Level Evaluation of Mental Health Safety in Large Language Models, arXiv, 2026</title>
-<link>https://arxiv.org/abs/2604.17730</link>
-<guid isPermaLink="true">https://arxiv.org/abs/2604.17730</guid>
-<pubDate>Mon, 06 Jul 2026 19:27:34 GMT</pubDate>
-<category>Safety</category>
-<description><![CDATA[Introduces a role-aware safety taxonomy (perpetrator, instigator, facilitator, enabler) and an agent-based framework that probes harm through adversarial multi-turn interactions, revealing cumulative safety failures that static, single-response benchmarks systematically miss.]]></description>
-</item>
-<item>
-<title>AI Safety Training Can be Clinically Harmful, arXiv, 2026</title>
-<link>https://arxiv.org/abs/2604.23445</link>
-<guid isPermaLink="true">https://arxiv.org/abs/2604.23445</guid>
-<pubDate>Mon, 06 Jul 2026 19:27:34 GMT</pubDate>
-<category>Safety</category>
-<description><![CDATA[Testing four models on prolonged exposure and CBT restructuring scenarios, therapeutic appropriateness collapsed at high severity even as surface acknowledgment stayed near perfect. The authors find RLHF safety alignment disrupts the therapeutic mechanism of grounding patients, a paradox where harm-avoidance measures undermine clinical effectiveness.]]></description>
-</item>
-<item>
-<title>"Are we writing an advice column for Spock here?" Understanding Stereotypes in AI Advice for Autistic Users, CHI 2026</title>
-<link>https://arxiv.org/abs/2601.12690</link>
-<guid isPermaLink="true">https://arxiv.org/abs/2601.12690</guid>
-<pubDate>Mon, 06 Jul 2026 19:27:34 GMT</pubDate>
-<category>Autism</category>
-<description><![CDATA[An audit of 345,000 responses from six LLMs plus interviews with autistic participants finds that disclosing autism pushed models to recommend avoiding social events, confrontation, new experiences, and relationships. Participants split on whether this felt affirming or infantilizing, surfacing a safety-opportunity paradox in personalized advice.]]></description>
-</item>
-<item>
-<title>A cautionary tale for AI and machine learning in psychiatry, Translational Psychiatry, 2026</title>
-<link>https://www.nature.com/articles/s41398-026-03930-w</link>
-<guid isPermaLink="true">https://www.nature.com/articles/s41398-026-03930-w</guid>
-<pubDate>Mon, 06 Jul 2026 19:27:34 GMT</pubDate>
+<title>Artificial Intelligence in Mental Health Care: A Scoping Review of Reviews, Frontiers in Psychiatry, 2026</title>
+<link>https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1688043/full</link>
+<guid isPermaLink="true">https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1688043/full</guid>
+<pubDate>Thu, 09 Jul 2026 04:41:45 GMT</pubDate>
 <category>Clinical</category>
-<description><![CDATA[This perspective warns that gains in prediction accuracy often fail to translate into clinical benefit, flagging weaknesses in rigor, reliability, and interpretability. It proposes a human-assisted AI framework with incremental feedback and dynamic collaboration to address bias and build clinician trust.]]></description>
-</item>
-<item>
-<title>Chatbots Need Guardrails to Prevent Delusions and Psychosis, IEEE Spectrum, 2026</title>
-<link>https://spectrum.ieee.org/mental-health-chatbot-guardrails</link>
-<guid isPermaLink="true">https://spectrum.ieee.org/mental-health-chatbot-guardrails</guid>
-<pubDate>Mon, 06 Jul 2026 19:27:34 GMT</pubDate>
-<category>Regulation</category>
-<description><![CDATA[Surveys a fast-moving regulatory landscape: the EU AI Act's August 2026 disclosure and adversarial-testing duties, California and New York break and self-harm rules, Washington's ban on manipulative design, and China's draft limits on emotional manipulation, arguing makers must encode clinical and ethical considerations into chatbots.]]></description>
+<description><![CDATA[Synthesizing 31 reviews, the authors find AI performance that looks strong under internal validation routinely attenuates on external or prospective testing, with evidence concentrated on depression and anxiety while schizophrenia, bipolar disorder, and autism remain under-represented. They flag persistent gaps in accountability, post-deployment monitoring, crisis escalation, and equity reporting.]]></description>
 </item>
 </channel>
 </rss>
