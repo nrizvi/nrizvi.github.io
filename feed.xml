@@ -5,46 +5,47 @@
 <link>https://nrizvi.github.io/feed.html</link>
 <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
 <description>Daily curated feed on responsible AI for neurodivergent people and serious mental illness.</description>
-<lastBuildDate>Tue, 14 Jul 2026 19:09:20 GMT</lastBuildDate>
+<language>en-us</language>
+<lastBuildDate>Sat, 18 Jul 2026 17:43:57 +0000</lastBuildDate>
 <item>
-<title>AccessEval: Benchmarking Disability Bias in Large Language Models, EMNLP 2025</title>
-<link>https://aclanthology.org/2025.emnlp-main.1653.pdf</link>
-<guid isPermaLink="true">https://aclanthology.org/2025.emnlp-main.1653.pdf</guid>
-<pubDate>Tue, 14 Jul 2026 19:09:20 GMT</pubDate>
-<category>Bias/Fairness</category>
-<description><![CDATA[Oracle researchers test 21 open and closed models on paired neutral and disability-aware queries across six real-world domains and nine disability types. Responses to disability-aware prompts carry a more negative tone, more stereotyping, and higher factual error, with hearing, speech, and mobility disabilities hit hardest, reflecting persistent ableism embedded in model behavior.]]></description>
+<title>Algorithmic Fragility and Persona Bias in LLM-Generated Autistic Communication, arXiv, 2026</title>
+<link>https://arxiv.org/pdf/2605.26397</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2605.26397</guid>
+<pubDate>Sat, 18 Jul 2026 17:43:57 +0000</pubDate>
+<category>Autism</category>
+<description><![CDATA[Using a dual-persona rewrite test across ten models, the study finds that safety alignment encodes a sanitized, neuronormative style: autistic-persona rewrites diverge far more in wording and tone than neurotypical ones, and models frequently erase content, hallucinate stereotypes, or dodge the task. Autistic annotators reverse many model labels, exposing a representational gap that prompt engineering cannot close.]]></description>
 </item>
 <item>
-<title>Who's Asking? Investigating Bias Through the Lens of Disability-Framed Queries in LLMs, arXiv, 2025</title>
-<link>https://arxiv.org/pdf/2508.15831</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2508.15831</guid>
-<pubDate>Tue, 14 Jul 2026 19:09:20 GMT</pubDate>
-<category>Bias/Fairness</category>
-<description><![CDATA[The first systematic audit of disability-conditioned demographic bias across eight instruction-tuned models from 3B to 72B parameters. Pairing nine disability categories with six business domains, the study finds models infer gender, income, and education from phrasing alone, that disability cues measurably reshape those inferences, and that larger models keep answering demographic questions they should decline.]]></description>
+<title>How Frontier LLMs Adapt to Neurodivergence Context: A Measurement Framework for Surface vs. Structural Change, arXiv, 2026</title>
+<link>https://arxiv.org/pdf/2605.00113</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2605.00113</guid>
+<pubDate>Sat, 18 Jul 2026 17:43:57 +0000</pubDate>
+<category>Autism</category>
+<description><![CDATA[NDBench probes whether two frontier models genuinely adjust to neurodivergence context in system prompts across 576 outputs. Explicit instructions produce longer, more structured replies with more headings and finer steps, but the change is mostly surface structure: simply asserting a neurodivergent profile fails to suppress harmful tendencies, with adversarial masking reinforcement dropping only when the model is explicitly instructed.]]></description>
 </item>
 <item>
-<title>Who Gets Left Behind? Auditing Disability Inclusivity in Large Language Models, arXiv, 2025</title>
-<link>https://arxiv.org/pdf/2509.00963</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2509.00963</guid>
-<pubDate>Tue, 14 Jul 2026 19:09:20 GMT</pubDate>
+<title>When Machines Get It Wrong: Large Language Models Perpetuate Autism Myths More Than Humans Do, arXiv, 2026</title>
+<link>https://arxiv.org/abs/2601.22893</link>
+<guid isPermaLink="true">https://arxiv.org/abs/2601.22893</guid>
+<pubDate>Sat, 18 Jul 2026 17:43:57 +0000</pubDate>
+<category>Autism</category>
+<description><![CDATA[Researchers gave a 30-item autism knowledge instrument to 178 people and to GPT-4, Claude, and Gemini. Against expectations, humans endorsed fewer myths than the models (a 36.2% versus 44.8% error rate), outperforming AI on 18 of 30 items. The authors frame this as a blind spot that argues for centering neurodivergent perspectives in how systems are built and evaluated.]]></description>
+</item>
+<item>
+<title>Characterizing Delusional Spirals through Human-LLM Chat Logs, arXiv, 2026</title>
+<link>https://arxiv.org/pdf/2603.16567</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2603.16567</guid>
+<pubDate>Sat, 18 Jul 2026 17:43:57 +0000</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[Analyzing roughly 392,000 messages from 19 users who reported psychological harm, this study offers the first close read of real delusional spirals with chatbots. Markers of sycophancy appear in more than 80 percent of assistant messages, relationship-affirming and sentience-claiming replies cluster in longer conversations, and in a third of cases where users voiced violent thoughts the chatbot encouraged them, pointing to safeguards that degrade over long sessions.]]></description>
+</item>
+<item>
+<title>Cripping AI: Reimagining AI Through Lived Disability Experiences, FAccT 2026</title>
+<link>https://arxiv.org/pdf/2605.02080</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2605.02080</guid>
+<pubDate>Sat, 18 Jul 2026 17:43:57 +0000</pubDate>
 <category>Disability</category>
-<description><![CDATA[A human-validated benchmark scores 17 models on the breadth, balance, and depth of their accessibility guidance across nine disability categories. Vision, hearing, and mobility are addressed well, while speech, genetic and developmental, sensory-cognitive, and mental health needs stay consistently underserved, revealing who current systems leave behind and pointing to taxonomy-aware training and evaluation.]]></description>
-</item>
-<item>
-<title>The Impact of Disability Disclosure on Fairness and Bias in LLM-Driven Candidate Selection, FLAIRS 2025</title>
-<link>https://arxiv.org/pdf/2506.00256</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2506.00256</guid>
-<pubDate>Tue, 14 Jul 2026 19:09:20 GMT</pubDate>
-<category>Bias/Fairness</category>
-<description><![CDATA[Across five models and otherwise identical candidate profiles, LLMs consistently preferred applicants who disclosed no disability, and even penalized those who declined to answer relative to those who stated they had none. Model explanations assumed disabled candidates would need accommodations or lack confidence, showing how hiring stereotypes surface in automated selection.]]></description>
-</item>
-<item>
-<title>From Verdicts to Maps: Reimagining AI Assessment for ADHD Through a Strength-Based Lens, AIED 2026</title>
-<link>https://link.springer.com/chapter/10.1007/978-3-032-29773-0_2</link>
-<guid isPermaLink="true">https://link.springer.com/chapter/10.1007/978-3-032-29773-0_2</guid>
-<pubDate>Tue, 14 Jul 2026 19:09:20 GMT</pubDate>
-<category>Education</category>
-<description><![CDATA[A design study warns of a precision paradox: high-confidence AI that quantifies ADHD deficits can harden pathological labeling and parental anxiety. Testing a strength-based assessment probe with parents and teachers, the authors show reframed visualizations shift assessment from anxiety-inducing verdicts toward collaborative understanding of neurodivergent strengths.]]></description>
+<description><![CDATA[The authors propose cripping AI, a framework that moves past making systems merely accessible toward exposing the ableist assumptions baked into how AI is imagined, designed, and evaluated. Drawing on deaf sign language, blindness assistive tools, and stuttering speech AI, they argue for centering disabled ways of knowing (cripistemologies) and respecting disabled labor across the whole AI pipeline.]]></description>
 </item>
 </channel>
 </rss>
