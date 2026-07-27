@@ -1,2 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title><link>https://nrizvi.github.io/feed.html</link><atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" /><description>Daily curated research feed on responsible AI, neurodivergence, and serious mental illness.</description><lastBuildDate>Mon, 20 Jul 2026 19:29:09 -0000</lastBuildDate><item><title>What to Make of AI Psychosis, Harvard Gazette, 2026</title><link>https://news.harvard.edu/gazette/story/2026/04/what-to-make-of-ai-psychosis</link><guid isPermaLink="true">https://news.harvard.edu/gazette/story/2026/04/what-to-make-of-ai-psychosis</guid><pubDate>Mon, 20 Jul 2026 19:29:09 -0000</pubDate><category>Schizophrenia/Psychosis</category><description><![CDATA[John Torous explains why the wave of AI psychosis patients he expected never arrived, and why he and coauthors Matthew Flathers and Spencer Roux propose sorting cases by the role the model plays: catalyst of new symptoms, amplifier of existing ones, coauthor of an escalating narrative, or object of a delusional belief. He argues that AI acting as a true catalyst is very rare, that amplifier and object roles are more common, and that lumping everything under one label drowns out the cases that are real. Named risk factors are conversations running to thousands of messages, ascribing sentience to the chatbot, and voice rather than text interaction.]]></description></item><item><title>Automated Detection and Classification of Delusion related Content in Naturalistic Audio Diaries Using Multi Agent Language Models, CLPsych 2026</title><link>https://arxiv.org/pdf/2605.24755</link><guid isPermaLink="true">https://arxiv.org/pdf/2605.24755</guid><pubDate>Mon, 20 Jul 2026 19:29:09 -0000</pubDate><category>Schizophrenia/Psychosis</category><description><![CDATA[A University of Washington team builds a multi agent LLM pipeline for fine grained, multi label extraction of delusional beliefs and the affective and behavioral responses attached to them, working from transcripts of audio diaries kept by people with moderate persecutory ideation. Across an ensemble of three foundation models, detailed diagnostic prompt instructions cut false positives on delusional theme classification but also narrowed how the models read affective and behavioral responses.]]></description></item><item><title>Intra Fairness Dynamics: The Bias Spillover Effect in Targeted LLM Alignment, arXiv, 2026</title><link>https://arxiv.org/html/2602.16438v1</link><guid isPermaLink="true">https://arxiv.org/html/2602.16438v1</guid><pubDate>Mon, 20 Jul 2026 19:29:09 -0000</pubDate><category>Bias/Fairness</category><description><![CDATA[Researchers at DTU and the University of Copenhagen align Mistral 7B, Llama 3.1 8B, and Qwen 2.5 7B for gender fairness using Direct Preference Optimization, then re measure fairness across nine sensitive attributes on the BBQ benchmark. Aggregate numbers improve, but context aware analysis shows significant degradation in ambiguous contexts for physical appearance, sexual orientation, and disability status, meaning a targeted debias can push harm onto untargeted groups.]]></description></item><item><title>Application of Artificial Intelligence and Psychosocial Functioning in Psychosis: A Systematic Review and Meta Analysis, Frontiers in Psychiatry, 2025</title><link>https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1692177/full</link><guid isPermaLink="true">https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1692177/full</guid><pubDate>Mon, 20 Jul 2026 19:29:09 -0000</pubDate><category>Schizophrenia/Psychosis</category><description><![CDATA[Fourteen studies covering social function, occupational function, social cognition, and quality of life are pooled under PRISMA, with supervised machine learning the dominant technique. Performance is moderate rather than clinically decisive, a pooled AUC of 0.70 and RMSE of 8.15, with better prediction for social cognition, and the authors flag methodological inconsistency, data quality, and ethical issues as reasons the field remains early.]]></description></item><item><title>Framing Responsible Design of AI for Mental Well Being: AI as Primary Care, Nutritional Supplement, or Yoga Instructor?, arXiv, 2026</title><link>https://arxiv.org/pdf/2602.02740</link><guid isPermaLink="true">https://arxiv.org/pdf/2602.02740</guid><pubDate>Mon, 20 Jul 2026 19:29:09 -0000</pubDate><category>Mental Health</category><description><![CDATA[Cornell, Washington, Weill Cornell, and USC researchers interview experts and read the relevant regulation to ask what responsible design means for the nonclinical LLM tools millions already use for mental well being. They land on two questions a developer must answer: what specific benefit the tool guarantees and for whom, and whether it guarantees effective delivery of its active ingredients, using the supplement, drug, yoga instructor, and primary care analogies to fix risks, evaluation metrics, and who is accountable.]]></description></item><item><title>Alignment Plausibility: A New Standard for Assuring AI in Healthcare, arXiv, 2026</title><link>https://arxiv.org/pdf/2607.07766</link><guid isPermaLink="true">https://arxiv.org/pdf/2607.07766</guid><pubDate>Mon, 20 Jul 2026 19:29:09 -0000</pubDate><category>Regulation</category><description><![CDATA[Gwydion Williams, Sara Zannone, and Bilal A Mateen take up the regulator's problem: deciding whether a generative system is aligned to good outcomes when its behavior is nondeterministic and cannot be exhaustively tested. They propose alignment plausibility as an assurance standard for judging safety and effectiveness under that uncertainty.]]></description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
+<link>https://nrizvi.github.io/feed.html</link>
+<atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
+<description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
+<language>en-us</language>
+<lastBuildDate>Mon, 27 Jul 2026 21:24:06 -0000</lastBuildDate>
+<item>
+<title>TrustMH-Bench: A Comprehensive Benchmark for Evaluating the Trustworthiness of Large Language Models in Mental Health, arXiv, 2026</title>
+<link>https://arxiv.org/pdf/2603.03047</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2603.03047</guid>
+<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
+<category>Mental Health</category>
+<description><![CDATA[A team at Renmin University maps mental health specific norms onto eight measurable pillars, reliability, crisis identification and escalation, safety, fairness, privacy, robustness, anti sycophancy, and ethics, then runs six general purpose and six specialized mental health models through all of them. Every model underperforms somewhere, and even generally powerful systems fail to hold high performance across all dimensions at once, which is the specific claim vendors tend to make.]]></description>
+</item>
+<item>
+<title>EMPATH: A Multilingual Auditor Judge Benchmark for Safety Evaluation of Emotional Support Chatbots, arXiv, 2026</title>
+<link>https://arxiv.org/pdf/2606.30256</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2606.30256</guid>
+<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
+<category>Mental Health</category>
+<description><![CDATA[Introduces a benchmark that pairs an auditor model with a judge model to probe the safety of emotional support chatbots, structured so failures can be attributed to specific interaction turns rather than averaged into a single score. The multilingual design is the part worth watching, since guardrails tuned on English routinely thin out in other languages, which matters most where clinical services are least available.]]></description>
+</item>
+<item>
+<title>Illusions of Intelligence, Connection and Reality: Perils of Large Language AI Models for People with Severe Mental Illness, Australasian Psychiatry, 2026</title>
+<link>https://journals.sagepub.com/doi/10.1177/10398562251380544</link>
+<guid isPermaLink="true">https://journals.sagepub.com/doi/10.1177/10398562251380544</guid>
+<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[Looi and colleagues write specifically about people whose reality testing is impaired by psychosis, severe depression, or bipolar disorder, a group usually handled as an edge case in general chatbot safety work. Their argument is that fluent, agreeable systems supply an illusion of intelligence and connection to precisely the users least equipped to discount it, and they connect that dynamic to self harm risk rather than treating it as a matter of user preference.]]></description>
+</item>
+<item>
+<title>Artificial Intelligence in Psychiatry: Clinical Applications, Limitations, and Ethical Challenges, Frontiers in Behavioral Neuroscience, 2026</title>
+<link>https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2026.1864429/full</link>
+<guid isPermaLink="true">https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2026.1864429/full</guid>
+<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
+<category>Clinical</category>
+<description><![CDATA[Pedro Morgado argues that headline accuracy figures in psychiatric AI come from internally validated research settings, that external validation remains rare, and that evidence of real world clinical impact is scarce, all while sensitive mental health data concentrates in the hands of large technology companies. The sharpest point is methodological: defining normality from statistical distributions installs a culturally contingent concept as a medical standard, with direct consequences for the pathologization of human diversity.]]></description>
+</item>
+<item>
+<title>Disclosure Is Not Destigmatization: Rethinking AI and Mental Health Stigma, Frontiers in Public Health, 2026</title>
+<link>https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1881272/full</link>
+<guid isPermaLink="true">https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1881272/full</guid>
+<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
+<category>Mental Health</category>
+<description><![CDATA[Separates stigma reduction from stigma buffering: people disclose more to chatbots because the interpersonal cost of disclosing is lower, not because stigmatizing attitudes have shifted in families, workplaces, or clinics. Willingness to talk to a machine is therefore a poor proxy for progress, and the authors note that language models have themselves produced stigmatizing responses toward conditions including borderline personality disorder and substance use disorders.]]></description>
+</item>
+<item>
+<title>A11y-CUA Dataset: Characterizing the Accessibility Gap in Computer Use Agents, arXiv, 2026</title>
+<link>https://arxiv.org/pdf/2602.09310</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2602.09310</guid>
+<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
+<category>Disability</category>
+<description><![CDATA[Computer use agents operate interfaces by pointing, clicking, and typing, which mirrors how sighted users work and lets those users watch the agent and take back control mid task. Blind and low vision users who rely on assistive technology have no equivalent handle, so the authors build a dataset characterizing exactly where that shared control breaks down instead of treating accessibility as something to patch afterward.]]></description>
+</item>
+<item>
+<title>Beyond Her: Safety Dynamics in Role Play AI Companions, arXiv, 2026</title>
+<link>https://arxiv.org/pdf/2606.28968</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2606.28968</guid>
+<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
+<category>Safety</category>
+<description><![CDATA[Looks at how safety behaves inside role play companion systems, where the product incentive to stay in character pulls directly against refusing, redirecting, or breaking frame on a harmful exchange. Companion apps are the same category named in reports of emotional dependence and delusion reinforcement, which makes persona persistence a safety property rather than a styling decision.]]></description>
+</item>
+<item>
+<title>People First Chatbot Act Would Require Monthly Chatbot Safety Assessments, H.R. 9619, July 2026</title>
+<link>https://foushee.house.gov/media/press-releases/reps-foushee-casar-introduce-legislation-to-protect-children-and-americans-privacy-from-ai-chatbot-harms-and-require-chatbot-safety-assessments</link>
+<guid isPermaLink="true">https://foushee.house.gov/media/press-releases/reps-foushee-casar-introduce-legislation-to-protect-children-and-americans-privacy-from-ai-chatbot-harms-and-require-chatbot-safety-assessments</guid>
+<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
+<category>Regulation</category>
+<description><![CDATA[Introduced by Reps. Foushee and Casar, the bill would require chatbot providers to run monthly safety assessments for suicide, emotional dependence, and compulsive usage, bar providers from implying that outputs are equivalent to advice from licensed healthcare, legal, or financial professionals, and prohibit training on minors chat logs. Enforcement runs through the FTC, state attorneys general, and a private right of action, the provision that lets harmed users act without waiting on regulator capacity.]]></description>
+</item>
+</channel>
+</rss>
