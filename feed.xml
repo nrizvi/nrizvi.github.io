@@ -1,75 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
-<link>https://nrizvi.github.io/feed.html</link>
-<atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
-<description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
-<language>en-us</language>
-<lastBuildDate>Mon, 27 Jul 2026 21:24:06 -0000</lastBuildDate>
-<item>
-<title>TrustMH-Bench: A Comprehensive Benchmark for Evaluating the Trustworthiness of Large Language Models in Mental Health, arXiv, 2026</title>
-<link>https://arxiv.org/pdf/2603.03047</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2603.03047</guid>
-<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
-<category>Mental Health</category>
-<description><![CDATA[A team at Renmin University maps mental health specific norms onto eight measurable pillars, reliability, crisis identification and escalation, safety, fairness, privacy, robustness, anti sycophancy, and ethics, then runs six general purpose and six specialized mental health models through all of them. Every model underperforms somewhere, and even generally powerful systems fail to hold high performance across all dimensions at once, which is the specific claim vendors tend to make.]]></description>
-</item>
-<item>
-<title>EMPATH: A Multilingual Auditor Judge Benchmark for Safety Evaluation of Emotional Support Chatbots, arXiv, 2026</title>
-<link>https://arxiv.org/pdf/2606.30256</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2606.30256</guid>
-<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
-<category>Mental Health</category>
-<description><![CDATA[Introduces a benchmark that pairs an auditor model with a judge model to probe the safety of emotional support chatbots, structured so failures can be attributed to specific interaction turns rather than averaged into a single score. The multilingual design is the part worth watching, since guardrails tuned on English routinely thin out in other languages, which matters most where clinical services are least available.]]></description>
-</item>
-<item>
-<title>Illusions of Intelligence, Connection and Reality: Perils of Large Language AI Models for People with Severe Mental Illness, Australasian Psychiatry, 2026</title>
-<link>https://journals.sagepub.com/doi/10.1177/10398562251380544</link>
-<guid isPermaLink="true">https://journals.sagepub.com/doi/10.1177/10398562251380544</guid>
-<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
-<category>Schizophrenia/Psychosis</category>
-<description><![CDATA[Looi and colleagues write specifically about people whose reality testing is impaired by psychosis, severe depression, or bipolar disorder, a group usually handled as an edge case in general chatbot safety work. Their argument is that fluent, agreeable systems supply an illusion of intelligence and connection to precisely the users least equipped to discount it, and they connect that dynamic to self harm risk rather than treating it as a matter of user preference.]]></description>
-</item>
-<item>
-<title>Artificial Intelligence in Psychiatry: Clinical Applications, Limitations, and Ethical Challenges, Frontiers in Behavioral Neuroscience, 2026</title>
-<link>https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2026.1864429/full</link>
-<guid isPermaLink="true">https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2026.1864429/full</guid>
-<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
-<category>Clinical</category>
-<description><![CDATA[Pedro Morgado argues that headline accuracy figures in psychiatric AI come from internally validated research settings, that external validation remains rare, and that evidence of real world clinical impact is scarce, all while sensitive mental health data concentrates in the hands of large technology companies. The sharpest point is methodological: defining normality from statistical distributions installs a culturally contingent concept as a medical standard, with direct consequences for the pathologization of human diversity.]]></description>
-</item>
-<item>
-<title>Disclosure Is Not Destigmatization: Rethinking AI and Mental Health Stigma, Frontiers in Public Health, 2026</title>
-<link>https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1881272/full</link>
-<guid isPermaLink="true">https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1881272/full</guid>
-<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
-<category>Mental Health</category>
-<description><![CDATA[Separates stigma reduction from stigma buffering: people disclose more to chatbots because the interpersonal cost of disclosing is lower, not because stigmatizing attitudes have shifted in families, workplaces, or clinics. Willingness to talk to a machine is therefore a poor proxy for progress, and the authors note that language models have themselves produced stigmatizing responses toward conditions including borderline personality disorder and substance use disorders.]]></description>
-</item>
-<item>
-<title>A11y-CUA Dataset: Characterizing the Accessibility Gap in Computer Use Agents, arXiv, 2026</title>
-<link>https://arxiv.org/pdf/2602.09310</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2602.09310</guid>
-<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
-<category>Disability</category>
-<description><![CDATA[Computer use agents operate interfaces by pointing, clicking, and typing, which mirrors how sighted users work and lets those users watch the agent and take back control mid task. Blind and low vision users who rely on assistive technology have no equivalent handle, so the authors build a dataset characterizing exactly where that shared control breaks down instead of treating accessibility as something to patch afterward.]]></description>
-</item>
-<item>
-<title>Beyond Her: Safety Dynamics in Role Play AI Companions, arXiv, 2026</title>
-<link>https://arxiv.org/pdf/2606.28968</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2606.28968</guid>
-<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
-<category>Safety</category>
-<description><![CDATA[Looks at how safety behaves inside role play companion systems, where the product incentive to stay in character pulls directly against refusing, redirecting, or breaking frame on a harmful exchange. Companion apps are the same category named in reports of emotional dependence and delusion reinforcement, which makes persona persistence a safety property rather than a styling decision.]]></description>
-</item>
-<item>
-<title>People First Chatbot Act Would Require Monthly Chatbot Safety Assessments, H.R. 9619, July 2026</title>
-<link>https://foushee.house.gov/media/press-releases/reps-foushee-casar-introduce-legislation-to-protect-children-and-americans-privacy-from-ai-chatbot-harms-and-require-chatbot-safety-assessments</link>
-<guid isPermaLink="true">https://foushee.house.gov/media/press-releases/reps-foushee-casar-introduce-legislation-to-protect-children-and-americans-privacy-from-ai-chatbot-harms-and-require-chatbot-safety-assessments</guid>
-<pubDate>Mon, 27 Jul 2026 21:24:06 -0000</pubDate>
-<category>Regulation</category>
-<description><![CDATA[Introduced by Reps. Foushee and Casar, the bill would require chatbot providers to run monthly safety assessments for suicide, emotional dependence, and compulsive usage, bar providers from implying that outputs are equivalent to advice from licensed healthcare, legal, or financial professionals, and prohibit training on minors chat logs. Enforcement runs through the FTC, state attorneys general, and a private right of action, the provision that lets harmed users act without waiting on regulator capacity.]]></description>
-</item>
-</channel>
+  <channel>
+    <title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
+    <link>https://nrizvi.github.io/feed.html</link>
+    <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
+    <lastBuildDate>Tue, 28 Jul 2026 19:38:22 +0000</lastBuildDate>
+    <item>
+      <title>Using LLM as a Judge and LLM as a Jury to Advance Scalable, Clinically Validated Safety Evaluations of Model Responses to Users Demonstrating Psychosis, arXiv, 2026</title>
+      <link>https://arxiv.org/pdf/2604.02359</link>
+      <guid isPermaLink="true">https://arxiv.org/pdf/2604.02359</guid>
+      <pubDate>Tue, 28 Jul 2026 19:38:22 +0000</pubDate>
+      <category>Schizophrenia/Psychosis</category>
+      <description><![CDATA[Seven clinician informed safety criteria were developed and validated, then used to build a human consensus dataset of model responses to users showing signs of psychosis. Automated scoring by a single strong LLM judge tracked human consensus closely, with Cohen's kappa around .75, and slightly outperformed a majority vote jury of several models. The result gives mental health safety work a scalable, clinically grounded evaluation method rather than one off red teaming, and it treats psychosis as the primary case rather than an afterthought.]]></description>
+    </item>
+    <item>
+      <title>Identifying, Explaining, and Correcting Ableist Language with AI, CHI 2026</title>
+      <link>https://arxiv.org/html/2602.19560</link>
+      <guid isPermaLink="true">https://arxiv.org/html/2602.19560</guid>
+      <pubDate>Tue, 28 Jul 2026 19:38:22 +0000</pubDate>
+      <category>Disability</category>
+      <description><![CDATA[GPT-4o generations were compared against crowdsourced annotations from trained disability community members, then evaluated by disabled participants. Agreement was equal across human and AI annotations, but participants significantly preferred the AI for its narrative consistency and accessible style while still valuing the emotional depth and cultural grounding of human annotators. The authors release a nuanced ableism annotation dataset and argue for participatory, disability centered pipelines, noting one autistic participant's point that lived experience is not optional expertise.]]></description>
+    </item>
+    <item>
+      <title>Algorithmic Ableism and the Normative Body: Disability in the Age of Technocapitalist AI, Technology and Disability, 2026</title>
+      <link>https://journals.sagepub.com/doi/10.1177/10554181261433364</link>
+      <guid isPermaLink="true">https://journals.sagepub.com/doi/10.1177/10554181261433364</guid>
+      <pubDate>Tue, 28 Jul 2026 19:38:22 +0000</pubDate>
+      <category>Disability</category>
+      <description><![CDATA[A qualitative comparative analysis of Microsoft Seeing AI, Be My Eyes, Google Lookout, and Google Live Transcribe treats user manuals, help center documentation, interface structure, and promotional material as the evidence rather than model performance. Across all four, accessibility is framed as translating disabled bodies and senses into formats legible to dominant technological norms, privileging visual, auditory, and linguistic standardization while marginalizing multi channel communication, interdependence, and alternative sensory practice. The paper's methodological move is to name design discourse itself as a site of algorithmic ableism.]]></description>
+    </item>
+    <item>
+      <title>From Synthesis to Clinical Assistance: A Strategy Aware Agent Framework for Autism Intervention Based on Real Clinical Data, arXiv, 2026</title>
+      <link>https://arxiv.org/pdf/2605.02916</link>
+      <guid isPermaLink="true">https://arxiv.org/pdf/2605.02916</guid>
+      <pubDate>Tue, 28 Jul 2026 19:38:22 +0000</pubDate>
+      <category>Autism</category>
+      <description><![CDATA[The framework moves autism intervention agents past purely synthetic dialogue by grounding them in a real clinical dataset, with intervention strategy represented explicitly in the agent's planning rather than left implicit inside a prompt. Framing the target as clinical assistance rather than replacement matters in a subfield where tooling is often validated only on simulated interactions, and where the people being intervened on are rarely the ones evaluating whether the intervention was worth doing.]]></description>
+    </item>
+    <item>
+      <title>Beyond Ethics: How Inclusive Innovation Drives Economic Returns in Medical AI, arXiv, 2026</title>
+      <link>https://arxiv.org/pdf/2510.10338</link>
+      <guid isPermaLink="true">https://arxiv.org/pdf/2510.10338</guid>
+      <pubDate>Tue, 28 Jul 2026 19:38:22 +0000</pubDate>
+      <category>Bias/Fairness</category>
+      <description><![CDATA[A multi institution perspective from authors at Toronto, Bordeaux, British Columbia, Caltech, MIT, King's College London, and RAND introduces the inclusive innovation dividend, the counterintuitive claim that designing medical AI for underrepresented populations returns strategic and economic value rather than only discharging a fairness obligation. That reframing matters for psychiatry and disability, where exclusion from training data is usually filed under ethics and therefore competes with commercial priorities instead of aligning with them.]]></description>
+    </item>
+    <item>
+      <title>When AI Becomes a Friend: Child Rights Risks, Harms, and Regulatory Responses to AI Chatbots and Companions, UNICEF, June 2026</title>
+      <link>https://www.unicef.org/media/181131/file/UNICEF-When-AI-becomes-friend-policy-brief-2026.pdf</link>
+      <guid isPermaLink="true">https://www.unicef.org/media/181131/file/UNICEF-When-AI-becomes-friend-policy-brief-2026.pdf</guid>
+      <pubDate>Tue, 28 Jul 2026 19:38:22 +0000</pubDate>
+      <category>Regulation</category>
+      <description><![CDATA[Comparing Australia, Brazil, California, China, the European Union, and the United Kingdom as of May 2026, the brief finds convergence on risk assessment, age assurance, disclosure of non human status, restrictions on harmful content, and user reporting, and sharp divergence on whether access is restricted at the access layer or only at the output layer and whether enforcement is administrative, civil, or criminal. It flags that socially and emotionally vulnerable adolescents are the most likely to turn to companion systems, and calls for mandatory pre deployment testing and child rights impact assessments rather than reaction after harm.]]></description>
+    </item>
+    <item>
+      <title>The Dawn of AI in Mental Health: Balancing Innovation, Risk, and Regulation, Cyberpsychology, Behavior, and Social Networking, 2026</title>
+      <link>https://journals.sagepub.com/doi/10.1177/21522715251414068</link>
+      <guid isPermaLink="true">https://journals.sagepub.com/doi/10.1177/21522715251414068</guid>
+      <pubDate>Tue, 28 Jul 2026 19:38:22 +0000</pubDate>
+      <category>Regulation</category>
+      <description><![CDATA[Written out of the FDA Digital Health Advisory Committee meeting on generative AI in patient facing mental health tools, the piece notes that the agency has authorized no AI enabled medical device specifically for mental health despite more than 1,200 authorizations in radiology, cardiology, and elsewhere. It surveys the EU AI Act, UK MHRA guidance, WHO governance work, and Chinese and Australian rules, then argues for predetermined change control plans, adversarial pre market testing across diverse demographics, and adverse event reporting so adaptive models can improve without escaping review.]]></description>
+    </item>
+    <item>
+      <title>FDA Announces Sweeping Changes to Oversight of Wearables and AI Enabled Devices, STAT, January 2026</title>
+      <link>https://www.statnews.com/2026/01/06/fda-pulls-back-oversight-ai-enabled-devices-wearables/</link>
+      <guid isPermaLink="true">https://www.statnews.com/2026/01/06/fda-pulls-back-oversight-ai-enabled-devices-wearables/</guid>
+      <pubDate>Tue, 28 Jul 2026 19:38:22 +0000</pubDate>
+      <category>Regulation</category>
+      <description><![CDATA[The agency will ease regulation of digital health products, softening its approach to clinical decision support software so that tools delivering a single recommendation can reach market without FDA review provided they meet the other exemption criteria. Commissioner Marty Makary framed the change around investor friendliness and moving at Silicon Valley speed, a posture that sits awkwardly beside the same agency's still unfinished framework for generative AI mental health devices.]]></description>
+    </item>
+  </channel>
 </rss>
