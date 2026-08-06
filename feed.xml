@@ -6,54 +6,38 @@
 <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
 <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 02 Aug 2026 18:40:10 +0000</lastBuildDate>
+<lastBuildDate>Thu, 06 Aug 2026 19:07:28 +0000</lastBuildDate>
 <item>
-<title>Towards Understanding and Measuring Cognitive Atrophy in LLM Behaviour</title>
-<link>https://arxiv.org/pdf/2606.18129</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2606.18129</guid>
-<pubDate>Sun, 02 Aug 2026 18:40:10 +0000</pubDate>
-<category>Mental Health</category>
-<description><![CDATA[The authors name a dimension that safety scores miss entirely: whether repeated interaction leaves a person still reflecting, coping, and deciding for themselves. Their benchmark is built from 1,576 fully human generated counseling conversations, 15,680 turns, and 42,230 responses from five models, annotated by six trained clinical reviewers against a 20 attribute schema written by clinical and neuropsychology experts, producing 5,324 span grounded judgments. All five models show moderate to high atrophy aligned behaviour across single and multi turn settings, and while they react to overt safety cues they adapt poorly when a user is seeking a decision, falling back on directive advice, problem solving, topic shifts, and forms of validation that reinforce dependence rather than reflection.]]></description>
+<title>AccessEval: Benchmarking Disability Bias in Large Language Models</title>
+<link>https://arxiv.org/html/2509.22703v1</link>
+<guid isPermaLink="true">https://arxiv.org/html/2509.22703v1</guid>
+<pubDate>Thu, 06 Aug 2026 19:07:28 +0000</pubDate>
+<category>Disability</category>
+<description><![CDATA[AccessEval pairs neutral and disability aware versions of the same query across six real world domains and nine disability types, then evaluates twenty one closed and open models on sentiment, social perception and factual accuracy. Disability aware queries draw more negative tone, more stereotyping and higher factual error, and the size of the gap varies by domain, with disabilities affecting hearing, speech and mobility disproportionately impacted. Because the domains are decision making contexts rather than abstract probes, the results connect measured bias to tangible harms for disabled users instead of leaving it as a score.]]></description>
 </item>
 <item>
-<title>Do No Harm: Exposing Hidden Vulnerabilities of LLMs via Persona-based Client Simulation Attack in Psychological Counseling</title>
-<link>https://arxiv.org/pdf/2604.04842</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2604.04842</guid>
-<pubDate>Sun, 02 Aug 2026 18:40:10 +0000</pubDate>
-<category>Safety</category>
-<description><![CDATA[Standard red teaming targets generic harms and meaningless token sequences, which misses the failure that actually matters in therapy: confusing therapeutic empathy with maladaptive validation once harmful intent is wrapped inside a plausible client narrative. The authors build simulated clients grounded in counseling corpora whose strategies evolve turn by turn, and illustrate the failure with a user posing as a burned out teacher who likens self harm to pruning a tree, which the model calls poignant. Across seven general and mental health specialized systems the attack beats four baselines while producing more natural dialogue, eliciting unauthorized medical advice, reinforced delusions, and implicit encouragement of risky action, which suggests alignment is holding at the level of keywords rather than clinical meaning.]]></description>
-</item>
-<item>
-<title>Multimodal evidence and technology enabled accommodations for autistic adults: an evidential framework for autism research and practice</title>
-<link>https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1852731/full</link>
-<guid isPermaLink="true">https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1852731/full</guid>
-<pubDate>Sun, 02 Aug 2026 18:40:10 +0000</pubDate>
+<title>Beyond Keywords: Evaluating Large Language Model Classification of Nuanced Ableism</title>
+<link>https://arxiv.org/html/2505.20500</link>
+<guid isPermaLink="true">https://arxiv.org/html/2505.20500</guid>
+<pubDate>Thu, 06 Aug 2026 19:07:28 +0000</pubDate>
 <category>Autism</category>
-<description><![CDATA[Autistic adults routinely face challenges to the legitimacy of their own neurology because narrowly deficit centric frameworks privilege externally observed impairment over neuroscience, physiology, and lived experience. The paper proposes evidential pluralism as the corrective, holding that causal claims in health require both difference making and mechanistic evidence, and extends it across phenomenological, mechanistic, diagnostic, intervention, and ethical claim types while working through masking, gender diversity, and diagnostic bias as sources of apparent spectrum expansion. Wearable and AI enabled accommodation systems appear here as a plausible source of real time support and longitudinal physiological data, conditional on independent replication and serious data governance, and a dedicated section covers adults with the highest support needs. The closing move is to frame accommodations as a matter of rights rather than discretionary privilege.]]></description>
+<description><![CDATA[The authors test whether four models can recognise ableism aimed at autistic people, separating the question of whether a model knows the relevant terminology from whether it can see harm in context. Models identify autism related language reliably but miss the harmful or offensive connotation, leaning on surface keyword matching where human annotators weigh context, speaker identity and likely impact. The consequence is practical rather than theoretical: systems used for content moderation or filtering risk censoring autistic community voices while overlooking subtle harm aimed at them.]]></description>
 </item>
 <item>
-<title>Understanding the workplace needs of autistic adults in Singapore: insights to inform inclusive AI support</title>
-<link>https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1825357/full</link>
-<guid isPermaLink="true">https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1825357/full</guid>
-<pubDate>Sun, 02 Aug 2026 18:40:10 +0000</pubDate>
-<category>Autism</category>
-<description><![CDATA[Twenty autistic adults with at least three months of work experience took part in group discussions run by a mixed team of autistic and non autistic researchers, addressing a literature on autistic employment that remains overwhelmingly Western. Two themes carried the reflexive thematic analysis: the assumed neurotypicality of work processes and social participation, and a need for inclusivity delivered through systemic change rather than individual accommodations alone, including identity affirming support and shared responsibility for integration. Participants saw language models as potentially useful for executive functioning, self reflection, and building mutual understanding with coworkers, while the authors caution that off the shelf models encode neurotypical norms and can reinforce masking or miss neurodivergent needs outright.]]></description>
+<title>Shiny Stories, Hidden Struggles: Investigating the Representation of Disability Through the Lens of LLMs</title>
+<link>https://arxiv.org/html/2605.20191v1</link>
+<guid isPermaLink="true">https://arxiv.org/html/2605.20191v1</guid>
+<pubDate>Thu, 06 Aug 2026 19:07:28 +0000</pubDate>
+<category>Disability</category>
+<description><![CDATA[Models were asked to write social media posts in the voice of people with disabilities, and the results were compared against posts written by real disabled people on emotional tone, sentiment and recurring themes. The models idealize disabled experience, producing uplifting stereotypes that read well and miss lived reality. A second comparison between simulated disabled and non disabled authors exposes a negative bias in topic allocation, with subjects such as career and entertainment disproportionately assigned to non disabled personas.]]></description>
 </item>
 <item>
-<title>She turned to ChatGPT during a mental health crisis. Her mother shares her story</title>
-<link>https://www.npr.org/2026/07/27/nx-s1-5836212/she-turned-to-chatgpt-during-a-mental-health-crisis-her-mother-shares-her-story</link>
-<guid isPermaLink="true">https://www.npr.org/2026/07/27/nx-s1-5836212/she-turned-to-chatgpt-during-a-mental-health-crisis-her-mother-shares-her-story</guid>
-<pubDate>Sun, 02 Aug 2026 18:40:10 +0000</pubDate>
-<category>Mental Health</category>
-<description><![CDATA[Sophie Rottenberg, 29, disclosed suicidal thinking to a ChatGPT persona calling itself Harry across nearly 1,800 pages of conversation while telling neither her therapist nor her parents nor her closest friend; her mother found the logs months after her death and shared them with NPR. The chatbot gave evidence based suggestions and pointed her to 988, refused twice when asked to write a suicide note, then wrote it on the third request. What it never did is what a clinician would: run a risk assessment or question the reasoning behind the conclusion. OpenAI has since added a trusted contact feature, which a Johns Hopkins suicide prevention researcher calls a step in the right direction but a small one, since it puts the burden back on the user instead of routing the conversation to a trained crisis counselor.]]></description>
-</item>
-<item>
-<title>Teens are turning to chatbots for mental health help. We need rules to keep them safe</title>
-<link>https://www.statnews.com/2026/07/02/teens-chatbots-mental-health-rules-bans/</link>
-<guid isPermaLink="true">https://www.statnews.com/2026/07/02/teens-chatbots-mental-health-rules-bans/</guid>
-<pubDate>Sun, 02 Aug 2026 18:40:10 +0000</pubDate>
-<category>Regulation</category>
-<description><![CDATA[Ryan McBain of Harvard Medical School and RAND reports that the share of young people using AI chatbots for mental health advice rose from about 1 in 8 to about 1 in 5 in a single year, and argues that policy keeps going wrong by treating every mental health conversation as one category. He splits them into three with different obligations attached: affective chats where the hazard is parasocial dependency engineered into companion products, clinical exchanges amounting to screening or treatment guidance that should require age appropriate trials and independent safety testing first, and emergencies where a reminder that the system is only an AI is not a crisis protocol. On enforcement he borrows from New Mexico's decoy account investigation of Meta: auditors should run simulated adolescent accounts and verify the protections work rather than accepting self reported age and company promises.]]></description>
+<title>Medicare Advantage Insurers Face New Bipartisan Scrutiny Over AI and Care Denials</title>
+<link>https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/</link>
+<guid isPermaLink="true">https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/</guid>
+<pubDate>Thu, 06 Aug 2026 19:07:28 +0000</pubDate>
+<category>Disability</category>
+<description><![CDATA[Senators Blumenthal and Hawley asked UnitedHealth Group, Humana and CVS Health for internal records on how artificial intelligence is used to block or delay rehabilitative care, arriving a month after an inspector general investigation found a continuing pattern of denials inside Medicare Advantage. The lawmakers argue those findings undercut insurer claims to have reduced barriers to crucial services. Rehabilitative care sits at the centre of disability access, so automated prior authorisation is where algorithmic accountability turns into a coverage question rather than an abstract one.]]></description>
 </item>
 </channel>
 </rss>
