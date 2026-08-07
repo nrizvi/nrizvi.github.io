@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
-<link>https://nrizvi.github.io/feed.html</link>
-<atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
-<description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
-<language>en-us</language>
-<lastBuildDate>Thu, 06 Aug 2026 19:07:28 +0000</lastBuildDate>
-<item>
-<title>AccessEval: Benchmarking Disability Bias in Large Language Models</title>
-<link>https://arxiv.org/html/2509.22703v1</link>
-<guid isPermaLink="true">https://arxiv.org/html/2509.22703v1</guid>
-<pubDate>Thu, 06 Aug 2026 19:07:28 +0000</pubDate>
-<category>Disability</category>
-<description><![CDATA[AccessEval pairs neutral and disability aware versions of the same query across six real world domains and nine disability types, then evaluates twenty one closed and open models on sentiment, social perception and factual accuracy. Disability aware queries draw more negative tone, more stereotyping and higher factual error, and the size of the gap varies by domain, with disabilities affecting hearing, speech and mobility disproportionately impacted. Because the domains are decision making contexts rather than abstract probes, the results connect measured bias to tangible harms for disabled users instead of leaving it as a score.]]></description>
-</item>
-<item>
-<title>Beyond Keywords: Evaluating Large Language Model Classification of Nuanced Ableism</title>
-<link>https://arxiv.org/html/2505.20500</link>
-<guid isPermaLink="true">https://arxiv.org/html/2505.20500</guid>
-<pubDate>Thu, 06 Aug 2026 19:07:28 +0000</pubDate>
-<category>Autism</category>
-<description><![CDATA[The authors test whether four models can recognise ableism aimed at autistic people, separating the question of whether a model knows the relevant terminology from whether it can see harm in context. Models identify autism related language reliably but miss the harmful or offensive connotation, leaning on surface keyword matching where human annotators weigh context, speaker identity and likely impact. The consequence is practical rather than theoretical: systems used for content moderation or filtering risk censoring autistic community voices while overlooking subtle harm aimed at them.]]></description>
-</item>
-<item>
-<title>Shiny Stories, Hidden Struggles: Investigating the Representation of Disability Through the Lens of LLMs</title>
-<link>https://arxiv.org/html/2605.20191v1</link>
-<guid isPermaLink="true">https://arxiv.org/html/2605.20191v1</guid>
-<pubDate>Thu, 06 Aug 2026 19:07:28 +0000</pubDate>
-<category>Disability</category>
-<description><![CDATA[Models were asked to write social media posts in the voice of people with disabilities, and the results were compared against posts written by real disabled people on emotional tone, sentiment and recurring themes. The models idealize disabled experience, producing uplifting stereotypes that read well and miss lived reality. A second comparison between simulated disabled and non disabled authors exposes a negative bias in topic allocation, with subjects such as career and entertainment disproportionately assigned to non disabled personas.]]></description>
-</item>
-<item>
-<title>Medicare Advantage Insurers Face New Bipartisan Scrutiny Over AI and Care Denials</title>
-<link>https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/</link>
-<guid isPermaLink="true">https://www.statnews.com/2026/07/15/medicare-advantage-ai-care-denials-probe-blumenthal-hawley/</guid>
-<pubDate>Thu, 06 Aug 2026 19:07:28 +0000</pubDate>
-<category>Disability</category>
-<description><![CDATA[Senators Blumenthal and Hawley asked UnitedHealth Group, Humana and CVS Health for internal records on how artificial intelligence is used to block or delay rehabilitative care, arriving a month after an inspector general investigation found a continuing pattern of denials inside Medicare Advantage. The lawmakers argue those findings undercut insurer claims to have reduced barriers to crucial services. Rehabilitative care sits at the centre of disability access, so automated prior authorisation is where algorithmic accountability turns into a coverage question rather than an abstract one.]]></description>
-</item>
-</channel>
+  <channel>
+    <title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
+    <link>https://nrizvi.github.io/feed.html</link>
+    <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Aug 2026 19:23:25 -0000</lastBuildDate>
+    <item>
+      <title>When Can We Trust LLMs in Mental Health? Large-Scale Benchmarks for Reliable LLM Evaluation</title>
+      <link>https://aclanthology.org/2026.eacl-long.180/</link>
+      <guid isPermaLink="true">https://aclanthology.org/2026.eacl-long.180/</guid>
+      <pubDate>Fri, 07 Aug 2026 19:23:25 -0000</pubDate>
+      <category>Mental Health</category>
+      <description><![CDATA[Two benchmarks test whether automated judges can be trusted in mental health dialogue. MentalBench-100k pairs ten thousand authentic single session therapeutic conversations with nine model generated responses each, and MentalAlign-70k compares four strong model judges against human experts across seventy thousand ratings on seven attributes grouped into cognitive support and affective resonance. Using intraclass correlation to quantify agreement and bias, the authors find systematic score inflation by model judges, solid reliability for cognitive attributes such as guidance and informativeness, reduced precision for empathy, and unreliability on safety and relevance. That last point lands hardest for high risk users, since safety is exactly the attribute an automated evaluator is least able to grade.]]></description>
+    </item>
+    <item>
+      <title>PsychiatryBench: a multi-task benchmark for LLMs in psychiatry</title>
+      <link>https://www.nature.com/articles/s41746-026-02582-w</link>
+      <guid isPermaLink="true">https://www.nature.com/articles/s41746-026-02582-w</guid>
+      <pubDate>Fri, 07 Aug 2026 19:23:25 -0000</pubDate>
+      <category>Clinical</category>
+      <description><![CDATA[PsychiatryBench is built exclusively from expert validated psychiatric textbooks and casebooks rather than social media or synthetic dialogue, covering eleven question answering tasks across diagnostic reasoning, treatment planning, longitudinal follow up, management planning and sequential case analysis, totalling 5,188 annotated items. Frontier and open medical models are scored with conventional metrics and a judge based similarity framework, and the results show substantial gaps in clinical consistency and safety concentrated in multi turn follow up and management. Single turn diagnostic accuracy therefore overstates readiness, because the failures appear where care is longitudinal, which is where serious mental illness actually lives.]]></description>
+    </item>
+    <item>
+      <title>I Use ChatGPT to Humanize My Words: Affordances and Risks of ChatGPT to Autistic Users</title>
+      <link>https://arxiv.org/abs/2601.17946v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2601.17946v1</guid>
+      <pubDate>Fri, 07 Aug 2026 19:23:25 -0000</pubDate>
+      <category>Autism</category>
+      <description><![CDATA[An inductive thematic analysis of 3,984 social media posts by self identified autistic users applies an affordance lens to what ChatGPT actually does for them. Users offload executive dysfunction, regulate emotions, translate neurotypical communication and validate autistic identity, but the same affordances carry costs: reinforcement of delusional thinking, erasure of authentic identity through automated masking, and friction with an autistic sense of justice when the tool smooths over what a person meant. The authors argue for neuro inclusive design built on beneficial friction, bidirectional translation, and a clear line between emotional validation and reality testing.]]></description>
+    </item>
+    <item>
+      <title>Millions Already Turn to AI for Therapy. Is It Safe?</title>
+      <link>https://magazine.hms.harvard.edu/articles/millions-already-turn-ai-therapy-it-safe</link>
+      <guid isPermaLink="true">https://magazine.hms.harvard.edu/articles/millions-already-turn-ai-therapy-it-safe</guid>
+      <pubDate>Fri, 07 Aug 2026 19:23:25 -0000</pubDate>
+      <category>Mental Health</category>
+      <description><![CDATA[A feature on the clinicians trying to make general purpose chatbots safer for mental health use, anchored in congressional testimony that over a million people per week hold conversations with ChatGPT containing explicit indicators of suicide planning. Researchers quoted note that models show promise for depression and anxiety yet struggle to recognise manic, psychotic or obsessive content, especially when it builds gradually, and that predisposition to psychosis is largely absent from public debate about chatbot delusions. The piece describes MindBench.ai, a benchmarking platform built with the National Alliance on Mental Illness that collects patient reported failures, and argues the field still lacks shared definitions of harm that a regulator could enforce.]]></description>
+    </item>
+    <item>
+      <title>Scaling Artificial Intelligence in Health</title>
+      <link>https://www.oecd.org/en/publications/scaling-artificial-intelligence-in-health_a436e12d-en.html</link>
+      <guid isPermaLink="true">https://www.oecd.org/en/publications/scaling-artificial-intelligence-in-health_a436e12d-en.html</guid>
+      <pubDate>Fri, 07 Aug 2026 19:23:25 -0000</pubDate>
+      <category>Regulation</category>
+      <description><![CDATA[The OECD sets out a policy checklist for countries scaling health AI, organised into four pillars: establishing enablers for data foundations and capacity, implementing guardrails for oversight and monitoring, engaging meaningfully with the public, providers and industry, and deploying trustworthy systems. Nine policy categories and 43 questions are framed as the decisions governments keep skipping, with fragmented data foundations, regulatory uncertainty and governance gaps named as the main barriers to adoption. For mental health the value is procedural, giving ministries a common vocabulary for cross border compatible rules before national approaches diverge past the point of alignment.]]></description>
+    </item>
+  </channel>
 </rss>
