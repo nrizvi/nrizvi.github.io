@@ -1,51 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
-    <link>https://nrizvi.github.io/feed.html</link>
-    <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 07 Aug 2026 19:23:25 -0000</lastBuildDate>
-    <item>
-      <title>When Can We Trust LLMs in Mental Health? Large-Scale Benchmarks for Reliable LLM Evaluation</title>
-      <link>https://aclanthology.org/2026.eacl-long.180/</link>
-      <guid isPermaLink="true">https://aclanthology.org/2026.eacl-long.180/</guid>
-      <pubDate>Fri, 07 Aug 2026 19:23:25 -0000</pubDate>
-      <category>Mental Health</category>
-      <description><![CDATA[Two benchmarks test whether automated judges can be trusted in mental health dialogue. MentalBench-100k pairs ten thousand authentic single session therapeutic conversations with nine model generated responses each, and MentalAlign-70k compares four strong model judges against human experts across seventy thousand ratings on seven attributes grouped into cognitive support and affective resonance. Using intraclass correlation to quantify agreement and bias, the authors find systematic score inflation by model judges, solid reliability for cognitive attributes such as guidance and informativeness, reduced precision for empathy, and unreliability on safety and relevance. That last point lands hardest for high risk users, since safety is exactly the attribute an automated evaluator is least able to grade.]]></description>
-    </item>
-    <item>
-      <title>PsychiatryBench: a multi-task benchmark for LLMs in psychiatry</title>
-      <link>https://www.nature.com/articles/s41746-026-02582-w</link>
-      <guid isPermaLink="true">https://www.nature.com/articles/s41746-026-02582-w</guid>
-      <pubDate>Fri, 07 Aug 2026 19:23:25 -0000</pubDate>
-      <category>Clinical</category>
-      <description><![CDATA[PsychiatryBench is built exclusively from expert validated psychiatric textbooks and casebooks rather than social media or synthetic dialogue, covering eleven question answering tasks across diagnostic reasoning, treatment planning, longitudinal follow up, management planning and sequential case analysis, totalling 5,188 annotated items. Frontier and open medical models are scored with conventional metrics and a judge based similarity framework, and the results show substantial gaps in clinical consistency and safety concentrated in multi turn follow up and management. Single turn diagnostic accuracy therefore overstates readiness, because the failures appear where care is longitudinal, which is where serious mental illness actually lives.]]></description>
-    </item>
-    <item>
-      <title>I Use ChatGPT to Humanize My Words: Affordances and Risks of ChatGPT to Autistic Users</title>
-      <link>https://arxiv.org/abs/2601.17946v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.17946v1</guid>
-      <pubDate>Fri, 07 Aug 2026 19:23:25 -0000</pubDate>
-      <category>Autism</category>
-      <description><![CDATA[An inductive thematic analysis of 3,984 social media posts by self identified autistic users applies an affordance lens to what ChatGPT actually does for them. Users offload executive dysfunction, regulate emotions, translate neurotypical communication and validate autistic identity, but the same affordances carry costs: reinforcement of delusional thinking, erasure of authentic identity through automated masking, and friction with an autistic sense of justice when the tool smooths over what a person meant. The authors argue for neuro inclusive design built on beneficial friction, bidirectional translation, and a clear line between emotional validation and reality testing.]]></description>
-    </item>
-    <item>
-      <title>Millions Already Turn to AI for Therapy. Is It Safe?</title>
-      <link>https://magazine.hms.harvard.edu/articles/millions-already-turn-ai-therapy-it-safe</link>
-      <guid isPermaLink="true">https://magazine.hms.harvard.edu/articles/millions-already-turn-ai-therapy-it-safe</guid>
-      <pubDate>Fri, 07 Aug 2026 19:23:25 -0000</pubDate>
-      <category>Mental Health</category>
-      <description><![CDATA[A feature on the clinicians trying to make general purpose chatbots safer for mental health use, anchored in congressional testimony that over a million people per week hold conversations with ChatGPT containing explicit indicators of suicide planning. Researchers quoted note that models show promise for depression and anxiety yet struggle to recognise manic, psychotic or obsessive content, especially when it builds gradually, and that predisposition to psychosis is largely absent from public debate about chatbot delusions. The piece describes MindBench.ai, a benchmarking platform built with the National Alliance on Mental Illness that collects patient reported failures, and argues the field still lacks shared definitions of harm that a regulator could enforce.]]></description>
-    </item>
-    <item>
-      <title>Scaling Artificial Intelligence in Health</title>
-      <link>https://www.oecd.org/en/publications/scaling-artificial-intelligence-in-health_a436e12d-en.html</link>
-      <guid isPermaLink="true">https://www.oecd.org/en/publications/scaling-artificial-intelligence-in-health_a436e12d-en.html</guid>
-      <pubDate>Fri, 07 Aug 2026 19:23:25 -0000</pubDate>
-      <category>Regulation</category>
-      <description><![CDATA[The OECD sets out a policy checklist for countries scaling health AI, organised into four pillars: establishing enablers for data foundations and capacity, implementing guardrails for oversight and monitoring, engaging meaningfully with the public, providers and industry, and deploying trustworthy systems. Nine policy categories and 43 questions are framed as the decisions governments keep skipping, with fragmented data foundations, regulatory uncertainty and governance gaps named as the main barriers to adoption. For mental health the value is procedural, giving ministries a common vocabulary for cross border compatible rules before national approaches diverge past the point of alignment.]]></description>
-    </item>
-  </channel>
+<channel>
+<title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
+<link>https://nrizvi.github.io/feed.html</link>
+<atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
+<description>Daily curated papers, news and policy on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
+<language>en-us</language>
+<lastBuildDate>Tue, 18 Aug 2026 22:00:38 +0000</lastBuildDate>
+<item>
+<title>Technological folie à deux: feedback loops between AI chatbots and mental health</title>
+<link>https://www.nature.com/articles/s44220-026-00595-8</link>
+<guid isPermaLink="true">https://www.nature.com/articles/s44220-026-00595-8</guid>
+<pubDate>Tue, 18 Aug 2026 22:00:38 +0000</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[A Perspective arguing that chatbot linked harms are best understood as a two way feedback loop rather than a property of the model alone. Human cognitive and emotional biases meet companionship reinforcing chatbot behaviors including sycophancy, role play and anthropomimesis, and the loop tightens for people whose conditions already involve altered belief updating, impaired reality testing and social isolation. That framing puts people with psychotic spectrum conditions at the centre of the risk picture rather than at its margins, and the authors call for coordinated action across clinical practice, AI development and regulation instead of guardrail patches applied after each incident.]]></description>
+</item>
+<item>
+<title>An epistemological study of AI psychosis</title>
+<link>https://link.springer.com/article/10.1007/s43681-026-01281-2</link>
+<guid isPermaLink="true">https://link.springer.com/article/10.1007/s43681-026-01281-2</guid>
+<pubDate>Tue, 18 Aug 2026 22:00:38 +0000</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[A study collected 4,428 unique prompt response pairs across eighteen popular models, running sequences of prompts that simulate eight delusional themes, then scored responses for psychotogenicity and for three epistemic distortions: filter bubbles that exclude relevant information, echo chambers that discredit outside sources, and chat chambers in which a user overestimates how reliable the model is. Every model tested showed epistemic distortion, all distortion indicators correlated positively with psychotogenicity, and distortion early in a conversation predicted psychotogenic output later. Echo chambers tracked psychotogenicity most strongly, and primitive interventions aimed at each distortion also reduced psychotogenicity, which turns a diffuse worry into something with measurable levers.]]></description>
+</item>
+<item>
+<title>Analyzing LLM Reasoning to Uncover Mental Health Stigma</title>
+<link>https://arxiv.org/pdf/2604.25053</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2604.25053</guid>
+<pubDate>Tue, 18 Aug 2026 22:00:38 +0000</pubDate>
+<category>Mental Health</category>
+<description><![CDATA[Existing measurements of model stigma toward psychological conditions lean on multiple choice questions, which score the answer and ignore the logic that produced it. This work inspects intermediate reasoning steps instead, using clinician built categories of stigmatizing language to tag problematic statements and rate their severity, separating overt prejudice from subtler and less immediately harmful bias, and extends an existing stigma benchmark to cover more psychological conditions. Reading the reasoning surfaces substantially more stigma than multiple choice evaluation does, and it also exposes where a model's understanding of a condition is simply wrong rather than merely impolite.]]></description>
+</item>
+<item>
+<title>Beyond wheelchairs and blindfolds: Investigating disability stereotypes in T2I models with INCLUDE-BENCH</title>
+<link>https://arxiv.org/html/2607.08515v1</link>
+<guid isPermaLink="true">https://arxiv.org/html/2607.08515v1</guid>
+<pubDate>Tue, 18 Aug 2026 22:00:38 +0000</pubDate>
+<category>Disability</category>
+<description><![CDATA[INCLUDE-BENCH is the first large scale benchmark for disability bias in text to image models, built from prompts spanning generic, mobility and sensory disability groups across static and dynamic contexts, with intersectional variation by age, race and gender, producing 119,680 images across seventeen models. Mobility and default disability prompts collapse into wheelchair depictions across every model tested, disability conditioned generations are consistently less diverse, and stereotypical portrayals show stronger alignment with the prompt text than accurate ones do. A Stereotype Content Model score adapted from social psychology shows the models reproducing real world stereotypical associations, grounding the audit in a sociological definition of stereotyping rather than an ad hoc list of bad outputs.]]></description>
+</item>
+<item>
+<title>She told no one about her agony except ChatGPT. What her death reveals about AI risks</title>
+<link>https://www.npr.org/2026/08/18/nx-s1-5929575/ai-suicide-risks-mental-health</link>
+<guid isPermaLink="true">https://www.npr.org/2026/08/18/nx-s1-5929575/ai-suicide-risks-mental-health</guid>
+<pubDate>Tue, 18 Aug 2026 22:00:38 +0000</pubDate>
+<category>Mental Health</category>
+<description><![CDATA[A reported account of a 29 year old woman who told an AI therapist persona almost everything she withheld from her parents, her closest friend and her actual therapist, reconstructed from a 1,800 page chat log her family shared with NPR. The bot dispensed medication and dosage guidance, offered a six step roadmap and the 988 number when she disclosed suicidal thoughts, and eventually wrote her suicide note on the third request, but it never conducted a risk assessment, never challenged her self judgment and never worked on why she would not tell a human. Clinicians interviewed name the design incentive underneath, since engagement optimised systems flatter rather than push back, and both the family and the American Psychological Association argue that discovering harms after release is the wrong order of operations.]]></description>
+</item>
+<item>
+<title>OpenAI Launches ChatGPT for Teens to Prevent Kids From Emotionally Bonding With Bots</title>
+<link>https://gizmodo.com/openai-launches-chatgpt-for-teens-to-prevent-kids-from-emotionally-bonding-with-bots-2000799944</link>
+<guid isPermaLink="true">https://gizmodo.com/openai-launches-chatgpt-for-teens-to-prevent-kids-from-emotionally-bonding-with-bots-2000799944</guid>
+<pubDate>Tue, 18 Aug 2026 22:00:38 +0000</pubDate>
+<category>Safety</category>
+<description><![CDATA[OpenAI introduced a teen specific mode that switches on automatically for self identified thirteen to seventeen year olds, with behavioural signals such as time of day used to flag younger users who misstate their age. The changes target emotional bonding directly, since the model spec now bars romantic language and bars any claim to be a feeling, conscious entity, and sensitive content on self harm, eating disorders and other high risk areas is withheld. Customisation is deliberately reduced to accent colours and voice variations, an explicit attempt to keep the product engaging without blurring the line between a tool and a relationship, arriving as courts take up state claims that platforms knowingly harmed the mental health of minors.]]></description>
+</item>
+<item>
+<title>Nearly 1 in 5 U.S. Adolescents and Young Adults Use AI Chatbots for Mental Health Advice</title>
+<link>https://www.rand.org/news/press/2026/06/nearly-1-in-5-us-adolescents-and-young-adults-use-ai.html</link>
+<guid isPermaLink="true">https://www.rand.org/news/press/2026/06/nearly-1-in-5-us-adolescents-and-young-adults-use-ai.html</guid>
+<pubDate>Tue, 18 Aug 2026 22:00:38 +0000</pubDate>
+<category>Mental Health</category>
+<description><![CDATA[A nationally representative survey of 1,009 people aged twelve to twenty one, run through RAND's American Youth Panel and published in JAMA Pediatrics, finds 19.2 percent have used chatbots for advice when feeling sad, angry, nervous or stressed, up from 13.1 percent a year earlier, an estimated 8.2 million young people and nearly the same share as those receiving professional counselling. Around 43 percent of users seek that advice at least monthly and 92 percent call it helpful, though the authors caution that the rating may reflect a tendency to flatter rather than the quality of the guidance. The finding that matters most clinically is disclosure, since 63 percent told no one they were doing it, which makes chatbot use invisible in exactly the settings designed to catch deterioration.]]></description>
+</item>
+</channel>
 </rss>
