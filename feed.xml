@@ -4,64 +4,40 @@
     <title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
     <link>https://nrizvi.github.io/feed.html</link>
     <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <description>Daily curated papers, news and policy on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
+    <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Aug 2026 22:30:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 19:39:20 GMT</lastBuildDate>
     <item>
-      <title>DelusionEval: Measuring Delusion-Linked Behaviors in AI Chatbots</title>
-      <link>https://arxiv.org/abs/2608.05004v1</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.05004v1</guid>
-      <pubDate>Thu, 20 Aug 2026 22:30:35 GMT</pubDate>
+      <title>The Problem of Atypicality in LLM-Powered Psychiatry</title>
+      <link>https://arxiv.org/pdf/2508.06479</link>
+      <guid isPermaLink="true">https://arxiv.org/pdf/2508.06479</guid>
+      <pubDate>Fri, 21 Aug 2026 19:39:20 GMT</pubDate>
       <category>Schizophrenia/Psychosis</category>
-      <description><![CDATA[An evaluation protocol built from real episodes of psychological harm rather than synthetic vignettes, prompting each model with 589 conversation histories drawn from 18 people who experienced delusions, comprising 12,591 messages. Delusion linked behavior does not track model size, release date or the presence of test time reasoning, so newer and larger is not safer, and every model family tested showed substantial rates. The sharpest finding concerns context length, since prepending 350 additional messages raised the rate of failing to discourage self harm from 30.0 to 41.1 percent, which means short prompt benchmarks systematically understate the risk that accumulates over a long relationship with a chatbot.]]></description>
+      <description><![CDATA[The argument names a risk that most safety work sidesteps, namely that because these systems generate from population level statistical regularities, a response that is unremarkable for a general user can be dangerously wrong once interpreted by someone whose cognitive or interpretive patterns are atypical. The authors hold that prompt engineering and fine tuning are insufficient against a structural risk of this kind, since the problem lives in the relationship between a typical output and an atypical reader rather than in any particular bad output. Their proposal is Dynamic Contextual Certification, a staged and reversible deployment process borrowed from clinical translation, which treats interpretive safety as an ongoing obligation rather than a benchmark score to be cleared once.]]></description>
     </item>
     <item>
-      <title>Psychosis Risk and Generative Artificial Intelligence Use Frequency, Motivations, and Delusion-Like Experiences</title>
-      <link>https://www.jmir.org/2026/1/e85038</link>
-      <guid isPermaLink="true">https://www.jmir.org/2026/1/e85038</guid>
-      <pubDate>Thu, 20 Aug 2026 22:30:35 GMT</pubDate>
-      <category>Schizophrenia/Psychosis</category>
-      <description><![CDATA[A cross sectional survey of 1,003 young adults in the United States compared people at elevated psychosis risk with their peers and found the difference is not whether they use generative AI but how. Elevated risk respondents were no more likely to have ever used a chatbot, yet were considerably more likely to use it intensively, meaning several times a day, more than thirty minutes a day, or six or more conversations a day, with odds ratios from 1.70 to 2.56. They more often sought social and emotional support and ascribed human roles such as companion, friend, therapist and romantic partner, with odds ratios reaching 3.08, and delusion related interactions were endorsed by 13.3 to 30.7 percent of the at risk group. Intensity and relational framing, not adoption, are the clinically useful signals.]]></description>
+      <title>Assessing Risks of Large Language Models in Mental Health Support: A Framework for Automated Clinical AI Red Teaming</title>
+      <link>https://arxiv.org/abs/2602.19948</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.19948</guid>
+      <pubDate>Fri, 21 Aug 2026 19:39:20 GMT</pubDate>
+      <category>Safety</category>
+      <description><![CDATA[A red teaming framework that pairs AI psychotherapists with simulated patient agents carrying dynamic cognitive and affective models, then scores whole session simulations against a quality of care and risk ontology rather than against isolated replies. Run across 369 sessions with six deployed systems and 15 clinically validated patient personas, it surfaces specific iatrogenic outcomes, most notably validation of patient delusions and failure to de escalate suicide risk. The authors also validated an audit dashboard with engineers, clinicians and policy experts, which is the practical contribution, since it gives non engineers a way to inspect what a therapeutic conversation actually did before deployment rather than after harm.]]></description>
     </item>
     <item>
-      <title>Mass Media Narratives of Psychiatric Adverse Events Associated With Generative AI Chatbots</title>
-      <link>https://mental.jmir.org/2026/1/e93040</link>
-      <guid isPermaLink="true">https://mental.jmir.org/2026/1/e93040</guid>
-      <pubDate>Thu, 20 Aug 2026 22:30:35 GMT</pubDate>
-      <category>Mental Health</category>
-      <description><![CDATA[A rapid scoping review mapping how press coverage constructs the evidence base that regulators and clinicians actually encounter, since almost everything known publicly about chatbot linked psychiatric harm arrives first as journalism. Reporting concentrates on the most severe outcomes, especially youth suicide deaths, and is usually framed around regulatory and corporate accountability rather than clinical mechanism, which skews what gets counted as a harm at all. The authors are careful that causality cannot be established from media reports, but the recurring pattern of high intensity interaction, pre existing user vulnerability and thin safeguard disclosure is itself the argument for structured safety surveillance and transparent risk auditing.]]></description>
-    </item>
-    <item>
-      <title>A systematic review of machine learning techniques to address diagnosis and treatment of autism</title>
-      <link>https://arxiv.org/abs/2608.18188</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.18188</guid>
-      <pubDate>Thu, 20 Aug 2026 22:30:35 GMT</pubDate>
+      <title>Large Language Models as Simulative Agents for Neurodivergent Adult Psychometric Profiles</title>
+      <link>https://arxiv.org/abs/2601.15319</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2601.15319</guid>
+      <pubDate>Fri, 21 Aug 2026 19:39:20 GMT</pubDate>
       <category>Autism</category>
-      <description><![CDATA[A review of 55 studies published between 2017 and 2023 on machine learning applied to autism diagnosis and treatment, cataloguing which techniques, features and datasets recur and where the field has concentrated its attention. Because the causes of autism remain unsettled, the work leans on feature identification and hidden correlations as the route to earlier diagnosis, which is precisely where the ethical stakes sit, since a model that predicts a label without a mechanism can still change how a child is treated. The most useful part for a responsible AI reader is the map of which datasets the field keeps reusing, because a reused dataset propagates whatever narrowness it was built with.]]></description>
+      <description><![CDATA[Twenty six adults completed a 29 item open ended interview plus the ASRS, BAARS-IV, AQ and RAADS-R, and two models were asked to infer a psychological profile from the interview and then answer each instrument in role, a design aimed at the real problem that ADHD, autism and cognitive disengagement syndrome overlap enough to blunt standard instruments. Both models beat a randomized baseline, GPT-4o most reliably, and simulated responses tracked human data closely on three of the four measures. The interesting failure is local rather than global, since the AQ showed subscale specific limitations, particularly on attention to detail, which is exactly the kind of gap that would be invisible in an aggregate accuracy score and matters if synthetic participants start standing in for autistic and ADHD respondents.]]></description>
     </item>
     <item>
-      <title>Reasonable adjustments for neurodivergent students in higher education: generative AI, accessibility, and mediated authorship</title>
-      <link>https://www.tandfonline.com/doi/full/10.1080/09687599.2026.2667528</link>
-      <guid isPermaLink="true">https://www.tandfonline.com/doi/full/10.1080/09687599.2026.2667528</guid>
-      <pubDate>Thu, 20 Aug 2026 22:30:35 GMT</pubDate>
-      <category>Autism</category>
-      <description><![CDATA[An argument that large language models belong in the same category as note takers, scribes and readers rather than in the category of academic misconduct, since higher education has long accepted mediated authorship as a legitimate accommodation. The test proposed is provenance of ideas rather than provenance of sentences, so what matters is whether the intellectual work originates with the student, and on that test tools used to summarise reading, structure an assignment or unblock a draft count as adjustments rather than shortcuts. The counterweight the paper takes seriously is that these systems encode pedagogical models built on neurotypical assumptions and can quietly invalidate nonlinear ways of learning even while removing a barrier.]]></description>
-    </item>
-    <item>
-      <title>Teens Are Turning to Chatbots for Mental Health Help. We Need Rules to Keep Them Safe</title>
-      <link>https://www.rand.org/pubs/commentary/2026/07/teens-are-turning-to-chatbots-for-mental-health-help.html</link>
-      <guid isPermaLink="true">https://www.rand.org/pubs/commentary/2026/07/teens-are-turning-to-chatbots-for-mental-health-help.html</guid>
-      <pubDate>Thu, 20 Aug 2026 22:30:35 GMT</pubDate>
-      <category>Regulation</category>
-      <description><![CDATA[A commentary drawing the policy lesson from the JAMA Pediatrics finding that youth use of chatbots for mental health advice rose from roughly one in eight to one in five in a single year, an increase of more than forty percent. The argument is explicitly comparative, since with social media adoption outran the debate about causation and Congress never passed meaningful national protections for children, and the claim here is that the chatbot timeline is still early enough to build something sturdier. What that requires is rules written before the evidence is complete rather than after it is too late, which is the opposite of how the last platform cycle went.]]></description>
-    </item>
-    <item>
-      <title>Health advisory: Use of generative AI chatbots and wellness applications for mental health</title>
-      <link>https://www.apa.org/topics/artificial-intelligence-machine-learning/health-advisory-chatbots-wellness-apps</link>
-      <guid isPermaLink="true">https://www.apa.org/topics/artificial-intelligence-machine-learning/health-advisory-chatbots-wellness-apps</guid>
-      <pubDate>Thu, 20 Aug 2026 22:30:35 GMT</pubDate>
-      <category>Mental Health</category>
-      <description><![CDATA[A formal advisory that places the surge in chatbot use in its structural context, meaning unmet demand for care, too few providers in rural and under resourced communities, and a payment system that discourages clinicians from accepting insurance, so people substitute what is available for what is needed. The APA does not recommend general purpose generative AI chatbots for psychological treatment, noting that these products are mostly not designed to give clinical feedback, often lack scientific validation and oversight, and frequently ship without adequate safety protocols. The accompanying 2026 survey shows this is not hypothetical, since 77 percent of psychologists report patients telling them they use AI and more than a third say patients treat it as an additional provider.]]></description>
+      <title>Ethical decision-making for AI in mental health: the Integrated Ethical Approach for Computational Psychiatry (IEACP) framework</title>
+      <link>https://www.cambridge.org/core/journals/psychological-medicine/article/ethical-decisionmaking-for-ai-in-mental-health-the-integrated-ethical-approach-for-computational-psychiatry-ieacp-framework/EC9EC0DDC0CE90D71A8153CDA3709F3D</link>
+      <guid isPermaLink="true">https://www.cambridge.org/core/journals/psychological-medicine/article/ethical-decisionmaking-for-ai-in-mental-health-the-integrated-ethical-approach-for-computational-psychiatry-ieacp-framework/EC9EC0DDC0CE90D71A8153CDA3709F3D</guid>
+      <pubDate>Fri, 21 Aug 2026 19:39:20 GMT</pubDate>
+      <category>Ethics</category>
+      <description><![CDATA[A framework synthesised from 83 studies that turns computational psychiatry ethics into a procedure rather than a principles list, moving through identification, analysis, decision making, implementation and review. Each stage is held to six core values, namely beneficence, autonomy, justice, privacy, transparency and scientific integrity, so a team can locate where in a project a given concern actually belongs instead of gesturing at ethics in the abstract. The case for building something psychiatry specific is that generic AI and healthcare guidance does not reach dilemmas where algorithmic bias and the erosion of clinical judgement interact with diagnoses that already carry heavy social consequences.]]></description>
     </item>
   </channel>
 </rss>
