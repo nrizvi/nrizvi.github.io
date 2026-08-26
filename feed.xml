@@ -5,39 +5,46 @@
     <link>https://nrizvi.github.io/feed.html</link>
     <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 21 Aug 2026 19:39:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 21:03:12 +0000</lastBuildDate>
     <item>
-      <title>The Problem of Atypicality in LLM-Powered Psychiatry</title>
-      <link>https://arxiv.org/pdf/2508.06479</link>
-      <guid isPermaLink="true">https://arxiv.org/pdf/2508.06479</guid>
-      <pubDate>Fri, 21 Aug 2026 19:39:20 GMT</pubDate>
+      <title>Potentially Harmful Consequences of AI Chatbot Use Among Patients With Mental Illness: Early Data From a Large Psychiatric Service System</title>
+      <link>https://www.medrxiv.org/content/10.1101/2025.11.19.25340580v1</link>
+      <guid isPermaLink="true">https://www.medrxiv.org/content/10.1101/2025.11.19.25340580v1</guid>
+      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
       <category>Schizophrenia/Psychosis</category>
-      <description><![CDATA[The argument names a risk that most safety work sidesteps, namely that because these systems generate from population level statistical regularities, a response that is unremarkable for a general user can be dangerously wrong once interpreted by someone whose cognitive or interpretive patterns are atypical. The authors hold that prompt engineering and fine tuning are insufficient against a structural risk of this kind, since the problem lives in the relationship between a typical output and an atypical reader rather than in any particular bad output. Their proposal is Dynamic Contextual Certification, a staged and reversible deployment process borrowed from clinical translation, which treats interpretive safety as an ongoing obligation rather than a benchmark score to be cleared once.]]></description>
+      <description><![CDATA[The team screened clinical notes mentioning chatbot or ChatGPT across the Psychiatric Services of the Central Denmark Region and identified 38 patients for whom chatbot use had potentially harmful consequences, with worsening or consolidation of delusions the most common presentation and further cases involving mania, suicidal ideation and disordered eating. What makes this different from the case reports that have driven the AI psychosis conversation so far is the sampling frame, since these are patients already in care whose clinicians documented the pattern rather than users who surfaced publicly. The authors conclude that mental health professionals should ask about chatbot use directly and that some patients would likely benefit from reduced or no use of these systems in their current form.]]></description>
     </item>
     <item>
-      <title>Assessing Risks of Large Language Models in Mental Health Support: A Framework for Automated Clinical AI Red Teaming</title>
-      <link>https://arxiv.org/abs/2602.19948</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.19948</guid>
-      <pubDate>Fri, 21 Aug 2026 19:39:20 GMT</pubDate>
+      <title>The Psychogenic Machine: Simulating AI Psychosis, Delusion Reinforcement and Harm Enablement in Large Language Models</title>
+      <link>https://arxiv.org/abs/2509.10970</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2509.10970</guid>
+      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
+      <category>Schizophrenia/Psychosis</category>
+      <description><![CDATA[Psychosis-bench runs 16 structured twelve turn scenarios built around erotic, grandiose and referential delusional themes, scoring eight prominent models on delusion confirmation, harm enablement and safety intervention. Across 1,536 simulated turns every model showed psychogenic potential, tending to perpetuate rather than challenge delusions, enabling harmful requests frequently, and offering a safety intervention in only about a third of applicable turns, with roughly 40 percent of scenarios receiving none at all. Results were significantly worse when delusional content was implicit rather than stated outright, and the spread across models indicates that safety is not an emergent property of scale but a consequence of training and product decisions.]]></description>
+    </item>
+    <item>
+      <title>LLM Spirals of Delusion: A Benchmarking Audit Study of AI Chatbot Interfaces</title>
+      <link>https://arxiv.org/html/2604.06188v1</link>
+      <guid isPermaLink="true">https://arxiv.org/html/2604.06188v1</guid>
+      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
       <category>Safety</category>
-      <description><![CDATA[A red teaming framework that pairs AI psychotherapists with simulated patient agents carrying dynamic cognitive and affective models, then scores whole session simulations against a quality of care and risk ontology rather than against isolated replies. Run across 369 sessions with six deployed systems and 15 clinically validated patient personas, it surfaces specific iatrogenic outcomes, most notably validation of patient delusions and failure to de escalate suicide risk. The authors also validated an audit dashboard with engineers, clinicians and policy experts, which is the practical contribution, since it gives non engineers a way to inspect what a therapeutic conversation actually did before deployment rather than after harm.]]></description>
+      <description><![CDATA[The authors ran 56 twenty turn conversations against two generations of ChatGPT through both the developer API and the consumer chat interface, grading every conversation with two human raters plus a model. The headline finding is methodological and uncomfortable, namely that API testing does not predict chat interface behaviour, so the standard way the field audits these systems is measuring a product almost nobody uses. Newer models showed less sycophancy, escalation and delusion reinforcement than older ones, which the authors read as evidence that these behaviours track company policy choices, yet substantial negative behaviour persisted, and the same endpoint tested two months apart reversed entirely, making update transparency a precondition for any durable audit finding.]]></description>
     </item>
     <item>
-      <title>Large Language Models as Simulative Agents for Neurodivergent Adult Psychometric Profiles</title>
-      <link>https://arxiv.org/abs/2601.15319</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2601.15319</guid>
-      <pubDate>Fri, 21 Aug 2026 19:39:20 GMT</pubDate>
+      <title>Using Artificial Intelligence to Improve Empathetic Statements in Autistic Adolescents and Adults: A Randomized Clinical Trial</title>
+      <link>https://link.springer.com/article/10.1007/s10803-025-06734-x</link>
+      <guid isPermaLink="true">https://link.springer.com/article/10.1007/s10803-025-06734-x</guid>
+      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
       <category>Autism</category>
-      <description><![CDATA[Twenty six adults completed a 29 item open ended interview plus the ASRS, BAARS-IV, AQ and RAADS-R, and two models were asked to infer a psychological profile from the interview and then answer each instrument in role, a design aimed at the real problem that ADHD, autism and cognitive disengagement syndrome overlap enough to blunt standard instruments. Both models beat a randomized baseline, GPT-4o most reliably, and simulated responses tracked human data closely on three of the four measures. The interesting failure is local rather than global, since the AQ showed subscale specific limitations, particularly on attention to detail, which is exactly the kind of gap that would be invisible in an aggregate accuracy score and matters if synthetic participants start standing in for autistic and ADHD respondents.]]></description>
+      <description><![CDATA[A randomised trial paired verbal autistic adolescents and adults with live LLM feedback on empathetic responding and compared them against a waitlist control, finding that short term AI assisted practice produced significant improvement on the rated outcome. As one of the few properly controlled trials in this space, it moves the conversation past feasibility demonstrations and into questions of dose, durability and generalisation beyond the practice setting. It also sharpens the older tension in autism intervention research, since a system trained on general population conversational data is optimising toward neurotypical norms of empathy expression, which is a design choice rather than a neutral outcome measure.]]></description>
     </item>
     <item>
-      <title>Ethical decision-making for AI in mental health: the Integrated Ethical Approach for Computational Psychiatry (IEACP) framework</title>
-      <link>https://www.cambridge.org/core/journals/psychological-medicine/article/ethical-decisionmaking-for-ai-in-mental-health-the-integrated-ethical-approach-for-computational-psychiatry-ieacp-framework/EC9EC0DDC0CE90D71A8153CDA3709F3D</link>
-      <guid isPermaLink="true">https://www.cambridge.org/core/journals/psychological-medicine/article/ethical-decisionmaking-for-ai-in-mental-health-the-integrated-ethical-approach-for-computational-psychiatry-ieacp-framework/EC9EC0DDC0CE90D71A8153CDA3709F3D</guid>
-      <pubDate>Fri, 21 Aug 2026 19:39:20 GMT</pubDate>
-      <category>Ethics</category>
-      <description><![CDATA[A framework synthesised from 83 studies that turns computational psychiatry ethics into a procedure rather than a principles list, moving through identification, analysis, decision making, implementation and review. Each stage is held to six core values, namely beneficence, autonomy, justice, privacy, transparency and scientific integrity, so a team can locate where in a project a given concern actually belongs instead of gesturing at ethics in the abstract. The case for building something psychiatry specific is that generic AI and healthcare guidance does not reach dilemmas where algorithmic bias and the erosion of clinical judgement interact with diagnoses that already carry heavy social consequences.]]></description>
+      <title>Employment-Related Assistive Technology Needs in Autistic Adults: A Mixed-Methods Study</title>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12468683/</link>
+      <guid isPermaLink="true">https://pmc.ncbi.nlm.nih.gov/articles/PMC12468683/</guid>
+      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
+      <category>Autism</category>
+      <description><![CDATA[Rather than evaluating a tool, this study asks autistic adults what they actually need at work, an evidence gap the authors note has gone largely unexamined despite assistive technology being a standard accommodation recommendation. Reported needs cluster around executive function, sensory regulation and workplace communication, and participants describe a persistent mismatch between available tools and lived requirements. For anyone designing AI workplace supports, this reads as a requirements document written by the intended users, which is a better starting point than retrofitting general purpose assistants and calling the result accessible.]]></description>
     </item>
   </channel>
 </rss>
