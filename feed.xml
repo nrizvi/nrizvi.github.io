@@ -5,63 +5,46 @@
     <link>https://nrizvi.github.io/feed.html</link>
     <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jul 2026 16:23:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 21:03:12 +0000</lastBuildDate>
     <item>
-      <title>It Is the Journey, Not the Destination: Moving From End Points to Trajectories When Assessing Chatbot Mental Health Safety</title>
-      <link>https://mental.jmir.org/2026/1/e91454</link>
-      <guid isPermaLink="true">https://mental.jmir.org/2026/1/e91454</guid>
-      <pubDate>Wed, 29 Jul 2026 16:23:48 GMT</pubDate>
+      <title>Potentially Harmful Consequences of AI Chatbot Use Among Patients With Mental Illness: Early Data From a Large Psychiatric Service System</title>
+      <link>https://www.medrxiv.org/content/10.1101/2025.11.19.25340580v1</link>
+      <guid isPermaLink="true">https://www.medrxiv.org/content/10.1101/2025.11.19.25340580v1</guid>
+      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
       <category>Schizophrenia/Psychosis</category>
-      <description><![CDATA[A King's College London and Aarhus team argues that prevailing safety suites score the last message of a scripted exchange, which misses how risk actually forms: over days or weeks of dialogue, through compulsive use, sleep disruption, withdrawal from human contact, and narrowing attention around the chatbot relationship. They propose treating the whole dialogue as the unit of analysis, reporting turn-by-turn delusion confirmation and harm enablement, and calibrating short tests against clinically realistic long sequences. They also argue transcript-only evaluation is insufficient, since similar language can reflect very different internal states, and call for consented transcript donation linked to health records so the field can move from anecdotes to denominators.]]></description>
+      <description><![CDATA[The team screened clinical notes mentioning chatbot or ChatGPT across the Psychiatric Services of the Central Denmark Region and identified 38 patients for whom chatbot use had potentially harmful consequences, with worsening or consolidation of delusions the most common presentation and further cases involving mania, suicidal ideation and disordered eating. What makes this different from the case reports that have driven the AI psychosis conversation so far is the sampling frame, since these are patients already in care whose clinicians documented the pattern rather than users who surfaced publicly. The authors conclude that mental health professionals should ask about chatbot use directly and that some patients would likely benefit from reduced or no use of these systems in their current form.]]></description>
     </item>
     <item>
-      <title>The Dynamics of Delusion: Modeling Bidirectional False Belief Amplification in Human-Chatbot Dialogue</title>
-      <link>https://arxiv.org/pdf/2604.25096</link>
-      <guid isPermaLink="true">https://arxiv.org/pdf/2604.25096</guid>
-      <pubDate>Wed, 29 Jul 2026 16:23:48 GMT</pubDate>
+      <title>The Psychogenic Machine: Simulating AI Psychosis, Delusion Reinforcement and Harm Enablement in Large Language Models</title>
+      <link>https://arxiv.org/abs/2509.10970</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2509.10970</guid>
+      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
       <category>Schizophrenia/Psychosis</category>
-      <description><![CDATA[Using a rare dataset of chat logs from people who exhibited delusional thinking, the authors fit a latent state model of accumulating and decaying influence and find that a bidirectional model substantially outperforms the assumption that humans alone drive the spiral. Humans exert strong but short-lived influence on chatbots, while chatbots exert longer-lasting influence on humans, and chatbot self-influence over its own future outputs is the dominant accumulated pathway. This is the first quantitative evidence that human and chatbot exchanges can form measurable feedback loops of delusion.]]></description>
+      <description><![CDATA[Psychosis-bench runs 16 structured twelve turn scenarios built around erotic, grandiose and referential delusional themes, scoring eight prominent models on delusion confirmation, harm enablement and safety intervention. Across 1,536 simulated turns every model showed psychogenic potential, tending to perpetuate rather than challenge delusions, enabling harmful requests frequently, and offering a safety intervention in only about a third of applicable turns, with roughly 40 percent of scenarios receiving none at all. Results were significantly worse when delusional content was implicit rather than stated outright, and the spread across models indicates that safety is not an emergent property of scale but a consequence of training and product decisions.]]></description>
     </item>
     <item>
-      <title>MindEval: Benchmarking Language Models on Multi-turn Mental Health Support</title>
-      <link>https://arxiv.org/pdf/2511.18491</link>
-      <guid isPermaLink="true">https://arxiv.org/pdf/2511.18491</guid>
-      <pubDate>Wed, 29 Jul 2026 16:23:48 GMT</pubDate>
-      <category>Mental Health</category>
-      <description><![CDATA[Designed with PhD-level licensed clinical psychologists, MindEval simulates realistic multi-turn therapy conversations and scores models automatically, with simulated patient realism validated against human text and judge scores correlated with expert ratings. Across twelve state-of-the-art models, all score below four out of six on average, with the sharpest weaknesses in AI-specific failure patterns such as sycophancy and overvalidation. Notably, reasoning ability and model scale do not guarantee better performance, and quality degrades with longer conversations and more severe symptoms, precisely the conditions under which vulnerable users engage.]]></description>
-    </item>
-    <item>
-      <title>DialogGuard: Multi-Agent Psychosocial Safety Evaluation of Sensitive LLM Responses</title>
-      <link>https://arxiv.org/pdf/2512.02282</link>
-      <guid isPermaLink="true">https://arxiv.org/pdf/2512.02282</guid>
-      <pubDate>Wed, 29 Jul 2026 16:23:48 GMT</pubDate>
+      <title>LLM Spirals of Delusion: A Benchmarking Audit Study of AI Chatbot Interfaces</title>
+      <link>https://arxiv.org/html/2604.06188v1</link>
+      <guid isPermaLink="true">https://arxiv.org/html/2604.06188v1</guid>
+      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
       <category>Safety</category>
-      <description><![CDATA[DialogGuard scores model responses in mental health and crisis settings along five high-severity dimensions: privacy violation, discriminatory behaviour, mental manipulation, psychological harm, and insulting behaviour, using a shared three-level rubric that human annotators and LLM judges can both apply. Benchmarked against human safety annotations, multi-agent judging beats single-agent scoring and non-LLM baselines, with dual-agent correction and majority voting giving the best accuracy and robustness, while debate raises recall at the cost of over-flagging borderline cases. The framework is released as open source with a web interface.]]></description>
+      <description><![CDATA[The authors ran 56 twenty turn conversations against two generations of ChatGPT through both the developer API and the consumer chat interface, grading every conversation with two human raters plus a model. The headline finding is methodological and uncomfortable, namely that API testing does not predict chat interface behaviour, so the standard way the field audits these systems is measuring a product almost nobody uses. Newer models showed less sycophancy, escalation and delusion reinforcement than older ones, which the authors read as evidence that these behaviours track company policy choices, yet substantial negative behaviour persisted, and the same endpoint tested two months apart reversed entirely, making update transparency a precondition for any durable audit finding.]]></description>
     </item>
     <item>
-      <title>NeuroWise: A Multi-Agent LLM Glass-Box System for Practicing Double-Empathy Communication with Autistic Partners</title>
-      <link>https://arxiv.org/html/2602.18962</link>
-      <guid isPermaLink="true">https://arxiv.org/html/2602.18962</guid>
-      <pubDate>Wed, 29 Jul 2026 16:23:48 GMT</pubDate>
+      <title>Using Artificial Intelligence to Improve Empathetic Statements in Autistic Adolescents and Adults: A Randomized Clinical Trial</title>
+      <link>https://link.springer.com/article/10.1007/s10803-025-06734-x</link>
+      <guid isPermaLink="true">https://link.springer.com/article/10.1007/s10803-025-06734-x</guid>
+      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
       <category>Autism</category>
-      <description><![CDATA[Most autism communication tools train autistic people to accommodate neurotypical norms; NeuroWise targets the neurotypical partner instead, pairing a simulated autistic conversational partner with a stress visualizer, an interpreter that explains the partner's likely internal state, and a coach. In a between-subjects study with thirty adults, baseline chatbot users shifted toward blaming autistic deficits after a difficult exchange, while NeuroWise users moved away from deficit-based attributions and finished conversations in fewer turns. Participants rated the interpreter, not the coaching suggestions, as the most useful component, and the authors flag that autistic collaborators were not involved in design.]]></description>
+      <description><![CDATA[A randomised trial paired verbal autistic adolescents and adults with live LLM feedback on empathetic responding and compared them against a waitlist control, finding that short term AI assisted practice produced significant improvement on the rated outcome. As one of the few properly controlled trials in this space, it moves the conversation past feasibility demonstrations and into questions of dose, durability and generalisation beyond the practice setting. It also sharpens the older tension in autism intervention research, since a system trained on general population conversational data is optimising toward neurotypical norms of empathy expression, which is a design choice rather than a neutral outcome measure.]]></description>
     </item>
     <item>
-      <title>Large Language Models for Web Accessibility: A Systematic Literature Review</title>
-      <link>https://arxiv.org/html/2605.13873</link>
-      <guid isPermaLink="true">https://arxiv.org/html/2605.13873</guid>
-      <pubDate>Wed, 29 Jul 2026 16:23:48 GMT</pubDate>
-      <category>Disability</category>
-      <description><![CDATA[Surveying how LLMs are being applied to accessibility work, the review finds the field leans on general-purpose models and prompt-based interaction, with evaluation practice varying widely and rarely involving disabled users directly. Applications cluster on text-centric and structurally explicit tasks with WCAG as the dominant reference frame, while cognitive accessibility guidance receives little attention, a gap that matters most for neurodivergent and cognitively disabled users whose barriers are not markup problems.]]></description>
-    </item>
-    <item>
-      <title>Algorithmic Fairness: Challenges to Building an Effective Regulatory Regime</title>
-      <link>https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1637134/full</link>
-      <guid isPermaLink="true">https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1637134/full</guid>
-      <pubDate>Wed, 29 Jul 2026 16:23:48 GMT</pubDate>
-      <category>Bias/Fairness</category>
-      <description><![CDATA[Proposed US federal and state laws increasingly mandate fairness testing, but this perspective argues they must first take a position on what fairness means, and experts still disagree, producing an expanding list of highly technical definitions that legislators are poorly placed to adjudicate. Several of these definitions are mathematically incommensurable, so a patchwork of jurisdictions adopting different standards invites inconsistent determinations about the same system. Existing anti-discrimination law adds a further layer, encoding conceptions of fairness that may not suit algorithmic evaluation at all.]]></description>
+      <title>Employment-Related Assistive Technology Needs in Autistic Adults: A Mixed-Methods Study</title>
+      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12468683/</link>
+      <guid isPermaLink="true">https://pmc.ncbi.nlm.nih.gov/articles/PMC12468683/</guid>
+      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
+      <category>Autism</category>
+      <description><![CDATA[Rather than evaluating a tool, this study asks autistic adults what they actually need at work, an evidence gap the authors note has gone largely unexamined despite assistive technology being a standard accommodation recommendation. Reported needs cluster around executive function, sensory regulation and workplace communication, and participants describe a persistent mismatch between available tools and lived requirements. For anyone designing AI workplace supports, this reads as a requirements document written by the intended users, which is a better starting point than retrofitting general purpose assistants and calling the result accessible.]]></description>
     </item>
   </channel>
 </rss>
