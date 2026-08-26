@@ -15,9 +15,16 @@ var teaching =
             "yearsT": "2024"
         },
         {
+            "institution": "UC San Diego",
+            "subject": "Human-Centered AI (graduate-level)",
+            "pRole": "Teaching Assistant &amp; Course Developer &mdash; designed the curriculum, led instruction, and evaluated student work",
+            "loc": "San Diego, CA",
+            "yearsT": "2023"
+        },
+        {
             "institution": "UC San Diego Interactive Computing Seminar",
             "subject": "Are Robots Ready to Deliver Autism Inclusion?",
-            "pRole": "Guest Lecturer", 
+            "pRole": "Guest Lecturer",
             "loc": "San Diego, CA",
             "yearsT": "2023"
         },

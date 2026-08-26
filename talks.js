@@ -1,104 +1,89 @@
 var talks =
     [
-        // {
-        //     "title": "On Autism Inclusion in Applied AI Agents",
-        //     "url": "https://www.linkedin.com/posts/eucap_aira-aiandautism-autisticadvocacy-activity-7312906912549814272-eGqh/", // URL not in CV text
-        //     "role": "Invited Speaker",
-        //     "venue": "European Artificial Intelligence & Society Fund (AIRA), Berlin",
-        //     "date": "2025"
-        // },
+        // ----- 2026 -----
+        {
+            "title": "on Neuro-Inclusive AI in the Workplace",
+            "url": "",
+            "role": "Invited Speaker",
+            "venue": "AIRA, European Artificial Intelligence &amp; Society Fund",
+            "date": "2026"
+        },
+        // ----- 2025 -----
+        {
+            "title": "on Ableism by Design in AI Agents",
+            "url": "",
+            "role": "Invited Talk",
+            "venue": "Adobe",
+            "date": "2025"
+        },
+        {
+            "title": "on Ethical AI Agents &amp; Neuro-Inclusive AI",
+            "url": "",
+            "role": "Guest Lecture",
+            "venue": "Pratt Institute, School of Information",
+            "date": "2025"
+        },
+        {
+            "title": "on Neuro-Inclusive AI",
+            "url": "https://www.linkedin.com/company/eucap/",
+            "role": "Invited Speaker",
+            "venue": "AIRA, European AI &amp; Society Fund (27 organizations across 18 European nations)",
+            "date": "2025"
+        },
         // ----- 2024 -----
         {
             "title": "on Neuro-Inclusive AI",
-            "url": "https://career.ucsd.edu/events/future-of-work-conference/day-1.html", // URL not in CV text
+            "url": "",
             "role": "Invited Speaker",
-            "venue": "UCSD Future of Work Conference, La Jolla, CA",
+            "venue": "UC Berkeley, Institute of Design",
             "date": "2024"
         },
-        // {
-        //     "title": "On AI Aligment with Neurodiversity",
-        //     "url": "", // URL not in CV text
-        //     "role": "Invited Speaker",
-        //     "venue": "UC Berkeley, Institute of Design, Berkeley, CA",
-        //     "date": "2024"
-        // },
-
-        // {
-        //     "title": "On Autism Inclusion in Robotics Research",
-        //     "url": "", // URL not in CV text
-        //     "role": "Guest Lecture",
-        //     "venue": "UCSD Interactive Computing Seminar, La Jolla, CA",
-        //     "date": "2023"
-        // },
+        {
+            "title": "on Responsible AI and Disabilities",
+            "url": "https://career.ucsd.edu/events/future-of-work-conference/day-1.html",
+            "role": "Invited Speaker",
+            "venue": "UC San Diego, Future of Work Conference (~90 attendees)",
+            "date": "2024"
+        },
+        // ----- 2023 -----
+        {
+            "title": "on Autism Inclusion in HRI Research",
+            "url": "",
+            "role": "Guest Lecture",
+            "venue": "UC San Diego, Interactive Computing Seminar",
+            "date": "2023"
+        },
         // ----- 2022 -----
         {
-            "title": "On Disability Disclosure",
+            "title": "on Disability Disclosure",
             "url": "https://tapiaconference.cmd-it.org/attend/presentation/?id=psub164&sess=sess143",
-            "role": "invited panelist",
-            "venue": "Tapia 2022, Washington, DC",
+            "role": "Invited Panelist",
+            "venue": "Tapia 2022 (2,000 attendees)",
             "date": "2022"
         },
-        // {
-        //     "title": "Introduction to Creative Computing",
-        //     "url": "", // URL not in CV text
-        //     "role": "Instructor",
-        //     "venue": "Sweetwater High School, La Jolla, CA",
-        //     "date": "2022"
-        // },
         // ----- 2021 -----
         {
-            "title": "On Neurodiversity",
+            "title": "on AI and Neurodiversity",
             "url": "https://sites.google.com/view/queer-in-ai/neurips-2021",
-            "role": "invited panelist",
-            "venue": "NeurIPS 2021, virtual",
+            "role": "Invited Panelist",
+            "venue": "NeurIPS 2021 (15,000+ attendees)",
             "date": "2021"
         },
         {
-            "title": "Experiences of Computing Students with Disabilities",
+            "title": "on the Experiences of Computing Students with Disabilities",
             "url": "https://dl.acm.org/doi/abs/10.1145/3408877.3432574",
-            "role": "invited panelist",
-            "venue": "SigCSE 2021, virtual",
+            "role": "Invited Panelist",
+            "venue": "SigCSE 2021 (2,000 attendees)",
             "date": "2021"
         },
-        // ----- 2020 -----
-        // {
-        //     "title": "Biweekly Technical Workshop",
-        //     "url": "", // URL not in CV text
-        //     "role": "Organizer and Instructor",
-        //     "venue": "University of Toledo, ACM-W, Toledo, OH",
-        //     "date": "2020" // Using latest year from 2018-2020 range
-        // },
-        // {
-        //     "title": "Introduction to Python",
-        //     "url": "", // URL not in CV text
-        //     "role": "Instructor",
-        //     "venue": "Toledo Early College (Girls Who Code), Toledo, OH",
-        //     "date": "2020" // Using latest year from 2018-2020 range
-        // },
         // ----- 2019 -----
         {
-            "title": "Navigating the Tech Scene With a Disability",
+            "title": "on Navigating Disability in Tech",
             "url": "https://www.washington.edu/doit/our-experiences-speakers-grace-hopper-conference-1",
-            "role": "invited panelist",
-            "venue": "GHC 2019, Orlando, FL",
+            "role": "Invited Panelist",
+            "venue": "Grace Hopper Celebration 2019 (25,000 attendees)",
             "date": "2019"
         }
-        // ,
-        // {
-        //     "title": "Introduction to Web Development",
-        //     "url": "", // URL not in CV text
-        //     "role": "Instructor",
-        //     "venue": "Eberly Women's Center, Toledo, OH",
-        //     "date": "2019"
-        // },
-        // // ----- 2018 -----
-        // {
-        //     "title": "Introduction to JavaScript",
-        //     "url": "", // URL not in CV text
-        //     "role": "Instructor",
-        //     "venue": "Toledo Early College (Girls Who Code), Toledo, OH",
-        //     "date": "2018" // Using latest year from 2017-2018 range
-        // }
     ];
 for (var value in talks) {
     var title = talks[value].title;
@@ -109,12 +94,10 @@ for (var value in talks) {
     var inf3 = document.createElement('span');
     inf3.className = 'talks align-items-center space';
 
-    // Check if the URL is not empty
     var includeThis;
     if (url) {
         includeThis = '<p class="text-center"><span class="space semibold"><a href="' + url + '" target="_blank">' + title + '</a>,</span> ' + role + ', <i>' + venue + '</i></p>';
     } else {
-        // If the URL is empty, do not create a hyperlink for the title
         includeThis = '<p class="text-center"><span class="space semibold">' + title + ',</span> ' + role + ', <i>' + venue + '</i></p>';
     }
 

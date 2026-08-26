@@ -1,5 +1,12 @@
 var leadership = [
     {
+        "role": "VP of Policy",
+        "org": "American Association of University Women (AAUW)",
+        "detail": "leading policy initiatives for gender equity",
+        "date": "2025–Present",
+        "url": ""
+    },
+    {
         "role": "Peer Reviewer",
         "org": "ACL · EMNLP · NeurIPS · THRI",
         "detail": "reviewing submissions for leading AI, NLP, and human-robot interaction venues",
@@ -35,13 +42,6 @@ var leadership = [
         "url": "https://www.tiktok.com/@scientistinpink"
     },
     {
-        "role": "Course Developer & Instructor",
-        "org": "UC San Diego — Human-Centered AI",
-        "detail": "co-created and taught the graduate Human-Centered AI curriculum",
-        "date": "2023",
-        "url": ""
-    },
-    {
         "role": "Lead Organizer",
         "org": "QTBIPOC PD Workshop, CHI 2022",
         "detail": "exploring race, gender, and sexual orientation in participatory design",
@@ -67,6 +67,13 @@ var leadership = [
         "org": "Girls Who Code, Toledo Early College",
         "detail": "",
         "date": "2017–2020",
+        "url": ""
+    },
+    {
+        "role": "Technical Mentor",
+        "org": "DubHacks, UmmaHacks, Ivy Hacks, Girls Who Code (Adobe) &amp; Play Like A Girl (Walmart Labs)",
+        "detail": "mentored students at hackathons and summer programs",
+        "date": "2019–2020",
         "url": ""
     },
     {

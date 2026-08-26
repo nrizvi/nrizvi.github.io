@@ -381,6 +381,8 @@ mark {
 .pressBar { display: flex; flex-wrap: wrap; gap: 7px 18px; justify-content: center; align-items: center; padding: 13px 2px; font-size: 1rem; color: #444; }
 .pressBar .pk { font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #7B0323; }
 .pressBar .pn { color: #000; background: #F7E696; padding: 1px 5px; font-weight: 600; }
+.pressBar a { color: #7B0323; text-decoration: none; }
+.pressBar a:hover { text-decoration: underline; }
 
 .heroCTA { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 12px; padding: 14px 0 6px; }
 .heroCTA .socialmedia { margin-top: 0; }
@@ -407,6 +409,8 @@ mark {
 .tabBtn.active { background: #7B0323; color: #fff; border-color: #7B0323; }
 .tabPanel { min-height: 220px; }
 .tabContent { border: none; }
+.subHead { color: #7B0323; margin: 22px 0 12px; }
+.subHead:first-child { margin-top: 6px; }
 
 /* ---- Experience section ---- */
 .expRow { display: flex; align-items: center; gap: 16px; padding: 12px 8px; border-bottom: 1px dashed #d0d0d0; text-align: left; flex-wrap: wrap; }
@@ -436,7 +440,8 @@ mark {
 
 /* ---- Press section enrichment ---- */
 .outletStrip { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 6px auto 4px; }
-.outletPill { border: 2px solid #2b2b2b; border-radius: 20px; padding: 4px 12px; font-size: 1rem; font-weight: 600; background: #fff; }
+.outletPill { border: 2px solid #2b2b2b; border-radius: 20px; padding: 4px 12px; font-size: 1rem; font-weight: 600; background: #fff; color: #1a1a1a; text-decoration: none; }
+.outletPill:hover { background: #F8E7EE; text-decoration: none; color: #1a1a1a; }
 .outletPill b { color: #7B0323; }
 .beatLine { text-align: center; font-size: 1rem; margin: 8px auto; }
 .beatLine mark { font-weight: 600; }

@@ -1,5 +1,13 @@
 // Define the media data from the CV
 var media = [
+    // ----- Podcasts -----
+    {
+        "title": "Bias, Ethics, and the Human Touch",
+        "venue": "Wells Fargo &times; NCWIT, GenAI for the Next Gen Capsule Series",
+        "type": "Podcast",
+        "url": "",
+        "date": "2025"
+    },
     // ----- Interviews -----
     {
         "title": "Why Robots Are Not Effective Tools for Supporting Autistic People",
@@ -26,7 +34,7 @@ var media = [
         "title": "UCSD Student Pursuing More Accessibility, Equity in Computer Science...",
         "venue": "San Diego Union Tribune (2.1M readers)",
         "type": "Interview",
-        "url": "",
+        "url": "https://www.sandiegouniontribune.com/2023/02/11/ucsd-student-pursuing-more-accessibility-equity-in-computer-science-for-others-who-are-also-neurodiverse/",
         "date": "2023"
     },
     {

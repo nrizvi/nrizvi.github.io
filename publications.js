@@ -4,15 +4,15 @@ var publications = [
         "type": "Preprint",
         "date": "2026",
         "venue": "arXiv",
-        "url": "https://scholar.google.com/citations?user=N94ugmQAAAAJ&hl=en",
+        "url": "https://arxiv.org/abs/2605.26397",
         "people": "Rizvi, N., Rizvi, M., Ahmedi, S., Bidon, H. G. R., Strickland, H., Ousidhoum, N."
     },
         {
         "title": "Annotator Positionality as Signal: Psychometric Weighting for Anti-Autistic Ableism Detection",
-        "type": "Preprint",
+        "type": "Manuscript under review",
         "date": "2026",
-        "venue": "arXiv",
-        "url": "https://arxiv.org/abs/2605.26397",
+        "venue": "Under review",
+        "url": "positionality_as_a_signal.pdf",
         "people": "Rizvi, N., Strickland, H., Ousidhoum, N., Ahmedi, S."
     },
         {

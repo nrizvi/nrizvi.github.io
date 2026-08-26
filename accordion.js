@@ -1,4 +1,4 @@
-var SECTION_IDS = ['workShow', 'experienceShow', 'pubsShow', 'awardsShow', 'mediaShow', 'talksShow', 'leadershipShow', 'teachingShow', 'menteesShow', 'aboutShow', 'updatesShow'];
+var SECTION_IDS = ['researchShow', 'experienceShow', 'awardsShow', 'mediaShow', 'talksShow', 'communityShow', 'aboutShow', 'updatesShow'];
 
 // Show one section panel, hide the rest, and highlight its tab.
 function showOnly(id) {
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     handleNavLinkClicks();
     var _h = (location.hash || '').substring(1);
     if (SECTION_IDS.indexOf(_h) !== -1) { goToSection(_h); }
-    else { showOnly('workShow'); } // default tab open on load (no scroll)
+    else { showOnly('researchShow'); } // default tab open on load (no scroll)
 });
 
 function playAudio() {

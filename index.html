@@ -31,15 +31,12 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link text-dark" href="#workShow">Work</a>
+      <a class="nav-item nav-link text-dark" href="#researchShow">Research</a>
       <a class="nav-item nav-link text-dark" href="#experienceShow">Experience</a>
-      <a class="nav-item nav-link text-dark" href="#pubsShow">Publications</a>
       <a class="nav-item nav-link text-dark" href="#awardsShow">Awards</a>
       <a class="nav-item nav-link text-dark" href="#mediaShow">Press</a>
-      <a class="nav-item nav-link text-dark" href="#talksShow">Talks</a>
-      <a class="nav-item nav-link text-dark" href="#leadershipShow">Leadership</a>
-      <a class="nav-item nav-link text-dark" href="#teachingShow">Teaching</a>
-      <a class="nav-item nav-link text-dark" href="#menteesShow">Mentees</a>
+      <a class="nav-item nav-link text-dark" href="#talksShow">Talks &amp; Teaching</a>
+      <a class="nav-item nav-link text-dark" href="#communityShow">Community</a>
       <a class="nav-item nav-link text-dark" href="#aboutShow">About</a>
       <a class="nav-item nav-link text-dark" href="#updatesShow">Updates</a>
       <a class="nav-item nav-link text-dark" href="feed.html">Curated AI News</a>
@@ -86,7 +83,7 @@
                             <div class="cell pink"><a href="https://nrizvi.github.io/AUTALIC.html"><i class="fa fa-file-text-o cIcon" aria-hidden="true"></i><div class="num">Top 8%</div><div class="lbl">First-author full paper · ACL 2025</div></a></div>
                             <div class="cell yel"><a href="#awardsShow" onclick="goToSection('awardsShow');return false;"><i class="fa fa-usd cIcon" aria-hidden="true"></i><div class="num">$100K+</div><div class="lbl">Awards &amp; grants</div></a></div>
                             <div class="cell blue"><a href="#mediaShow" onclick="goToSection('mediaShow');return false;"><i class="fa fa-eye cIcon" aria-hidden="true"></i><div class="num">50M+</div><div class="lbl">Media viewers reached</div></a></div>
-                            <div class="cell yel"><a href="#leadershipShow" onclick="goToSection('leadershipShow');return false;"><i class="fa fa-users cIcon" aria-hidden="true"></i><div class="num">6,200+</div><div class="lbl">Community members reached</div></a></div>
+                            <div class="cell yel"><a href="#communityShow" onclick="goToSection('communityShow');return false;"><i class="fa fa-users cIcon" aria-hidden="true"></i><div class="num">6,200+</div><div class="lbl">Community members reached</div></a></div>
                             <div class="cell blue"><a href="#experienceShow" onclick="goToSection('experienceShow');return false;"><i class="fa fa-code cIcon" aria-hidden="true"></i><div class="num">10+ yrs</div><div class="lbl">Coding experience</div></a></div>
                             <div class="cell pink"><a href="#awardsShow" onclick="goToSection('awardsShow');return false;"><i class="fa fa-trophy cIcon" aria-hidden="true"></i><div class="num">30+</div><div class="lbl">Awards &amp; honors</div></a></div>
                         </div>
@@ -105,7 +102,7 @@
 
                         <div class="pressBar">
                             <span class="pk">As featured in</span>
-                            <span>Hum TV</span><span>Geo News</span><span>San Diego Union-Tribune</span><span>The 74 Million</span><span>NCWIT &times; Wells Fargo</span>
+                            <a href="https://www.youtube.com/watch?v=dakau7heLig" target="_blank">Hum TV</a><a href="https://drive.google.com/file/d/1usvZO0lrSusHIaPmvrT9LO1f0bWJKAOc/view" target="_blank">Geo News</a><a href="https://www.sandiegouniontribune.com/2023/02/11/ucsd-student-pursuing-more-accessibility-equity-in-computer-science-for-others-who-are-also-neurodiverse/" target="_blank">San Diego Union-Tribune</a><a href="https://www.the74million.org/article/why-robots-are-not-effective-tools-for-supporting-autistic-people/" target="_blank">The 74 Million</a><span>NCWIT &times; Wells Fargo</span>
                         </div>
 
                         <div class="heroCTA">
@@ -117,28 +114,27 @@
 
     <!-- ============ SECTION TABS ============ -->
     <div id="sectionTabs" class="tabBar">
-        <button class="tabBtn" data-target="workShow" onclick="goToSection('workShow')">Selected Work</button>
+        <button class="tabBtn" data-target="researchShow" onclick="goToSection('researchShow')">Research</button>
         <button class="tabBtn" data-target="experienceShow" onclick="goToSection('experienceShow')">Experience</button>
-        <button class="tabBtn" data-target="pubsShow" onclick="goToSection('pubsShow')">Publications</button>
         <button class="tabBtn" data-target="awardsShow" onclick="goToSection('awardsShow')">Awards</button>
         <button class="tabBtn" data-target="mediaShow" onclick="goToSection('mediaShow')">Press</button>
-        <button class="tabBtn" data-target="talksShow" onclick="goToSection('talksShow')">Talks</button>
-        <button class="tabBtn" data-target="leadershipShow" onclick="goToSection('leadershipShow')">Leadership</button>
-        <button class="tabBtn" data-target="teachingShow" onclick="goToSection('teachingShow')">Teaching</button>
-        <button class="tabBtn" data-target="menteesShow" onclick="goToSection('menteesShow')">Mentees</button>
+        <button class="tabBtn" data-target="talksShow" onclick="goToSection('talksShow')">Talks &amp; Teaching</button>
+        <button class="tabBtn" data-target="communityShow" onclick="goToSection('communityShow')">Community</button>
         <button class="tabBtn" data-target="aboutShow" onclick="goToSection('aboutShow')">About</button>
         <button class="tabBtn" data-target="updatesShow" onclick="goToSection('updatesShow')">Updates</button>
     </div>
 
     <div class="tabPanel">
-        <div id="workShow" class="row tabContent" style="display:none"><br>
-            <div class="col"><div class="workGrid" id="projects"></div></div>
+        <div id="researchShow" class="row tabContent" style="display:none"><br>
+            <div class="col">
+                <h3 class="subHead text-center">Selected Work</h3>
+                <div class="workGrid" id="projects"></div>
+                <h3 class="subHead text-center">Publications</h3>
+                <span class="publications" id="publications"></span>
+            </div>
         </div>
         <div id="experienceShow" class="row tabContent" style="display:none"><br>
             <div class="col"><div id="experience"></div></div>
-        </div>
-        <div id="pubsShow" class="row tabContent" style="display:none"><br>
-            <span class="publications" id="publications"></span>
         </div>
         <div id="awardsShow" class="row tabContent" style="display:none"><br>
             <span class="awards" id="awards"></span>
@@ -147,10 +143,10 @@
             <div class="col">
                 <p class="beatLine"><b>Expert commentary on:</b> <mark>AI safety &amp; evaluation</mark> &middot; <mark>neurodiversity &amp; disability in AI</mark> &middot; <mark>the ethics of human-like AI</mark></p>
                 <div class="outletStrip">
-                    <span class="outletPill">Hum TV News <b>36.6M</b></span>
-                    <span class="outletPill">Geo News <b>15.5M</b></span>
-                    <span class="outletPill">San Diego Union-Tribune <b>2.1M</b></span>
-                    <span class="outletPill">The 74 Million</span>
+                    <a class="outletPill" href="https://www.youtube.com/watch?v=dakau7heLig" target="_blank">Hum TV News <b>36.6M</b></a>
+                    <a class="outletPill" href="https://drive.google.com/file/d/1usvZO0lrSusHIaPmvrT9LO1f0bWJKAOc/view" target="_blank">Geo News <b>15.5M</b></a>
+                    <a class="outletPill" href="https://www.sandiegouniontribune.com/2023/02/11/ucsd-student-pursuing-more-accessibility-equity-in-computer-science-for-others-who-are-also-neurodiverse/" target="_blank">San Diego Union-Tribune <b>2.1M</b></a>
+                    <a class="outletPill" href="https://www.the74million.org/article/why-robots-are-not-effective-tools-for-supporting-autistic-people/" target="_blank">The 74 Million</a>
                     <span class="outletPill">NCWIT &times; Wells Fargo</span>
                 </div>
                 <br>
@@ -159,16 +155,20 @@
             </div>
         </div>
         <div id="talksShow" class="row text-center tabContent" style="display:none"><br>
-            <span class="talks" id="talks"></span>
+            <div class="col">
+                <h3 class="subHead text-center">Invited Talks &amp; Guest Lectures</h3>
+                <span class="talks" id="talks"></span>
+                <h3 class="subHead text-center">Teaching</h3>
+                <span class="teaching" id="teaching"></span>
+            </div>
         </div>
-        <div id="leadershipShow" class="row text-center tabContent" style="display:none"><br>
-            <span class="leadership" id="leadership"></span>
-        </div>
-        <div id="teachingShow" class="row tabContent" style="display:none"><br>
-            <span class="teaching" id="teaching"></span>
-        </div>
-        <div id="menteesShow" class="row tabContent" style="display:none"><br>
-            <span class="mentees" id="mentees"></span>
+        <div id="communityShow" class="row text-center tabContent" style="display:none"><br>
+            <div class="col">
+                <h3 class="subHead text-center">Leadership &amp; Service</h3>
+                <span class="leadership" id="leadership"></span>
+                <h3 class="subHead text-center">Mentorship</h3>
+                <span class="mentees" id="mentees"></span>
+            </div>
         </div>
         <div id="aboutShow" class="row tabContent" style="display:none"><br>
             <div class="col text-center blurb">

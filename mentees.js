@@ -8,6 +8,13 @@ var mentees = [
         "date_range": "2024-present"
     },
     {
+        "name": "Saleha Ahmedi",
+        "url": "",
+        "description": "Undergraduate Student at UCSD",
+        "outcome": "→ Masters at UC Irvine",
+        "date_range": "2024-present"
+    },
+    {
         "name": "Taggert Smith",
         "url": "https://www.linkedin.com/in/taggertsmith",
         "description": "Undergraduate Student at UCSD",
