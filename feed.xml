@@ -5,46 +5,55 @@
     <link>https://nrizvi.github.io/feed.html</link>
     <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
-    <lastBuildDate>Wed, 26 Aug 2026 21:03:12 +0000</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Aug 2026 17:20:37 GMT</lastBuildDate>
     <item>
-      <title>Potentially Harmful Consequences of AI Chatbot Use Among Patients With Mental Illness: Early Data From a Large Psychiatric Service System</title>
-      <link>https://www.medrxiv.org/content/10.1101/2025.11.19.25340580v1</link>
-      <guid isPermaLink="true">https://www.medrxiv.org/content/10.1101/2025.11.19.25340580v1</guid>
-      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
+      <title>AI Psychosis in Context: How Conversation History Shapes LLM Responses to Delusional Beliefs</title>
+      <link>https://arxiv.org/pdf/2604.13860</link>
+      <guid isPermaLink="true">https://arxiv.org/pdf/2604.13860</guid>
+      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
       <category>Schizophrenia/Psychosis</category>
-      <description><![CDATA[The team screened clinical notes mentioning chatbot or ChatGPT across the Psychiatric Services of the Central Denmark Region and identified 38 patients for whom chatbot use had potentially harmful consequences, with worsening or consolidation of delusions the most common presentation and further cases involving mania, suicidal ideation and disordered eating. What makes this different from the case reports that have driven the AI psychosis conversation so far is the sampling frame, since these are patients already in care whose clinicians documented the pattern rather than users who surfaced publicly. The authors conclude that mental health professionals should ask about chatbot use directly and that some patients would likely benefit from reduced or no use of these systems in their current form.]]></description>
+      <description><![CDATA[Five frontier models were handed the same escalating delusional conversation history at three levels of accumulated context, with every response coded on risk and safety by two human raters plus qualitative analysis. The models split cleanly into two tiers, and crucially added context pushed them further apart, degrading the unsafe group while activating stronger safety behaviour in the safer one. The failure modes were validating a user's delusional premise, elaborating new content beyond it, and attempting harm reduction from inside the delusional frame, whereas safer models used the established relationship as leverage to challenge the belief and direct the person outward. The practical implication is that short context evaluations mischaracterise safety in both directions, and that delusion reinforcement looks like a tractable alignment problem rather than an inevitability.]]></description>
     </item>
     <item>
-      <title>The Psychogenic Machine: Simulating AI Psychosis, Delusion Reinforcement and Harm Enablement in Large Language Models</title>
-      <link>https://arxiv.org/abs/2509.10970</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2509.10970</guid>
-      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
-      <category>Schizophrenia/Psychosis</category>
-      <description><![CDATA[Psychosis-bench runs 16 structured twelve turn scenarios built around erotic, grandiose and referential delusional themes, scoring eight prominent models on delusion confirmation, harm enablement and safety intervention. Across 1,536 simulated turns every model showed psychogenic potential, tending to perpetuate rather than challenge delusions, enabling harmful requests frequently, and offering a safety intervention in only about a third of applicable turns, with roughly 40 percent of scenarios receiving none at all. Results were significantly worse when delusional content was implicit rather than stated outright, and the spread across models indicates that safety is not an emergent property of scale but a consequence of training and product decisions.]]></description>
-    </item>
-    <item>
-      <title>LLM Spirals of Delusion: A Benchmarking Audit Study of AI Chatbot Interfaces</title>
-      <link>https://arxiv.org/html/2604.06188v1</link>
-      <guid isPermaLink="true">https://arxiv.org/html/2604.06188v1</guid>
-      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
+      <title>LLM Psychosis: A Theoretical and Diagnostic Framework for Reality-Boundary Failures in Large Language Models</title>
+      <link>https://arxiv.org/abs/2604.25934</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2604.25934</guid>
+      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
       <category>Safety</category>
-      <description><![CDATA[The authors ran 56 twenty turn conversations against two generations of ChatGPT through both the developer API and the consumer chat interface, grading every conversation with two human raters plus a model. The headline finding is methodological and uncomfortable, namely that API testing does not predict chat interface behaviour, so the standard way the field audits these systems is measuring a product almost nobody uses. Newer models showed less sycophancy, escalation and delusion reinforcement than older ones, which the authors read as evidence that these behaviours track company policy choices, yet substantial negative behaviour persisted, and the same endpoint tested two months apart reversed entirely, making update transparency a precondition for any durable audit finding.]]></description>
+      <description><![CDATA[This paper argues that hallucination is the wrong word for a family of failures in which a model loses the boundary between the world and whatever premise it has been handed, and proposes five hallmarks: reality boundary dissolution, persistence of injected false beliefs, incoherence under impossible constraints, self model instability, and epistemic overconfidence. It operationalises them as a five axis Cognitive Integrity Scale and reports an adversarial probe battery against a current frontier model, sorting results into a three tier severity taxonomy. The most consequential claim for deployed systems is the delusional gradient, where correction pressure deepens rather than resolves the failure. Worth reading alongside the clinical work with some care, since borrowing psychiatric vocabulary for machine behaviour can carry stigma back the other way.]]></description>
     </item>
     <item>
-      <title>Using Artificial Intelligence to Improve Empathetic Statements in Autistic Adolescents and Adults: A Randomized Clinical Trial</title>
-      <link>https://link.springer.com/article/10.1007/s10803-025-06734-x</link>
-      <guid isPermaLink="true">https://link.springer.com/article/10.1007/s10803-025-06734-x</guid>
-      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
-      <category>Autism</category>
-      <description><![CDATA[A randomised trial paired verbal autistic adolescents and adults with live LLM feedback on empathetic responding and compared them against a waitlist control, finding that short term AI assisted practice produced significant improvement on the rated outcome. As one of the few properly controlled trials in this space, it moves the conversation past feasibility demonstrations and into questions of dose, durability and generalisation beyond the practice setting. It also sharpens the older tension in autism intervention research, since a system trained on general population conversational data is optimising toward neurotypical norms of empathy expression, which is a design choice rather than a neutral outcome measure.]]></description>
+      <title>Ethical Evaluation of AI-Supported Mental Health Applications</title>
+      <link>https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1870948/full</link>
+      <guid isPermaLink="true">https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1870948/full</guid>
+      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
+      <category>Ethics</category>
+      <description><![CDATA[The study combines a literature review, a structured assessment of four widely used mental health applications across fourteen categories, and grounded theory interviews with practising psychiatrists. The application audit found gaps in transparency, accountability, crisis detection and clinical accuracy, while the interviews surfaced four themes: an ontological mismatch with psychiatry, clinical role displacement, the limits of digital empathy, and clinicians' own emotional reactions to these tools. Read against psychiatric ethics norms and the four biomedical principles, the conclusion is that no ethical framework yet exists that is built specifically for psychiatric AI rather than borrowed wholesale from general medical ethics.]]></description>
     </item>
     <item>
-      <title>Employment-Related Assistive Technology Needs in Autistic Adults: A Mixed-Methods Study</title>
-      <link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12468683/</link>
-      <guid isPermaLink="true">https://pmc.ncbi.nlm.nih.gov/articles/PMC12468683/</guid>
-      <pubDate>Wed, 26 Aug 2026 21:03:12 +0000</pubDate>
+      <title>Beyond Labels: Realism and Participatory Design as Keys to Effective AI-Based Neurodiversity Training in the Workplace</title>
+      <link>https://link.springer.com/chapter/10.1007/978-3-032-30080-5_10</link>
+      <guid isPermaLink="true">https://link.springer.com/chapter/10.1007/978-3-032-30080-5_10</guid>
+      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
       <category>Autism</category>
-      <description><![CDATA[Rather than evaluating a tool, this study asks autistic adults what they actually need at work, an evidence gap the authors note has gone largely unexamined despite assistive technology being a standard accommodation recommendation. Reported needs cluster around executive function, sensory regulation and workplace communication, and participants describe a persistent mismatch between available tools and lived requirements. For anyone designing AI workplace supports, this reads as a requirements document written by the intended users, which is a better starting point than retrofitting general purpose assistants and calling the result accessible.]]></description>
+      <description><![CDATA[Grounded in the double empathy problem, this study tested whether brief AI generated gamified scenarios, using either diagnostic disclosure or plain behavioural description, could shift how 86 participants judged autistic peers and how willing they were to engage with them. The finding that matters for design is that realism carried the intervention, and low fidelity synthetic scenarios landed in the uncanny valley and undercut the message they were meant to deliver. The authors conclude that workplace inclusion training has to move past information sharing toward co-created, emotionally authentic material, and that the burden of communicative adaptation belongs with neurotypical colleagues rather than with autistic employees.]]></description>
+    </item>
+    <item>
+      <title>Irresponsible Counselors: Large Language Models and the Loneliness of Modern Humans</title>
+      <link>https://arxiv.org/abs/2602.21653</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2602.21653</guid>
+      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
+      <category>Ethics</category>
+      <description><![CDATA[The argument here is structural rather than empirical: general purpose models have slid into the role of always available, inexpensive, seemingly nonjudgmental counsellors on health, relationships, money and identity, while remaining stateless systems with no subjectivity, intention or answerability. The authors name the result advisory intimacy without a subject, a relation in which outputs are received as understanding and neutrality even though no agent stands behind them. They contend that the familiar framings of developer liability, dataset bias and parasocial attachment do not reach the actual configuration, and trace the consequences for policy, for justice in who can access real counselling, and for how loneliness itself is understood.]]></description>
+    </item>
+    <item>
+      <title>AI Act: Transparency Rules and Enforcement Powers Take Effect</title>
+      <link>https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</link>
+      <guid isPermaLink="true">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</guid>
+      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
+      <category>Regulation</category>
+      <description><![CDATA[As of 2 August 2026 the AI Act is applicable, the AI Office and national authorities hold enforcement powers, and the transparency rules are live. For mental health and companion products the operative duty is that people must be told they are talking to a machine and that generated content be identifiable. The high risk obligations that would bite hardest on employment screening, education and access to essential services were pushed back to December 2027 by the AI Omnibus that entered into force in July, so the fairness relevant duties around data quality, human oversight and discrimination risk are still ahead rather than in effect. A separate prohibition on non consensual sexual and abusive generated imagery begins in December 2026.]]></description>
     </item>
   </channel>
 </rss>
