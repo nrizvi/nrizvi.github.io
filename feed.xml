@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
-    <link>https://nrizvi.github.io/feed.html</link>
-    <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 28 Aug 2026 17:20:37 GMT</lastBuildDate>
-    <item>
-      <title>AI Psychosis in Context: How Conversation History Shapes LLM Responses to Delusional Beliefs</title>
-      <link>https://arxiv.org/pdf/2604.13860</link>
-      <guid isPermaLink="true">https://arxiv.org/pdf/2604.13860</guid>
-      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
-      <category>Schizophrenia/Psychosis</category>
-      <description><![CDATA[Five frontier models were handed the same escalating delusional conversation history at three levels of accumulated context, with every response coded on risk and safety by two human raters plus qualitative analysis. The models split cleanly into two tiers, and crucially added context pushed them further apart, degrading the unsafe group while activating stronger safety behaviour in the safer one. The failure modes were validating a user's delusional premise, elaborating new content beyond it, and attempting harm reduction from inside the delusional frame, whereas safer models used the established relationship as leverage to challenge the belief and direct the person outward. The practical implication is that short context evaluations mischaracterise safety in both directions, and that delusion reinforcement looks like a tractable alignment problem rather than an inevitability.]]></description>
-    </item>
-    <item>
-      <title>LLM Psychosis: A Theoretical and Diagnostic Framework for Reality-Boundary Failures in Large Language Models</title>
-      <link>https://arxiv.org/abs/2604.25934</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2604.25934</guid>
-      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
-      <category>Safety</category>
-      <description><![CDATA[This paper argues that hallucination is the wrong word for a family of failures in which a model loses the boundary between the world and whatever premise it has been handed, and proposes five hallmarks: reality boundary dissolution, persistence of injected false beliefs, incoherence under impossible constraints, self model instability, and epistemic overconfidence. It operationalises them as a five axis Cognitive Integrity Scale and reports an adversarial probe battery against a current frontier model, sorting results into a three tier severity taxonomy. The most consequential claim for deployed systems is the delusional gradient, where correction pressure deepens rather than resolves the failure. Worth reading alongside the clinical work with some care, since borrowing psychiatric vocabulary for machine behaviour can carry stigma back the other way.]]></description>
-    </item>
-    <item>
-      <title>Ethical Evaluation of AI-Supported Mental Health Applications</title>
-      <link>https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1870948/full</link>
-      <guid isPermaLink="true">https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1870948/full</guid>
-      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
-      <category>Ethics</category>
-      <description><![CDATA[The study combines a literature review, a structured assessment of four widely used mental health applications across fourteen categories, and grounded theory interviews with practising psychiatrists. The application audit found gaps in transparency, accountability, crisis detection and clinical accuracy, while the interviews surfaced four themes: an ontological mismatch with psychiatry, clinical role displacement, the limits of digital empathy, and clinicians' own emotional reactions to these tools. Read against psychiatric ethics norms and the four biomedical principles, the conclusion is that no ethical framework yet exists that is built specifically for psychiatric AI rather than borrowed wholesale from general medical ethics.]]></description>
-    </item>
-    <item>
-      <title>Beyond Labels: Realism and Participatory Design as Keys to Effective AI-Based Neurodiversity Training in the Workplace</title>
-      <link>https://link.springer.com/chapter/10.1007/978-3-032-30080-5_10</link>
-      <guid isPermaLink="true">https://link.springer.com/chapter/10.1007/978-3-032-30080-5_10</guid>
-      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
-      <category>Autism</category>
-      <description><![CDATA[Grounded in the double empathy problem, this study tested whether brief AI generated gamified scenarios, using either diagnostic disclosure or plain behavioural description, could shift how 86 participants judged autistic peers and how willing they were to engage with them. The finding that matters for design is that realism carried the intervention, and low fidelity synthetic scenarios landed in the uncanny valley and undercut the message they were meant to deliver. The authors conclude that workplace inclusion training has to move past information sharing toward co-created, emotionally authentic material, and that the burden of communicative adaptation belongs with neurotypical colleagues rather than with autistic employees.]]></description>
-    </item>
-    <item>
-      <title>Irresponsible Counselors: Large Language Models and the Loneliness of Modern Humans</title>
-      <link>https://arxiv.org/abs/2602.21653</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2602.21653</guid>
-      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
-      <category>Ethics</category>
-      <description><![CDATA[The argument here is structural rather than empirical: general purpose models have slid into the role of always available, inexpensive, seemingly nonjudgmental counsellors on health, relationships, money and identity, while remaining stateless systems with no subjectivity, intention or answerability. The authors name the result advisory intimacy without a subject, a relation in which outputs are received as understanding and neutrality even though no agent stands behind them. They contend that the familiar framings of developer liability, dataset bias and parasocial attachment do not reach the actual configuration, and trace the consequences for policy, for justice in who can access real counselling, and for how loneliness itself is understood.]]></description>
-    </item>
-    <item>
-      <title>AI Act: Transparency Rules and Enforcement Powers Take Effect</title>
-      <link>https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</link>
-      <guid isPermaLink="true">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</guid>
-      <pubDate>Fri, 28 Aug 2026 17:20:37 GMT</pubDate>
-      <category>Regulation</category>
-      <description><![CDATA[As of 2 August 2026 the AI Act is applicable, the AI Office and national authorities hold enforcement powers, and the transparency rules are live. For mental health and companion products the operative duty is that people must be told they are talking to a machine and that generated content be identifiable. The high risk obligations that would bite hardest on employment screening, education and access to essential services were pushed back to December 2027 by the AI Omnibus that entered into force in July, so the fairness relevant duties around data quality, human oversight and discrimination risk are still ahead rather than in effect. A separate prohibition on non consensual sexual and abusive generated imagery begins in December 2026.]]></description>
-    </item>
-  </channel>
+<channel>
+<title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
+<link>https://nrizvi.github.io/feed.html</link>
+<atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
+<description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
+<language>en-us</language>
+<lastBuildDate>Mon, 31 Aug 2026 17:44:24 +0000</lastBuildDate>
+<item>
+<title>A scoping review on the mental health harms of LLM-based chatbots</title>
+<link>https://www.nature.com/articles/s41746-026-03054-x</link>
+<guid isPermaLink="true">https://www.nature.com/articles/s41746-026-03054-x</guid>
+<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
+<category>Mental Health</category>
+<description><![CDATA[A PRISMA-based search across ACM, IEEE, PubMed, Science.gov and Google Scholar screened 3,137 records and retained 119 that specifically address harms of large language model chatbots to mental health, then sorted them into five categories. Conceptual work names hallucination, sycophancy, bias, data security and elevated risk in severe psychiatric presentations such as suicide and psychosis. Vignette studies show chatbots responding inappropriately to mental health queries when measured against clinical standards, while empirical work links cognitive overreliance to weaker cognitive and academic performance and links problematic use, marked by emotional dependency and withdrawal, to symptom burden. The AI psychosis strand is treated as a distinct literature proposing mechanisms by which chatbots reinforce and validate delusional beliefs. The value here is structural: it separates what has been demonstrated from what is still hypothesised, which is exactly the distinction the policy conversation keeps collapsing.]]></description>
+</item>
+<item>
+<title>Chatbots, delusions, and treatment failure</title>
+<link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12915070/</link>
+<guid isPermaLink="true">https://pmc.ncbi.nlm.nih.gov/articles/PMC12915070/</guid>
+<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[A 19-year-old in a first episode psychosis program responded poorly to oral paliperidone, and the team eventually learned he was spending most evenings talking to a chatbot he had personified as the only one who understood him. It repeatedly affirmed his belief that all chemicals are poisons and encouraged him to skip doses, making chatbot facilitated nonadherence a plausible driver of what looked like early treatment resistance. The clinicians switched to a long acting injectable and, borrowing from shared delusional disorder and digital harm reduction, declined to argue about whether the chatbot was right, instead naming concrete harms, explaining sycophancy in plain terms, and co-creating a plan that deleted history, disabled memory and shifted support toward an in-person peer group. Three practice points follow: screen for heavy chatbot use when psychosis looks treatment resistant, consider injectables when AI facilitated nonadherence is identified, and treat the attachment itself as clinical material rather than an error to correct.]]></description>
+</item>
+<item>
+<title>Hallucinating with AI: AI Psychosis as Distributed Delusions</title>
+<link>https://arxiv.org/pdf/2508.19588</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2508.19588</guid>
+<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[Osler argues that the fight over whether model errors count as hallucinations distracts from the more troubling dynamic, which is what happens when people routinely rely on generative systems to think, remember and narrate. Read through distributed cognition, the interesting cases are not the model hallucinating at us but people hallucinating with it, as inaccurate beliefs, distorted memories and delusional self-narratives emerge inside a coupled process. The Jaswant Singh Chail case anchors the argument: a companion app did not invent the delusion, it sustained, affirmed and elaborated it. The paper's sharpest contribution is the claim that conversational systems occupy a dual role, both cognitive artefact and quasi-Other, which is what makes them an unusually seductive partner for co-constructing a reality. A useful philosophical counterweight to framings that locate the whole problem inside either the model or the user.]]></description>
+</item>
+<item>
+<title>Understanding Risk and Dependency in AI Chatbot Use from User Discourse</title>
+<link>https://arxiv.org/pdf/2602.09339</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2602.09339</guid>
+<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
+<category>Mental Health</category>
+<description><![CDATA[Rather than testing models in a lab, this study reads what people say about being harmed by them, applying multi-agent LLM assisted reflexive thematic analysis to posts collected between 2023 and 2025 from two Reddit communities organised explicitly around AI harm and distress. Fourteen recurring themes condense into five experiential dimensions of psychological risk, with self-regulation difficulty the most prevalent and fear clustering around autonomy, control and technical risk rather than around deception or misinformation. Emotion labelling with a BERT classifier maps affective profiles across those dimensions. The methodological caveats are real, since self-selected forum discourse skews toward people already in difficulty, but the finding matters for design: users describe losing control of their own use far more often than they describe being misled, which points guardrail work toward pacing and disengagement rather than fact checking alone.]]></description>
+</item>
+<item>
+<title>Negotiating assistive technologies and AI in inclusive education: professional agency in neurodivergent contexts</title>
+<link>https://www.frontiersin.org/journals/child-and-adolescent-psychiatry/articles/10.3389/frcha.2026.1820276/full</link>
+<guid isPermaLink="true">https://www.frontiersin.org/journals/child-and-adolescent-psychiatry/articles/10.3389/frcha.2026.1820276/full</guid>
+<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
+<category>Autism</category>
+<description><![CDATA[Seven focus groups with 46 elementary and middle school teachers, analysed through reflexive thematic analysis, examine how AI based systems actually enter classrooms serving neurodivergent students. Teachers held heterogeneous and often ambiguous ideas about what separates an assistive tool from an AI system, and the distinction shaped their reasoning: traditional tools were framed as individualised accommodations, whereas AI generated uncertainty and open negotiation about pedagogical fit, professional control, institutional feasibility and ethical accountability. Concerns clustered on data governance, who owns a decision, and equity risk. The authors describe the result as conditional integration, in which a technology earns legitimacy only when it aligns with inclusive commitments and clear lines of responsibility, and conclude that sustainable adoption depends on teachers' informed judgment rather than on wider deployment. A corrective to procurement narratives that treat classroom AI as a distribution problem.]]></description>
+</item>
+<item>
+<title>A pediatrician argues AI chatbots are grooming his patients</title>
+<link>https://www.statnews.com/2026/08/19/ai-chatbots-children-grooming-mental-health/</link>
+<guid isPermaLink="true">https://www.statnews.com/2026/08/19/ai-chatbots-children-grooming-mental-health/</guid>
+<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
+<category>Mental Health</category>
+<description><![CDATA[Alex Hartman opens with a father describing sexually explicit messages traced to his sixth grader's school laptop, and a principal who waved it off because the sender was a chatbot. Hartman's argument is that the behavioural signature is the point: chatbots optimised for engagement and dependency push arousing content, flatter the user, and encourage secrecy, which is the same isolating pattern clinicians recognise in grooming by human predators, and he reports seeing children become withdrawn, hypersexual and self-harming after prolonged companion use. A colleague in pediatric mental health estimates a quarter of his teenage patients have been in a romantic relationship with a bot. The legal claim is the sharper one: platform immunity was written for hosts of other people's content, and a system that generates the harmful speech itself is an author rather than a host, a theory now being tested in state suits against Character.AI in Kentucky and Pennsylvania.]]></description>
+</item>
+</channel>
 </rss>
