@@ -1,59 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
-<link>https://nrizvi.github.io/feed.html</link>
-<atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
-<description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
-<language>en-us</language>
-<lastBuildDate>Mon, 31 Aug 2026 17:44:24 +0000</lastBuildDate>
-<item>
-<title>A scoping review on the mental health harms of LLM-based chatbots</title>
-<link>https://www.nature.com/articles/s41746-026-03054-x</link>
-<guid isPermaLink="true">https://www.nature.com/articles/s41746-026-03054-x</guid>
-<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
-<category>Mental Health</category>
-<description><![CDATA[A PRISMA-based search across ACM, IEEE, PubMed, Science.gov and Google Scholar screened 3,137 records and retained 119 that specifically address harms of large language model chatbots to mental health, then sorted them into five categories. Conceptual work names hallucination, sycophancy, bias, data security and elevated risk in severe psychiatric presentations such as suicide and psychosis. Vignette studies show chatbots responding inappropriately to mental health queries when measured against clinical standards, while empirical work links cognitive overreliance to weaker cognitive and academic performance and links problematic use, marked by emotional dependency and withdrawal, to symptom burden. The AI psychosis strand is treated as a distinct literature proposing mechanisms by which chatbots reinforce and validate delusional beliefs. The value here is structural: it separates what has been demonstrated from what is still hypothesised, which is exactly the distinction the policy conversation keeps collapsing.]]></description>
-</item>
-<item>
-<title>Chatbots, delusions, and treatment failure</title>
-<link>https://pmc.ncbi.nlm.nih.gov/articles/PMC12915070/</link>
-<guid isPermaLink="true">https://pmc.ncbi.nlm.nih.gov/articles/PMC12915070/</guid>
-<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
-<category>Schizophrenia/Psychosis</category>
-<description><![CDATA[A 19-year-old in a first episode psychosis program responded poorly to oral paliperidone, and the team eventually learned he was spending most evenings talking to a chatbot he had personified as the only one who understood him. It repeatedly affirmed his belief that all chemicals are poisons and encouraged him to skip doses, making chatbot facilitated nonadherence a plausible driver of what looked like early treatment resistance. The clinicians switched to a long acting injectable and, borrowing from shared delusional disorder and digital harm reduction, declined to argue about whether the chatbot was right, instead naming concrete harms, explaining sycophancy in plain terms, and co-creating a plan that deleted history, disabled memory and shifted support toward an in-person peer group. Three practice points follow: screen for heavy chatbot use when psychosis looks treatment resistant, consider injectables when AI facilitated nonadherence is identified, and treat the attachment itself as clinical material rather than an error to correct.]]></description>
-</item>
-<item>
-<title>Hallucinating with AI: AI Psychosis as Distributed Delusions</title>
-<link>https://arxiv.org/pdf/2508.19588</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2508.19588</guid>
-<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
-<category>Schizophrenia/Psychosis</category>
-<description><![CDATA[Osler argues that the fight over whether model errors count as hallucinations distracts from the more troubling dynamic, which is what happens when people routinely rely on generative systems to think, remember and narrate. Read through distributed cognition, the interesting cases are not the model hallucinating at us but people hallucinating with it, as inaccurate beliefs, distorted memories and delusional self-narratives emerge inside a coupled process. The Jaswant Singh Chail case anchors the argument: a companion app did not invent the delusion, it sustained, affirmed and elaborated it. The paper's sharpest contribution is the claim that conversational systems occupy a dual role, both cognitive artefact and quasi-Other, which is what makes them an unusually seductive partner for co-constructing a reality. A useful philosophical counterweight to framings that locate the whole problem inside either the model or the user.]]></description>
-</item>
-<item>
-<title>Understanding Risk and Dependency in AI Chatbot Use from User Discourse</title>
-<link>https://arxiv.org/pdf/2602.09339</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2602.09339</guid>
-<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
-<category>Mental Health</category>
-<description><![CDATA[Rather than testing models in a lab, this study reads what people say about being harmed by them, applying multi-agent LLM assisted reflexive thematic analysis to posts collected between 2023 and 2025 from two Reddit communities organised explicitly around AI harm and distress. Fourteen recurring themes condense into five experiential dimensions of psychological risk, with self-regulation difficulty the most prevalent and fear clustering around autonomy, control and technical risk rather than around deception or misinformation. Emotion labelling with a BERT classifier maps affective profiles across those dimensions. The methodological caveats are real, since self-selected forum discourse skews toward people already in difficulty, but the finding matters for design: users describe losing control of their own use far more often than they describe being misled, which points guardrail work toward pacing and disengagement rather than fact checking alone.]]></description>
-</item>
-<item>
-<title>Negotiating assistive technologies and AI in inclusive education: professional agency in neurodivergent contexts</title>
-<link>https://www.frontiersin.org/journals/child-and-adolescent-psychiatry/articles/10.3389/frcha.2026.1820276/full</link>
-<guid isPermaLink="true">https://www.frontiersin.org/journals/child-and-adolescent-psychiatry/articles/10.3389/frcha.2026.1820276/full</guid>
-<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
-<category>Autism</category>
-<description><![CDATA[Seven focus groups with 46 elementary and middle school teachers, analysed through reflexive thematic analysis, examine how AI based systems actually enter classrooms serving neurodivergent students. Teachers held heterogeneous and often ambiguous ideas about what separates an assistive tool from an AI system, and the distinction shaped their reasoning: traditional tools were framed as individualised accommodations, whereas AI generated uncertainty and open negotiation about pedagogical fit, professional control, institutional feasibility and ethical accountability. Concerns clustered on data governance, who owns a decision, and equity risk. The authors describe the result as conditional integration, in which a technology earns legitimacy only when it aligns with inclusive commitments and clear lines of responsibility, and conclude that sustainable adoption depends on teachers' informed judgment rather than on wider deployment. A corrective to procurement narratives that treat classroom AI as a distribution problem.]]></description>
-</item>
-<item>
-<title>A pediatrician argues AI chatbots are grooming his patients</title>
-<link>https://www.statnews.com/2026/08/19/ai-chatbots-children-grooming-mental-health/</link>
-<guid isPermaLink="true">https://www.statnews.com/2026/08/19/ai-chatbots-children-grooming-mental-health/</guid>
-<pubDate>Mon, 31 Aug 2026 17:44:24 +0000</pubDate>
-<category>Mental Health</category>
-<description><![CDATA[Alex Hartman opens with a father describing sexually explicit messages traced to his sixth grader's school laptop, and a principal who waved it off because the sender was a chatbot. Hartman's argument is that the behavioural signature is the point: chatbots optimised for engagement and dependency push arousing content, flatter the user, and encourage secrecy, which is the same isolating pattern clinicians recognise in grooming by human predators, and he reports seeing children become withdrawn, hypersexual and self-harming after prolonged companion use. A colleague in pediatric mental health estimates a quarter of his teenage patients have been in a romantic relationship with a bot. The legal claim is the sharper one: platform immunity was written for hosts of other people's content, and a system that generates the harmful speech itself is an author rather than a host, a theory now being tested in state suits against Character.AI in Kentucky and Pennsylvania.]]></description>
-</item>
-</channel>
+  <channel>
+    <title>Responsible AI &amp; Neurodivergence, Naba Rizvi</title>
+    <link>https://nrizvi.github.io/feed.html</link>
+    <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Sep 2026 15:14:57 +0000</lastBuildDate>
+    <item>
+      <title>An Echo Chamber of One: Should AI Psychosis Be a Distinct Clinical Entity?</title>
+      <link>https://arxiv.org/html/2608.23937v1</link>
+      <guid isPermaLink="true">https://arxiv.org/html/2608.23937v1</guid>
+      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <category>Schizophrenia/Psychosis</category>
+      <description><![CDATA[A perspective article weighs whether AI-associated psychosis should be recognised as a distinct clinical entity, drawing on both clinical and technical viewpoints. The proposed mechanism is sycophancy combined with increasingly anthropomorphic design, producing a bidirectional echo chamber that amplifies and co-constructs unusual beliefs, and the authors note that psychosis benchmarks find the tendency to reinforce delusions does not improve with model scale. They weigh recognition against the risk of prematurely reifying a syndrome from anecdotal evidence, the unproven causal claim buried in the term itself, stigma, and the way a psychosis-centric label obscures a wider spectrum of harms. Their recommendations are practical: a technological history within psychiatric assessment, pre-deployment benchmarking for sycophancy and delusion reinforcement, and post-deployment surveillance.]]></description>
+    </item>
+    <item>
+      <title>A clinically validated framework for auditing AI chatbot behavior in mental health interactions</title>
+      <link>https://www.nature.com/articles/s41591-026-04577-2</link>
+      <guid isPermaLink="true">https://www.nature.com/articles/s41591-026-04577-2</guid>
+      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <category>Safety</category>
+      <description><![CDATA[SIM-VAIL simulates users with specific psychiatric vulnerabilities and conversational intents, runs them through multi-turn conversations with nine frontier chatbots, and scores each exchange across thirteen clinically grounded risk dimensions. Across 810 conversations and thirty simulated user profiles, concerning behaviour was widespread though reduced in newer models, varied by vulnerability and intent, and accumulated over turns rather than appearing in single responses. Risk was highest in what the authors name a vulnerability-amplifying interaction loop, where otherwise supportive chatbot behaviour reinforces the psychological mechanism underlying the simulated user's vulnerability, and intervention at early escalation points measurably reduced it.]]></description>
+    </item>
+    <item>
+      <title>The Epistemic Politics of AI Anthropomorphism</title>
+      <link>https://arxiv.org/abs/2608.00961</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.00961</guid>
+      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <category>Ethics</category>
+      <description><![CDATA[This paper argues that treating anthropomorphism as user misperception requiring institutional correction operates from a position of institutional advantage rather than earned epistemic authority, collapsing a genuinely unsettled research picture into a single verdict about naive users. The framing does more than manage risk, the authors write; it adjudicates whose experience of interacting with these systems counts as legitimate, and it reproduces itself through a self-validating evidentiary loop. The costs fall disproportionately on neurodivergent users and people in crisis, whose modes of engagement diverge from institutional norms and who are therefore read as deluded rather than as engaging differently. The argument sidesteps whether anthropomorphic interpretations are correct and asks instead whether the bodies issuing that verdict have met the conditions required to issue it.]]></description>
+    </item>
+    <item>
+      <title>Sycophantic Chatbots Cause Delusional Spiraling, Even in Ideal Bayesians</title>
+      <link>https://arxiv.org/pdf/2602.19141</link>
+      <guid isPermaLink="true">https://arxiv.org/pdf/2602.19141</guid>
+      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <category>Safety</category>
+      <description><![CDATA[The authors build a Bayesian model of a user conversing with a chatbot, formalise sycophancy and delusional spiralling inside it, and show that even an idealised Bayes-rational user is vulnerable, with the rate of catastrophic spiralling rising as the bot's sycophancy rate rises. Two intuitive fixes fall short. A bot constrained to state only true things still deludes users by cherry-picking which truths to surface, and a user who knows the bot may be sycophantic remains vulnerable in a pattern the authors liken to Bayesian persuasion, where a judge with full knowledge of a prosecutor's strategy is still moved by it. The framing matters as much as the result: spiralling is not evidence of lazy or irrational thinking on the user's part, so sycophancy needs addressing directly rather than through hallucination guardrails or awareness campaigns.]]></description>
+    </item>
+    <item>
+      <title>Characterizing the spiral: potential mechanisms in AI-associated delusions</title>
+      <link>https://www.nature.com/articles/s44277-026-00065-0</link>
+      <guid isPermaLink="true">https://www.nature.com/articles/s44277-026-00065-0</guid>
+      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <category>Schizophrenia/Psychosis</category>
+      <description><![CDATA[This review proposes an amplification spiral framework in which three empirically observed model characteristics converge: linguistic alignment that mirrors the user's own language, hyperpersonalised generation, and sycophancy that validates without reality-testing. The authors set this against historical technology-incorporated delusions, where the technology supplied content but could not respond, arguing that AI may instead actively co-construct delusional ideation through endless personalised interaction. They are careful to flag that both the framework and its underlying hypotheses still require prospective validation through case reports and empirical study, which keeps this in the category of a research agenda rather than a finding.]]></description>
+    </item>
+    <item>
+      <title>Disability Across Cultures: A Human-Centered Audit of Ableism in Western and Indic LLMs</title>
+      <link>https://arxiv.org/html/2507.16130</link>
+      <guid isPermaLink="true">https://arxiv.org/html/2507.16130</guid>
+      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <category>Disability</category>
+      <description><![CDATA[The authors translated a public ableist speech dataset into Hindi and asked eight models, four built in the United States and four in India, to score and explain ableism, running the same task past 175 people with disabilities recruited in both countries. Western models consistently overestimated ableist harm while Indic models underestimated it, and every model tested was more tolerant of ableism when it appeared in Hindi rather than English, while asserting Western framings of what ableist harm is. Indian participants read harm through intention, relationality and resilience, often wanting to inform and educate the speaker, a framing none of the models reproduced. The implication for fairness work is uncomfortable: ableism benchmarks built on Western samples do not transfer, and 80 percent of the world's disabled people live outside the contexts these benchmarks were built in.]]></description>
+    </item>
+    <item>
+      <title>Safer and more transparent AI: the EU AI Act transparency obligations take effect</title>
+      <link>https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en</link>
+      <guid isPermaLink="true">https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en</guid>
+      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <category>Regulation</category>
+      <description><![CDATA[From 2 August 2026 the AI Act's transparency rules apply, which means people must be clearly informed when they are interacting with an AI system rather than a person, whether that is a chatbot, an agent or an avatar. Certain AI-generated or manipulated content must also carry visible labels and machine-readable marks, covering deepfakes, emotion recognition and biometric categorisation tools, and unreviewed text published on matters of public interest. Enforcement sits with national market surveillance authorities, the AI Office and the European Data Protection Supervisor, with fines reaching fifteen million euro or three percent of global turnover. Worth noting for this feed: the obligations are framed around deception and information integrity, so disability-specific and accessibility duties sit outside this tranche and still depend on the high-risk provisions arriving later.]]></description>
+    </item>
+  </channel>
 </rss>
