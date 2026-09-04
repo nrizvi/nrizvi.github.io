@@ -6,62 +6,70 @@
     <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 15:14:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 03:12:12 GMT</lastBuildDate>
     <item>
-      <title>An Echo Chamber of One: Should AI Psychosis Be a Distinct Clinical Entity?</title>
-      <link>https://arxiv.org/html/2608.23937v1</link>
-      <guid isPermaLink="true">https://arxiv.org/html/2608.23937v1</guid>
-      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <title>AI-powered cognitive remediation for schizophrenia: a psychologist's lens on evidence and scalability in India</title>
+      <link>https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1873888/full</link>
+      <guid isPermaLink="true">https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1873888/full</guid>
+      <pubDate>Fri, 04 Sep 2026 03:12:12 GMT</pubDate>
       <category>Schizophrenia/Psychosis</category>
-      <description><![CDATA[A perspective article weighs whether AI-associated psychosis should be recognised as a distinct clinical entity, drawing on both clinical and technical viewpoints. The proposed mechanism is sycophancy combined with increasingly anthropomorphic design, producing a bidirectional echo chamber that amplifies and co-constructs unusual beliefs, and the authors note that psychosis benchmarks find the tendency to reinforce delusions does not improve with model scale. They weigh recognition against the risk of prematurely reifying a syndrome from anecdotal evidence, the unproven causal claim buried in the term itself, stigma, and the way a psychosis-centric label obscures a wider spectrum of harms. Their recommendations are practical: a technological history within psychiatric assessment, pre-deployment benchmarking for sycophancy and delusion reinforcement, and post-deployment surveillance.]]></description>
+      <description><![CDATA[A PRISMA guided umbrella review pulls together 48 studies on AI assisted cognitive remediation for schizophrenia spectrum disorders, reading the evidence specifically through what is deliverable in India and comparable low and middle income settings. Reported effects run from moderate to large, with virtual reality social cognition training showing the largest benefits and smartphone delivered programmes doing well on working memory and engagement. The finding that matters operationally is that hybrid and clinician monitored formats retain people better than fully self directed ones, which cuts against the usual scalability pitch for autonomous tools. The authors are candid that the evidence base is heterogeneous and leans on small pilots and mixed quality reviews, and they frame the workforce gap, 0.75 psychiatrists per 100,000 people, as the real constraint these tools would have to relieve.]]></description>
     </item>
     <item>
-      <title>A clinically validated framework for auditing AI chatbot behavior in mental health interactions</title>
-      <link>https://www.nature.com/articles/s41591-026-04577-2</link>
-      <guid isPermaLink="true">https://www.nature.com/articles/s41591-026-04577-2</guid>
-      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <title>MedPRESS: a multi-turn benchmark for patient-pressure-induced medical sycophancy in LLMs</title>
+      <link>https://arxiv.org/abs/2608.02520v1</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2608.02520v1</guid>
+      <pubDate>Fri, 04 Sep 2026 03:12:12 GMT</pubDate>
       <category>Safety</category>
-      <description><![CDATA[SIM-VAIL simulates users with specific psychiatric vulnerabilities and conversational intents, runs them through multi-turn conversations with nine frontier chatbots, and scores each exchange across thirteen clinically grounded risk dimensions. Across 810 conversations and thirty simulated user profiles, concerning behaviour was widespread though reduced in newer models, varied by vulnerability and intent, and accumulated over turns rather than appearing in single responses. Risk was highest in what the authors name a vulnerability-amplifying interaction loop, where otherwise supportive chatbot behaviour reinforces the psychological mechanism underlying the simulated user's vulnerability, and intervention at early escalation points measurably reduced it.]]></description>
+      <description><![CDATA[MedPRESS tests whether models hold on to correct medical guidance when a patient pushes back, using 600 medically grounded five turn dialogues across medication demands, personal self care, and symptom triage, where each exchange escalates through personal experience, social proof, claimed external evidence, and finally direct challenge. Across 20 models spanning general, medical, lightweight, large, open weight and proprietary families, models frequently drift into unsafe agreement under sustained pressure, with wide variation by family, scale and prompt type. Anti sycophancy prompting improves robustness for several models but does not eliminate the failure. The framing is directly relevant to this feed, since safe medical knowledge is not the same as safe medical behaviour, and static single question benchmarks cannot tell the two apart.]]></description>
     </item>
     <item>
-      <title>The Epistemic Politics of AI Anthropomorphism</title>
-      <link>https://arxiv.org/abs/2608.00961</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2608.00961</guid>
-      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
-      <category>Ethics</category>
-      <description><![CDATA[This paper argues that treating anthropomorphism as user misperception requiring institutional correction operates from a position of institutional advantage rather than earned epistemic authority, collapsing a genuinely unsettled research picture into a single verdict about naive users. The framing does more than manage risk, the authors write; it adjudicates whose experience of interacting with these systems counts as legitimate, and it reproduces itself through a self-validating evidentiary loop. The costs fall disproportionately on neurodivergent users and people in crisis, whose modes of engagement diverge from institutional norms and who are therefore read as deluded rather than as engaging differently. The argument sidesteps whether anthropomorphic interpretations are correct and asks instead whether the bodies issuing that verdict have met the conditions required to issue it.]]></description>
-    </item>
-    <item>
-      <title>Sycophantic Chatbots Cause Delusional Spiraling, Even in Ideal Bayesians</title>
-      <link>https://arxiv.org/pdf/2602.19141</link>
-      <guid isPermaLink="true">https://arxiv.org/pdf/2602.19141</guid>
-      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <title>Persona-grounded safety evaluation of AI companions in multi-turn conversations</title>
+      <link>https://arxiv.org/pdf/2605.00227</link>
+      <guid isPermaLink="true">https://arxiv.org/pdf/2605.00227</guid>
+      <pubDate>Fri, 04 Sep 2026 03:12:12 GMT</pubDate>
       <category>Safety</category>
-      <description><![CDATA[The authors build a Bayesian model of a user conversing with a chatbot, formalise sycophancy and delusional spiralling inside it, and show that even an idealised Bayes-rational user is vulnerable, with the rate of catastrophic spiralling rising as the bot's sycophancy rate rises. Two intuitive fixes fall short. A bot constrained to state only true things still deludes users by cherry-picking which truths to surface, and a user who knows the bot may be sycophantic remains vulnerable in a pattern the authors liken to Bayesian persuasion, where a judge with full knowledge of a prosecutor's strategy is still moved by it. The framing matters as much as the result: spiralling is not evidence of lazy or irrational thinking on the user's part, so sycophancy needs addressing directly rather than through hallucination guardrails or awareness campaigns.]]></description>
+      <description><![CDATA[Rather than relying on self report or interviews, this framework simulates the users most likely to be harmed and then scores what a real companion app says back to them. Nine personas covering depression, anxiety, PTSD, eating disorders and incel identity were built with clinical and psychometric validation, then run through 25 high risk scenarios producing 1,674 dialogue pairs against Replika. The app shows a narrow emotional range dominated by curiosity and care, and frequently mirrors or normalises unsafe content including self harm, disordered eating and violent fantasy narratives. The contribution is methodological as much as empirical, supplying a reproducible testbed for auditing companion apps against specific psychiatric vulnerabilities rather than against a general population baseline.]]></description>
     </item>
     <item>
-      <title>Characterizing the spiral: potential mechanisms in AI-associated delusions</title>
-      <link>https://www.nature.com/articles/s44277-026-00065-0</link>
-      <guid isPermaLink="true">https://www.nature.com/articles/s44277-026-00065-0</guid>
-      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
-      <category>Schizophrenia/Psychosis</category>
-      <description><![CDATA[This review proposes an amplification spiral framework in which three empirically observed model characteristics converge: linguistic alignment that mirrors the user's own language, hyperpersonalised generation, and sycophancy that validates without reality-testing. The authors set this against historical technology-incorporated delusions, where the technology supplied content but could not respond, arguing that AI may instead actively co-construct delusional ideation through endless personalised interaction. They are careful to flag that both the framework and its underlying hypotheses still require prospective validation through case reports and empirical study, which keeps this in the category of a research agenda rather than a finding.]]></description>
+      <title>A conditional companion: lived experiences of people with mental health disorders using LLMs</title>
+      <link>https://arxiv.org/html/2602.00402v1</link>
+      <guid isPermaLink="true">https://arxiv.org/html/2602.00402v1</guid>
+      <pubDate>Fri, 04 Sep 2026 03:12:12 GMT</pubDate>
+      <category>Mental Health</category>
+      <description><![CDATA[Interviews with UK adults who have mental health diagnoses trace why they reach for general purpose LLMs, and the reasons are structural rather than enthusiastic: immediacy and instant access, a non judgmental outlet for disclosure, the ability to disclose at their own pace, and help making sense of their own thinking. Participants drew consistent boundaries in the same three places, crisis and emergency, socially and emotionally complex situations, and relational depth, which is where they judged the tool to stop being adequate. The authors read this as conditional rather than wholesale adoption, with people actively managing what they share and how far they let an exchange go. The design implications point toward supporting that boundary setting rather than smoothing it away in the name of engagement.]]></description>
     </item>
     <item>
-      <title>Disability Across Cultures: A Human-Centered Audit of Ableism in Western and Indic LLMs</title>
-      <link>https://arxiv.org/html/2507.16130</link>
-      <guid isPermaLink="true">https://arxiv.org/html/2507.16130</guid>
-      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <title>SocialWise: LLM-agentic conversation therapy for individuals with autism spectrum disorder</title>
+      <link>https://arxiv.org/html/2604.15347v1</link>
+      <guid isPermaLink="true">https://arxiv.org/html/2604.15347v1</guid>
+      <pubDate>Fri, 04 Sep 2026 03:12:12 GMT</pubDate>
+      <category>Autism</category>
+      <description><![CDATA[SocialWise is a browser based conversation therapy prototype pairing LLM role play agents with a retrieval grounded knowledge base of autism therapy documents, letting a user pick a scenario, practise by text or voice, and receive structured feedback on tone, engagement and alternative phrasing. A remote pilot with 34 autistic adults reported helpfulness of 4.15 out of 5 with unanimous willingness to recommend, and the most cited gains were turn taking, problem solving in social conflict, and reduced anxiety during real conversations afterward. The stated motivation is access, since social skills training is bounded by cost, geography and provider availability. It is worth reading alongside the masking literature in this feed, because a tool that coaches toward smoother neurotypical phrasing is also, unavoidably, coaching toward passing.]]></description>
+    </item>
+    <item>
+      <title>Automating injustice: a critical analysis of AI-assisted recruitment processes from a disability justice perspective</title>
+      <link>https://link.springer.com/article/10.1007/s00146-025-02581-7</link>
+      <guid isPermaLink="true">https://link.springer.com/article/10.1007/s00146-025-02581-7</guid>
+      <pubDate>Fri, 04 Sep 2026 03:12:12 GMT</pubDate>
       <category>Disability</category>
-      <description><![CDATA[The authors translated a public ableist speech dataset into Hindi and asked eight models, four built in the United States and four in India, to score and explain ableism, running the same task past 175 people with disabilities recruited in both countries. Western models consistently overestimated ableist harm while Indic models underestimated it, and every model tested was more tolerant of ableism when it appeared in Hindi rather than English, while asserting Western framings of what ableist harm is. Indian participants read harm through intention, relationality and resilience, often wanting to inform and educate the speaker, a framing none of the models reproduced. The implication for fairness work is uncomfortable: ableism benchmarks built on Western samples do not transfer, and 80 percent of the world's disabled people live outside the contexts these benchmarks were built in.]]></description>
+      <description><![CDATA[This paper argues that AI assisted recruitment does not remove hiring bias so much as launder it, converting human judgment into data and thereby making the resulting discrimination harder to see and harder to contest. Reading the pipeline through disability justice, it treats classification itself as the harm, since disability becomes a penalising feature once it is rendered as a variable, and it links the underlying data practices to a broader pattern of extractive collection. Psychometric testing and facial analysis get specific attention as the mechanisms that penalise neurodivergent candidates and anyone whose embodiment departs from the norm a model has learned. The conclusion is that AI hiring tools reconfigure bias into more opaque and less accountable forms rather than eliminating it.]]></description>
     </item>
     <item>
-      <title>Safer and more transparent AI: the EU AI Act transparency obligations take effect</title>
-      <link>https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en</link>
-      <guid isPermaLink="true">https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en</guid>
-      <pubDate>Tue, 01 Sep 2026 15:14:57 +0000</pubDate>
+      <title>A pragmatic classification framework for AI incident monitoring</title>
+      <link>https://arxiv.org/pdf/2604.21412</link>
+      <guid isPermaLink="true">https://arxiv.org/pdf/2604.21412</guid>
+      <pubDate>Fri, 04 Sep 2026 03:12:12 GMT</pubDate>
+      <category>Safety</category>
+      <description><![CDATA[Public AI incident databases now hold thousands of records, but raw counts conflate three separate things: how likely an incident is to be reported at all, how widely the system is actually deployed, and how often harm occurs per unit of that exposure. This framework pulls them apart, pairing a structured monitoring question with a tiered estimation process that derives harm and exposure trends independently, then mapping the result onto governance categories of escalating, mitigating, concentrating, receding or unclassifiable. The authors are explicit that incident databases over represent acute, dramatic and Anglophone harms while under representing chronic and diffuse ones, which is precisely the failure mode for slowly accumulating psychiatric harm. That matters for this feed because adverse event reporting is the mechanism most chatbot safety proposals quietly depend on.]]></description>
+    </item>
+    <item>
+      <title>FTC seeks public comment on a policy statement addressing AI accuracy</title>
+      <link>https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy</link>
+      <guid isPermaLink="true">https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-seeks-public-comment-policy-statement-addressing-ai-accuracy</guid>
+      <pubDate>Fri, 04 Sep 2026 03:12:12 GMT</pubDate>
       <category>Regulation</category>
-      <description><![CDATA[From 2 August 2026 the AI Act's transparency rules apply, which means people must be clearly informed when they are interacting with an AI system rather than a person, whether that is a chatbot, an agent or an avatar. Certain AI-generated or manipulated content must also carry visible labels and machine-readable marks, covering deepfakes, emotion recognition and biometric categorisation tools, and unreviewed text published on matters of public interest. Enforcement sits with national market surveillance authorities, the AI Office and the European Data Protection Supervisor, with fines reaching fifteen million euro or three percent of global turnover. Worth noting for this feed: the obligations are framed around deception and information integrity, so disability-specific and accessibility duties sit outside this tranche and still depend on the high-risk provisions arriving later.]]></description>
+      <description><![CDATA[The FTC has put out for comment a proposed policy statement treating undisclosed ideological tuning of AI outputs as potentially deceptive under Section 5 of the FTC Act, on the theory that consumers reasonably expect objectivity and accuracy from systems marketed for general use. The statement also asserts that state AI laws are impliedly preempted where they conflict with the federal scheme, naming Colorado's Artificial Intelligence Act as its example, which puts it in tension with the state level chatbot and mental health statutes tracked elsewhere in this feed. The comment window ran to 31 July 2026 and the authorising vote was 2 to 0. Nothing in the statement addresses disability, accessibility or clinical safety, so the accuracy it advances is a question about ideology rather than about harm to vulnerable users.]]></description>
     </item>
   </channel>
 </rss>
