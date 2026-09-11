@@ -6,46 +6,46 @@
 <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
 <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 09 Sep 2026 20:55:20 GMT</lastBuildDate>
+<lastBuildDate>Fri, 11 Sep 2026 20:56:02 +0000</lastBuildDate>
 <item>
-<title>Characterizing AI psychosis in a large academic medical setting</title>
-<link>https://www.medrxiv.org/content/10.64898/2026.06.04.26354939v1.full</link>
-<guid isPermaLink="true">https://www.medrxiv.org/content/10.64898/2026.06.04.26354939v1.full</guid>
-<pubDate>Wed, 09 Sep 2026 20:55:20 GMT</pubDate>
+<title>Evaluating large language models for assessment of psychosis risk</title>
+<link>https://www.medrxiv.org/content/10.64898/2026.04.02.26349960v2.full</link>
+<guid isPermaLink="true">https://www.medrxiv.org/content/10.64898/2026.04.02.26349960v2.full</guid>
+<pubDate>Fri, 11 Sep 2026 20:56:02 +0000</pubDate>
 <category>Schizophrenia/Psychosis</category>
-<description><![CDATA[An electronic health record review spanning December 2022 to April 2026 surfaced 73 patients whose notes mentioned conversational AI alongside a psychosis diagnosis, and three raters judged 28 of them to be experiencing AI psychosis. The affected group was distinguished by being disproportionately in a first psychotic episode, and the dominant interaction pattern was amplification of existing distorted beliefs rather than the model authoring new delusional content. Cases clustered after the release of the more sycophantic GPT-4o, which points at model personality as a modifiable risk factor rather than at AI exposure in general. The authors are careful to call the phenomenon infrequent but real, and the data cannot be shared for privacy reasons, so replication elsewhere matters.]]></description>
+<description><![CDATA[Eleven open weight models were asked to read 678 partial PSYCHS interview transcripts from 373 participants, most of them at clinical high risk for psychosis, and to infer risk status plus severity and frequency across fifteen symptom domains. The largest model reached 0.80 accuracy with 0.93 sensitivity but only 0.58 specificity, and generated symptom scores correlated well with researcher ratings. Clinically relevant confabulation stayed low at three percent, and the dominant error was over pathologising non clinical experiences, the direction that would push people into assessment they do not need. Performance held across most demographic groups but varied by site, so the case here is for human in the loop triage rather than autonomous screening.]]></description>
 </item>
 <item>
-<title>Beyond simulations: what 20,000 real conversations reveal about mental health AI safety</title>
-<link>https://arxiv.org/pdf/2601.17003</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2601.17003</guid>
-<pubDate>Wed, 09 Sep 2026 20:55:20 GMT</pubDate>
-<category>Mental Health</category>
-<description><![CDATA[The authors pair four benchmark replications with an ecological audit of 20,000 real deployment conversations, comparing a purpose built mental health system against six frontier general purpose models across four families. The purpose built system produced significantly less potentially harmful content on suicide, self harm, eating disorder and substance use prompts, and blinded clinician adjudication of a random sample found crisis resources delivered in every confirmed risk case. The argument worth carrying forward is that pre deployment benchmarks understate deployment behaviour because they cannot reproduce the linguistic and contextual variety of actual users. The work comes from the team behind the purpose built system being evaluated, which is worth weighing when reading the comparative numbers.]]></description>
+<title>AI supported therapeutic interventions for autism spectrum disorder: a systematic review</title>
+<link>https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1833853/full</link>
+<guid isPermaLink="true">https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1833853/full</guid>
+<pubDate>Fri, 11 Sep 2026 20:56:02 +0000</pubDate>
+<category>Autism</category>
+<description><![CDATA[Five databases covering January 2016 to December 2025 yielded only fourteen studies in which an AI system moved past a proposed model into multi session use with diagnosed autistic participants. Robotics, virtual reality and wearables mostly functioned as a social mediator, with gains on ADOS and SRS scores attributed to reduced cognitive load, real time task adaptation and fine grained behavioural monitoring such as eye tracking. The limits are the story: dosage varied widely at a median of four to twelve hours, samples were typically under twenty participants and heavily male, and there were no adult participants in any included study. Claims about AI for autism care therefore rest on evidence drawn from a narrow slice of autistic people, with adults and the female phenotype absent.]]></description>
 </item>
 <item>
-<title>TherapyProbe: adversarial simulation for relational safety in mental health chatbots</title>
-<link>https://arxiv.org/pdf/2602.22775</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2602.22775</guid>
-<pubDate>Wed, 09 Sep 2026 20:55:20 GMT</pubDate>
-<category>Mental Health</category>
-<description><![CDATA[Three open source mental health chatbots each cleared a single turn crisis benchmark, then failed repeatedly once an adaptive simulated patient talked with them across many turns, yielding 67 distinct failure paths. The most common was an empathy validation trap in which every individual reply reads as supportive while the trajectory deepens hopelessness, alongside crisis blindness to indirectly disclosed suicidal ideation such as wondering whether anyone would notice an absence. The failures are abstracted into a library of 23 archetypes with matching design fixes, including tracking the ratio of validation to intervention and requiring a reframe after sustained validation. Practitioners reviewing the transcripts rated the pattern clinically concerning and compared it to undertrained peer counsellors who validate but miss escalation cues.]]></description>
+<title>NeuroBridge: using generative AI to bridge cross neurotype communication differences</title>
+<link>https://arxiv.org/pdf/2509.23434</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2509.23434</guid>
+<pubDate>Fri, 11 Sep 2026 20:56:02 +0000</pubDate>
+<category>Autism</category>
+<description><![CDATA[Most cross neurotype interventions ask autistic people to adapt, so this platform inverts the burden by having a language model play a direct and literal conversational partner across four scenarios while a neurotypical user practises and receives feedback. Twelve neurotypical participants came away describing autism as a social difference that needs understanding from others, and rated the generated feedback as constructive, logical and non judgmental. The finding that should travel further is that most participants judged the simulated portrayal of autism to be accurate, which suggests users will readily accept AI generated misrepresentations of disability. Building perspective taking tools therefore means taking responsibility for whose version of autism the model is teaching.]]></description>
 </item>
 <item>
-<title>AttentionGuard: attention adaptive interfaces for neurodivergent learners</title>
-<link>https://arxiv.org/abs/2602.07865</link>
-<guid isPermaLink="true">https://arxiv.org/abs/2602.07865</guid>
-<pubDate>Wed, 09 Sep 2026 20:55:20 GMT</pubDate>
+<title>FDA pilot lets generative AI medical devices reach patients before authorisation</title>
+<link>https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation/</link>
+<guid isPermaLink="true">https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation/</guid>
+<pubDate>Fri, 11 Sep 2026 20:56:02 +0000</pubDate>
+<category>Regulation</category>
+<description><![CDATA[Four devices, including products from Cadence and Limbic, have been accepted into the agency's TEMPO pilot, which allows digital health companies to put generative AI tools on the market without marketing authorisation. The stated purpose is to expand the pool of technologies available to the Medicare ACCESS model for chronic condition management, while giving regulators hands on experience with generative systems in real world settings. Limbic works in mental health, so this is a route by which conversational AI reaches psychiatric patients ahead of a formal authorisation decision. Whether provisional market access carries monitoring strong enough to catch the relational failure modes documented in the research literature is the open question.]]></description>
+</item>
+<item>
+<title>HHS extends the Section 504 deadline for accessible web content and mobile apps</title>
+<link>https://www.hhs.gov/press-room/hhs-extends-mobile-and-web-accessibility-deadline.html</link>
+<guid isPermaLink="true">https://www.hhs.gov/press-room/hhs-extends-mobile-and-web-accessibility-deadline.html</guid>
+<pubDate>Fri, 11 Sep 2026 20:56:02 +0000</pubDate>
 <category>Disability</category>
-<description><![CDATA[Adaptive learning systems tune content to performance metrics and ignore the attention fluctuations that characterise neurodivergent learners, so this framework models four attention states drawn from ADHD phenomenology and adapts interface elements in response, using privacy preserving behavioural signals rather than cameras or biometrics. A Wizard of Oz study with 11 adults showing ADHD characteristics found lower cognitive load and better comprehension in the adaptive condition, and the automated classifier agreed with human wizard decisions 84 percent of the time. What sets the design apart is bi directional scaffolding that treats understimulation and overstimulation as equally real problems instead of optimising only for sustained focus. The sample is small and the validation datasets are secondary, so the accuracy figures should be read as feasibility evidence rather than as deployment performance.]]></description>
-</item>
-<item>
-<title>Modelling language model adoption as a contagion with tipping points</title>
-<link>https://arxiv.org/abs/2609.03344</link>
-<guid isPermaLink="true">https://arxiv.org/abs/2609.03344</guid>
-<pubDate>Wed, 09 Sep 2026 20:55:20 GMT</pubDate>
-<category>Ethics</category>
-<description><![CDATA[Borrowing from epidemiology, the authors model transitions among uncoupled, coupled and persistently dependent users and show that social transmission combined with collective reinforcement can generate tipping points and technological lock in. Past a threshold, small increases in adoption trigger rapid population shifts toward persistent dependence with abrupt losses in cognitive competence, which is a structurally different claim from the usual individual level worry about overreliance. The same framework identifies conditions for what the authors call cognitive immunisation, resting on reducing transmission and preserving reversibility, and that is the half most relevant to anyone designing for people who already lean heavily on these systems for daily functioning. It is a theoretical model rather than an empirical study, so the tipping point language should be treated as a hypothesis to test.]]></description>
+<description><![CDATA[An interim final rule gives recipients of HHS funding another year to bring web content and mobile applications up to WCAG 2.1 AA under Section 504 of the Rehabilitation Act, moving the date to May 2027 for organisations with fifteen or more employees and May 2028 for smaller ones. The department cites community health centres and hospitals that reported they could not meet the original deadline, and aligns the timeline with parallel Justice Department rulemaking under Title II of the ADA. Since patient facing AI increasingly arrives through the same portals and apps, this deadline sets the floor for whether disabled patients can reach those tools at all. The rule adds no new obligations and preserves current requirements, so the shift is in enforcement timing rather than in substance.]]></description>
 </item>
 </channel>
 </rss>
