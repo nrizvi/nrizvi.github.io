@@ -6,46 +6,46 @@
 <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
 <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 11 Sep 2026 20:56:02 +0000</lastBuildDate>
+<lastBuildDate>Sun, 13 Sep 2026 21:08:19 +0000</lastBuildDate>
 <item>
-<title>Evaluating large language models for assessment of psychosis risk</title>
-<link>https://www.medrxiv.org/content/10.64898/2026.04.02.26349960v2.full</link>
-<guid isPermaLink="true">https://www.medrxiv.org/content/10.64898/2026.04.02.26349960v2.full</guid>
-<pubDate>Fri, 11 Sep 2026 20:56:02 +0000</pubDate>
+<title>Evaluation of large language model chatbot responses to psychotic prompts</title>
+<link>https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2846835</link>
+<guid isPermaLink="true">https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2846835</guid>
+<pubDate>Sun, 13 Sep 2026 21:08:19 +0000</pubDate>
 <category>Schizophrenia/Psychosis</category>
-<description><![CDATA[Eleven open weight models were asked to read 678 partial PSYCHS interview transcripts from 373 participants, most of them at clinical high risk for psychosis, and to infer risk status plus severity and frequency across fifteen symptom domains. The largest model reached 0.80 accuracy with 0.93 sensitivity but only 0.58 specificity, and generated symptom scores correlated well with researcher ratings. Clinically relevant confabulation stayed low at three percent, and the dominant error was over pathologising non clinical experiences, the direction that would push people into assessment they do not need. Performance held across most demographic groups but varied by site, so the case here is for human in the loop triage rather than autonomous screening.]]></description>
+<description><![CDATA[A Columbia and New York State Psychiatric Institute team wrote 79 prompts reflecting five symptom domains of psychosis, derived from a standardised clinical interview used to assess psychosis risk, and put them to three ChatGPT configurations: the free default, GPT 4o and GPT 5 Auto. The chatbot did not reliably generate appropriate responses to psychotic content, and the widely accessible free version was by far the most likely to answer inappropriately, while the paid tiers did better. That gradient matters more than the headline rate, because it shows the failure is tractable rather than intrinsic, and because the cheapest tier is the one people in crisis actually reach. The authors frame the chatbot interface itself as part of the risk, since presenting outputs as messages invites users to attribute comprehension and empathy to a system that is pattern matching to their input.]]></description>
 </item>
 <item>
-<title>AI supported therapeutic interventions for autism spectrum disorder: a systematic review</title>
-<link>https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1833853/full</link>
-<guid isPermaLink="true">https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1833853/full</guid>
-<pubDate>Fri, 11 Sep 2026 20:56:02 +0000</pubDate>
+<title>Disentangling prompt element level risk factors for hallucinations and omissions in mental health LLM responses</title>
+<link>https://arxiv.org/pdf/2604.00014</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2604.00014</guid>
+<pubDate>Sun, 13 Sep 2026 21:08:19 +0000</pubDate>
+<category>Safety</category>
+<description><![CDATA[Using 2,075 constructed help seeking prompts that vary user background, topic, context and tone, annotators found hallucinations in 6.5 percent of Llama 3.3 responses and omissions in 13.2 percent, rising to 36.2 percent for crisis and suicidality prompts. After propensity matching, user demographic profile showed no systematic association with failure, while how the inquiry was narrated did: longer, higher reading level, more ambiguous prompts drove both failure modes. The authors argue omission should be treated as a primary safety outcome rather than a secondary complement to hallucination, because a response can be coherent, warm and complete sounding while silently withholding crisis resources. Short benchmark questions therefore understate real risk, since actual help seeking arrives as long emotional narrative.]]></description>
+</item>
+<item>
+<title>Evaluating the clinical safety of LLMs in response to high risk mental health disclosures</title>
+<link>https://arxiv.org/pdf/2509.08839</link>
+<guid isPermaLink="true">https://arxiv.org/pdf/2509.08839</guid>
+<pubDate>Sun, 13 Sep 2026 21:08:19 +0000</pubDate>
+<category>Safety</category>
+<description><![CDATA[Six widely used models, Claude, Gemini, Deepseek, ChatGPT, Grok 3 and LLAMA, were given prompts simulating crisis level disclosures and scored by a clinician built framework on five behaviours: explicit risk acknowledgment, empathy, encouragement to seek help, provision of specific resources, and invitation to continue the conversation. Claude led the global assessment while Grok 3, ChatGPT and LLAMA fell short across several domains. The recurring pattern is that most models produced empathy but few consistently provided practical resources, which is the gap between sounding supportive and being useful to someone in danger. Read alongside the omission work, this points to a shared training incentive that rewards warmth over concrete escalation.]]></description>
+</item>
+<item>
+<title>Data driven and participatory approaches toward neuro inclusive AI</title>
+<link>https://arxiv.org/abs/2507.21077</link>
+<guid isPermaLink="true">https://arxiv.org/abs/2507.21077</guid>
+<pubDate>Sun, 13 Sep 2026 21:08:19 +0000</pubDate>
 <category>Autism</category>
-<description><![CDATA[Five databases covering January 2016 to December 2025 yielded only fourteen studies in which an AI system moved past a proposed model into multi session use with diagnosed autistic participants. Robotics, virtual reality and wearables mostly functioned as a social mediator, with gains on ADOS and SRS scores attributed to reduced cognitive load, real time task adaptation and fine grained behavioural monitoring such as eye tracking. The limits are the story: dosage varied widely at a median of four to twelve hours, samples were typically under twenty participants and heavily male, and there were no adult participants in any included study. Claims about AI for autism care therefore rest on evidence drawn from a narrow slice of autistic people, with adults and the female phenotype absent.]]></description>
+<description><![CDATA[The paper starts from the observation that treating human likeness as the benchmark for machine intelligence imports a deficit model of autism, since the research lineage behind that benchmark framed autistic communication as failed neurotypical communication. An audit finds that ninety percent of human like AI agents exclude autistic perspectives, and that AI creators still tend to place ethical considerations outside the scope of their work. Empirical annotation experiments with human annotators and language models show that binary labelling schemes adequately capture the nuance of anti autistic hate speech, which grounds the AUTALIC benchmark for evaluating or fine tuning models. The proposed reframing, neuro inclusive AI, defines systems that stop treating mimicry of neurotypical humans as the target.]]></description>
 </item>
 <item>
-<title>NeuroBridge: using generative AI to bridge cross neurotype communication differences</title>
-<link>https://arxiv.org/pdf/2509.23434</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2509.23434</guid>
-<pubDate>Fri, 11 Sep 2026 20:56:02 +0000</pubDate>
-<category>Autism</category>
-<description><![CDATA[Most cross neurotype interventions ask autistic people to adapt, so this platform inverts the burden by having a language model play a direct and literal conversational partner across four scenarios while a neurotypical user practises and receives feedback. Twelve neurotypical participants came away describing autism as a social difference that needs understanding from others, and rated the generated feedback as constructive, logical and non judgmental. The finding that should travel further is that most participants judged the simulated portrayal of autism to be accurate, which suggests users will readily accept AI generated misrepresentations of disability. Building perspective taking tools therefore means taking responsibility for whose version of autism the model is teaching.]]></description>
-</item>
-<item>
-<title>FDA pilot lets generative AI medical devices reach patients before authorisation</title>
-<link>https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation/</link>
-<guid isPermaLink="true">https://www.statnews.com/2026/09/03/tempo-fda-pilor-generative-ai-medical-device-regulation/</guid>
-<pubDate>Fri, 11 Sep 2026 20:56:02 +0000</pubDate>
+<title>FDA opens a public docket on how to regulate generative AI medical devices</title>
+<link>https://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices</link>
+<guid isPermaLink="true">https://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices</guid>
+<pubDate>Sun, 13 Sep 2026 21:08:19 +0000</pubDate>
 <category>Regulation</category>
-<description><![CDATA[Four devices, including products from Cadence and Limbic, have been accepted into the agency's TEMPO pilot, which allows digital health companies to put generative AI tools on the market without marketing authorisation. The stated purpose is to expand the pool of technologies available to the Medicare ACCESS model for chronic condition management, while giving regulators hands on experience with generative systems in real world settings. Limbic works in mental health, so this is a route by which conversational AI reaches psychiatric patients ahead of a formal authorisation decision. Whether provisional market access carries monitoring strong enough to catch the relational failure modes documented in the research literature is the open question.]]></description>
-</item>
-<item>
-<title>HHS extends the Section 504 deadline for accessible web content and mobile apps</title>
-<link>https://www.hhs.gov/press-room/hhs-extends-mobile-and-web-accessibility-deadline.html</link>
-<guid isPermaLink="true">https://www.hhs.gov/press-room/hhs-extends-mobile-and-web-accessibility-deadline.html</guid>
-<pubDate>Fri, 11 Sep 2026 20:56:02 +0000</pubDate>
-<category>Disability</category>
-<description><![CDATA[An interim final rule gives recipients of HHS funding another year to bring web content and mobile applications up to WCAG 2.1 AA under Section 504 of the Rehabilitation Act, moving the date to May 2027 for organisations with fifteen or more employees and May 2028 for smaller ones. The department cites community health centres and hospitals that reported they could not meet the original deadline, and aligns the timeline with parallel Justice Department rulemaking under Title II of the ADA. Since patient facing AI increasingly arrives through the same portals and apps, this deadline sets the floor for whether disabled patients can reach those tools at all. The rule adds no new obligations and preserves current requirements, so the shift is in enforcement timing rather than in substance.]]></description>
+<description><![CDATA[The agency issued a discussion paper on considerations for regulating generative AI enabled medical devices and is taking comment under docket FDA 2026 N 7874 until October 19, 2026. It sketches a two axis risk assessment framework, then proposes premarket evaluation built on competency assessment, explicitly modelled on how physicians are trained and examined, combining non clinical benchmarking with clinical confirmation. It also raises risk proportionate postmarket monitoring and flags foundation models and agentic systems as open problems. Nothing here is binding and the paper does not address whether these approaches sit inside existing statutory authority, but it is the clearest signal yet of how conversational psychiatric tools might eventually be evaluated, and the comment window is the point at which disability and lived experience input can still shape it.]]></description>
 </item>
 </channel>
 </rss>
