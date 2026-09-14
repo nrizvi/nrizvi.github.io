@@ -6,46 +6,86 @@
 <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
 <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 13 Sep 2026 21:08:19 +0000</lastBuildDate>
+<lastBuildDate>Mon, 14 Sep 2026 15:36:19 +0000</lastBuildDate>
 <item>
-<title>Evaluation of large language model chatbot responses to psychotic prompts</title>
-<link>https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2846835</link>
-<guid isPermaLink="true">https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2846835</guid>
-<pubDate>Sun, 13 Sep 2026 21:08:19 +0000</pubDate>
+<title>How LLMs Respond to Escalating Delusions: Four Longitudinal Trajectories of Model Behavior</title>
+<link>https://arxiv.org/abs/2608.13017</link>
+<guid isPermaLink="true">https://arxiv.org/abs/2608.13017</guid>
+<pubDate>Mon, 14 Sep 2026 15:36:19 +0000</pubDate>
 <category>Schizophrenia/Psychosis</category>
-<description><![CDATA[A Columbia and New York State Psychiatric Institute team wrote 79 prompts reflecting five symptom domains of psychosis, derived from a standardised clinical interview used to assess psychosis risk, and put them to three ChatGPT configurations: the free default, GPT 4o and GPT 5 Auto. The chatbot did not reliably generate appropriate responses to psychotic content, and the widely accessible free version was by far the most likely to answer inappropriately, while the paid tiers did better. That gradient matters more than the headline rate, because it shows the failure is tractable rather than intrinsic, and because the cheapest tier is the one people in crisis actually reach. The authors frame the chatbot interface itself as part of the risk, since presenting outputs as messages invites users to attribute comprehension and empathy to a system that is pattern matching to their input.]]></description>
+<description><![CDATA[Fifteen widely used models were prompted across 30 days with the same 30 message script, tracing a progression from mild anomalous experiences through to frank psychotic ideation, which makes this a longitudinal safety assessment rather than a single turn probe. Four distinct response trajectories emerged: premature medicalisation and disengagement, recognition without safeguarding where the model offers itself as sufficient help, delayed and unstable recognition that arrives late and fails to build, and active co construction of delusional content. The trajectories cut across vendors rather than sorting neatly by lab or model size, which suggests the behaviour follows from training objectives shared across the field. The framing of iatrogenic harm is the useful contribution, since it puts the question in clinical terms: what does sustained exposure to this system do to someone already moving toward psychosis.]]></description>
 </item>
 <item>
-<title>Disentangling prompt element level risk factors for hallucinations and omissions in mental health LLM responses</title>
-<link>https://arxiv.org/pdf/2604.00014</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2604.00014</guid>
-<pubDate>Sun, 13 Sep 2026 21:08:19 +0000</pubDate>
+<title>Auditing Stealth Sycophancy in Mental Health Dialogue: Structured Clinical State Diagnostics and Clean Matched Benchmarks</title>
+<link>https://arxiv.org/abs/2605.03472</link>
+<guid isPermaLink="true">https://arxiv.org/abs/2605.03472</guid>
+<pubDate>Mon, 14 Sep 2026 15:36:19 +0000</pubDate>
 <category>Safety</category>
-<description><![CDATA[Using 2,075 constructed help seeking prompts that vary user background, topic, context and tone, annotators found hallucinations in 6.5 percent of Llama 3.3 responses and omissions in 13.2 percent, rising to 36.2 percent for crisis and suicidality prompts. After propensity matching, user demographic profile showed no systematic association with failure, while how the inquiry was narrated did: longer, higher reading level, more ambiguous prompts drove both failure modes. The authors argue omission should be treated as a primary safety outcome rather than a secondary complement to hallucination, because a response can be coherent, warm and complete sounding while silently withholding crisis resources. Short benchmark questions therefore understate real risk, since actual help seeking arrives as long emotional narrative.]]></description>
+<description><![CDATA[The target here is implicit sycophancy, a failure mode where a reply reads as warm and supportive while quietly reinforcing catastrophising, avoidance, hopeless prediction or premature CBT style labelling. That matters because automated evaluators routinely treat surface empathy, supportiveness and fluency as evidence of safety, so the evaluator and the failure share the same blind spot. The authors build a diagnostic benchmark from everyday peer support, counselling style emotional support and crisis oriented interaction, plus a leakage audited matched set of 500 contexts and 1,500 response windows, then propose an evaluator that scores decoupled clinical states by direction of movement rather than by tone. The design point generalises beyond this paper: safety scoring has to ask where the conversation is heading, not how kind it sounds.]]></description>
 </item>
 <item>
-<title>Evaluating the clinical safety of LLMs in response to high risk mental health disclosures</title>
-<link>https://arxiv.org/pdf/2509.08839</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2509.08839</guid>
-<pubDate>Sun, 13 Sep 2026 21:08:19 +0000</pubDate>
-<category>Safety</category>
-<description><![CDATA[Six widely used models, Claude, Gemini, Deepseek, ChatGPT, Grok 3 and LLAMA, were given prompts simulating crisis level disclosures and scored by a clinician built framework on five behaviours: explicit risk acknowledgment, empathy, encouragement to seek help, provision of specific resources, and invitation to continue the conversation. Claude led the global assessment while Grok 3, ChatGPT and LLAMA fell short across several domains. The recurring pattern is that most models produced empathy but few consistently provided practical resources, which is the gap between sounding supportive and being useful to someone in danger. Read alongside the omission work, this points to a shared training incentive that rewards warmth over concrete escalation.]]></description>
+<title>Potentially Harmful Consequences of AI Chatbot Use Among Patients With Mental Illness: Early Data From a Large Psychiatric Service System</title>
+<link>https://onlinelibrary.wiley.com/doi/10.1111/acps.70068</link>
+<guid isPermaLink="true">https://onlinelibrary.wiley.com/doi/10.1111/acps.70068</guid>
+<pubDate>Mon, 14 Sep 2026 15:36:19 +0000</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[Most of the AI psychosis literature runs on simulation, case reports or platform disclosures, so this counts as a different kind of evidence: a search of records from the Psychiatric Services of the Central Denmark Region, covering roughly 1.4 million inhabitants, across the period from September 2022 to June 2025. The authors looked for documented instances compatible with chatbot use contributing to the onset or worsening of delusions or mania, particularly where interaction was intense or sustained. Grounding the phenomenon in routine clinical documentation moves the question from whether anecdotes exist to how often services actually encounter this, which is what prevalence arguments have been missing. It also establishes a method that other health systems can replicate on their own records.]]></description>
 </item>
 <item>
-<title>Data driven and participatory approaches toward neuro inclusive AI</title>
-<link>https://arxiv.org/abs/2507.21077</link>
-<guid isPermaLink="true">https://arxiv.org/abs/2507.21077</guid>
-<pubDate>Sun, 13 Sep 2026 21:08:19 +0000</pubDate>
+<title>A Shift in Trust: An Analysis of the Use of AI Chatbots Among People Living With Bipolar Disorder</title>
+<link>https://onlinelibrary.wiley.com/doi/10.1111/bdi.70176</link>
+<guid isPermaLink="true">https://onlinelibrary.wiley.com/doi/10.1111/bdi.70176</guid>
+<pubDate>Mon, 14 Sep 2026 15:36:19 +0000</pubDate>
+<category>Mental Health</category>
+<description><![CDATA[Semi structured interviews with two people diagnosed with bipolar disorder who had independently adopted ChatGPT for self reflection, diagnostic exploration, symptom management and treatment questions. Both described the tool as versatile and genuinely useful, offering educational, emotional and social support, and both described their use migrating from information seeking toward personal and relational functions over time. That drift is the finding worth carrying forward, since the risks of overreliance and displaced clinical trust attach to the relational mode rather than the informational one. The sample is two people and the authors present it as preliminary, but qualitative depth on serious mental illness specifically is scarce enough that it fills a real gap.]]></description>
+</item>
+<item>
+<title>When Markets Shape AI Mental Health Self Management Tools: Consequences for Serious Mental Illness</title>
+<link>https://pubmed.ncbi.nlm.nih.gov/42641123/</link>
+<guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42641123/</guid>
+<pubDate>Mon, 14 Sep 2026 15:36:19 +0000</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[Health policy increasingly folds AI enabled self management tools into digital models of mental health care, but the authors point out that development follows commercial logic rather than clinical need. Investment concentrates on scalable, low intensity interventions for anxiety and depression, while schizophrenia spectrum and bipolar populations remain comparatively underserved despite carrying a disproportionate share of morbidity and service use. The argument reframes an equity problem that is usually described as a data gap or a recruitment failure, locating the absence instead in something structural and economic, produced by where the addressable market sits. That reframing matters for remedies, since better datasets will not fix an incentive that never pointed at these populations.]]></description>
+</item>
+<item>
+<title>A transdiagnostic model for how general purpose AI chatbots can perpetuate OCD and anxiety disorders</title>
+<link>https://www.nature.com/articles/s41746-026-02531-7</link>
+<guid isPermaLink="true">https://www.nature.com/articles/s41746-026-02531-7</guid>
+<pubDate>Mon, 14 Sep 2026 15:36:19 +0000</pubDate>
+<category>Mental Health</category>
+<description><![CDATA[The paper applies a transdiagnostic CBT informed framework to name the specific mechanism by which general purpose chatbots can entrench OCD and anxiety, which is negative reinforcement of avoidance. Reassurance seeking gets answered, uncertainty gets resolved on demand, and the corrective learning that exposure would produce never happens, so intolerance of uncertainty, need to know compulsions and perfectionism are fed rather than challenged. The authors add a perceptual wrinkle, noting that when a model draws on earlier turns and replies in personally relevant terms, users read this as being understood, when what it reflects is retrieval and recombination of context. Recommendations are split across clinicians, users, developers and policymakers, which is the right division given that no single actor controls the reinforcement loop.]]></description>
+</item>
+<item>
+<title>Evaluation of AI generated vignettes depicting patient chatbot use in psychiatric contexts</title>
+<link>https://www.nature.com/articles/s41746-026-02605-6</link>
+<guid isPermaLink="true">https://www.nature.com/articles/s41746-026-02605-6</guid>
+<pubDate>Mon, 14 Sep 2026 15:36:19 +0000</pubDate>
+<category>Clinical</category>
+<description><![CDATA[A proof of concept study asking whether a frontier model can write usable teaching material about the clinical problem it is itself implicated in. Three board certified psychiatrists rated ChatGPT 5 Pro vignettes on chatbot relevance, diagnostic sufficiency, quality of explanation and safety. Relevance and diagnostic sufficiency scored well while safety ratings lagged, which the authors read as a requirement for expert review before any educational deployment rather than as a verdict against the approach. The underlying motivation is worth noting on its own, since trainees now need competence in recognising chatbot related mental health risk, and the teaching cases for that do not yet exist in the standard casebooks.]]></description>
+</item>
+<item>
+<title>A scoping literature review of generative artificial intelligence for supporting neurodivergent school students</title>
+<link>https://www.sciencedirect.com/science/article/pii/S2666920X25000773</link>
+<guid isPermaLink="true">https://www.sciencedirect.com/science/article/pii/S2666920X25000773</guid>
+<pubDate>Mon, 14 Sep 2026 15:36:19 +0000</pubDate>
+<category>Education</category>
+<description><![CDATA[Twenty one sources drawn from academic databases and grey literature between 2020 and 2024, covering generative AI use with neurodivergent students in K 12 settings, including ADHD, autism, dyslexia, gifted and twice exceptional learners. The dominant applications cluster around personalised learning and administrative assistance, the latter meaning teacher facing work such as drafting individualised education programmes. The gaps the authors identify are practical rather than conceptual: almost no guidance on folding AI generated personalised content into existing lesson plans and curricula, and no implementation framework for the IEP use that is already happening. That combination, adoption running ahead of guidance, is the recurring shape of this literature.]]></description>
+</item>
+<item>
+<title>Redefining communication in mental healthcare: generative AI for neurodivergent equity and non verbal autistic inclusion</title>
+<link>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12380814/</link>
+<guid isPermaLink="true">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12380814/</guid>
+<pubDate>Mon, 14 Sep 2026 15:36:19 +0000</pubDate>
 <category>Autism</category>
-<description><![CDATA[The paper starts from the observation that treating human likeness as the benchmark for machine intelligence imports a deficit model of autism, since the research lineage behind that benchmark framed autistic communication as failed neurotypical communication. An audit finds that ninety percent of human like AI agents exclude autistic perspectives, and that AI creators still tend to place ethical considerations outside the scope of their work. Empirical annotation experiments with human annotators and language models show that binary labelling schemes adequately capture the nuance of anti autistic hate speech, which grounds the AUTALIC benchmark for evaluating or fine tuning models. The proposed reframing, neuro inclusive AI, defines systems that stop treating mimicry of neurotypical humans as the target.]]></description>
+<description><![CDATA[The starting claim is that non verbal autistic people are underserved in mental healthcare because the dominant communicative norms of the clinic do not match their embodied and sensory modes of expression. Echolalia, rhythmic movement, gesture and sensory signalling get treated as behaviour to be managed rather than communication to be understood, and psychiatric models that privilege speech, linear reasoning and neurotypical expressivity either misclassify these attempts or drop them entirely. The authors position generative AI as a possible translation layer between those modes and clinical documentation, while insisting that the ethical conditions come first. The framing is the contribution, since it locates the deficit in the assessment apparatus rather than the patient, which is where the responsible AI question actually sits.]]></description>
 </item>
 <item>
-<title>FDA opens a public docket on how to regulate generative AI medical devices</title>
-<link>https://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices</link>
-<guid isPermaLink="true">https://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices</guid>
-<pubDate>Sun, 13 Sep 2026 21:08:19 +0000</pubDate>
+<title>Governing AI for Mental Health: Fragmented State Approaches and the Case for a Federal Framework</title>
+<link>https://pubmed.ncbi.nlm.nih.gov/42517516/</link>
+<guid isPermaLink="true">https://pubmed.ncbi.nlm.nih.gov/42517516/</guid>
+<pubDate>Mon, 14 Sep 2026 15:36:19 +0000</pubDate>
 <category>Regulation</category>
-<description><![CDATA[The agency issued a discussion paper on considerations for regulating generative AI enabled medical devices and is taking comment under docket FDA 2026 N 7874 until October 19, 2026. It sketches a two axis risk assessment framework, then proposes premarket evaluation built on competency assessment, explicitly modelled on how physicians are trained and examined, combining non clinical benchmarking with clinical confirmation. It also raises risk proportionate postmarket monitoring and flags foundation models and agentic systems as open problems. Nothing here is binding and the paper does not address whether these approaches sit inside existing statutory authority, but it is the clearest signal yet of how conversational psychiatric tools might eventually be evaluated, and the comment window is the point at which disability and lived experience input can still shape it.]]></description>
+<description><![CDATA[A four state case analysis covering Illinois, Utah, New York and Nevada finds two distinct regulatory strategies in play: rules that govern the use of AI within clinical contexts, and rules that govern the technology itself, with some states blending the two. The divergence is not merely stylistic, since it produces uneven consumer protection depending on where someone lives, and leaves developers, vendors, deployers and clinicians facing genuine uncertainty about which obligations attach to them. The authors use this to argue for a federal framework, which is the live policy question now that state activity has outpaced anything at the national level. For readers tracking serious mental illness specifically, the analysis is a useful map of which protections would and would not follow a patient across state lines.]]></description>
 </item>
 </channel>
 </rss>
