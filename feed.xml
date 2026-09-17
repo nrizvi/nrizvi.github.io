@@ -6,54 +6,22 @@
 <atom:link href="https://nrizvi.github.io/feed.xml" rel="self" type="application/rss+xml" />
 <description>Daily curated research feed on ethical and responsible AI, with emphasis on neurodivergent people and serious mental illness.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 15 Sep 2026 17:23:15 GMT</lastBuildDate>
+<lastBuildDate>Thu, 17 Sep 2026 19:43:48 -0000</lastBuildDate>
 <item>
-<title>Governor Newsom signs the strongest child safety chatbot and social media laws in the nation</title>
-<link>https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/</link>
-<guid isPermaLink="true">https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/</guid>
-<pubDate>Tue, 15 Sep 2026 17:23:15 GMT</pubDate>
-<category>Regulation</category>
-<description><![CDATA[Signed on September 10, the package centres on Adam's Law, named for Adam Raine, which requires companion chatbots used by children to carry crisis protocols for suicidal ideation, parental controls, and notification when a child disables a safety setting. It is the first state law to require independent child safety audits and annual risk assessments before a new or substantially modified companion chatbot ships, which moves the burden from enforcement after the fact toward evidence before release. Accompanying bills ban addictive feed mechanics for users under sixteen, regulate the use of K 12 pupil data in AI systems, and extend child sexual exploitation statutes to AI generated material. For anyone tracking chatbot harm in vulnerable populations the audit requirement has the longest reach, since it creates a documentary record that regulators and researchers can later ask for.]]></description>
+<title>Evaluating large language models for assessment of psychosis risk</title>
+<link>https://www.nature.com/articles/s41746-026-02928-4</link>
+<guid isPermaLink="true">https://www.nature.com/articles/s41746-026-02928-4</guid>
+<pubDate>Thu, 17 Sep 2026 19:43:48 -0000</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[Eleven open weight models were run over 678 partial PSYCHS interview transcripts from 373 participants, inferring clinical high risk status and rating severity and frequency across 15 symptom domains against researcher ratings. Llama 3.3 70B reached 0.80 accuracy with 0.93 sensitivity but only 0.58 specificity, and generated symptom scores correlated well with human raters on both severity and frequency. Confabulation that would matter clinically appeared in roughly 3 percent of summaries, and the dominant error mode was over pathologising non clinical experience, which is the direction that should worry anyone building screening at scale. Performance gaps across demographic groups were small but varied by site, and smaller models stayed competitive at much lower cost, which is what makes the human in the loop framing the operative part of the claim.]]></description>
 </item>
 <item>
-<title>Governor Newsom signs first in the nation AI safeguards establishing independent audit and verification frameworks</title>
-<link>https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/</link>
-<guid isPermaLink="true">https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/</guid>
-<pubDate>Tue, 15 Sep 2026 17:23:15 GMT</pubDate>
-<category>Regulation</category>
-<description><![CDATA[SB 813 establishes a framework for independent verification organizations that can assess AI systems and models for compliance with state law, and AB 1405 creates a state registry of AI auditors with standards for their independence, transparency and integrity. Together they answer a structural complaint that has followed every voluntary safety framework, namely that developers grade their own homework. The signing statement frames this as codifying a recommendation from the state blue ribbon AI panel, and explicitly calls on the federal government to match it. For mental health and disability applications the relevance is direct, since claims about crisis handling, bias testing and clinical safety are exactly the sort of assertion that only means something if someone outside the company can check it.]]></description>
-</item>
-<item>
-<title>Using Artificial Intelligence to Support Emotionally Responsive Verbal Communication Among Autistic Workers in a Work Internship Setting</title>
-<link>https://link.springer.com/article/10.1007/s10803-026-07313-4</link>
-<guid isPermaLink="true">https://link.springer.com/article/10.1007/s10803-026-07313-4</guid>
-<pubDate>Tue, 15 Sep 2026 17:23:15 GMT</pubDate>
-<category>Autism</category>
-<description><![CDATA[A concurrent multiple baseline single case design across three autistic young adults in an intensive vocational internship, evaluating Noora, an AI conversational training tool that gives real time feedback on emotionally responsive verbal communication. All participants improved immediately after starting the program, with gains holding through generalisation and retention probes delivered by humans in workplace relevant scenarios, supported by visual analysis and strong effect sizes. The design choice matters as much as the result, since moving out of randomised trial conditions and into a real employment setting tests whether practice transfers to the situations the skill is meant for. The caution is sample size, three participants, so what is on offer is feasibility and a functional relationship rather than population level efficacy.]]></description>
-</item>
-<item>
-<title>The Use of AI Chatbots for Autistic People: A Double Edged Sword of Digital Support and Companionship</title>
-<link>https://journals.sagepub.com/doi/10.1177/27546330251370657</link>
-<guid isPermaLink="true">https://journals.sagepub.com/doi/10.1177/27546330251370657</guid>
-<pubDate>Tue, 15 Sep 2026 17:23:15 GMT</pubDate>
-<category>Autism</category>
-<description><![CDATA[A commentary setting the support case against the risk case for autistic people using AI chatbots and companions. The support side is real, since a predictable, low stakes, always available conversational partner suits people for whom the social cost of asking a human is itself the barrier, and users report comfort, rehearsal space and reduced isolation. The risk side is that those same properties encourage dependency, and that a system tuned for agreeableness is a poor judge of when a user needs redirection rather than validation, all of it operating in a landscape with essentially no regulation. Read next to the vocational trial above it makes a useful distinction, since structured goal bounded AI practice and open ended companionship are different products that the discourse keeps treating as one.]]></description>
-</item>
-<item>
-<title>From Risk Avoidance to User Empowerment in AI Mental Health Crisis Support</title>
-<link>https://arxiv.org/pdf/2603.05647</link>
-<guid isPermaLink="true">https://arxiv.org/pdf/2603.05647</guid>
-<pubDate>Tue, 15 Sep 2026 17:23:15 GMT</pubDate>
-<category>Mental Health</category>
-<description><![CDATA[Between 13 and 17 million US adults turn to open ended generative AI for mental health support, including 22 percent of Americans aged 18 to 21, and the authors argue that current crisis handling is engineered around developer liability rather than user benefit. Blanket refusals and templated hotline referrals may protect the company, but a cold referral to a resource the user was not seeking can read as invalidating and discourage the next attempt at help seeking. The alternative borrows from community helper and gatekeeper models used to train teachers, clergy and peers: ask directly about risk level, stay engaged through referral, identify feasible next steps together, and acknowledge plainly that a trained human is the more reliable option. They also propose liability safe harbours for developers who can show compliance with crisis design guidelines, which is a concrete regulatory ask rather than a principle.]]></description>
-</item>
-<item>
-<title>I can't read your mind: A Study of Neurodivergent Computing Students' Experiences with Collaborative Active Learning</title>
-<link>https://arxiv.org/abs/2605.23823</link>
-<guid isPermaLink="true">https://arxiv.org/abs/2605.23823</guid>
-<pubDate>Tue, 15 Sep 2026 17:23:15 GMT</pubDate>
-<category>Autism</category>
-<description><![CDATA[Collaborative active learning is now standard pedagogy in computing education, and this study asks what it costs students whose access needs run against its assumptions. Group work, rapid turn taking, ambiguous social expectations and unspoken norms about how to signal confusion form a barrier that the format creates rather than merely reveals. The title comes from a participant account of being expected to read intentions that were never stated, which is the concrete shape the problem takes in a classroom. It belongs in a responsible AI feed because the pipeline question sits upstream of everything else, since the people best placed to notice ableist failure modes in these systems are the ones the training route filters out.]]></description>
+<title>AI-enabled passive digital phenotyping of experiential negative symptoms in schizophrenia-spectrum disorders</title>
+<link>https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1898444/full</link>
+<guid isPermaLink="true">https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1898444/full</guid>
+<pubDate>Thu, 17 Sep 2026 19:43:48 -0000</pubDate>
+<category>Schizophrenia/Psychosis</category>
+<description><![CDATA[Avolition and asociality rank among the most disabling and treatment resistant features of schizophrenia spectrum disorders, and clinician rated scales reach them only through infrequent interviews and retrospective recall. This review asks whether smartphone and wearable streams covering mobility, activity, sleep, social rhythm and speech acoustics can be converted into valid clinical endpoints, and the honest answer is not yet, since associations are consistent but modest and a single modality correlation is not an endpoint. The bar the authors propose is analytical validity, clinical validity, longitudinal sensitivity, external transportability and patient meaningfulness, which is a far stricter test than the field usually applies to itself. Environmental confounding, device heterogeneity, algorithmic bias, privacy and model opacity are treated as design constraints rather than parked in a limitations section.]]></description>
 </item>
 </channel>
 </rss>
